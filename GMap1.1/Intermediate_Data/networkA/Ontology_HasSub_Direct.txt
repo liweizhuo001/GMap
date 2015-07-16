@@ -1,0 +1,9 @@
+NetworkNode--SwitchEquipment,Computer
+SwitchEquipment--Switch,RoutingComputer,Hub,Router
+Equipment--NetworkNode,Cable,SecurityEquipment
+Computer--PC,RoutingComputer,Server
+Software--OfficeSoftware,OperatingSystem,ServerSoftware
+Thing--Equipment,NodePair,Software
+ServerSoftware--OtherServer,TelnetServer,SSHServer,FTPServer,WebServer
+Cable--StraightThroughCable,CoaxCable,CrossOverCable
+SecurityEquipment--HardwareSniffer,HardwareFirewall

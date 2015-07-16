@@ -1,0 +1,6 @@
+Resource,softCopy,SoftCopy
+Resource,firstAuthor,Person
+Publication,editor,Person
+Resource,relatedProject,Project
+Resource,author,Person
+Project,relatedResource,Resource

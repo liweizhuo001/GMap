@@ -1,0 +1,9 @@
+qsdsnbsqd--Manual,LectureNotes,Unpublished,Booklet
+Organization--zadazxn,Publisher,Institution
+sqdsq--sqxsqkd,PhdThesis,xsqlknk,qsdsnbsqd,LectureNotes,Article,MotionPicture,Deliverable,dcsqdcsqd,vccfsq,Book,Manual,InProceedings,Monograph,Unpublished,dqzdxdcsqj,Proceedings,Misc,Part,Booklet,Chapter,sdcsqhyz,zdazsx
+zdazsx--PhdThesis,xsqlknk
+List--dsqdbz
+Institution--zadazxn,Publisher
+Book--sqxsqkd,Monograph,Proceedings
+dqzdxdcsqj--Deliverable,sdcsqhyz
+Part--InProceedings,Article,Chapter,dcsqdcsqd,vccfsq

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://hotelA</onto1>
+	<onto2>http://hotelB</onto2>
+	<uri1>http://hotelA</uri1>
+	<uri2>http://hotelB</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://hotelA#numbeds"/>
+			<entity2 rdf:resource="http://hotelB#numbedsattribute"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://hotelA#smokingpreference"/>
+			<entity2 rdf:resource="http://hotelB#smokingattribute"/>
+			<measure rdf:datatype="xsd:float">0.6546609238298615</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://hotelA#onfloor"/>
+			<entity2 rdf:resource="http://hotelB#floorattribute"/>
+			<measure rdf:datatype="xsd:float">0.6546609238298615</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://hotelA#hotelroom"/>
+			<entity2 rdf:resource="http://hotelB#room"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://hotelA#hasOnFloor"/>
+			<entity2 rdf:resource="http://hotelB#OnFloor"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://hotelA#hasNumBeds"/>
+			<entity2 rdf:resource="http://hotelB#NumBeds"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

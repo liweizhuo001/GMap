@@ -1,0 +1,6 @@
+null,hasConnectionType,ConnectionType
+PairOfNodes,NodeB,NetworkNode
+Computer,HasSoftware,Software
+NetworkNode,ConnectedTo,NetworkNode
+PairOfNodes,NodeA,NetworkNode
+PairOfNodes,ConnectedThrough,Cable

@@ -1,0 +1,6 @@
+SmokingAttribute--Smoking,NonSmoking
+SizeAttribute--TownHouse,Suite,SingleRoom
+FloorAttribute--Hardwood,Carpet
+NumBedsAttribute--OneBed,TwoBeds,ThreeBeds
+RoomAttribute--TownHouse,Smoking,NonSmoking,Hardwood,Suite,OneBed,TwoBeds,SingleRoom,ThreeBeds,Carpet
+ExclusiveAttribute--TownHouse,Smoking,NonSmoking,Hardwood,Suite,OneBed,TwoBeds,SingleRoom,ThreeBeds,Carpet

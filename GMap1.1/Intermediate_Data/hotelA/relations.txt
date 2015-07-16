@@ -1,0 +1,3 @@
+HotelRoom,hasSmokingPreference,SmokingPreference
+HotelRoom,hasOnFloor,OnFloor
+HotelRoom,hasNumBeds,NumBeds

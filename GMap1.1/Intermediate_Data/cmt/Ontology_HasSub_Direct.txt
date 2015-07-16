@@ -1,0 +1,12 @@
+ConferenceMember--Author,Chairman,ProgramCommitteeMember,Reviewer
+Person--ConferenceMember,ExternalReviewer,User
+Paper--PaperFullVersion,PaperAbstract
+Review--Meta-Review
+User--Author,Administrator,Reviewer
+Thing--ProgramCommittee,Decision,Person,SubjectArea,Conference,Document,Preference,Bid
+Chairman--ConferenceChair,AssociatedChair,ProgramCommitteeChair
+Reviewer--Meta-Reviewer
+Document--Paper,Review
+Author--Co-author,AuthorNotReviewer
+Decision--Rejection,Acceptance
+ProgramCommitteeMember--ProgramCommitteeChair

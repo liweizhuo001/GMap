@@ -1,0 +1,13 @@
+InProceedings
+MastersThesis
+TechReport
+Misc
+Book
+Person
+Project
+SoftCopy
+InCollection
+Article
+Proceedings
+PhdThesis
+InBook

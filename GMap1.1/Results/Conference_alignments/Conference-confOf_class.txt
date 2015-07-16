@@ -1,0 +1,10 @@
+Regular_author--Author
+Tutorial--Tutorial
+Conference_contribution--Contribution
+Conference_volume--Conference
+Workshop--Workshop
+Topic--Topic
+Person--Person
+Paper--Paper
+Organization--Organization
+Poster--Poster

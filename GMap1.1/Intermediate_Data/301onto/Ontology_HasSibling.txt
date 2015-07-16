@@ -1,0 +1,14 @@
+Inbook--Booklet,Misc,Conference,Inproceedings,Incollection,Mastersthesis,TechReport,Article,Phdthesis,Proceedings,Book,Manual,Unpublished
+Booklet--Inbook,Misc,Conference,Inproceedings,Incollection,Mastersthesis,TechReport,Article,Phdthesis,Proceedings,Book,Manual,Unpublished
+Misc--Inbook,Booklet,Conference,Inproceedings,Incollection,Mastersthesis,TechReport,Article,Phdthesis,Proceedings,Book,Manual,Unpublished
+Conference--Inbook,Booklet,Misc,Inproceedings,Incollection,Mastersthesis,TechReport,Article,Phdthesis,Proceedings,Book,Manual,Unpublished
+Inproceedings--Inbook,Booklet,Misc,Conference,Incollection,Mastersthesis,TechReport,Article,Phdthesis,Proceedings,Book,Manual,Unpublished
+Incollection--Inbook,Booklet,Misc,Conference,Inproceedings,Mastersthesis,TechReport,Article,Phdthesis,Proceedings,Book,Manual,Unpublished
+Mastersthesis--Inbook,Booklet,Misc,Conference,Inproceedings,Incollection,TechReport,Article,Phdthesis,Proceedings,Book,Manual,Unpublished
+TechReport--Inbook,Booklet,Misc,Conference,Inproceedings,Incollection,Mastersthesis,Article,Phdthesis,Proceedings,Book,Manual,Unpublished
+Article--Inbook,Booklet,Misc,Conference,Inproceedings,Incollection,Mastersthesis,TechReport,Phdthesis,Proceedings,Book,Manual,Unpublished
+Phdthesis--Inbook,Booklet,Misc,Conference,Inproceedings,Incollection,Mastersthesis,TechReport,Article,Proceedings,Book,Manual,Unpublished
+Proceedings--Inbook,Booklet,Misc,Conference,Inproceedings,Incollection,Mastersthesis,TechReport,Article,Phdthesis,Book,Manual,Unpublished
+Book--Inbook,Booklet,Misc,Conference,Inproceedings,Incollection,Mastersthesis,TechReport,Article,Phdthesis,Proceedings,Manual,Unpublished
+Manual--Inbook,Booklet,Misc,Conference,Inproceedings,Incollection,Mastersthesis,TechReport,Article,Phdthesis,Proceedings,Book,Unpublished
+Unpublished--Inbook,Booklet,Misc,Conference,Inproceedings,Incollection,Mastersthesis,TechReport,Article,Phdthesis,Proceedings,Book,Manual

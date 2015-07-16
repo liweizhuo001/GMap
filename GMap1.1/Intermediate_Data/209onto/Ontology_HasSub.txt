@@ -1,0 +1,9 @@
+Entry--InCompilation,Manuscript,TechnicalReport,Communication,Section,ReferenceGuide,MScThesis,Movie,StudentReport,Deliverable,Various,Compilation,NonFormal,Report,Extract,Book,ConferenceMinutes,Brochure,Monography,Chapter,DoctoralThesis,JournalPaper,CourseMaterial
+Section--InCompilation,Communication,Extract,Chapter,JournalPaper
+Organization--University,Organization,PublishingHouse
+NonFormal--Manuscript,ReferenceGuide,Brochure,CourseMaterial
+StudentReport--MScThesis,DoctoralThesis
+Report--Deliverable,TechnicalReport
+Organization--University,PublishingHouse
+List--People
+Book--Compilation,ConferenceMinutes,Monography

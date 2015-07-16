@@ -1,0 +1,15 @@
+Inbook--Thing,Entry
+Inproceedings--Thing,Entry
+Booklet--Thing,Entry
+Misc--Thing,Entry
+Incollection--Thing,Entry
+Mastersthesis--Thing,Entry
+TechReport--Thing,Entry
+Article--Thing,Entry
+Phdthesis--Thing,Entry
+Conference--Thing,Entry
+Book--Thing,Entry
+Proceedings--Thing,Entry
+Manual--Thing,Entry
+Unpublished--Thing,Entry
+Entry--Thing

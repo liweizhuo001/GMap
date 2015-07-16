@@ -1,0 +1,207 @@
+#Disclaimer: http://www.lockheedmartin.com/disclaimer.html
+#This is the "correct" mapping of the networkA and networkB ontologies. 
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/10/XMLSchema#> .
+@prefix dc: <http://www.dublincore.org/2003/03/24/dces#>.
+@prefix dct: <http://dublincore.org/2003/03/24/dcq#>.
+@prefix ao: <http://www.atl.lmco.com/projects/ontology/ontologies/core/alignment/Alignment.n3#>.
+
+@prefix a: <http://www.atl.lmco.com/projects/ontology/ontologies/network/networkA.owl#>.
+@prefix b: <http://www.atl.lmco.com/projects/ontology/ontologies/network/networkB.owl#>.
+@prefix : <http://www.atl.lmco.com/projects/ontology/ontologies/network/networkAB.owl#>.
+
+<http://www.atl.lmco.com/projects/ontology/ontologies/core/alignment/networkAB.owl>=<>;
+	a ao:AlignmentFile;
+	dc:title "Correct Alignment for networkA and networkB";
+	dc:publisher "Lockheed Martin Advanced Technology Laboratories";
+	dc:creator "Zhongli Ding, <zding1@umbc.edu>; Rong Pan, <pan.rong@umbc.edu>";
+	dct:created "2004-07-14";
+	owl:versionInfo "0.0.1";
+	dc:format"text/n3";
+	dc:language "en";
+	rdfs:label "networkAB";
+	ao:inputA <http://www.atl.lmco.com/projects/ontology/ontologies/network/networkA.owl>;
+	ao:inputB <http://www.atl.lmco.com/projects/ontology/ontologies/network/networkB.owl>.
+
+:Alignment1
+	a ao:Alignment;
+	ao:elementA a:Equipment ;
+	ao:elementB b:Equipment ;
+	ao:alignmentConfidence "1". 
+
+:Alignment2
+	a ao:Alignment;
+	ao:elementA a:Cable ;
+	ao:elementB b:Cable ;
+	ao:alignmentConfidence "1". 
+
+:Alignment3
+	a ao:Alignment;
+	ao:elementA a:CoaxCable ;
+	ao:elementB b:Coax ;
+	ao:alignmentConfidence "1". 
+
+:Alignment4
+	a ao:Alignment;
+	ao:elementA a:CrossOverCable ;
+	ao:elementB b:CrossOver ;
+	ao:alignmentConfidence "1". 
+
+:Alignment5
+	a ao:Alignment;
+	ao:elementA a:StraightThroughCable ;
+	ao:elementB b:StraightThrough ;
+	ao:alignmentConfidence "1". 
+
+:Alignment6
+	a ao:Alignment;
+	ao:elementA a:NetworkNode ;
+	ao:elementB b:NetworkNode ;
+	ao:alignmentConfidence "1". 
+
+:Alignment7
+	a ao:Alignment;
+	ao:elementA a:Computer ;
+	ao:elementB b:Computer ;
+	ao:alignmentConfidence "1". 
+
+:Alignment8
+	a ao:Alignment;
+	ao:elementA a:PC ;
+	ao:elementB b:PC ;
+	ao:alignmentConfidence "1". 
+
+:Alignment9
+	a ao:Alignment;
+	ao:elementA a:Server ;
+	ao:elementB b:Server ;
+	ao:alignmentConfidence "1". 
+
+:Alignment10
+	a ao:Alignment;
+	ao:elementA a:SwitchEquipment ;
+	ao:elementB b:CentralHub ;
+	ao:alignmentConfidence "1". 
+
+:Alignment11
+	a ao:Alignment;
+	ao:elementA a:Hub ;
+	ao:elementB b:Hub ;
+	ao:alignmentConfidence "1". 
+
+:Alignment12
+	a ao:Alignment;
+	ao:elementA a:Router ;
+	ao:elementB b:Router ;
+	ao:alignmentConfidence "1". 
+
+:Alignment13
+	a ao:Alignment;
+	ao:elementA a:Switch ;
+	ao:elementB b:Switch ;
+	ao:alignmentConfidence "1". 
+
+:Alignment14
+	a ao:Alignment;
+	ao:elementA a:Software ;
+	ao:elementB b:Software ;
+	ao:alignmentConfidence "1". 
+
+:Alignment15
+	a ao:Alignment;
+	ao:elementA a:OfficeSoftware ;
+	ao:elementB b:Office ;
+	ao:alignmentConfidence "1". 
+
+:Alignment16
+	a ao:Alignment;
+	ao:elementA a:OperatingSystem ;
+	ao:elementB b:OS ;
+	ao:alignmentConfidence "1". 
+
+:Alignment17
+	a ao:Alignment;
+	ao:elementA a:ServerSoftware ;
+	ao:elementB b:ServerSoftware ;
+	ao:alignmentConfidence "1". 
+
+:Alignment18
+	a ao:Alignment;
+	ao:elementA a:FTPServer ;
+	ao:elementB b:FTP ;
+	ao:alignmentConfidence "1". 
+
+:Alignment19
+	a ao:Alignment;
+	ao:elementA a:OtherServer ;
+	ao:elementB b:Other ;
+	ao:alignmentConfidence "1". 
+
+:Alignment20
+	a ao:Alignment;
+	ao:elementA a:SSHServer ;
+	ao:elementB b:SSH ;
+	ao:alignmentConfidence "1". 
+
+:Alignment21
+	a ao:Alignment;
+	ao:elementA a:TelnetServer ;
+	ao:elementB b:Telnet ;
+	ao:alignmentConfidence "1". 
+
+:Alignment22
+	a ao:Alignment;
+	ao:elementA a:WebServer ;
+	ao:elementB b:Web ;
+	ao:alignmentConfidence "1". 
+
+:Alignment23
+	a ao:Alignment;
+	ao:elementA a:NodePair ;
+	ao:elementB b:PairOfNodes ;
+	ao:alignmentConfidence "1". 
+
+:Alignment24
+	a ao:Alignment;
+	ao:elementA a:ConnectedTo ;
+	ao:elementB b:ConnectedTo ;
+	ao:alignmentConfidence "1". 
+
+:Alignment25
+	a ao:Alignment;
+	ao:elementA a:ConnectedWith ;
+	ao:elementB b:ConnectedThrough ;
+	ao:alignmentConfidence "1". 
+
+:Alignment26
+	a ao:Alignment;
+	ao:elementA a:HasSoftware ;
+	ao:elementB b:HasSoftware ;
+	ao:alignmentConfidence "1". 
+
+:Alignment27
+	a ao:Alignment;
+	ao:elementA a:NodeA ;
+	ao:elementB b:NodeA ;
+	ao:alignmentConfidence "1". 
+
+:Alignment28
+	a ao:Alignment;
+	ao:elementA a:NodeA ;
+	ao:elementB b:NodeB ;
+	ao:alignmentConfidence "1". 
+
+:Alignment29
+	a ao:Alignment;
+	ao:elementA a:NodeB ;
+	ao:elementB b:NodeA ;
+	ao:alignmentConfidence "1". 
+
+:Alignment30
+	a ao:Alignment;
+	ao:elementA a:NodeB ;
+	ao:elementB b:NodeB ;
+	ao:alignmentConfidence "1". 

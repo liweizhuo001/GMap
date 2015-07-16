@@ -1,0 +1,22 @@
+The result of  cmt and Conference £º
+The concept pairs are£º
+author,regular_author,0.8097759891376828
+conferencemember,committee_member,0.8053619387551898
+reviewer,reviewer,0.6
+person,person,0.6
+paper,paper,0.6
+review,review,0.6
+conference,conference,0.6
+programcommittee,program_committee,0.6
+co-author,contribution_co-author,0.6
+document,conference_document,0.5950403599309424
+paperabstract,abstract,0.5249999999999999
+preference,review_preference,0.5249999999999999
+The number of  concept pairs is£º£º12
+*************************************
+The property pairs are£º
+hasAuthor,has_authors,0.7000000999999999
+email,has_an_email,0.7538793416002514
+name,has_a_name,0.7000000999999999
+The number of  property pairs is£º3
+Time consumption£º7s

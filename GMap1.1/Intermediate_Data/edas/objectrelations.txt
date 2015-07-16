@@ -1,0 +1,24 @@
+Conference,paperDueOn,Max,1,Literal
+Conference,hasCountry,exactly,1,Literal
+Conference,manuscriptDueOn,Max,1,Literal
+Conference,hasName,exactly,1,Literal
+Conference,endDate,Max,1,Literal
+Conference,startDate,Max,1,Literal
+Conference,hasTopic,exactly,1,Literal
+Conference,registrationDueOn,Max,1,Literal
+SingleLevelConference,paperDueOn,Max 1,Literal
+SingleLevelConference,hasCountry,exactly 1,Literal
+SingleLevelConference,manuscriptDueOn,Max 1,Literal
+SingleLevelConference,hasName,exactly 1,Literal
+SingleLevelConference,endDate,Max 1,Literal
+SingleLevelConference,startDate,Max 1,Literal
+SingleLevelConference,hasTopic,exactly 1,Literal
+SingleLevelConference,registrationDueOn,Max 1,Literal
+TwoLevelConference,paperDueOn,Max 1,Literal
+TwoLevelConference,hasCountry,exactly 1,Literal
+TwoLevelConference,manuscriptDueOn,Max 1,Literal
+TwoLevelConference,hasName,exactly 1,Literal
+TwoLevelConference,endDate,Max 1,Literal
+TwoLevelConference,startDate,Max 1,Literal
+TwoLevelConference,hasTopic,exactly 1,Literal
+TwoLevelConference,registrationDueOn,Max 1,Literal

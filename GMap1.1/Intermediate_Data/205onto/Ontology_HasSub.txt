@@ -1,0 +1,9 @@
+Organization--University,Organization,PublishingHouse
+StudentReport--MScThesis,DoctoralThesis
+Entry--ReferenceGuide,MScThesis,Compilation,Movie,Section,DoctoralThesis,CourseMaterial,Various,Extract,InCompilation,Chapter,Manuscript,Brochure,Report,StudentReport,NonFormal,ConferenceMinutes,Monography,JournalPaper,Deliverable,Communication,TechnicalReport,Book
+Book--Compilation,ConferenceMinutes,Monography
+Organization--University,PublishingHouse
+NonFormal--Manuscript,Brochure,ReferenceGuide,CourseMaterial
+List--People
+Section--JournalPaper,Extract,Communication,InCompilation,Chapter
+Report--Deliverable,TechnicalReport

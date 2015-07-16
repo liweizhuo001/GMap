@@ -1,0 +1,73 @@
+positive review--positive#0.25,review#0.75
+demo paper--demo#0.25,paper#0.75
+flyer--flyer#1.0
+regular paper--regular#0.25,paper#0.75
+conference proceedings--conference#0.25,proceedings#0.75
+rejected paper--rejected#0.75,paper#0.25
+paper--paper#1.0
+track--track#1.0
+workshop session--workshop#0.25,session#0.75
+conference--conference#1.0
+tutorial abstract--tutorial#0.75,abstract#0.25
+university--university#1.0
+paper author--paper#0.25,author#0.75
+proceedings--proceedings#1.0
+programme brochure--programme#0.25,brochure#0.75
+workshop paper--workshop#0.25,paper#0.75
+session--session#1.0
+individual presentation--individual#0.25,presentation#0.75
+location--location#1.0
+academic institution--academic#0.25,institution#0.75
+agency staff member--agency#0.5555555555555556,staff#0.2222222222222222,member#0.2222222222222222
+invited talk--invited#0.75,talk#0.25
+industrial session--industrial#0.25,session#0.75
+pc member--pc#0.25,member#0.75
+poster session--poster#0.25,session#0.75
+proceedings publisher--proceedings#0.75,publisher#0.25
+regular session--regular#0.25,session#0.75
+invited speaker--invited#0.75,speaker#0.25
+organising agency--organising#0.25,agency#0.75
+workshop--workshop#1.0
+conference banquet--conference#0.25,banquet#0.75
+conference session--conference#0.25,session#0.75
+workshop chair--workshop#0.25,chair#0.75
+research topic--research#0.25,topic#0.75
+late registered participant--late#0.2222222222222222,registered#0.2222222222222222,participant#0.5555555555555556
+organisation--organisation#1.0
+research institute--research#0.25,institute#0.75
+neutral review--neutral#0.25,review#0.75
+camera ready paper--camera#0.5555555555555556,ready#0.2222222222222222,paper#0.2222222222222222
+invited talk abstract--invited#0.5555555555555556,talk#0.2222222222222222,abstract#0.2222222222222222
+scientific event--scientific#0.25,event#0.75
+accepted paper--accepted#0.25,paper#0.75
+pc chair--pc#0.25,chair#0.75
+conference paper--conference#0.25,paper#0.75
+student--student#1.0
+session chair--session#0.25,chair#0.75
+event--event#1.0
+tutorial chair--tutorial#0.25,chair#0.75
+sc member--sc#0.25,member#0.75
+presenter--presenter#1.0
+conference trip--conference#0.25,trip#0.75
+document--document#1.0
+web site--web#0.25,site#0.75
+possible reviewer--possible#0.25,reviewer#0.75
+assigned paper--assigned#0.25,paper#0.75
+submitted paper--submitted#0.75,paper#0.25
+contributed talk--contributed#0.75,talk#0.25
+demo chair--demo#0.25,chair#0.75
+review--review#1.0
+multi author volume--multi#0.2222222222222222,author#0.2222222222222222,volume#0.5555555555555556
+negative review--negative#0.25,review#0.75
+conference participant--conference#0.25,participant#0.75
+early registered participant--early#0.2222222222222222,registered#0.2222222222222222,participant#0.5555555555555556
+social event--social#0.25,event#0.75
+person--person#1.0
+oc chair--oc#0.25,chair#0.75
+tutorial--tutorial#1.0
+abstract--abstract#1.0
+evaluated paper--evaluated#0.25,paper#0.75
+industrial paper--industrial#0.25,paper#0.75
+oc member--oc#0.25,member#0.75
+poster paper--poster#0.25,paper#0.75
+demo session--demo#0.25,session#0.75

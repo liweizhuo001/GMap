@@ -1,0 +1,11 @@
+Unpublished--Book,qsdsnbsqd,zdazsx,Manual,Part,dqzdxdcsqj
+Book--Unpublished,qsdsnbsqd,zdazsx,Manual,Part,dqzdxdcsqj
+qsdsnbsqd--Unpublished,Book,zdazsx,Manual,Part,dqzdxdcsqj
+zdazsx--Unpublished,Book,qsdsnbsqd,Manual,Part,dqzdxdcsqj
+Manual--Unpublished,Book,qsdsnbsqd,zdazsx,Part,dqzdxdcsqj
+Part--Unpublished,Book,qsdsnbsqd,zdazsx,Manual,dqzdxdcsqj
+dqzdxdcsqj--Unpublished,Book,qsdsnbsqd,zdazsx,Manual,Part
+Article--vccfsq,InProceedings,dcsqdcsqd
+vccfsq--Article,InProceedings,dcsqdcsqd
+InProceedings--Article,vccfsq,dcsqdcsqd
+dcsqdcsqd--Article,vccfsq,InProceedings

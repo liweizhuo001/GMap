@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://networkA</onto1>
+	<onto2>http://networkB</onto2>
+	<uri1>http://networkA</uri1>
+	<uri2>http://networkB</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#networknode"/>
+			<entity2 rdf:resource="http://networkB#networknode"/>
+			<measure rdf:datatype="xsd:float">0.9251481894771477</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#computer"/>
+			<entity2 rdf:resource="http://networkB#computer"/>
+			<measure rdf:datatype="xsd:float">0.9065873495365007</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#serversoftware"/>
+			<entity2 rdf:resource="http://networkB#serversoftware"/>
+			<measure rdf:datatype="xsd:float">0.8736786753472591</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#cable"/>
+			<entity2 rdf:resource="http://networkB#cable"/>
+			<measure rdf:datatype="xsd:float">0.8714425422417511</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#software"/>
+			<entity2 rdf:resource="http://networkB#software"/>
+			<measure rdf:datatype="xsd:float">0.849698730027831</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#server"/>
+			<entity2 rdf:resource="http://networkB#server"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#pc"/>
+			<entity2 rdf:resource="http://networkB#pc"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#hub"/>
+			<entity2 rdf:resource="http://networkB#hub"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#router"/>
+			<entity2 rdf:resource="http://networkB#router"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#switch"/>
+			<entity2 rdf:resource="http://networkB#switch"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#straightthroughcable"/>
+			<entity2 rdf:resource="http://networkB#straightthrough"/>
+			<measure rdf:datatype="xsd:float">0.8220944513489955</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#crossovercable"/>
+			<entity2 rdf:resource="http://networkB#crossover"/>
+			<measure rdf:datatype="xsd:float">0.8220944513489955</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#equipment"/>
+			<entity2 rdf:resource="http://networkB#equipment"/>
+			<measure rdf:datatype="xsd:float">0.8049985970309477</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#sshserver"/>
+			<entity2 rdf:resource="http://networkB#ssh"/>
+			<measure rdf:datatype="xsd:float">0.8015584703472899</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#telnetserver"/>
+			<entity2 rdf:resource="http://networkB#telnet"/>
+			<measure rdf:datatype="xsd:float">0.8015584703472899</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#otherserver"/>
+			<entity2 rdf:resource="http://networkB#other"/>
+			<measure rdf:datatype="xsd:float">0.8015584703472899</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#ftpserver"/>
+			<entity2 rdf:resource="http://networkB#ftp"/>
+			<measure rdf:datatype="xsd:float">0.8015584703472899</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#webserver"/>
+			<entity2 rdf:resource="http://networkB#web"/>
+			<measure rdf:datatype="xsd:float">0.8015584703472899</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#coaxcable"/>
+			<entity2 rdf:resource="http://networkB#coax"/>
+			<measure rdf:datatype="xsd:float">0.6203040645786645</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#officesoftware"/>
+			<entity2 rdf:resource="http://networkB#office"/>
+			<measure rdf:datatype="xsd:float">0.5999999999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#HasSoftware"/>
+			<entity2 rdf:resource="http://networkB#HasSoftware"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#NodeB"/>
+			<entity2 rdf:resource="http://networkB#NodeB"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#ConnectedTo"/>
+			<entity2 rdf:resource="http://networkB#ConnectedTo"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#NodeA"/>
+			<entity2 rdf:resource="http://networkB#NodeA"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://networkA#ConnectedWith"/>
+			<entity2 rdf:resource="http://networkB#ConnectedThrough"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

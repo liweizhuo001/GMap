@@ -1,0 +1,16 @@
+ExternalReviewer,assignedByReviewer,exactly,1,Literal
+Paper,readByMeta-Reviewer,Max,1,Literal
+Paper,hasDecision,Max,1,Literal
+Paper,readByReviewer,Min,1,Literal
+Paper,hasDecision,Min,0,Literal
+PaperAbstract,readByMeta-Reviewer,Max 1,Literal
+PaperAbstract,hasDecision,Max 1,Literal
+PaperAbstract,readByReviewer,Min 1,Literal
+PaperAbstract,hasDecision,Min 0,Literal
+PaperFullVersion,readByMeta-Reviewer,Max 1,Literal
+PaperFullVersion,hasDecision,Max 1,Literal
+PaperFullVersion,readByReviewer,Min 1,Literal
+PaperFullVersion,hasDecision,Min 0,Literal
+Conference,name,exactly,1,Literal
+Conference,date,Min,1,Literal
+Conference,reviewsPerPaper,exactly,1,Literal

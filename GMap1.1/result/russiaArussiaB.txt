@@ -1,0 +1,103 @@
+当前迭代次数为：0 SPN+Noisy_OR模型计算消耗的时间为：5s
+当前迭代次数为：0 迭代消耗的时间为：5s
+当前迭代次数为：1 fatherRule计算消耗的时间为：2ms
+当前迭代次数为：1 fathers的大小为：8
+当前迭代次数为：1 childrenRule计算消耗的时间为：2ms
+当前迭代次数为：1 children的大小为：139
+当前迭代次数为：1 siblingsRule计算消耗的时间为：1ms
+当前迭代次数为：1 siblings的大小为：0
+当前迭代次数为：1 hasPart计算消耗的时间为：0ms
+当前迭代次数为：1 hasPart的大小为：0
+当前迭代次数为：1 partOf计算消耗的时间为：0ms
+当前迭代次数为：1 partOf的大小为：0
+当前迭代次数为：1 domainRule的个数大小为：0
+当前迭代次数为：1 domainRule计算消耗的时间为：3ms
+当前迭代次数为：1 rangeRule的个数大小为：0
+当前迭代次数为：1 rangeRule计算消耗的时间为：3ms
+当前迭代次数为：1 dataTypeRule计算消耗的时间为：0ms
+当前迭代次数为：1 disjointRule计算消耗的时间为：23ms
+当前迭代次数为：1 SPN+Noisy_OR模型计算消耗的时间为：4s
+当前迭代次数为：1 迭代消耗的时间为：5s
+当前迭代次数为：2 fatherRule计算消耗的时间为：1ms
+当前迭代次数为：2 fathers的大小为：66
+当前迭代次数为：2 childrenRule计算消耗的时间为：2ms
+当前迭代次数为：2 children的大小为：139
+当前迭代次数为：2 siblingsRule计算消耗的时间为：1ms
+当前迭代次数为：2 siblings的大小为：0
+当前迭代次数为：2 hasPart计算消耗的时间为：0ms
+当前迭代次数为：2 hasPart的大小为：0
+当前迭代次数为：2 partOf计算消耗的时间为：0ms
+当前迭代次数为：2 partOf的大小为：0
+当前迭代次数为：2 domainRule的个数大小为：0
+当前迭代次数为：2 domainRule计算消耗的时间为：3ms
+当前迭代次数为：2 rangeRule的个数大小为：2
+当前迭代次数为：2 rangeRule计算消耗的时间为：4ms
+当前迭代次数为：2 dataTypeRule计算消耗的时间为：1ms
+当前迭代次数为：2 disjointRule计算消耗的时间为：21ms
+当前迭代次数为：2 SPN+Noisy_OR模型计算消耗的时间为：4s
+当前迭代次数为：2 迭代消耗的时间为：5s
+drink,drink,0.870812672971454,1,1
+month,month,0.870812672971454,1,1
+city,city,0.870812672971454,1,1
+season,season,0.870812672971454,1,1
+country,country,0.870812672971454,1,1
+food,food,0.85403164958759,1,1
+political_region,political_area,0.8323588175050403,2,2
+time,time_unit,0.8058788698020041,1,2
+palace,palace,0.8,1,1
+river,river,0.8,1,1
+square,square,0.8,1,1
+language,language,0.8,1,1
+sea,sea,0.8,1,1
+lake,lake,0.8,1,1
+animal,animal,0.6,1,1
+area_unit,area_unit,0.6,2,2
+unit,unit,0.6,1,1
+length_unit,length_unit,0.6,2,2
+surface_area,surface_area,0.6,2,2
+music,music,0.6,1,1
+restaurant,restaurant,0.6,1,1
+living_being,living_being,0.6,2,2
+document,document,0.6,1,1
+string,string,0.6,1,1
+region,region,0.6,1,1
+integer,integer,0.6,1,1
+fortress,fortress,0.6,1,1
+peninsula,peninsula,0.6,1,1
+town,town,0.6,1,1
+cathedral,cathedral,0.6,1,1
+church,church,0.6,1,1
+monument,monument,0.6,1,1
+canal,canal,0.6,1,1
+forest,forest,0.6,1,1
+religion,religion,0.6,1,1
+president,president,0.6,1,1
+hotel,hotel,0.6,1,1
+plant,plant,0.6,1,1
+festival,festival,0.6,1,1
+mountain,mountain,0.6,1,1
+museum,museum,0.6,1,1
+architecture,architecture,0.6,1,1
+default_root_concept,default_root_concept,0.6,3,3
+garden,garden,0.6,1,1
+ballet,ballet,0.6,1,1
+time_zone,time_zone,0.6,2,2
+island,island,0.6,1,1
+theatre,theatre,0.6,1,1
+boolean,boolean,0.6,1,1
+travel_event,travel_event,0.6,2,2
+literature,literature,0.6,1,1
+person,person,0.6,1,1
+human_being,human_being,0.6,2,2
+public_building,building,0.5249999999999999,2,1
+means_of_payment,payment,0.5249999999999999,2,1
+public_space,space,0.5249999999999999,2,1
+bank,natur_reserve,0.5241655484146193,1,2
+currency,pay_bills,0.519589861411404,1,2
+entertainment,musical_performance,0.5166145017339577,1,2
+has_birthplace,has_birthplace,0.7000000999999999
+has_time_unit,has_time_unit,0.7000000999999999
+is_close_to,is_close_to,0.7000000999999999
+has_destination,has_destination,0.7000000999999999
+DEFAULT_ROOT_RELATION,DEFAULT_ROOT_RELATION,0.7000000999999999
+总消耗时间为：35s

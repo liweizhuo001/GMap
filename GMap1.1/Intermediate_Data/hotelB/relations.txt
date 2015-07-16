@@ -1,0 +1,4 @@
+Room,SmokingOrNon,SmokingAttribute
+Room,OnFloor,FloorAttribute
+Room,NumBeds,NumBedsAttribute
+Room,SizeOfRoom,SizeAttribute

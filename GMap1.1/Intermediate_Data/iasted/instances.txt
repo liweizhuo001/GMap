@@ -1,0 +1,6 @@
+Conference_city--Cancun
+Conference_state--Mexico
+City--Cancun,chichen itza
+Currency--peso
+Trip_city--chichen itza
+State--Mexico

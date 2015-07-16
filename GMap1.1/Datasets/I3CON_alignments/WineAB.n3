@@ -1,0 +1,226 @@
+#Disclaimer: http://www.lockheedmartin.com/disclaimer.html
+#This is the "correct" mapping of the WineA and WineB ontologies. 
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dc: <http://www.dublincore.org/2003/03/24/dces#>.
+@prefix dct: <http://dublincore.org/2003/03/24/dcq#>.
+@prefix ao: <http://www.atl.lmco.com/projects/ontology/ontologies/core/alignment/Alignment.n3#>.
+@prefix oo: <http://www.atl.lmco.com/projects/ontology/ontologies/core/operation/Operation.n3#>.
+
+@prefix a: <http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA.n3#>.
+@prefix b: <http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB.n3#>.
+@prefix : < http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineAB.n3#>.
+
+<http://www.atl.lmco.com/projects/ontology/ontologies/core/alignment/WineAB.n3>=<>;
+	a ao:AlignmentFile;
+	dc:title "Correct Alignment for WineA and WineB";
+	dc:publisher "Lockheed Martin Advanced Technology Laboratories";
+	dc:creator "thughes@atl.lmco.com";
+	dct:created "2004-04-30";
+	dct:issued "2004-04-30"; 
+	owl:versionInfo "0.0.1";
+	dc:format "text/n3";
+	dc:language "en";
+	rdfs:label "WineAB";
+	oo:inputA <http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineA.n3 >;
+	oo:inputB <http://www.atl.lmco.com/projects/ontology/ontologies/wine/WineB.n3 >.
+
+:Alignment1
+	a ao:Alignment; 
+	ao:elementA a:Berbera ;  
+	ao:elementB b:Berbera ;
+	ao:alignmentConfidence "1". 
+
+:Alignment2 
+	a ao:Alignment; 
+	ao:elementA a:CabernetMerlot ;  
+	ao:elementB b:MezclaDeCabernet ;
+	ao:alignmentConfidence "1". 
+
+:Alignment3
+	a ao:Alignment;
+	ao:elementA a:CabernetSauvignon ;  
+	ao:elementB b:CabernetSauvignon ;
+	ao:alignmentConfidence "1".
+
+:Alignment4
+	a ao:Alignment;
+	ao:elementA a:Chablis ;  
+	ao:elementB b:Chablis ;
+	ao:alignmentConfidence "1".
+
+:Alignment5
+	a ao:Alignment;
+	ao:elementA a:Chardonnay ;  
+	ao:elementB b:Chardonnay ;
+	ao:alignmentConfidence "1".
+
+:Alignment6
+	a ao:Alignment;
+	ao:elementA a:CheninBlanc ;  
+	ao:elementB b:CheninBlanc ;
+	ao:alignmentConfidence "1".
+
+:Alignment7
+	a ao:Alignment;
+	ao:elementA a:Chianti ;  
+	ao:elementB b:Chianti ;
+	ao:alignmentConfidence "1".
+
+:Alignment8
+	a ao:Alignment;
+	ao:elementA a:Dolcetto ;  
+	ao:elementB b:Dolcetto ;
+	ao:alignmentConfidence "1".
+
+:Alignment9
+	a ao:Alignment;
+	ao:elementA a:Gewurztaminer ;  
+	ao:elementB b:Gewurztaminer ;
+	ao:alignmentConfidence "1".
+
+:Alignment10
+	a ao:Alignment;
+	ao:elementA a:ItalianRed ;  
+	ao:elementB b:RojoItaliano ;
+	ao:alignmentConfidence "1".
+
+:Alignment11
+	a ao:Alignment;
+	ao:elementA a:ItialianWhite ;  
+	ao:elementB b:BlancoItaliano ;
+	ao:alignmentConfidence "1".
+
+:Alignment12
+	a ao:Alignment;
+	ao:elementA a:Merlot ;  
+	ao:elementB b:Merlot ;
+	ao:alignmentConfidence "1".
+
+:Alignment13
+	a ao:Alignment;
+	ao:elementA a:Muscat ;  
+	ao:elementB b:Muscat ;
+	ao:alignmentConfidence "1".
+
+:Alignment14
+	a ao:Alignment;
+	ao:elementA a:Nebbiolo ;  
+	ao:elementB b:Nebbiolo ;
+	ao:alignmentConfidence "1".
+
+:Alignment15
+	a ao:Alignment;
+	ao:elementA a:PetiteSirah ;  
+	ao:elementB b:PetiteSirah ;
+	ao:alignmentConfidence "1".
+
+:Alignment16
+	a ao:Alignment;
+	ao:elementA a:PinotBlanc ;  
+	ao:elementB b:PinotBlanc ;
+	ao:alignmentConfidence "1".
+
+:Alignment17
+	a ao:Alignment;
+	ao:elementA a:PinotGris ;  
+	ao:elementB b:PinotGris ;
+	ao:alignmentConfidence "1".
+
+:Alignment18
+	a ao:Alignment;
+	ao:elementA a:PinotNior ;  
+	ao:elementB b:PinotNior ;
+	ao:alignmentConfidence "1".
+
+:Alignment19
+	a ao:Alignment;
+	ao:elementA a:RedBurgundy ;  
+	ao:elementB b:BurgonaRoja ;
+	ao:alignmentConfidence "1".
+
+:Alignment20
+	a ao:Alignment;
+	ao:elementA a:RedWine ;  
+	ao:elementB b:VinosRojos ;
+	ao:alignmentConfidence "1".
+
+:Alignment21
+	a ao:Alignment;
+	ao:elementA a:Riesling ;  
+	ao:elementB b:Riesling ;
+	ao:alignmentConfidence "1".
+
+:Alignment22
+	a ao:Alignment;
+	ao:elementA a:Sake ;  
+	ao:elementB b:Sake ;
+	ao:alignmentConfidence "1".
+
+:Alignment23
+	a ao:Alignment;
+	ao:elementA a:Sangiovese ;  
+	ao:elementB b:Sangiovese ;
+	ao:alignmentConfidence "1".
+
+:Alignment24
+	a ao:Alignment;
+	ao:elementA a:SauvignonBlanc ;  
+	ao:elementB b:SauvignonBlanc ;
+	ao:alignmentConfidence "1".
+
+:Alignment25
+	a ao:Alignment;
+	ao:elementA a:Semillon ;  
+	ao:elementB b:Semillon ;
+	ao:alignmentConfidence "1".
+
+:Alignment26
+	a ao:Alignment;
+	ao:elementA a:Syrah ;  
+	ao:elementB b:Syrah ;
+	ao:alignmentConfidence "1".
+
+:Alignment27
+	a ao:Alignment;
+	ao:elementA a:Tempranillo ;  
+	ao:elementB b:Tempranillo ;
+	ao:alignmentConfidence "1".
+
+:Alignment28
+	a ao:Alignment;
+	ao:elementA a:WhiteBordeaux ;  
+	ao:elementB b:BurdeosBlanco ;
+	ao:alignmentConfidence "1".
+
+:Alignment29
+	a ao:Alignment;
+	ao:elementA a:WhiteBurgundy ;  
+	ao:elementB b:BorgonaBlanca ;
+	ao:alignmentConfidence "1".
+
+:Alignment30
+	a ao:Alignment;
+	ao:elementA a:WhiteWine ;  
+	ao:elementB b:VinosBlancos ;
+	ao:alignmentConfidence "1".
+
+:Alignment31
+	a ao:Alignment;
+	ao:elementA a:Wine ;  
+	ao:elementB b:Vino ;
+	ao:alignmentConfidence "1".
+
+:Alignment32
+	a ao:Alignment;
+	ao:elementA a:Zinfandel ;  
+	ao:elementB b:Zinfandel ;
+	ao:alignmentConfidence "1".
+	
+:Alignment33
+	a ao:Alignment;
+	ao:elementA a:RedBordeaux ;  
+	ao:elementB b:BurdeosRojo ;
+	ao:alignmentConfidence "1".

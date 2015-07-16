@@ -1,0 +1,12 @@
+X1--leaf
+X0--leaf
+Y1--leaf
+Y2--leaf
+Y3--leaf
+sum_X1--sum
+sum_X2--sum
+sum_Y1--sum
+sum_Y2--sum
+prod_sumX1_sumY1--product
+prod_sumX2_sumY2--product
+R--sum

@@ -1,0 +1,3 @@
+HotelRoom--Room
+SmokingPreference--SmokingAttribute
+OnFloor--FloorAttribute

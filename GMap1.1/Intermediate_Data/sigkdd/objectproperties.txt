@@ -1,0 +1,17 @@
+pay
+submit
+presentation
+hold
+awarded_by
+submit_until
+designed_by
+presentationed_by
+award
+design
+can_stay_in
+holded_by
+search
+searched_by
+obtain
+notification_until
+payed_by

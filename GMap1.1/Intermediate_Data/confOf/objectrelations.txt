@@ -1,0 +1,181 @@
+Member,employedBy,only,Organization
+Member,hasPostalCode,Min 1,Literal
+Member,hasEmail,Min 1,Literal
+Member,hasStreet,Min 1,Literal
+Member,hasSurname,exactly 1,Literal
+Member,employedBy,some,Organization
+Member,hasCity,some,City
+Member,hasCountry,some,Country
+Member,hasFirstName,exactly 1,Literal
+Banquet,has_title,exactly 1,Literal
+Banquet,location,exactly 1,Literal
+Banquet,defaultChoice,exactly 1,Literal
+Author,employedBy,only,Organization
+Author,hasPostalCode,Min 1,Literal
+Author,hasEmail,Min 1,Literal
+Author,hasStreet,Min 1,Literal
+Author,hasSurname,exactly 1,Literal
+Author,employedBy,some,Organization
+Author,hasCity,some,City
+Author,hasCountry,some,Country
+Author,hasFirstName,exactly 1,Literal
+Author,writes,only,Contribution
+Author,writes,some,Contribution
+Regular,employedBy,only,Organization
+Regular,hasPostalCode,Min 1,Literal
+Regular,hasEmail,Min 1,Literal
+Regular,hasStreet,Min 1,Literal
+Regular,hasSurname,exactly 1,Literal
+Regular,employedBy,some,Organization
+Regular,hasCity,some,City
+Regular,hasCountry,some,Country
+Regular,hasFirstName,exactly 1,Literal
+Paper,dealsWith,some,Topic
+Paper,hasKeyword,Min 1,Literal
+Paper,abstract,exactly 1,Literal
+Paper,hasTitle,exactly 1,Literal
+Paper,dealsWith,only,Topic
+Paper,contactEmail,Min 1,Literal
+Conference,defaultChoice,exactly 1,Literal
+Conference,location,exactly 1,Literal
+Conference,has_title,exactly 1,Literal
+Conference,hasTopic,some,Topic
+Conference,hasTopic,only,Topic
+Poster,dealsWith,some,Topic
+Poster,hasKeyword,Min 1,Literal
+Poster,abstract,exactly 1,Literal
+Poster,hasTitle,exactly 1,Literal
+Poster,dealsWith,only,Topic
+Poster,contactEmail,Min 1,Literal
+Contribution,dealsWith,some,Topic
+Contribution,hasKeyword,Min,1,Literal
+Contribution,abstract,exactly,1,Literal
+Contribution,hasTitle,exactly,1,Literal
+Contribution,dealsWith,only,Topic
+Contribution,contactEmail,Min,1,Literal
+Member_PC,employedBy,only,Organization
+Member_PC,hasPostalCode,Min 1,Literal
+Member_PC,hasEmail,Min 1,Literal
+Member_PC,hasStreet,Min 1,Literal
+Member_PC,hasSurname,exactly 1,Literal
+Member_PC,employedBy,some,Organization
+Member_PC,hasCity,some,City
+Member_PC,hasCountry,some,Country
+Member_PC,hasFirstName,exactly 1,Literal
+Member_PC,expertOn,some,Topic
+Member_PC,reviewes,some,Contribution
+Member_PC,expertOn,only,Topic
+Member_PC,reviewes,only,Contribution
+Assistant,employedBy,only,Organization
+Assistant,hasPostalCode,Min 1,Literal
+Assistant,hasEmail,Min 1,Literal
+Assistant,hasStreet,Min 1,Literal
+Assistant,hasSurname,exactly 1,Literal
+Assistant,employedBy,some,Organization
+Assistant,hasCity,some,City
+Assistant,hasCountry,some,Country
+Assistant,hasFirstName,exactly 1,Literal
+Volunteer,employedBy,only,Organization
+Volunteer,hasPostalCode,Min 1,Literal
+Volunteer,hasEmail,Min 1,Literal
+Volunteer,hasStreet,Min 1,Literal
+Volunteer,hasSurname,exactly 1,Literal
+Volunteer,employedBy,some,Organization
+Volunteer,hasCity,some,City
+Volunteer,hasCountry,some,Country
+Volunteer,hasFirstName,exactly 1,Literal
+Participant,employedBy,only,Organization
+Participant,hasPostalCode,Min 1,Literal
+Participant,hasEmail,Min 1,Literal
+Participant,hasStreet,Min 1,Literal
+Participant,hasSurname,exactly 1,Literal
+Participant,employedBy,some,Organization
+Participant,hasCity,some,City
+Participant,hasCountry,some,Country
+Participant,hasFirstName,exactly 1,Literal
+Short_paper,dealsWith,some,Topic
+Short_paper,hasKeyword,Min 1,Literal
+Short_paper,abstract,exactly 1,Literal
+Short_paper,hasTitle,exactly 1,Literal
+Short_paper,dealsWith,only,Topic
+Short_paper,contactEmail,Min 1,Literal
+Science_Worker,employedBy,only,Organization
+Science_Worker,hasPostalCode,Min 1,Literal
+Science_Worker,hasEmail,Min 1,Literal
+Science_Worker,hasStreet,Min 1,Literal
+Science_Worker,hasSurname,exactly 1,Literal
+Science_Worker,employedBy,some,Organization
+Science_Worker,hasCity,some,City
+Science_Worker,hasCountry,some,Country
+Science_Worker,hasFirstName,exactly 1,Literal
+Trip,has_title,exactly 1,Literal
+Trip,location,exactly 1,Literal
+Trip,defaultChoice,exactly 1,Literal
+Person,employedBy,only,Organization
+Person,hasPostalCode,Min,1,Literal
+Person,hasEmail,Min,1,Literal
+Person,hasStreet,Min,1,Literal
+Person,hasSurname,exactly,1,Literal
+Person,employedBy,some,Organization
+Person,hasCity,some,City
+Person,hasCountry,some,Country
+Person,hasFirstName,exactly,1,Literal
+Social_event,has_title,exactly,1,Literal
+Social_event,location,exactly,1,Literal
+Social_event,defaultChoice,exactly,1,Literal
+Working_event,defaultChoice,exactly,1,Literal
+Working_event,location,exactly,1,Literal
+Working_event,has_title,exactly,1,Literal
+Working_event,hasTopic,some,Topic
+Working_event,hasTopic,only,Topic
+Chair_PC,employedBy,only,Organization
+Chair_PC,hasPostalCode,Min 1,Literal
+Chair_PC,hasEmail,Min 1,Literal
+Chair_PC,hasStreet,Min 1,Literal
+Chair_PC,hasSurname,exactly 1,Literal
+Chair_PC,employedBy,some,Organization
+Chair_PC,hasCity,some,City
+Chair_PC,hasCountry,some,Country
+Chair_PC,hasFirstName,exactly 1,Literal
+Workshop,defaultChoice,exactly 1,Literal
+Workshop,location,exactly 1,Literal
+Workshop,has_title,exactly 1,Literal
+Workshop,hasTopic,some,Topic
+Workshop,hasTopic,only,Topic
+Tutorial,defaultChoice,exactly 1,Literal
+Tutorial,location,exactly 1,Literal
+Tutorial,has_title,exactly 1,Literal
+Tutorial,hasTopic,some,Topic
+Tutorial,hasTopic,only,Topic
+Scholar,employedBy,only,Organization
+Scholar,hasPostalCode,Min 1,Literal
+Scholar,hasEmail,Min 1,Literal
+Scholar,hasStreet,Min 1,Literal
+Scholar,hasSurname,exactly 1,Literal
+Scholar,employedBy,some,Organization
+Scholar,hasCity,some,City
+Scholar,hasCountry,some,Country
+Scholar,hasFirstName,exactly 1,Literal
+Scholar,studyAt,only,University
+Scholar,studyAt,some,University
+Reception,has_title,exactly 1,Literal
+Reception,location,exactly 1,Literal
+Reception,defaultChoice,exactly 1,Literal
+Administrator,employedBy,only,Organization
+Administrator,hasPostalCode,Min 1,Literal
+Administrator,hasEmail,Min 1,Literal
+Administrator,hasStreet,Min 1,Literal
+Administrator,hasSurname,exactly 1,Literal
+Administrator,employedBy,some,Organization
+Administrator,hasCity,some,City
+Administrator,hasCountry,some,Country
+Administrator,hasFirstName,exactly 1,Literal
+Student,employedBy,only,Organization
+Student,hasPostalCode,Min 1,Literal
+Student,hasEmail,Min 1,Literal
+Student,hasStreet,Min 1,Literal
+Student,hasSurname,exactly 1,Literal
+Student,employedBy,some,Organization
+Student,hasCity,some,City
+Student,hasCountry,some,Country
+Student,hasFirstName,exactly 1,Literal

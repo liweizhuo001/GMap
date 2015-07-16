@@ -1,0 +1,1 @@
+Room,ExclusiveProperty,exactly,1,Literal

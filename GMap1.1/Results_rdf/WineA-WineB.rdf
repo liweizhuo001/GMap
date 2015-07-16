@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://WineA</onto1>
+	<onto2>http://WineB</onto2>
+	<uri1>http://WineA</uri1>
+	<uri2>http://WineB</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#cabernetsauvignon"/>
+			<entity2 rdf:resource="http://WineB#cabernetsauvignon"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#petitesirah"/>
+			<entity2 rdf:resource="http://WineB#petitesirah"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#berbera"/>
+			<entity2 rdf:resource="http://WineB#berbera"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#sake"/>
+			<entity2 rdf:resource="http://WineB#sake"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#chianti"/>
+			<entity2 rdf:resource="http://WineB#chianti"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#sangiovese"/>
+			<entity2 rdf:resource="http://WineB#sangiovese"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#chardonnay"/>
+			<entity2 rdf:resource="http://WineB#chardonnay"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#tempranillo"/>
+			<entity2 rdf:resource="http://WineB#tempranillo"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#nebbiolo"/>
+			<entity2 rdf:resource="http://WineB#nebbiolo"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#pinotnior"/>
+			<entity2 rdf:resource="http://WineB#pinotnior"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#sauvignonblanc"/>
+			<entity2 rdf:resource="http://WineB#sauvignonblanc"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#cheninblanc"/>
+			<entity2 rdf:resource="http://WineB#cheninblanc"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#merlot"/>
+			<entity2 rdf:resource="http://WineB#merlot"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#chablis"/>
+			<entity2 rdf:resource="http://WineB#chablis"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#muscat"/>
+			<entity2 rdf:resource="http://WineB#muscat"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#syrah"/>
+			<entity2 rdf:resource="http://WineB#syrah"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#zinfandel"/>
+			<entity2 rdf:resource="http://WineB#zinfandel"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#semillon"/>
+			<entity2 rdf:resource="http://WineB#semillon"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#pinotgris"/>
+			<entity2 rdf:resource="http://WineB#pinotgris"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#riesling"/>
+			<entity2 rdf:resource="http://WineB#riesling"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#pinotblanc"/>
+			<entity2 rdf:resource="http://WineB#pinotblanc"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#dolcetto"/>
+			<entity2 rdf:resource="http://WineB#dolcetto"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WineA#gewurztaminer"/>
+			<entity2 rdf:resource="http://WineB#gewurztaminer"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

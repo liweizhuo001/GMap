@@ -1,0 +1,2 @@
+ObsoleteProperty
+UNDEFINED_part_of

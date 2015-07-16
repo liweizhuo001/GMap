@@ -1,0 +1,12 @@
+HotelRoom,hasOnFloor,exactly,1,Literal
+HotelRoom,hasNumBeds,exactly,1,Literal
+HotelRoom,hasSmokingPreference,exactly,1,Literal
+OneRoom,hasOnFloor,exactly 1,Literal
+OneRoom,hasNumBeds,exactly 1,Literal
+OneRoom,hasSmokingPreference,exactly 1,Literal
+TownHouse,hasOnFloor,exactly 1,Literal
+TownHouse,hasNumBeds,exactly 1,Literal
+TownHouse,hasSmokingPreference,exactly 1,Literal
+Suite,hasOnFloor,exactly 1,Literal
+Suite,hasNumBeds,exactly 1,Literal
+Suite,hasSmokingPreference,exactly 1,Literal

@@ -1,0 +1,5183 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://sigkdd"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://sigkdd">
+    <Prefix name="" IRI="http://sigkdd#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ACM_SIGKDD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abstract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author_of_paper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author_of_paper_student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_Applications_Paper_Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_Paper_Awards_Committee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_Research_Paper_Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_Student_Paper_Award"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_Student_Paper_Supporter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bronze_Supporter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Committee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conference_hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deadline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deadline_Abstract_Submission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deadline_Author_notification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deadline_Paper_Submission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exhibitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Chair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gold_Supporter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Invited_Speaker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Listener"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_office"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organizator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organizing_Committee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organizing_Committee_member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platinum_Supporter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program_Chair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program_Committee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program_Committee_member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registration_Non-Member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registration_SIGKDD_Member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registration_SIGMOD_Member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registration_Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registration_fee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Review"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Silver_Supporter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speaker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sponzor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sponzor_fee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Webmaster"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#award"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#awarded_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#can_stay_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#design"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#designed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hold"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#holded_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#notification_until"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#obtain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pay"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#payed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#presentation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#presentationed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#search"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#searched_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#submit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#submit_until"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#City_of_conference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Currency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#E-mail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#End_of_conference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name_of_conference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name_of_sponsor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Start_of_conference"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Abstract"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#submit_until"/>
+            <Class IRI="#Deadline_Abstract_Submission"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Author"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#submit"/>
+            <Class IRI="#Paper"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Award"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#awarded_by"/>
+            <Class IRI="#Organizator"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#submit_until"/>
+            <Class IRI="#Deadline_Paper_Submission"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#pay"/>
+            <Class IRI="#Registration_fee"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Speaker"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#presentation"/>
+            <Class IRI="#Document"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sponzor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#pay"/>
+            <Class IRI="#Sponzor_fee"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ACM_SIGKDD"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ACM_SIGKDD"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#design"/>
+            <Class IRI="#Deadline"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ACM_SIGKDD"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hold"/>
+            <Class IRI="#Conference"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ACM_SIGKDD"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#search"/>
+            <Class IRI="#Sponzor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abstract"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Author"/>
+        <Class IRI="#Speaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Author"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#notification_until"/>
+            <Class IRI="#Deadline_Author_notification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Author_of_paper"/>
+        <Class IRI="#Author"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Author_of_paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#award"/>
+            <Class IRI="#Best_Applications_Paper_Award"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Author_of_paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#award"/>
+            <Class IRI="#Best_Research_Paper_Award"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Author_of_paper_student"/>
+        <Class IRI="#Author"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Author_of_paper_student"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#award"/>
+            <Class IRI="#Best_Student_Paper_Award"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_Applications_Paper_Award"/>
+        <Class IRI="#Award"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_Paper_Awards_Committee"/>
+        <Class IRI="#Committee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_Research_Paper_Award"/>
+        <Class IRI="#Award"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_Student_Paper_Award"/>
+        <Class IRI="#Award"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_Student_Paper_Supporter"/>
+        <Class IRI="#Sponzor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bronze_Supporter"/>
+        <Class IRI="#Sponzor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conference_hall"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deadline_Abstract_Submission"/>
+        <Class IRI="#Deadline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deadline_Author_notification"/>
+        <Class IRI="#Deadline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deadline_Paper_Submission"/>
+        <Class IRI="#Deadline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exhibitor"/>
+        <Class IRI="#Sponzor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Chair"/>
+        <Class IRI="#Organizator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gold_Supporter"/>
+        <Class IRI="#Sponzor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Invited_Speaker"/>
+        <Class IRI="#Speaker"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Listener"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Main_office"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organizator"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organizing_Committee"/>
+        <Class IRI="#Committee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organizing_Committee_member"/>
+        <Class IRI="#Organizator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paper"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#can_stay_in"/>
+            <Class IRI="#Hotel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Platinum_Supporter"/>
+        <Class IRI="#Sponzor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Program_Chair"/>
+        <Class IRI="#Organizator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Program_Committee"/>
+        <Class IRI="#Committee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Program_Committee_member"/>
+        <Class IRI="#Organizator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registration_Non-Member"/>
+        <Class IRI="#Registration_fee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registration_SIGKDD_Member"/>
+        <Class IRI="#Registration_fee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registration_SIGMOD_Member"/>
+        <Class IRI="#Registration_fee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registration_Student"/>
+        <Class IRI="#Registration_fee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registration_fee"/>
+        <Class IRI="#Fee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Review"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Silver_Supporter"/>
+        <Class IRI="#Sponzor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speaker"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sponzor_fee"/>
+        <Class IRI="#Fee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Webmaster"/>
+        <Class IRI="#Organizator"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AAAI-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AAAI-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AIME-1997"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AINA-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AINA-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AISA-2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AISC-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AMFG-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#APL-1991"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#BTW-1991"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#CHI-1992"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#CP-1996"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#CP-2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#CPM-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#CSB-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#DAC-1991"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#DAC-1995"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#DAC-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#DAC-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#DAC-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#DFT-1993"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#DFT-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#DFT-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#DNA-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#DSN-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ECI-1978"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#EJC-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ER-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ESA-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#FPL-1996"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#FPL-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#FPL-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ICATPN-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ICC-1986"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ICGT-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#IFM-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#IIS-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#IKE-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#IKE-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ILPS-1995"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#IMR-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ISI-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ISMSE-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ISW-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ITC-1986"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ITC-1992"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ITC-1995"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ITC-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ITC-2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#IV-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#KDD-1997"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#KI-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#LCN-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#LCN-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#LCR-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#MTV-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AAAI-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AAAI-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AIME-1997"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AINA-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AINA-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AISA-2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AISC-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AMFG-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-APL-1991"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-BTW-1991"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-CHI-1992"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-CP-1996"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-CP-2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-CPM-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-CSB-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-DAC-1991"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-DAC-1995"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-DAC-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-DAC-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-DAC-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-DFT-1993"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-DFT-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-DFT-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-DNA-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-DSN-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ECI-1978"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-EJC-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ER-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ESA-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-FPL-1996"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-FPL-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-FPL-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ICATPN-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ICC-1986"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ICGT-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-IFM-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-IIS-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-IKE-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-IKE-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ILPS-1995"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-IMR-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ISI-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ISMSE-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ISW-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ITC-1986"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ITC-1992"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ITC-1995"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ITC-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ITC-2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-IV-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-KDD-1997"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-KI-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-LCN-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-LCN-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-LCR-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-MTV-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-SAC-1996"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-SAC-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-SDM-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-SEM-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-SIP-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-SLP-1984"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-TES-2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-VDB-1995"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-VL-1992"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-VL-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-VMV-2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-VR-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-WAA-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-WG-1997"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-WLP-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-WWW-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-WWWPosters-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#SAC-1996"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#SAC-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#SDM-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#SEM-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#SIP-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#SLP-1984"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#TES-2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#VDB-1995"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#VL-1992"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#VL-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#VMV-2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#VR-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#WAA-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#WG-1997"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#WLP-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#WWW-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#WWWPosters-2001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper589"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper590"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper591"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper592"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper593"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper594"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper595"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper596"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper597"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper598"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper599"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper600"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper601"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper602"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper603"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper604"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper605"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper606"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper607"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper608"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper609"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper610"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper611"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper612"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper613"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper614"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper615"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper616"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper617"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper618"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper619"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper620"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper621"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper622"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper623"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper624"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper625"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper626"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper627"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper628"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper629"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper630"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper631"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper632"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper633"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper634"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper635"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper636"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper637"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper638"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper639"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper640"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper641"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper642"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper643"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper644"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper645"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper646"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper647"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper648"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper649"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper650"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper651"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper652"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper653"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper654"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper655"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper656"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper657"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper658"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper659"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper660"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper661"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper662"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper663"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper664"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper665"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper666"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper667"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper668"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper669"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper670"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper671"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper672"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper673"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper674"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper675"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper676"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper677"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper678"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper679"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper680"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper681"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper682"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper683"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper684"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper685"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper686"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AAAI/IAAI-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ACCV1-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ACCV2-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AI*IA-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#AINA2-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#HCI1-1997"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#HCI1-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ICC1-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ICC2-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#ICN1-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#PCM1-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#PCM1-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#PCM2-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#PVM/MPI-1997"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#PVM/MPI-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#PVM/MPI-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#PVM/MPI-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AAAI/IAAI-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ACCV1-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ACCV2-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AI*IA-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-AINA2-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-HCI1-1997"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-HCI1-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ICC1-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ICC2-2000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-ICN1-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-PCM1-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-PCM1-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-PCM2-2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-PVM/MPI-1997"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-PVM/MPI-1998"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-PVM/MPI-1999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-PVM/MPI-2003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee"/>
+        <NamedIndividual IRI="#ProgramCommittee-VL/HCC-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Conference"/>
+        <NamedIndividual IRI="#VL/HCC-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AartiGupta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AartiGupta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AdoniosThanailakis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AdoniosThanailakis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AkihiroTsutsui"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AkinoriYonezawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AkinoriYonezawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AlanGibbons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AlanGibbons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AlfonsKemper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AlfonsKemper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AlfonsKemper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AlicjaWieczorkowska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AlicjaWieczorkowska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AlicjaWieczorkowska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AmirBen-Dor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AmirBen-Dor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AnastasiaAnalyti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AndreaFusiello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AndreaFusiello"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AndreasZachmann"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AndreasZachmann"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AndrzejEhrenfeucht"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AndrzejEhrenfeucht"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AndrzejEhrenfeucht"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AnhNguyen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AnnalisaAppice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AntonioGarrido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AntonioGarrido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AntonioLagan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AntonioLagan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AntonioRiganelli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AntonioRiganelli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AnubhavGupta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ArijitRaychowdhury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ArijitRaychowdhury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AsumanDogac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AsumanDogac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AvrimBlum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BalakrishnaKumthekar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BalakrishnaKumthekar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BalakrishnaKumthekar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BoCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BoCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BrunoBuchberger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BrunoBuchberger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BrunoRicc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BrunoRicc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BuntarouShizuki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BuntarouShizuki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#C.Liao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#C.Liao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#C.Qu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#CathleenWharton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#CathleenWharton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Ce-KuenShieh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Ce-KuenShieh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Chang-GyuChoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ChantalRobach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Chen-FengChang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Cheng-WenWu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Cheng-WenWu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Chih-PingLuo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Chih-PingLuo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Chih-TsunHuang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Chih-TsunHuang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Ching-TangHsieh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Ching-TangHsieh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ChoukiAktouf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ChoukiAktouf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ChoukiAktouf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ChunnianLiu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DaekeunMoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DaleOhmart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DaleOhmart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DanieleManini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DanieleManini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DaphneKoller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DaphneKoller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DavidCoquil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DavidCoquil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DavidGilbert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DavidGilbert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DavidThompson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DavidThompson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DebinZhao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DebinZhao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DejiangFu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DeoMarrero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DietrichSeibt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DietrichSeibt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DilmuratTilwaldi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DilmuratTilwaldi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DimitriosSoudris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DimitriosSoudris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DomenicoLaforenza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DomenicoLaforenza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DominikSlezak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DominikSlezak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DonatoMalerba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DonatoMalerba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DorinTepeneu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DoronPeled"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DougMirizzi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DougMirizzi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DragoljubPokrajac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DylanSchmorrow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#DylanSchmorrow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ElhamSafi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ElhamSafi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ElhamSafi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#EmilioMancini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#EmilioMancini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#EnricoMacii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#EnricoMacii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ErkkiSutinen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ErkkiSutinen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#EtsuyaShibayama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#EtsuyaShibayama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#EwaDeelman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#EwaDeelman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#F.Su"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#F.Su"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FabioSomenzi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FabioSomenzi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FaraydonKarim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FaraydonKarim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Chair"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Feng-JenKuo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Feng-JenKuo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Feng-JenKuo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FranciscoDelicado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FranciscoDelicado"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FrankKolf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FrankKolf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GaiaGrossi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GangHuang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GaryHellenga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GautamBiswas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GautamBiswas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GenKitagata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GennaroPetraglia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GenoveffaTortora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GenoveffaTortora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GeraldSullivan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GeraldSullivan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GianniFerraro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GianniFerraro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GiordanoLanzola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GiordanoLanzola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GokceLaleci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GokceLaleci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GregNoeninckx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GregNoeninckx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GrzegorzRozenberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GrzegorzRozenberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GuidoMoerkotte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GuyMazar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GuyMazar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HagbaeKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HagbaeKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HamidMahmoodi-Meimand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Han-woolChoi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Hans-DirkWalter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Hans-DirkWalter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HansOppelland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HansTompits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HansTompits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HidekazuTsuji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HideoTodokoro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HideoTodokoro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HildaHo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HildaHo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HilmarRauhe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HilmarRauhe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HirohideEndoh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HirohideEndoh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HirokiYano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HirokiYano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HiroyukiKojima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HiroyukiKojima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HiroyukiKojima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HisaoKoizumi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HisaoKoizumi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HongMei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HongMei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HongboXie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HongboXie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HongyangQu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HongyangQu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HuaXu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Hui-TangLin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HuiZheng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HuiZheng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HyeonBae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HyeonBae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#IbrahimCingil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#IllhoiYoo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#InhwanLee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#InhwanLee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#InsooLee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ItsikPeer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#J.Johansson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#J.Johansson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JakubWroblewski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JanJantzen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JanJantzen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jang-MokKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jang-MokKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JanghoonLyu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JanghoonLyu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JaniceBradford"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jean-MarieJacquet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JeffWard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jeong-HyunCho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jeong-HyunCho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jeong-HyunCho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jeong-inLee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jeong-inLee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JessicaYan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JessicaYan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jia-HuaiYou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jia-HuaiYou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jia-HuaiYou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JianWang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JianWang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JiangtaoYu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JiangtaoYu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JianwenSu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JianwenSu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JieBao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JieBao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jing-JiaLiou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JoachimHagenauer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JohanThapper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JohanThapper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JosephCohn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JosephCohn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JuditRobu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JuditRobu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JulienDompierre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jun-taoGuo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jun-taoGuo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JunSawamoto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JunSawamoto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JunSawamoto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jung-hoonKwon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jung-hoonKwon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JunichiToyoda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JunichiToyoda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JunjieYang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JunjieYang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JurriaanHage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#K.Siozios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Kam-FaiWong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Kam-FaiWong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KaushikRoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KaushikRoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KazuakiNakajima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KazuakiNakajima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KazuakiNakajima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KazutoKamikura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KazutoKamikura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KazutoshiWakabayashi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KazutoshiWakabayashi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KedarDhamdhere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KedarDhamdhere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KellyNasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KellyNasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KenChan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KenjiIshii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KenjiIshii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KenjiMurakami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KenjiMurakami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KenjiroTaura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KennethFordyce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KennethFordyce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KentaroOda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KentaroOda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KimioKawaguchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KimioKawaguchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Ko-FoaTchon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Ko-FoaTchon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KoichiWada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KoichiWada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KonstantinosTatas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KonstantinosTatas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KonstantinosTatas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KuniakiUehara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KuniakiUehara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KuniakiUehara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Kuo-EnChang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Kwang-BaekKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Kwang-BaekKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KyonghoMin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KyonghoMin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#L.Nguyen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Li-YanYuan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Li-YanYuan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LinXu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LinXu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LingLu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LingLu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LionelBrunie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LionelBrunie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LouiseGuthrie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LucaBenini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LuisOrozco-Barbosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LuisOrozco-Barbosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#M.Theodorakis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#M.Theodorakis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#M.Xia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#M.Xia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MaghsoudAbbaspour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MaghsoudAbbaspour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MakotoSato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MakotoSato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MakotoYokoo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MakotoYokoo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ManiSoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ManiSoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ManiSoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarcelloDalpasso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarcelloDalpasso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarcoGribaudo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarcoProtti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarcoProtti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Marie-GabrielleVallet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Marie-GabrielleVallet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarioMorreale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarioStefanelli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarioStefanelli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MaritaFranzke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MaritaFranzke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarkkuTukiainen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarkkuTukiainen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MartinDanek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Chair"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MartinDoerr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MartinDoerr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MartinDoerr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MartinSweeting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MartinSweeting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasahiroMambo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasahiroMambo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasahiroTabuchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasahiroTabuchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasahiroUmehira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasahiroUmehira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasakiKitahara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasakiKitahara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasanoriIzumida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasashiToyota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasayukiYuguchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasayukiYuguchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MassimilianoCampagnoli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MassimilianoRak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MatteoSereno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MatteoSereno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MatthiasFrank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MatthiasFrank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MaxSchmautz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MaxSchmautz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MichaelAtwood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MichaelAtwood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MichaelJampel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MichaelJampel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MichelangeloCeci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MichelangeloCeci"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MicheleFavalli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MilindTambe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MilindTambe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MingChen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MingChen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MitsuhisaSato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MitsuhisaSato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MitsuruSeta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MohammadHosseinabadi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MonicaSebillo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MonicaSebillo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NadiaBianchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NadiaBianchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NaohisaOhta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NaohisaOhta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NicolasSpyratos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NikhilBansal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NikhilBansal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NikoMyller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NingZhong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NingZhong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NoboruOhnishi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NoboruOhnishi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NoboruSugie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NoboruSugie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NorbertSzyperski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NorbertSzyperski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#OlaAngelsmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#OlaAngelsmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#OsamuKakusho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#OsamuKakusho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PanosConstantopoulos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PanosConstantopoulos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PaoloBottoni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PaulReedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PedramRiahi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PedramRiahi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PedroCuenca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PengWang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PengWang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PeterCollins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PeterHorwood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PeterHorwood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PeterJonsson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PeterRumm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PeterRumm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PieroMussio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PieroMussio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PieroOlivio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PieroOlivio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PiotrSynak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PiotrSynak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PradeepVarakantham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PranavAshar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PranavAshar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#QingjiZeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#QingjiZeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#QingmingHuang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#QishanHuang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#QishanHuang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RajeshRaina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RajeshRaina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RameshRao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RameshRao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RandyGoebel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RandyGoebel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RanieriBaraglia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RanieriBaraglia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RanieriBaraglia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RanjitNair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RanjitNair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RanjitNair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RattapoomTuchinda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RattapoomTuchinda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RayFord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RayFord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RenatoFerrini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RicardoCamarero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RicardoCamarero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RichardChbeir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RichardHull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RichardHull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RobertBreaux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RobertBreaux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RobertoTorella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RobertoTorella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RobinJeffries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RobinJeffries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RodedSharan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RodedSharan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RomanBednarik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RomanBednarik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RomanBednarik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RonShamir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RonShamir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RonaldParr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RossanoGaeta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RossanoGaeta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Rung-ShiangCheng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Rung-ShiangCheng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RyoOchitani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SabinaFalasconi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SabinaFalasconi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SaddekBensalem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SaddekBensalem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SamSaghafi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SangmoonLee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SangmoonLee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Sao-JieChen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Sao-JieChen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SaraCeglie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SebastianHunt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SebastianHunt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Chair"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SetsuoOhsuga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SetsuoOhsuga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SetsuoOhsuga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SeungjooKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SeungjooKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SeungjooKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShaoshengLi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShaoshengLi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShervinSharifi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShervinSharifi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShiguangShan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShiguangShan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShiguangShan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShinTakahashi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShinTakahashi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShinyaShimizu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShouzouYoneda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShuchiChawla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShuchiChawla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShunIdo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShunIdo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShuzoKato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShuzoKato"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SigemituSeitou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SigemituSeitou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SigeyukiHosoki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SigeyukiHosoki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SlobodanVucetic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SlobodanVucetic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SnehalThakkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SolomonAtnafu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SolomonAtnafu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SolomonAtnafu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StavrosTripakis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StavrosTripakis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StefanWoltran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StefanWoltran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StefanoCaldrer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StefanoCaldrer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StefanoCaldrer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StephenHarrison"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StephenHarrison"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StephenHarrison"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StephenHodgart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StephenHodgart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SujitDey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SujitDey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Sung-ChuanFang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Sung-ChuanFang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Sung-HoKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Sung-HoKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SungjunPark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SungjunPark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SungshinKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SuryanilGhosh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SvanteLinusson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SvanteLinusson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SwarupBhunia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SwarupBhunia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TakaakiYamada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TakaichiYoshida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TakaichiYoshida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TakashiIsobe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TakashiOshiba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TakekiYazaki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TakekiYazaki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TakuoSuganuma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TakuoSuganuma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TeroHarju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TeroHarju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TetsuoIda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TetsuoIda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TetsuoKinoshita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TetsuoKinoshita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TevfikBultan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TevfikBultan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TheodorosKaroubalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TheodorosKaroubalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ThomasEiter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ThomasHindelang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ThomasHindelang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TimothyArndt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TimothyArndt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TokihiroMiyo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TokihiroMiyo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Chair"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TomonariKamba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TomonariKamba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TomonariKamba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TomoyukiFujita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TomoyukiFujita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ToniPaila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ToshiakiMiyazaki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ToshiakiMiyazaki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Tsung-YiHo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Tsung-YiHo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TsuyoshiYamamura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UdoFeldkamp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UdoFeldkamp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UmbertoVillano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UmbertoVillano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UriLerner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UriLerner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UriLerner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UweEgly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UweEgly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UweEgly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VasantHonavar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VasantHonavar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VassilAlexandrow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VassilAlexandrow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VijayantPalaiya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VijayantPalaiya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VincenzoColonna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VincenzoColonna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VittorioMurino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VittorioMurino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Wai-KiangYeap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Wai-KiangYeap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WallapakTavanapong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WallapakTavanapong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WeiChen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WeiLiu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WeiLiu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WeiWei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WeiWei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WeiliRen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WeiliRen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WeiliRen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WelelaHaileselassie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Wen-ShyangHwang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Wen-ShyangHwang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WenGao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WenGao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WenXu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WenXu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WhieChang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WhieChang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WillieBenitez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WillieBenitez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WojciechRytter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WojciechRytter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WolfgangBanzhaf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WolfgangBanzhaf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WolfgangHansmann"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WolfgangHansmann"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Wu-ShiungFeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Wu-ShiungFeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#X.Huang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#X.Zhou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#X.Zhou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#XiangFu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#XiaohuaHu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#XiaohuaHu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#XiaohuaHu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#XiaoqingDing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Y.He"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Y.He"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YaliZhu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YaliZhu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YanLu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YanLu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Yao-WenChang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Yao-WenChang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YaodongFeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YaodongFeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YaodongFeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Yen-LinPeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Yen-LinPeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Yen-LinPeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YildirayKabak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YildirayKabak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YingXu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YingXu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YolandaGil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YolandaGil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YongmeiLiu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author_of_paper_student"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YongmeiLiu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YongmeiLiu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YongseokChang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YongseokChang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YongsubKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YongsubKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshihiroMizuno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshihiroMizuno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshihiroYasutake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshihiroYasutake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshitsuguKakemoto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshitsuguKakemoto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshiyukiYashima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshiyukiYashima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshizumiTanaka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshizumiTanaka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoubinChen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoubinChen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Young-HoChai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Young-HoChai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoungjinKim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoushouWu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoushouWu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Yu-LungLu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YuCao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YuanZhang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speaker"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YuanZhang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YuichiIshikawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YuichiIshikawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YuichiNakamura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YunqingXia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YunqingXia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YupinLuo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YupinLuo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YusukeMasuyama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Z.Qiao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Z.Qiao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZainalabedinNavabi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZainalabedinNavabi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZdenekPohl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZdenekPohl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZhaoxiaJin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZhaoxiaJin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZhengchangSu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZhonghengJi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZijiangYang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZijiangYang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Listener"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZohrehKarimi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Program_Committee_member"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZoranObradovic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reviewer"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ZoranObradovic"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AartiGupta"/>
+        <NamedIndividual IRI="#paper610"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AlfonsKemper"/>
+        <NamedIndividual IRI="#paper601"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AlicjaWieczorkowska"/>
+        <NamedIndividual IRI="#paper600"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AmirBen-Dor"/>
+        <NamedIndividual IRI="#paper643"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AndrzejEhrenfeucht"/>
+        <NamedIndividual IRI="#paper636"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#AsumanDogac"/>
+        <NamedIndividual IRI="#paper593"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BalakrishnaKumthekar"/>
+        <NamedIndividual IRI="#paper629"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#BuntarouShizuki"/>
+        <NamedIndividual IRI="#paper673"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#CathleenWharton"/>
+        <NamedIndividual IRI="#paper632"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Ching-TangHsieh"/>
+        <NamedIndividual IRI="#paper670"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ChoukiAktouf"/>
+        <NamedIndividual IRI="#paper682"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ElhamSafi"/>
+        <NamedIndividual IRI="#paper634"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#EmilioMancini"/>
+        <NamedIndividual IRI="#paper619"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#F.Su"/>
+        <NamedIndividual IRI="#paper685"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FaraydonKarim"/>
+        <NamedIndividual IRI="#paper657"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FranciscoDelicado"/>
+        <NamedIndividual IRI="#paper642"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#FrankKolf"/>
+        <NamedIndividual IRI="#paper599"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#GiordanoLanzola"/>
+        <NamedIndividual IRI="#paper596"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HideoTodokoro"/>
+        <NamedIndividual IRI="#paper654"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HiroyukiKojima"/>
+        <NamedIndividual IRI="#paper623"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#HyeonBae"/>
+        <NamedIndividual IRI="#paper614"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JanghoonLyu"/>
+        <NamedIndividual IRI="#paper675"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jeong-HyunCho"/>
+        <NamedIndividual IRI="#paper625"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jia-HuaiYou"/>
+        <NamedIndividual IRI="#paper635"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JianWang"/>
+        <NamedIndividual IRI="#paper651"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JieBao"/>
+        <NamedIndividual IRI="#paper641"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#JunSawamoto"/>
+        <NamedIndividual IRI="#paper617"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Jung-hoonKwon"/>
+        <NamedIndividual IRI="#paper598"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Kam-FaiWong"/>
+        <NamedIndividual IRI="#paper674"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KazuakiNakajima"/>
+        <NamedIndividual IRI="#paper658"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KellyNasi"/>
+        <NamedIndividual IRI="#paper603"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KennethFordyce"/>
+        <NamedIndividual IRI="#paper655"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Ko-FoaTchon"/>
+        <NamedIndividual IRI="#paper672"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KoichiWada"/>
+        <NamedIndividual IRI="#paper647"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KonstantinosTatas"/>
+        <NamedIndividual IRI="#paper648"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#KuniakiUehara"/>
+        <NamedIndividual IRI="#paper604"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LinXu"/>
+        <NamedIndividual IRI="#paper662"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#LingLu"/>
+        <NamedIndividual IRI="#paper633"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#M.Theodorakis"/>
+        <NamedIndividual IRI="#paper663"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ManiSoma"/>
+        <NamedIndividual IRI="#paper615"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MarcelloDalpasso"/>
+        <NamedIndividual IRI="#paper607"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasakiKitahara"/>
+        <NamedIndividual IRI="#paper622"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MasayukiYuguchi"/>
+        <NamedIndividual IRI="#paper666"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MichaelJampel"/>
+        <NamedIndividual IRI="#paper626"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#MichelangeloCeci"/>
+        <NamedIndividual IRI="#paper667"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NadiaBianchi"/>
+        <NamedIndividual IRI="#paper683"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NikhilBansal"/>
+        <NamedIndividual IRI="#paper676"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#NingZhong"/>
+        <NamedIndividual IRI="#paper608"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#OlaAngelsmark"/>
+        <NamedIndividual IRI="#paper671"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#PengWang"/>
+        <NamedIndividual IRI="#paper661"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#QishanHuang"/>
+        <NamedIndividual IRI="#paper612"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RanieriBaraglia"/>
+        <NamedIndividual IRI="#paper611"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RanjitNair"/>
+        <NamedIndividual IRI="#paper595"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RattapoomTuchinda"/>
+        <NamedIndividual IRI="#paper606"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RayFord"/>
+        <NamedIndividual IRI="#paper660"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RobertBreaux"/>
+        <NamedIndividual IRI="#paper590"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RomanBednarik"/>
+        <NamedIndividual IRI="#paper686"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#RossanoGaeta"/>
+        <NamedIndividual IRI="#paper680"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Rung-ShiangCheng"/>
+        <NamedIndividual IRI="#paper621"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SaddekBensalem"/>
+        <NamedIndividual IRI="#paper631"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SangmoonLee"/>
+        <NamedIndividual IRI="#paper669"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SeungjooKim"/>
+        <NamedIndividual IRI="#paper650"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShervinSharifi"/>
+        <NamedIndividual IRI="#paper620"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShiguangShan"/>
+        <NamedIndividual IRI="#paper656"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ShunIdo"/>
+        <NamedIndividual IRI="#paper664"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SlobodanVucetic"/>
+        <NamedIndividual IRI="#paper591"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SolomonAtnafu"/>
+        <NamedIndividual IRI="#paper677"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StefanoCaldrer"/>
+        <NamedIndividual IRI="#paper649"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#StephenHarrison"/>
+        <NamedIndividual IRI="#paper594"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Sung-ChuanFang"/>
+        <NamedIndividual IRI="#paper616"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#SwarupBhunia"/>
+        <NamedIndividual IRI="#paper645"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TakekiYazaki"/>
+        <NamedIndividual IRI="#paper592"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TetsuoIda"/>
+        <NamedIndividual IRI="#paper684"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TevfikBultan"/>
+        <NamedIndividual IRI="#paper597"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ThomasHindelang"/>
+        <NamedIndividual IRI="#paper637"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TimothyArndt"/>
+        <NamedIndividual IRI="#paper644"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#TokihiroMiyo"/>
+        <NamedIndividual IRI="#paper627"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#ToshiakiMiyazaki"/>
+        <NamedIndividual IRI="#paper653"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Tsung-YiHo"/>
+        <NamedIndividual IRI="#paper609"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UdoFeldkamp"/>
+        <NamedIndividual IRI="#paper605"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UriLerner"/>
+        <NamedIndividual IRI="#paper681"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#UweEgly"/>
+        <NamedIndividual IRI="#paper639"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#VassilAlexandrow"/>
+        <NamedIndividual IRI="#paper646"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Wai-KiangYeap"/>
+        <NamedIndividual IRI="#paper628"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WeiWei"/>
+        <NamedIndividual IRI="#paper624"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WeiliRen"/>
+        <NamedIndividual IRI="#paper602"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#WillieBenitez"/>
+        <NamedIndividual IRI="#paper679"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#X.Zhou"/>
+        <NamedIndividual IRI="#paper640"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#XiaohuaHu"/>
+        <NamedIndividual IRI="#paper652"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YaodongFeng"/>
+        <NamedIndividual IRI="#paper678"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#Yen-LinPeng"/>
+        <NamedIndividual IRI="#paper589"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YongmeiLiu"/>
+        <NamedIndividual IRI="#paper659"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshihiroYasutake"/>
+        <NamedIndividual IRI="#paper665"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoshizumiTanaka"/>
+        <NamedIndividual IRI="#paper613"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YoubinChen"/>
+        <NamedIndividual IRI="#paper638"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#submit"/>
+        <NamedIndividual IRI="http://xmlns.com/foaf/0.1#YuanZhang"/>
+        <NamedIndividual IRI="#paper668"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#awarded_by"/>
+        <ObjectProperty IRI="#award"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#designed_by"/>
+        <ObjectProperty IRI="#design"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hold"/>
+        <ObjectProperty IRI="#holded_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#pay"/>
+        <ObjectProperty IRI="#payed_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#presentation"/>
+        <ObjectProperty IRI="#presentationed_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#searched_by"/>
+        <ObjectProperty IRI="#search"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#awarded_by"/>
+        <Class IRI="#Award"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#can_stay_in"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#design"/>
+        <Class IRI="#ACM_SIGKDD"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#designed_by"/>
+        <Class IRI="#Deadline"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hold"/>
+        <Class IRI="#ACM_SIGKDD"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#holded_by"/>
+        <Class IRI="#Conference"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#notification_until"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#obtain"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pay"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#payed_by"/>
+        <Class IRI="#Registration_fee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#presentation"/>
+        <Class IRI="#Speaker"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#presentationed_by"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#search"/>
+        <Class IRI="#ACM_SIGKDD"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#searched_by"/>
+        <Class IRI="#Sponzor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#submit"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#submit_until"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#award"/>
+        <Class IRI="#Award"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#can_stay_in"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#design"/>
+        <Class IRI="#Deadline"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#designed_by"/>
+        <Class IRI="#ACM_SIGKDD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hold"/>
+        <Class IRI="#Conference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#holded_by"/>
+        <Class IRI="#ACM_SIGKDD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#notification_until"/>
+        <Class IRI="#Deadline_Author_notification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#obtain"/>
+        <Class IRI="#Award"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pay"/>
+        <Class IRI="#Registration_fee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#payed_by"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#presentation"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#presentationed_by"/>
+        <Class IRI="#Speaker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#search"/>
+        <Class IRI="#Sponzor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#searched_by"/>
+        <Class IRI="#ACM_SIGKDD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#submit"/>
+        <Class IRI="#Paper"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#submit_until"/>
+        <Class IRI="#Deadline"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#City_of_conference"/>
+        <Class IRI="#Conference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Currency"/>
+        <Class IRI="#Registration_fee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Date"/>
+        <Class IRI="#Deadline"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#E-mail"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#End_of_conference"/>
+        <Class IRI="#Conference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name_of_conference"/>
+        <Class IRI="#Conference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name_of_sponsor"/>
+        <Class IRI="#Sponzor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nation"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Price"/>
+        <Class IRI="#Registration_fee"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Start_of_conference"/>
+        <Class IRI="#Conference"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#City_of_conference"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Currency"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#E-mail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#End_of_conference"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name_of_conference"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name_of_sponsor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Price"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Start_of_conference"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API version 3.4.5-SNAPSHOT http://owlapi.sourceforge.net -->
+

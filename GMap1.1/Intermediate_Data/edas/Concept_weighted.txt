@@ -1,0 +1,103 @@
+meal break--meal#0.25,break#0.75
+personal review history--personal#0.2222222222222222,review#0.2222222222222222,history#0.5555555555555556
+conference session--conference#0.25,session#0.75
+country--country#1.0
+organization--organization#1.0
+signal processing topic--signal#0.2222222222222222,process#0.2222222222222222,topic#0.5555555555555556
+session chair--session#0.25,chair#0.75
+closing talk--close#0.25,talk#0.75
+wireless communications topic--wireless#0.2222222222222222,communication#0.2222222222222222,topic#0.5555555555555556
+computer networks optical topic--computer#0.1875,network#0.1875,optical#0.1875,topic#0.4375
+operating topicsystems--operate#0.25,topicsystem#0.75
+ngo--ngo#1.0
+academia organization--academia#0.25,organization#0.75
+computer networks aapplications topic--computer#0.1875,network#0.1875,aapplication#0.1875,topic#0.4375
+place--place#1.0
+conference venue place--conference#0.2222222222222222,venue#0.2222222222222222,place#0.5555555555555556
+test only topic--test#0.2222222222222222,only#0.2222222222222222,topic#0.5555555555555556
+accommodation place--accommodation#0.25,place#0.75
+communication theory topic--communication#0.2222222222222222,theory#0.2222222222222222,topic#0.5555555555555556
+computer networks security topic--computer#0.1875,network#0.1875,security#0.1875,topic#0.4375
+call for papers--call#0.2222222222222222,for#0.2222222222222222,papers#0.5555555555555556
+conference event--conference#0.25,event#0.75
+computer networks management topic--computer#0.1875,network#0.1875,management#0.1875,topic#0.4375
+review rating--review#0.25,rate#0.75
+cad topic--cad#0.25,topic#0.75
+textual review question--textual#0.2222222222222222,review#0.2222222222222222,question#0.5555555555555556
+computer networks topic--computer#0.2222222222222222,network#0.2222222222222222,topic#0.5555555555555556
+workshop--workshop#1.0
+tpc member--tpc#0.25,member#0.75
+computer networks enterprise topic--computer#0.1875,network#0.1875,enterprise#0.1875,topic#0.4375
+radio communications topic--radio#0.2222222222222222,communication#0.2222222222222222,topic#0.5555555555555556
+withdrawn paper--withdraw#0.25,paper#0.75
+parallel and distributed computing topic--parallel#0.16000000000000003,and#0.16000000000000003,distribute#0.16000000000000003,compute#0.16000000000000003,topic#0.3599999999999999
+excursion--excursion#1.0
+talk event--talk#0.25,event#0.75
+attendee--attendee#1.0
+reviewer--reviewer#1.0
+review form--review#0.25,form#0.75
+review question--review#0.25,question#0.75
+travel grant--travel#0.25,grant#0.75
+conference--conference#1.0
+person--person#1.0
+coffee break--coffee#0.25,break#0.75
+break event--break#0.25,event#0.75
+conference dinner--conference#0.25,dinner#0.75
+government organization--government#0.25,organization#0.75
+topic--topic#1.0
+published paper--publish#0.25,paper#0.75
+pending paper--pend#0.25,paper#0.75
+rated papers--rate#0.25,papers#0.75
+rejected paper--reject#0.25,paper#0.75
+programme--programme#1.0
+paper presentation--paper#0.25,presentation#0.75
+security topic--security#0.25,topic#0.75
+dining place--dine#0.25,place#0.75
+review--review#1.0
+multimedia topic--multimedia#0.25,topic#0.75
+mobile computing topic--mobile#0.2222222222222222,compute#0.2222222222222222,topic#0.5555555555555556
+meal event--meal#0.25,event#0.75
+conference chair--conference#0.25,chair#0.75
+microelectronics topic--microelectronics#0.25,topic#0.75
+author--author#1.0
+active paper--active#0.25,paper#0.75
+reject rating--reject#0.25,rate#0.75
+single level conference--single#0.2222222222222222,level#0.2222222222222222,conference#0.5555555555555556
+call for reviews--call#0.2222222222222222,for#0.2222222222222222,review#0.5555555555555556
+academic event--academic#0.25,event#0.75
+computer networks measurements topic--computer#0.1875,network#0.1875,measurement#0.1875,topic#0.4375
+accepted paper--accept#0.25,paper#0.75
+contact information--contact#0.25,information#0.75
+personal publication history--personal#0.2222222222222222,publication#0.2222222222222222,history#0.5555555555555556
+week reject rating--week#0.2222222222222222,reject#0.2222222222222222,rate#0.5555555555555556
+computer networks switching topic--computer#0.1875,network#0.1875,switch#0.1875,topic#0.4375
+antennas topic--antenna#0.25,topic#0.75
+sponsorship--sponsorship#1.0
+industry organization--industry#0.25,organization#0.75
+presenter--presenter#1.0
+social event--social#0.25,event#0.75
+two level conference--two#0.2222222222222222,level#0.2222222222222222,conference#0.5555555555555556
+slide set--slide#0.25,set#0.75
+accept rating--accept#0.25,rate#0.75
+non academic event--non#0.2222222222222222,academic#0.2222222222222222,event#0.5555555555555556
+satellite and space communications topic--satellite#0.16000000000000003,and#0.16000000000000003,space#0.16000000000000003,communication#0.16000000000000003,topic#0.3599999999999999
+computer networks sensor topic--computer#0.1875,network#0.1875,sensor#0.1875,topic#0.4375
+computer architecture topic--computer#0.2222222222222222,architecture#0.2222222222222222,topic#0.5555555555555556
+organizational meeting--organizational#0.25,meet#0.75
+meal menu--meal#0.25,menu#0.75
+document--document#1.0
+free time break--free#0.2222222222222222,time#0.2222222222222222,break#0.5555555555555556
+welcome talk--welcome#0.25,talk#0.75
+meeting room place--meet#0.2222222222222222,room#0.2222222222222222,place#0.5555555555555556
+powerline transmission topic--powerline#0.2222222222222222,transmission#0.2222222222222222,topic#0.5555555555555556
+call--call#1.0
+numerical review question--numerical#0.2222222222222222,review#0.2222222222222222,question#0.5555555555555556
+medicine topic--medicine#0.25,topic#0.75
+reception--reception#1.0
+cryptography topic--cryptography#0.25,topic#0.75
+accpet if room rating--accpet#0.1875,if#0.1875,room#0.1875,rate#0.4375
+performance topic--performance#0.25,topic#0.75
+personal history--personal#0.25,history#0.75
+communications topic--communication#0.25,topic#0.75
+call for manuscripts--call#0.2222222222222222,for#0.2222222222222222,manuscript#0.5555555555555556
+paper--paper#1.0

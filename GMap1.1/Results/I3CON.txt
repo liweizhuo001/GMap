@@ -1,0 +1,399 @@
+The result of  animalsA and animalsB £º
+**************************************
+person,person,0.9334949931301412,1,1 (Right)
+animal,animal,0.9037155163222116,1,1 (Right)
+woman,woman,0.869215865194503,1,1 (Right)
+male,male,0.8585705423459095,1,1 (Right)
+female,female,0.8585705423459095,1,1 (Right)
+man,man,0.8302548124732115,1,1 (Right)
+humanbeing,person,0.9334949931301412,1,1 (Right)
+Concept pairs that was not found£º
+twoleggedperson,[bipedalperson]
+twoleggedthing,[bipedalthing]
+The number of  concept pairs that is right£º7.0
+**************************************
+hasSpouse,hasSpouse,0.7000000999999999  (Right)
+hasChild,hasChild,0.7000000999999999  (Right)
+hasMother,hasMother,0.7000000999999999  (Right)
+hasFather,hasFather,0.7000000999999999  (Right)
+biologicalMotherOf,biologicalMotherOf,0.7000000999999999  (Right)
+hasAncestor,hasAncestor,0.7000000999999999
+spouseOf,spouseOf,0.7000000999999999  (Right)
+hasParent,hasParent,0.7000000999999999  (Right)
+hasFriend,hasFriend,0.7000000999999999  (Right)
+age,age,0.7000000999999999  (Right)
+shirtsize,shirtsize,0.7000000999999999  (Right)
+shoesize,shoesize,0.7000000999999999  (Right)
+hasFemaleParent,hasMother,0.7000000999999999  (Right)
+hasMom,hasMother,0.7000000999999999  (Right)
+hasMaleParent,hasFather,0.7000000999999999  (Right)
+All the property pairs are found! 
+The number of  property pairs that is right £º14.0
+==========================================
+Precision£º0.9545454545454546 	Recall£º0.9130434782608695 	f1-measure£º0.9333333333333332
+
+
+The result of  hotelA and hotelB £º
+**************************************
+numbeds,numbedsattribute,0.7,2,3
+smokingpreference,smokingattribute,0.6546609238298615,2,2 (Right)
+onfloor,floorattribute,0.6546609238298615,2,2 (Right)
+hotelroom,room,0.6,2,1 (Right)
+All the concept pairs are found! 
+The number of  concept pairs that is right£º3.0
+**************************************
+hasOnFloor,OnFloor,0.7000000999999999  (Right)
+hasNumBeds,NumBeds,0.7000000999999999  (Right)
+Property pairs that was not found£º
+hassmokingpreference,[smokingornon]
+The number of  property pairs that is right £º2.0
+==========================================
+Precision£º0.8333333333333334 	Recall£º0.8333333333333334 	f1-measure£º0.8333333333333334
+
+
+The result of  networkA and networkB £º
+**************************************
+networknode,networknode,0.9251481894771477,2,2 (Right)
+computer,computer,0.9065873495365007,1,1 (Right)
+serversoftware,serversoftware,0.8736786753472591,2,2 (Right)
+cable,cable,0.8714425422417511,1,1 (Right)
+software,software,0.849698730027831,1,1 (Right)
+server,server,0.8302548124732115,1,1 (Right)
+pc,pc,0.8302548124732115,1,1 (Right)
+hub,hub,0.8228123409986846,1,1 (Right)
+router,router,0.8228123409986846,1,1 (Right)
+switch,switch,0.8228123409986846,1,1 (Right)
+straightthroughcable,straightthrough,0.8220944513489955,3,2 (Right)
+crossovercable,crossover,0.8220944513489955,3,2 (Right)
+equipment,equipment,0.8049985970309477,1,1 (Right)
+sshserver,ssh,0.8015584703472899,2,1 (Right)
+telnetserver,telnet,0.8015584703472899,2,1 (Right)
+otherserver,other,0.8015584703472899,2,1 (Right)
+ftpserver,ftp,0.8015584703472899,2,1 (Right)
+webserver,web,0.8015584703472899,2,1 (Right)
+coaxcable,coax,0.6203040645786645,2,1 (Right)
+officesoftware,office,0.5999999999999999,2,1 (Right)
+Concept pairs that was not found£º
+nodepair,[pairofnodes]
+operatingsystem,[os]
+switchequipment,[centralhub]
+The number of  concept pairs that is right£º20.0
+**************************************
+HasSoftware,HasSoftware,0.7000000999999999  (Right)
+NodeB,NodeB,0.7000000999999999  (Right)
+ConnectedTo,ConnectedTo,0.7000000999999999  (Right)
+NodeA,NodeA,0.7000000999999999  (Right)
+ConnectedWith,ConnectedThrough,0.7000000999999999  (Right)
+All the property pairs are found! 
+The number of  property pairs that is right £º5.0
+==========================================
+Precision£º1.0 	Recall£º0.8928571428571429 	f1-measure£º0.9433962264150945
+
+
+The result of  people+petsA and people+petsB £º
+**************************************
+person,person,0.969333366650841,1,1 (Right)
+driver,driver,0.9635824339169387,1,1 (Right)
+grownup,grownup,0.9632165625700101,1,1 (Right)
+pet_owner,pet_owner,0.9613107285340614,2,2 (Right)
+woman,woman,0.9596977671623358,1,1 (Right)
+van_driver,van_driver,0.9596977671623358,2,2 (Right)
+man,man,0.9596977671623358,1,1 (Right)
+cat_owner,cat_owner,0.9594247424569221,2,2 (Right)
+newspaper,newspaper,0.9576875421781268,1,1 (Right)
+broadsheet,broadsheet,0.9568936828369022,2,2 (Right)
+tabloid,tabloid,0.9568936828369022,2,2 (Right)
+pet,pet,0.9502323069082685,1,1 (Right)
+animal,animal,0.9499192354948702,1,1 (Right)
+old_lady,old_lady,0.9449959425089646,1,1 (Right)
+white_van_man,white_van_man,0.9449889722351967,3,3 (Right)
+dog_owner,dog_owner,0.9444054037352083,2,2 (Right)
+duck,duck,0.9354063364857269,1,1 (Right)
+tiger,tiger,0.9354063364857269,1,1 (Right)
+cat,cat,0.9354063364857269,1,1 (Right)
+van,van,0.9354063364857269,1,1 (Right)
+dog,dog,0.9354063364857269,1,1 (Right)
+adult,adult,0.9349965447502739,1,1 (Right)
+publication,publication,0.9349307274653531,1,1 (Right)
+vehicle,vehicle,0.9348123237997237,1,1 (Right)
+male,male,0.9315750275530775,1,1 (Right)
+female,female,0.9315750275530775,1,1 (Right)
+white_thing,white_thing,0.8999999999999999,2,2 (Right)
+bus,coach,0.8901907720257359,1,1 (Right)
+cat_liker,cat_lover,0.8888627770532528,2,2 (Right)
+dog_liker,dog_lover,0.8814576278014813,2,2 (Right)
+haulage_truck_driver,haulage_truck_driver,0.8343384738247842,3,3 (Right)
+quality_broadsheet,quality_broadsheet,0.8302548124732115,2,2 (Right)
+red_top,red_top,0.8302548124732115,2,2 (Right)
+animal_lover,animal_lover,0.8302548124732115,2,2 (Right)
+bus_driver,coach_driver,0.8246748847978966,2,2 (Right)
+kid,kid,0.8228123409986846,1,1 (Right)
+sheep,sheep,0.8062190094571811,1,1 (Right)
+bicycle,bicycle,0.8062190094571811,1,1 (Right)
+magazine,magazine,0.8062190094571811,1,1 (Right)
+giraffe,giraffe,0.8062190094571811,1,1 (Right)
+truck,truck,0.8062190094571811,1,1 (Right)
+car,car,0.8062190094571811,1,1 (Right)
+cow,mad_cow,0.8062190094571811,1,1
+grass,grass,0.7,1,1 (Right)
+brain,brain,0.7,1,1 (Right)
+company,company,0.7,1,1 (Right)
+tree,tree,0.7,1,1 (Right)
+haulage_worker,haulage_worker,0.7,2,2 (Right)
+leaf,leaf,0.7,1,1 (Right)
+plant,plant,0.7,1,1 (Right)
+bone,bone,0.7,1,1 (Right)
+haulage_company,haulage_company,0.7,2,2 (Right)
+Concept pairs that was not found£º
+bus_company,[coach_company]
+cow,[cow]
+elderly,[senior_citizen]
+lorry,[truck]
+lorry_driver,[truck_driver]
+mad_cow,[mad_cow]
+young,[juvenile]
+The number of  concept pairs that is right£º51.0
+**************************************
+is_pet_of,is_pet_of,0.7535305739950888  (Right)
+has_pet,has_pet,0.7451561170700995
+has_father,has_father,0.7000000999999999  (Right)
+has_part,has_part,0.7000000999999999  (Right)
+drives,drives,0.7000000999999999  (Right)
+has_parent,has_parent,0.7000000999999999  (Right)
+part_of,part_of,0.7000000999999999  (Right)
+has_mother,has_mother,0.7000000999999999  (Right)
+likes,likes,0.7000000999999999  (Right)
+eaten_by,eaten_by,0.7000000999999999  (Right)
+has_child,has_child,0.7000000999999999  (Right)
+works_for,works_for,0.7000000999999999  (Right)
+eats,eats,0.7000000999999999  (Right)
+reads,reads,0.7000000999999999  (Right)
+service_number,service_number,0.7000000999999999  (Right)
+All the property pairs are found! 
+The number of  property pairs that is right £º14.0
+==========================================
+Precision£º0.9701492537313433 	Recall£º0.9027777777777778 	f1-measure£º0.9352517985611511
+
+
+The result of  russiaA and russiaB £º
+**************************************
+food,food,0.9568936828369022,1,1 (Right)
+political_region,political_area,0.953961013277427,2,2 (Right)
+river,river,0.9434182708244038,1,1 (Right)
+drink,drink,0.9434182708244038,1,1 (Right)
+city,city,0.9434182708244038,1,1 (Right)
+country,country,0.9434182708244038,1,1 (Right)
+sea,sea,0.9434182708244038,1,1 (Right)
+lake,lake,0.9434182708244038,1,1 (Right)
+palace,palace,0.9409374469995615,1,1 (Right)
+month,month,0.9409374469995615,1,1 (Right)
+season,season,0.9409374469995615,1,1 (Right)
+square,square,0.9354063364857269,1,1 (Right)
+language,language,0.9354063364857269,1,1 (Right)
+time,time_unit,0.9072094249278877,1,2
+person,person,0.9045482779116367,1,1 (Right)
+human_being,human_being,0.8787593931490031,2,2 (Right)
+region,region,0.8740422335010049,1,1 (Right)
+living_being,living_being,0.8736786753472591,2,2 (Right)
+unit,unit,0.8674054106137028,1,1 (Right)
+geographical_environment,area,0.840029103603529,2,1
+president,president,0.833216211205625,1,1 (Right)
+public_building,building,0.8318774921911398,2,1 (Right)
+town,town,0.8302548124732115,1,1 (Right)
+peninsula,peninsula,0.8302548124732115,1,1 (Right)
+canal,canal,0.8302548124732115,1,1 (Right)
+forest,forest,0.8302548124732115,1,1 (Right)
+hotel,hotel,0.8302548124732115,1,1 (Right)
+mountain,mountain,0.8302548124732115,1,1 (Right)
+island,island,0.8302548124732115,1,1 (Right)
+material,material_thing,0.8233181979194077,1,2 (Right)
+area_unit,area_unit,0.8228123409986846,2,2 (Right)
+animal,animal,0.8228123409986846,1,1 (Right)
+document,document,0.8228123409986846,1,1 (Right)
+fortress,fortress,0.8228123409986846,1,1 (Right)
+cathedral,cathedral,0.8228123409986846,1,1 (Right)
+plant,plant,0.8228123409986846,1,1 (Right)
+length_unit,length_unit,0.8228123409986846,2,2 (Right)
+church,church,0.8228123409986846,1,1 (Right)
+restaurant,restaurant,0.8228123409986846,1,1 (Right)
+tourist_information,fact,0.813115196741405,2,1
+dance,art,0.8116975303850998,1,1
+surface_area,surface_area,0.8062190094571811,2,2 (Right)
+music,music,0.8062190094571811,1,1 (Right)
+monument,monument,0.8062190094571811,1,1 (Right)
+religion,religion,0.8062190094571811,1,1 (Right)
+festival,festival,0.8062190094571811,1,1 (Right)
+museum,museum,0.8062190094571811,1,1
+architecture,architecture,0.8062190094571811,1,1 (Right)
+garden,garden,0.8062190094571811,1,1 (Right)
+theatre,theatre,0.8062190094571811,1,1
+travel_event,travel_event,0.8062190094571811,2,2
+ballet,ballet,0.8062190094571811,1,1 (Right)
+literature,literature,0.8062190094571811,1,1 (Right)
+time_zone,time_zone,0.8062190094571811,2,2 (Right)
+default_root_concept,default_root_concept,0.8049999999999999,3,3 (Right)
+string,string,0.7,1,1
+integer,integer,0.7,1,1
+boolean,boolean,0.7,1,1
+means_of_payment,payment,0.6,2,1 (Right)
+public_space,space,0.6,2,1 (Right)
+bank,natur_reserve,0.5990463410452791,1,2
+Concept pairs that was not found£º
+concert_hall,[theatre]
+currency,[monetary__unit]
+dimension,[measurement]
+geographical_environment,[nature_area]
+normal_traveler,[traveller]
+spiritual_product,[immaterial_thing]
+theatre,[cinema]
+time_unit,[time_unit]
+The number of  concept pairs that is right£º50.0
+**************************************
+has_birthplace,has_birthplace,0.7000000999999999  (Right)
+has_time_unit,has_time_unit,0.7000000999999999  (Right)
+is_close_to,is_close_to,0.7000000999999999  (Right)
+has_destination,has_destination,0.7000000999999999
+DEFAULT_ROOT_RELATION,DEFAULT_ROOT_RELATION,0.7000000999999999  (Right)
+Property pairs that was not found£º
+belong_to_country___city,[belong_to___city]
+has_capital,[has_capital_city]
+has_duration_value,[has_duration]
+has_length_unit___palace,[has_length_unit]
+has_sight___city,[has_attractions]
+has_training_place,[has_place]
+lie_in,[lie_in___locatable_thing]
+take_place_at,[is_at]
+take_place_on,[is_on]
+The number of  property pairs that is right £º4.0
+==========================================
+Precision£º0.8181818181818182 	Recall£º0.7605633802816901 	f1-measure£º0.7883211678832117
+
+
+The result of  WeaponsA and WeaponsB £º
+**************************************
+ballistic-missile,ballistic-missile,0.8915905371873984,2,2 (Right)
+surface-to-surface-missile,surface-to-surface-missile,0.8896656280715475,3,3 (Right)
+cruise-missile,cruise-missile,0.8895480413137467,2,2 (Right)
+missile,missile,0.8848280216491449,1,1 (Right)
+modern-naval-ship,modern-naval-ship,0.8847052792666733,3,3 (Right)
+missile-craft,missile-craft,0.8782742273707664,2,2 (Right)
+projectile-weapon,projectile-weapon,0.8740423561471676,2,2 (Right)
+conventional-weapon,conventional-weapon,0.8740422335010049,2,2 (Right)
+surface-ship,surface-ship,0.8740414499180589,2,2 (Right)
+artillery,artillery,0.8714425422417511,1,1 (Right)
+armored-combat-vehicle,armored-combat-vehicle,0.8706810485107068,3,3 (Right)
+bomb,bomb,0.8674054106137028,1,1 (Right)
+saudi-naval-missile-craft,saudi-naval-missile-craft,0.8343384738247842,4,4 (Right)
+badar-2000,badar-2000,0.8343384738247842,2,2
+scudb-missile,scudb-missile,0.8343384738247842,2,2 (Right)
+mushak120-missile,mushak120-missile,0.8343384738247842,2,2 (Right)
+al-hijarah-missile,al-hijarah-missile,0.8343384738247842,3,3 (Right)
+al-hussein-missile,al-hussein-missile,0.8343384738247842,3,3 (Right)
+silkworm-missile,silkworm-missile,0.8343384738247842,2,2 (Right)
+nodong-1-missile,nodong-1-missile,0.8343384738247842,3,3 (Right)
+m-9-missile,m-9-missile,0.8343384738247842,3,3 (Right)
+arabil-100-missile,arabil-100-missile,0.8343384738247842,3,3 (Right)
+mrbm,mrbm,0.8343384738247842,1,1 (Right)
+icbm,icbm,0.8343384738247842,1,1 (Right)
+scarab-missile,scarab-missile,0.8343384738247842,2,2 (Right)
+nodong-2-missile,nodong-2-missile,0.8343384738247842,3,3 (Right)
+scudc-missile,scudc-missile,0.8343384738247842,2,2 (Right)
+css2-missile,css2-missile,0.8343384738247842,2,2 (Right)
+saqr-2000,saqr-2000,0.8343384738247842,2,2 (Right)
+tammouz1-missile,tammouz1-missile,0.8343384738247842,2,2 (Right)
+css8-missile,css8-missile,0.8343384738247842,2,2 (Right)
+oghab-missile,oghab-missile,0.8343384738247842,2,2 (Right)
+al-fattah-missile,al-fattah-missile,0.8343384738247842,3,3 (Right)
+ss-n-22-sunburn-lcm,ss-n-22-sunburn-lcm,0.833216211205625,5,5 (Right)
+torpedo-craft,torpedo-craft,0.833216211205625,2,2 (Right)
+mine-warfare-vessel,mine-warfare-vessel,0.833216211205625,3,3 (Right)
+rgm-84a-harpoon-slcm,rgm-84a-harpoon-slcm,0.833216211205625,4,4 (Right)
+as-11-kilter-alcm,as-11-kilter-alcm,0.833216211205625,4,4 (Right)
+as-9-kyle-alcm,as-9-kyle-alcm,0.833216211205625,4,4 (Right)
+hy-4-c-201-missile,hy-4-c-201-missile,0.833216211205625,5,5 (Right)
+silkworm-missile-mod,silkworm-missile-mod,0.833216211205625,3,3 (Right)
+tornado,tornado,0.8302548124732115,1,1 (Right)
+air-to-air-missile,air-to-air-missile,0.8302548124732115,3,3 (Right)
+anti-radar-missile,anti-radar-missile,0.8302548124732115,3,3 (Right)
+air-to-surface-missile,air-to-surface-missile,0.8302548124732115,4,4 (Right)
+surface-to-air-missile,surface-to-air-missile,0.8302548124732115,4,4 (Right)
+molotov-cocktail,molotov-cocktail,0.8302548124732115,2,2 (Right)
+tank-vehicle,tank-vehicle,0.8302548124732115,2,2 (Right)
+aircraft-carrier,aircraft-carrier,0.8302548124732115,2,2 (Right)
+self-propelled-artillery,self-propelled-artillery,0.8228123409986846,3,3 (Right)
+mortar,mortar,0.8228123409986846,1,1 (Right)
+artillery-shell,artillery-shell,0.8228123409986846,2,2 (Right)
+support-vessel,support-vessel,0.8228123409986846,2,2 (Right)
+towed-artillery,towed-artillery,0.8228123409986846,2,2 (Right)
+patrol-combatant,patrol-combatant,0.8228123409986846,2,2 (Right)
+air-defense-gun,air-defense-gun,0.8228123409986846,3,3 (Right)
+torpedo,torpedo,0.8228123409986846,1,1 (Right)
+machine-gun,machine-gun,0.8228123409986846,2,2 (Right)
+truck-bomb,truck-bomb,0.8228123409986846,2,2 (Right)
+small-arms,small-arms,0.8228123409986846,2,2 (Right)
+principal-surface-combatant,principal-surface-combatant,0.8228123409986846,3,3 (Right)
+cruiser,cruiser,0.8228123409986846,1,1 (Right)
+frigate,frigate,0.8228123409986846,1,1 (Right)
+amphibious-vessel,amphibious-vessel,0.8228123409986846,2,2 (Right)
+warplane,warplane,0.8228123409986846,1,1 (Right)
+corvette,corvette,0.8228123409986846,1,1 (Right)
+patrol-craft,patrol-watercraft,0.819222513372034,2,2 (Right)
+nuclear-weapon,nuclear-weapon,0.8062190094571811,2,2 (Right)
+anti-ship-missile-radar,anti-ship-missile-radar,0.8062190094571811,4,4 (Right)
+mine,mine,0.8062190094571811,1,1 (Right)
+naval-countermine-weapon,naval-countermine-weapon,0.8062190094571811,3,3 (Right)
+weapon,weapon,0.8049999999999999,1,1 (Right)
+All the concept pairs are found! 
+The number of  concept pairs that is right£º71.0
+**************************************
+All the property pairs are found! 
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.9861111111111112 	Recall£º1.0 	f1-measure£º0.993006993006993
+
+
+The result of  WineA and WineB £º
+**************************************
+cabernetsauvignon,cabernetsauvignon,0.8062190094571811,2,2 (Right)
+petitesirah,petitesirah,0.8062190094571811,2,2 (Right)
+berbera,berbera,0.8062190094571811,1,1 (Right)
+sake,sake,0.8062190094571811,1,1 (Right)
+chianti,chianti,0.8062190094571811,1,1 (Right)
+sangiovese,sangiovese,0.8062190094571811,1,1 (Right)
+chardonnay,chardonnay,0.8062190094571811,1,1 (Right)
+tempranillo,tempranillo,0.8062190094571811,1,1 (Right)
+nebbiolo,nebbiolo,0.8062190094571811,1,1 (Right)
+pinotnior,pinotnior,0.8062190094571811,2,2 (Right)
+sauvignonblanc,sauvignonblanc,0.8062190094571811,2,2 (Right)
+cheninblanc,cheninblanc,0.8062190094571811,2,2 (Right)
+merlot,merlot,0.8062190094571811,1,1 (Right)
+chablis,chablis,0.8062190094571811,1,1 (Right)
+muscat,muscat,0.8062190094571811,1,1 (Right)
+syrah,syrah,0.8062190094571811,1,1 (Right)
+zinfandel,zinfandel,0.8062190094571811,1,1 (Right)
+semillon,semillon,0.8062190094571811,1,1 (Right)
+pinotgris,pinotgris,0.8062190094571811,2,2 (Right)
+riesling,riesling,0.8062190094571811,1,1 (Right)
+pinotblanc,pinotblanc,0.8062190094571811,2,2 (Right)
+dolcetto,dolcetto,0.8062190094571811,1,1 (Right)
+gewurztaminer,gewurztaminer,0.8062190094571811,1,1 (Right)
+Concept pairs that was not found£º
+cabernetmerlot,[mezcladecabernet]
+italianred,[rojoitaliano]
+itialianwhite,[blancoitaliano]
+redbordeaux,[burdeosrojo]
+redburgundy,[burgonaroja]
+redwine,[vinosrojos]
+whitebordeaux,[burdeosblanco]
+whiteburgundy,[borgonablanca]
+whitewine,[vinosblancos]
+wine,[vino]
+The number of  concept pairs that is right£º23.0
+**************************************
+All the property pairs are found! 
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º1.0 	Recall£º0.696969696969697 	f1-measure£º0.8214285714285715
+
+
+Time consumption£º33s

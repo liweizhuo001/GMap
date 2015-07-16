@@ -1,0 +1,14 @@
+Rejected_contribution--RejectedPaper
+Topic--Topic
+Accepted_contribution--AcceptedPaper
+Conference_volume--Conference
+Paper--Paper
+Review--Review
+Conference_part--ConferenceEvent
+Workshop--Workshop
+Conference_document--Document
+Reviewer--Reviewer
+Regular_author--Author
+Person--Person
+Conference_participant--Attendee
+Organization--Organization

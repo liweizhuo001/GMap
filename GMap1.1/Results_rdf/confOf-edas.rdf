@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://confOf</onto1>
+	<onto2>http://edas</onto2>
+	<uri1>http://confOf</uri1>
+	<uri2>http://edas</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#social_event"/>
+			<entity2 rdf:resource="http://edas#socialevent"/>
+			<measure rdf:datatype="xsd:float">0.8585705423459095</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#author"/>
+			<entity2 rdf:resource="http://edas#author"/>
+			<measure rdf:datatype="xsd:float">0.8407963152329327</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#person"/>
+			<entity2 rdf:resource="http://edas#person"/>
+			<measure rdf:datatype="xsd:float">0.8313533069504874</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#reception"/>
+			<entity2 rdf:resource="http://edas#reception"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#workshop"/>
+			<entity2 rdf:resource="http://edas#workshop"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#paper"/>
+			<entity2 rdf:resource="http://edas#paper"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#conference"/>
+			<entity2 rdf:resource="http://edas#conference"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#organization"/>
+			<entity2 rdf:resource="http://edas#organization"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#topic"/>
+			<entity2 rdf:resource="http://edas#topic"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#country"/>
+			<entity2 rdf:resource="http://edas#country"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#event"/>
+			<entity2 rdf:resource="http://edas#conferenceevent"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#member"/>
+			<entity2 rdf:resource="http://edas#tpcmember"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#hasTopic"/>
+			<entity2 rdf:resource="http://edas#hasTopic"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#hasCountry"/>
+			<entity2 rdf:resource="http://edas#hasCountry"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#writtenBy"/>
+			<entity2 rdf:resource="http://edas#isWrittenBy"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#hasEmail"/>
+			<entity2 rdf:resource="http://edas#hasEmail"/>
+			<measure rdf:datatype="xsd:float">0.7516738727138266</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#hasFirstName"/>
+			<entity2 rdf:resource="http://edas#hasFirstName"/>
+			<measure rdf:datatype="xsd:float">0.7516738727138266</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#hasStreet"/>
+			<entity2 rdf:resource="http://edas#hasStreet"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#hasPhone"/>
+			<entity2 rdf:resource="http://edas#hasPhone"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#hasPostalCode"/>
+			<entity2 rdf:resource="http://edas#hasPostalCode"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

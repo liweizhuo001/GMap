@@ -1,0 +1,9 @@
+Organization--?diteur,Institution,Universit¨¦
+Informel--Manuel,Polycopi¨¦,NonPubli¨¦,Livret
+Partie--ExtraitActes,ExtraitLivre,Chapitre,ExtraitCompilation,Article
+Raport--M¨¦moire,Livrable,RaportTechnique,M¨¦moireDeMast¨¨re,M¨¦moireDeDoctorat
+Institution--?diteur,Universit¨¦
+Livre--Compilation,Actes,Monographie
+M¨¦moire--M¨¦moireDeMast¨¨re,M¨¦moireDeDoctorat
+List--Personnes
+R¨¦f¨¦rence--Manuel,M¨¦moire,Divers,NonPubli¨¦,M¨¦moireDeMast¨¨re,Partie,Livret,M¨¦moireDeDoctorat,Actes,Raport,Livre,Film,Compilation,Livrable,RaportTechnique,ExtraitActes,ExtraitLivre,Polycopi¨¦,Chapitre,ExtraitCompilation,Informel,Article,Monographie

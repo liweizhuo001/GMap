@@ -1,0 +1,3 @@
+RoomAttribute--ExclusiveAttribute
+ExclusiveAttribute--SmokingAttribute,SizeAttribute,FloorAttribute,NumBedsAttribute
+Thing--Room,RoomAttribute

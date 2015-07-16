@@ -1,0 +1,637 @@
+The result of  cmt and Conference £º
+**************************************
+co-author,contribution_co-author,0.8480404507606506,2,3 (Right)
+author,regular_author,0.8398113592738382,1,2 (Right)
+conferencemember,committee_member,0.8396675288502887,2,2
+reviewer,reviewer,0.835386944902534,1,1
+person,person,0.833873139403825,1,1 (Right)
+chairman,chair,0.8143619305645646,1,1 (Right)
+paper,paper,0.8062190094571811,1,1
+review,review,0.8062190094571811,1,1 (Right)
+conference,conference,0.7,1,1 (Right)
+programcommittee,program_committee,0.7,2,2 (Right)
+document,conference_document,0.6800461256353628,1,2 (Right)
+paperabstract,abstract,0.6,2,1 (Right)
+preference,review_preference,0.6,1,2 (Right)
+Concept pairs that was not found£º
+conference,[conference_volume]
+subjectarea,[topic]
+The number of  concept pairs that is right£º10.0
+**************************************
+hasAuthor,has_authors,0.7000000999999999
+email,has_an_email,0.7538793416002514  (Right)
+name,has_a_name,0.7000000999999999
+Property pairs that was not found£º
+assignedbyreviewer,[invited_by]
+assignexternalreviewer,[invites_co-reviewers]
+The number of  property pairs that is right £º1.0
+==========================================
+Precision£º0.6875 	Recall£º0.7333333333333333 	f1-measure£º0.7096774193548386
+
+
+The result of  cmt and confOf £º
+**************************************
+author,author,0.835386944902534,1,1 (Right)
+administrator,administrator,0.835386944902534,1,1 (Right)
+person,person,0.830932370901639,1,1 (Right)
+paper,paper,0.7,1,1
+conference,conference,0.7,1,1 (Right)
+conferencemember,member,0.6,2,1 (Right)
+Concept pairs that was not found£º
+paper,[contribution]
+paperfullversion,[paper]
+programcommitteechair,[chair_pc]
+programcommitteemember,[member_pc]
+subjectarea,[topic]
+The number of  concept pairs that is right£º5.0
+**************************************
+writtenBy,writtenBy,0.7000000999999999
+email,hasEmail,0.753120445806815  (Right)
+title,hasTitle,0.7000000999999999  (Right)
+Property pairs that was not found£º
+hasauthor,[writtenby]
+hasbeenassigned,[reviewes]
+hassubjectarea,[dealswith]
+writepaper,[writes]
+The number of  property pairs that is right £º2.0
+==========================================
+Precision£º0.7777777777777778 	Recall£º0.4375 	f1-measure£º0.56
+
+
+The result of  cmt and edas £º
+**************************************
+conferencechair,conferencechair,0.835386944902534,2,2 (Right)
+reviewer,reviewer,0.835386944902534,1,1 (Right)
+author,author,0.835386944902534,1,1 (Right)
+person,person,0.830932370901639,1,1 (Right)
+paper,paper,0.8062190094571811,1,1 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+document,document,0.7,1,1 (Right)
+conference,conference,0.7,1,1 (Right)
+All the concept pairs are found! 
+The number of  concept pairs that is right£º8.0
+**************************************
+writtenBy,isWrittenBy,0.7000000999999999
+email,hasEmail,0.753120445806815
+name,hasName,0.7000000999999999
+Property pairs that was not found£º
+assignedto,[isreviewedby]
+hasauthor,[iswrittenby]
+hasbeenassigned,[isreviewing]
+hasconferencemember,[hasmember]
+memberofconference,[ismemberof]
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.7272727272727273 	Recall£º0.6153846153846154 	f1-measure£º0.6666666666666667
+
+
+The result of  cmt and ekaw £º
+**************************************
+paper,paper,0.8062190094571811,1,1 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+conferencechair,session_chair,0.801682288714086,2,2
+person,person,0.8009751254783032,1,1 (Right)
+document,document,0.8009751254783032,1,1 (Right)
+conference,conference,0.7,1,1 (Right)
+author,paper_author,0.6506536613465097,1,2 (Right)
+paperabstract,abstract,0.6,2,1
+reviewer,possible_reviewer,0.6,1,2
+Concept pairs that was not found£º
+conferencemember,[conference_participant]
+paperfullversion,[regular_paper]
+The number of  concept pairs that is right£º6.0
+**************************************
+writtenBy,writtenBy,0.7000000999999999
+Property pairs that was not found£º
+assignedto,[hasreviewer]
+hasbeenassigned,[reviewerofpaper]
+writtenby,[reviewwrittenby]
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.6 	Recall£º0.5454545454545454 	f1-measure£º0.5714285714285713
+
+
+The result of  cmt and iasted £º
+**************************************
+review,review,0.8062190094571811,1,1 (Right)
+reviewer,reviewer,0.8062190094571811,1,1 (Right)
+author,author,0.8062190094571811,1,1 (Right)
+person,person,0.8034832419164912,1,1 (Right)
+conferencechair,session_chair,0.801682288714086,2,2
+document,document,0.7,1,1
+All the concept pairs are found! 
+The number of  concept pairs that is right£º4.0
+**************************************
+date,is_dated_on,0.7000000999999999
+All the property pairs are found! 
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.5714285714285714 	Recall£º1.0 	f1-measure£º0.7272727272727273
+
+
+The result of  cmt and sigkdd £º
+**************************************
+author,author,0.8407963152329327,1,1 (Right)
+programcommitteemember,program_committee_member,0.8407963152329327,3,3 (Right)
+person,person,0.8385487042989401,1,1 (Right)
+programcommitteechair,program_chair,0.8067469750331885,3,2 (Right)
+paper,paper,0.8062190094571811,1,1 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+document,document,0.8009751254783032,1,1 (Right)
+conference,conference,0.7,1,1 (Right)
+programcommittee,program_committee,0.7,2,2 (Right)
+paperabstract,abstract,0.6,2,1
+Concept pairs that was not found£º
+conferencechair,[general_chair]
+The number of  concept pairs that is right£º9.0
+**************************************
+name,Name,0.753673127198907
+email,E-mail,0.753673127198907  (Right)
+date,Date,0.7000000999999999
+Property pairs that was not found£º
+submitpaper,[submit]
+The number of  property pairs that is right £º1.0
+==========================================
+Precision£º0.7692307692307693 	Recall£º0.8333333333333334 	f1-measure£º0.8
+
+
+The result of  Conference and confOf £º
+**************************************
+person,person,0.8364881235491677,1,1 (Right)
+conference_participant,participant,0.811296658767958,2,1
+paper,paper,0.8062190094571811,1,1 (Right)
+poster,poster,0.8062190094571811,1,1 (Right)
+workshop,workshop,0.7,1,1 (Right)
+organization,organization,0.7,1,1 (Right)
+conference,conference,0.7,1,1
+topic,topic,0.7,1,1 (Right)
+tutorial,tutorial,0.7,1,1 (Right)
+regular_contribution,regular,0.6338007635454443,2,1
+committee_member,member,0.6141346882535182,2,1
+conference_contribution,contribution,0.6,2,1 (Right)
+regular_author,author,0.6,2,1 (Right)
+Concept pairs that was not found£º
+conference_volume,[conference]
+The number of  concept pairs that is right£º9.0
+**************************************
+has_an_email,hasEmail,0.753120445806815  (Right)
+has_the_first_name,hasFirstName,0.753120445806815  (Right)
+has_a_location,location,0.7000000999999999
+Property pairs that was not found£º
+has_a_track-workshop-tutorial_topic,[hastopic]
+has_the_last_name,[hassurname]
+The number of  property pairs that is right £º2.0
+==========================================
+Precision£º0.6875 	Recall£º0.7857142857142857 	f1-measure£º0.7333333333333334
+
+
+The result of  Conference and edas £º
+**************************************
+reviewer,reviewer,0.8433259029198974,1,1 (Right)
+person,person,0.8390861641029883,1,1 (Right)
+paper,paper,0.8062190094571811,1,1 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+workshop,workshop,0.7,1,1 (Right)
+organization,organization,0.7,1,1 (Right)
+conference,conference,0.7,1,1
+topic,topic,0.7,1,1 (Right)
+conference_document,document,0.6800461256353628,2,1 (Right)
+invited_talk,welcometalk,0.6781930060194304,2,2
+call_for_paper,callforpapers,0.646153849363327,3,3
+presentation,paperpresentation,0.6271227088523958,1,2
+chair,conferencechair,0.604163477404868,1,2
+regular_author,author,0.6,2,1 (Right)
+Concept pairs that was not found£º
+accepted_contribution,[acceptedpaper]
+conference_part,[conferenceevent]
+conference_participant,[attendee]
+conference_volume,[conference]
+rejected_contribution,[rejectedpaper]
+The number of  concept pairs that is right£º9.0
+**************************************
+has_members,hasMember,0.7000000999999999
+has_a_review,isReviewing,0.7000000999999999
+was_a_member_of,isMemberOf,0.7000000999999999
+has_an_email,hasEmail,0.753120445806815
+has_the_last_name,hasLastName,0.753120445806815  (Right)
+has_the_first_name,hasFirstName,0.753120445806815  (Right)
+is_an_ending_date,endDate,0.7000000999999999
+is_a_starting_date,startDate,0.7000000999999999
+has_a_name,hasName,0.7000000999999999
+Property pairs that was not found£º
+has_a_review_expertise,[hasrating]
+The number of  property pairs that is right £º2.0
+==========================================
+Precision£º0.4782608695652174 	Recall£º0.6470588235294118 	f1-measure£º0.55
+
+
+The result of  Conference and ekaw £º
+**************************************
+invited_speaker,invited_speaker,0.8062190094571811,2,2 (Right)
+paper,paper,0.8062190094571811,1,1
+abstract,abstract,0.8062190094571811,1,1 (Right)
+conference_participant,conference_participant,0.8062190094571811,2,2
+review,review,0.8062190094571811,1,1 (Right)
+invited_talk,invited_talk,0.8062190094571811,2,2
+person,person,0.804436971399171,1,1 (Right)
+workshop,workshop,0.7,1,1 (Right)
+conference,conference,0.7,1,1
+track,track,0.7,1,1 (Right)
+tutorial,tutorial,0.7,1,1 (Right)
+conference_proceedings,conference_proceedings,0.7,2,2 (Right)
+organization,organisation,0.7,1,1 (Right)
+conference_document,document,0.6800461256353628,2,1 (Right)
+poster,poster_paper,0.6506536613465097,1,2 (Right)
+track-workshop_chair,workshop_chair,0.6312442954849076,3,2 (Right)
+topic,research_topic,0.6,1,2 (Right)
+reviewer,possible_reviewer,0.6,1,2
+publisher,proceedings_publisher,0.6,1,2
+chair,pc_chair,0.6,1,2
+presentation,individual_presentation,0.6,1,2
+Concept pairs that was not found£º
+accepted_contribution,[accepted_paper]
+conference_volume,[conference]
+conference_www,[web_site]
+early_paid_applicant,[early-registered_participant]
+information_for_participants,[programme_brochure]
+late_paid_applicant,[late-registered_participant]
+regular_author,[paper_author]
+rejected_contribution,[rejected_paper]
+reviewed_contribution,[evaluated_paper]
+submitted_contribution,[submitted_paper]
+The number of  concept pairs that is right£º13.0
+**************************************
+has_a_review,hasReview,0.7000000999999999  (Right)
+has_parts,hasPart,0.7000000999999999
+Property pairs that was not found£º
+contributes,[authorof]
+The number of  property pairs that is right £º1.0
+==========================================
+Precision£º0.6086956521739131 	Recall£º0.56 	f1-measure£º0.5833333333333334
+
+
+The result of  Conference and iasted £º
+**************************************
+reviewer,reviewer,0.8062190094571811,1,1 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+person,person,0.8009751254783032,1,1 (Right)
+tutorial,tutorial,0.7,1,1 (Right)
+presentation,presentation,0.7,1,1
+conference_document,document,0.6800461256353628,2,1 (Right)
+conference_fees,fee,0.6,2,1 (Right)
+regular_author,author,0.6,2,1 (Right)
+plenary_lecture,tutorial,0.7,1,1
+Concept pairs that was not found£º
+active_conference_participant,[speaker]
+camera_ready_contribution,[final_manuscript]
+conference_part,[conference_activity]
+conference_proceedings,[publication]
+passive_conference_participant,[listener]
+submitted_contribution,[submission]
+The number of  concept pairs that is right£º7.0
+**************************************
+is_given_by,is_given_by,0.7000000999999999
+Property pairs that was not found£º
+contributes,[write]
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.7 	Recall£º0.5 	f1-measure£º0.5833333333333334
+
+
+The result of  Conference and sigkdd £º
+**************************************
+invited_speaker,invited_speaker,0.835386944902534,2,2 (Right)
+person,person,0.8330629653849977,1,1 (Right)
+paper,paper,0.8062190094571811,1,1 (Right)
+abstract,abstract,0.8062190094571811,1,1 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+program_committee,program_committee,0.8062190094571811,2,2 (Right)
+organizing_committee,organizing_committee,0.8062190094571811,2,2 (Right)
+conference,conference,0.7,1,1
+committee,committee,0.7,1,1 (Right)
+conference_document,document,0.6800461256353628,2,1 (Right)
+committee_member,organizing_committee_member,0.6222222222222222,2,3
+conference_fees,fee,0.6,2,1 (Right)
+regular_author,author,0.6,2,1 (Right)
+Concept pairs that was not found£º
+conference_volume,[conference]
+The number of  concept pairs that is right£º11.0
+**************************************
+has_an_email,E-mail,0.753673127198907  (Right)
+has_a_name,Name,0.7000000999999999
+Property pairs that was not found£º
+gives_presentations,[presentation]
+is_given_by,[presentationed_by]
+The number of  property pairs that is right £º1.0
+==========================================
+Precision£º0.8 	Recall£º0.8 	f1-measure£º0.8000000000000002
+
+
+The result of  confOf and edas £º
+**************************************
+social_event,socialevent,0.8585705423459095,2,2 (Right)
+author,author,0.8407963152329327,1,1 (Right)
+person,person,0.8313533069504874,1,1 (Right)
+reception,reception,0.8228123409986846,1,1 (Right)
+workshop,workshop,0.8062190094571811,1,1 (Right)
+paper,paper,0.7,1,1 (Right)
+conference,conference,0.7,1,1
+organization,organization,0.7,1,1 (Right)
+topic,topic,0.7,1,1 (Right)
+country,country,0.7,1,1 (Right)
+event,conferenceevent,0.6,1,2 (Right)
+member,tpcmember,0.6,1,2
+Concept pairs that was not found£º
+member_pc,[tpcmember]
+participant,[attendee]
+trip,[excursion]
+working_event,[academicevent]
+The number of  concept pairs that is right£º10.0
+**************************************
+hasTopic,hasTopic,0.7000000999999999
+hasCountry,hasCountry,0.7000000999999999
+writtenBy,isWrittenBy,0.7000000999999999  (Right)
+hasEmail,hasEmail,0.7516738727138266
+hasFirstName,hasFirstName,0.7516738727138266  (Right)
+hasStreet,hasStreet,0.7000000999999999
+hasPhone,hasPhone,0.7000000999999999
+hasPostalCode,hasPostalCode,0.7000000999999999
+Property pairs that was not found£º
+hassurname,[haslastname]
+reviewes,[isreviewing]
+writes,[hasrelatedpaper]
+The number of  property pairs that is right £º2.0
+==========================================
+Precision£º0.6 	Recall£º0.631578947368421 	f1-measure£º0.6153846153846154
+
+
+The result of  confOf and ekaw £º
+**************************************
+social_event,social_event,0.8674054106137028,2,2 (Right)
+conference,conference,0.8062190094571811,1,1 (Right)
+workshop,workshop,0.8062190094571811,1,1 (Right)
+tutorial,tutorial,0.8062190094571811,1,1 (Right)
+university,university,0.8062190094571811,1,1 (Right)
+student,student,0.8062190094571811,1,1 (Right)
+member_pc,pc_member,0.8062190094571811,2,2 (Right)
+chair_pc,pc_chair,0.8062190094571811,2,2 (Right)
+event,event,0.8047921823960594,1,1 (Right)
+person,person,0.8047921823960594,1,1 (Right)
+paper,paper,0.7,1,1
+organization,organisation,0.7,1,1 (Right)
+author,paper_author,0.6506536613465097,1,2 (Right)
+regular,regular_paper,0.6506536613465097,1,2
+poster,poster_paper,0.6506536613465097,1,2 (Right)
+banquet,conference_banquet,0.6283241135541353,1,2 (Right)
+trip,conference_trip,0.6283241135541353,1,2 (Right)
+member,sc_member,0.6,1,2
+participant,conference_participant,0.6,1,2 (Right)
+topic,research_topic,0.6,1,2 (Right)
+Concept pairs that was not found£º
+contribution,[paper]
+scholar,[student]
+working_event,[scientific_event]
+The number of  concept pairs that is right£º17.0
+**************************************
+writtenBy,writtenBy,0.7000000999999999
+All the property pairs are found! 
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.8095238095238095 	Recall£º0.85 	f1-measure£º0.8292682926829269
+
+
+The result of  confOf and iasted £º
+**************************************
+author,author,0.8062190094571811,1,1 (Right)
+city,city,0.7,1,1 (Right)
+person,person,0.7,1,1 (Right)
+tutorial,tutorial,0.7,1,1 (Right)
+submission_event,submission,0.6677890214312083,2,1
+university,presenter_university,0.6066543451565389,1,2
+banquet,dinner_banquet,0.6,1,2 (Right)
+member,iasted_member,0.6,1,2
+reception,coctail_reception,0.6,1,2 (Right)
+plenary_lecture,tutorial,0.7,1,1
+Concept pairs that was not found£º
+administrative_event,[activity_before_conference]
+country,[state]
+event,[activity]
+The number of  concept pairs that is right£º6.0
+**************************************
+writes,write,0.7000000999999999
+All the property pairs are found! 
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.5454545454545454 	Recall£º0.6666666666666666 	f1-measure£º0.6
+
+
+The result of  confOf and sigkdd £º
+**************************************
+author,author,0.835386944902534,1,1 (Right)
+person,person,0.8140042319815561,1,1 (Right)
+paper,paper,0.7,1,1 (Right)
+conference,conference,0.7,1,1 (Right)
+student,registration_student,0.6,1,2
+Concept pairs that was not found£º
+chair_pc,[program_chair]
+member_pc,[program_committee_member]
+The number of  concept pairs that is right£º4.0
+**************************************
+hasEmail,E-mail,0.7000000999999999  (Right)
+All the property pairs are found! 
+The number of  property pairs that is right £º1.0
+==========================================
+Precision£º0.8333333333333334 	Recall£º0.7142857142857143 	f1-measure£º0.7692307692307692
+
+
+The result of  edas and ekaw £º
+**************************************
+paper,paper,0.8714425422417511,1,1 (Right)
+rejectedpaper,rejected_paper,0.8228123409986846,2,2 (Right)
+acceptedpaper,accepted_paper,0.8228123409986846,2,2 (Right)
+workshop,workshop,0.8062190094571811,1,1 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+presenter,presenter,0.8062190094571811,1,1
+sessionchair,session_chair,0.8062190094571811,2,2 (Right)
+socialevent,social_event,0.8062190094571811,2,2 (Right)
+person,person,0.8047921823960594,1,1 (Right)
+document,document,0.804436971399171,1,1 (Right)
+conference,conference,0.7,1,1
+conferencesession,conference_session,0.7,2,2
+organization,organisation,0.7,1,1 (Right)
+welcometalk,invited_talk,0.6781930060194304,2,2
+conferencedinner,conference_banquet,0.6734625330141486,2,2 (Right)
+conferencechair,tutorial_chair,0.6724807854491888,2,2
+author,paper_author,0.6506536613465097,1,2 (Right)
+testonlytopic,research_topic,0.6172044785870465,3,2
+conferenceevent,event,0.6,2,1 (Right)
+reviewer,possible_reviewer,0.6,1,2
+Concept pairs that was not found£º
+academiaorganization,[academic_institution]
+academicevent,[scientific_event]
+attendee,[conference_participant]
+place,[location]
+programme,[programme_brochure]
+topic,[research_topic]
+The number of  concept pairs that is right£º13.0
+**************************************
+isReviewing,hasReview,0.7000000999999999
+isWrittenBy,writtenBy,0.7000000999999999
+forEvent,hasEvent,0.7000000999999999
+isLocationOf,locationOf,0.7000000999999999  (Right)
+Property pairs that was not found£º
+haslocation,[heldin]
+isreviewedby,[hasreviewer]
+isreviewing,[reviewerofpaper]
+The number of  property pairs that is right £º1.0
+==========================================
+Precision£º0.5833333333333334 	Recall£º0.6086956521739131 	f1-measure£º0.5957446808510638
+
+
+The result of  edas and iasted £º
+**************************************
+reviewer,reviewer,0.8062190094571811,1,1 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+author,author,0.8062190094571811,1,1 (Right)
+sessionchair,session_chair,0.8062190094571811,2,2 (Right)
+person,person,0.804436971399171,1,1
+place,place,0.7,1,1 (Right)
+document,document,0.7,1,1 (Right)
+coffeebreak,coffee_break,0.7,2,2 (Right)
+paperpresentation,video_presentation,0.6611656261581276,2,2
+welcometalk,welcome_address,0.6478921376275962,2,2 (Right)
+reception,coctail_reception,0.6,1,2 (Right)
+Concept pairs that was not found£º
+attendee,[delegate]
+conferencedinner,[dinner_banquet]
+conferenceevent,[conference_activity]
+conferencevenueplace,[conference_building]
+country,[state]
+diningplace,[conference_restaurant]
+paper,[submission]
+slideset,[transparency]
+socialevent,[social_program]
+sponsorship,[sponzorship]
+The number of  concept pairs that is right£º9.0
+**************************************
+All the property pairs are found! 
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.8181818181818182 	Recall£º0.47368421052631576 	f1-measure£º0.6
+
+
+The result of  edas and sigkdd £º
+**************************************
+author,author,0.835386944902534,1,1 (Right)
+person,person,0.8140042319815561,1,1 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+paper,paper,0.8062190094571811,1,1 (Right)
+place,place,0.7,1,1 (Right)
+conference,conference,0.7,1,1 (Right)
+document,document,0.7,1,1 (Right)
+Concept pairs that was not found£º
+accommodationplace,[hotel]
+attendee,[listener]
+conferencechair,[general_chair]
+conferencevenueplace,[conference_hall]
+The number of  concept pairs that is right£º7.0
+**************************************
+hasEmail,E-mail,0.7000000999999999
+hasName,Name,0.7000000999999999
+Property pairs that was not found£º
+enddate,[end_of_conference]
+hascostamount,[price]
+hasname,[name_of_conference]
+startdate,[start_of_conference]
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.7777777777777778 	Recall£º0.4666666666666667 	f1-measure£º0.5833333333333334
+
+
+The result of  ekaw and iasted £º
+**************************************
+session_chair,session_chair,0.8062190094571811,2,2 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+person,person,0.8047921823960594,1,1 (Right)
+session,session,0.7,1,1 (Right)
+tutorial,tutorial,0.7,1,1 (Right)
+document,document,0.7,1,1 (Right)
+paper_author,author,0.6506536613465097,2,1 (Right)
+tutorial_chair,tutorial_speaker,0.6403390493249935,2,2
+university,presenter_university,0.6066543451565389,1,2
+individual_presentation,presentation,0.6,2,1
+invited_speaker,speaker,0.6,2,1
+possible_reviewer,reviewer,0.6,2,1
+plenary_lecture,tutorial,0.7,1,1
+Concept pairs that was not found£º
+conference_banquet,[dinner_banquet]
+event,[activity]
+location,[place]
+The number of  concept pairs that is right£º7.0
+**************************************
+heldIn,is_held_in,0.7000000999999999
+All the property pairs are found! 
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.5 	Recall£º0.7 	f1-measure£º0.5833333333333334
+
+
+The result of  ekaw and sigkdd £º
+**************************************
+paper,paper,0.8062190094571811,1,1 (Right)
+invited_speaker,invited_speaker,0.8062190094571811,2,2 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+abstract,abstract,0.8062190094571811,1,1 (Right)
+document,document,0.8009751254783032,1,1 (Right)
+conference,conference,0.7,1,1 (Right)
+person,person,0.7,1,1 (Right)
+paper_author,author,0.6506536613465097,2,1 (Right)
+student,registration_student,0.6,1,2
+Concept pairs that was not found£º
+location,[place]
+oc_member,[organizing_committee_member]
+pc_chair,[program_chair]
+The number of  concept pairs that is right£º8.0
+**************************************
+heldIn,holded_by,0.7000000999999999
+All the property pairs are found! 
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.8 	Recall£º0.7272727272727273 	f1-measure£º0.761904761904762
+
+
+The result of  iasted and sigkdd £º
+**************************************
+registration_fee,registration_fee,0.8910323790335332,2,2 (Right)
+speaker,speaker,0.8585705423459095,1,1 (Right)
+person,person,0.8485890848794945,1,1 (Right)
+author,author,0.8228123409986846,1,1 (Right)
+review,review,0.8062190094571811,1,1 (Right)
+conference_hall,conference_hall,0.8062190094571811,2,2 (Right)
+listener,listener,0.8062190094571811,1,1 (Right)
+main_office,main_office,0.8062190094571811,2,2 (Right)
+student_registration_fee,registration_student,0.8061409096760767,3,2 (Right)
+place,place,0.8009751254783032,1,1 (Right)
+fee,fee,0.7,1,1 (Right)
+deadline,deadline,0.7,1,1 (Right)
+document,document,0.7,1,1
+conference_hotel,hotel,0.6,2,1
+Concept pairs that was not found£º
+deadline_for_notification_of_acceptance,[deadline_author_notification]
+nonmember_registration_fee,[registration_non-member]
+sponsor,[sponzor]
+The number of  concept pairs that is right£º12.0
+**************************************
+obtain,obtain,0.7000000999999999
+pay,pay,0.7000000999999999
+is_designed_for,designed_by,0.7000000999999999
+is_held_in,hold,0.7000000999999999
+is_paid_by,payed_by,0.7000000999999999
+is_dated_on,Date,0.7000000999999999
+All the property pairs are found! 
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.6 	Recall£º0.8 	f1-measure£º0.6857142857142857
+
+
+Time consumption£º71s

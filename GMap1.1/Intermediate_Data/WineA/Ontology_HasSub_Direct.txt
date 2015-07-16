@@ -1,0 +1,4 @@
+Wine--RedWine,WhiteWine
+Thing--Wine
+RedWine--CabernetSauvignon,PetiteSirah,ItalianRed,Berbera,Merlot,Chianti,RedBurgundy,Syrah,Zinfandel,Sangiovese,RedBordeaux,Tempranillo,PinotNior,CabernetMerlot,Nebbiolo,Dolcetto
+WhiteWine--WhiteBordeaux,SauvignonBlanc,CheninBlanc,Sake,Chablis,Muscat,Semillon,ItialianWhite,PinotGris,Chardonnay,Riesling,PinotBlanc,WhiteBurgundy,Gewurztaminer

@@ -1,0 +1,6 @@
+A1--sum_A#0.4
+A0--sum_A#0.6
+B1--sum_B#0.3
+B0--sum_B#0.7
+sum_A--R#1
+sum_B--R#1

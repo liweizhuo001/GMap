@@ -1,0 +1,7 @@
+smoking attribute--smoke#0.25,attribute#0.75
+room--room#1.0
+size attribute--size#0.25,attribute#0.75
+floor attribute--floor#0.25,attribute#0.75
+num beds attribute--num#0.2222222222222222,bed#0.2222222222222222,attribute#0.5555555555555556
+room attribute--room#0.25,attribute#0.75
+exclusive attribute--exclusive#0.25,attribute#0.75

@@ -1,0 +1,12 @@
+Program_committee--Program_Committee
+Conference_volume--Conference
+Conference_fees--Fee
+Regular_author--Author
+Review--Review
+Abstract--Abstract
+Invited_speaker--Invited_Speaker
+Conference_document--Document
+Organizing_committee--Organizing_Committee
+Person--Person
+Committee--Committee
+Paper--Paper

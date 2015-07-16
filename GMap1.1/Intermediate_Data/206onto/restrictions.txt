@@ -1,0 +1,241 @@
+M¨¦moireDeMast¨¨re,cr¨¦ateur,Max 1,Thing
+M¨¦moireDeMast¨¨re,titre,Max 1,Thing
+M¨¦moireDeMast¨¨re,date,Max 1,Thing
+M¨¦moireDeMast¨¨re,date,exactly 1,Thing
+M¨¦moireDeMast¨¨re,institution,exactly 1,Thing
+M¨¦moireDeMast¨¨re,titre,exactly 1,Thing
+M¨¦moireDeMast¨¨re,auteurs,exactly 1,Thing
+M¨¦moireDeMast¨¨re,auteurs,exactly 1,Thing
+M¨¦moireDeMast¨¨re,titre,exactly 1,Thing
+M¨¦moireDeMast¨¨re,institution,exactly 1,Thing
+M¨¦moireDeMast¨¨re,date,exactly 1,Thing
+M¨¦moireDeMast¨¨re,date,only,Date
+M¨¦moireDeMast¨¨re,num¨¦ro,Max 1,Thing
+Film,cr¨¦ateur,Max 1,Thing
+Film,titre,Max 1,Thing
+Film,date,Max 1,Thing
+Conf¨¦rence,localisation,Max,1,Thing
+Conf¨¦rence,sortie,Max,1,Thing
+Conf¨¦rence,nomCourt,Max,1,Thing
+Conf¨¦rence,organisateur,only,Institution
+Conf¨¦rence,nom,exactly,1,Thing
+?diteur,adresse,Max 1,Thing
+?diteur,nomCourt,exactly 1,Thing
+?diteur,nom,exactly 1,Thing
+RaportTechnique,cr¨¦ateur,Max 1,Thing
+RaportTechnique,titre,Max 1,Thing
+RaportTechnique,date,Max 1,Thing
+RaportTechnique,auteurs,exactly 1,Thing
+RaportTechnique,titre,exactly 1,Thing
+RaportTechnique,institution,exactly 1,Thing
+RaportTechnique,date,exactly 1,Thing
+RaportTechnique,date,only,Date
+RaportTechnique,num¨¦ro,Max 1,Thing
+Chapitre,cr¨¦ateur,Max 1,Thing
+Chapitre,titre,Max 1,Thing
+Chapitre,date,Max 1,Thing
+Chapitre,titre,exactly 1,Thing
+Chapitre,pages,Max 1,Thing
+Chapitre,chapitre,Max,1,Thing
+Chapitre,chapitre,Max,1,Thing
+Informel,cr¨¦ateur,Max 1,Thing
+Informel,titre,Max 1,Thing
+Informel,date,Max 1,Thing
+Informel,titre,exactly,1,Thing
+Adresse,ville,only,string
+Adresse,ville,Max,1,Thing
+Adresse,¨¦tat,only,string
+Adresse,¨¦tat,Max,1,Thing
+Adresse,pays,only,string
+Adresse,pays,Max,1,Thing
+Revue,s¨¦rie,Max,1,Thing
+Revue,nom,exactly,1,Thing
+Revue,nom,only,string
+Revue,nomCourt,only,string
+Revue,articles,only,Article
+Revue,dateDePublication,Max,1,Thing
+Revue,p¨¦riodicit¨¦,only,string
+Revue,¨¦diteur,Max,1,Thing
+Date,jour,only,gDay
+Date,jour,Max,1,Thing
+Date,mois,only,gMonth
+Date,mois,Max,1,Thing
+Date,ann¨¦e,only,gYear
+Date,ann¨¦e,exactly,1,Thing
+Manuel,cr¨¦ateur,Max 1,Thing
+Manuel,titre,Max 1,Thing
+Manuel,date,Max 1,Thing
+Manuel,titre,exactly 1,Thing
+Manuel,titre,exactly,1,Thing
+Manuel,¨¦dition,Max,1,Thing
+Manuel,organisation,Max,1,Thing
+Personnes,rest,only,Personnes
+Personnes,rest,only,null
+Personnes,rest,exactly,1,Thing
+Personnes,first,only,Person
+Personnes,first,exactly,1,Thing
+NonPubli¨¦,cr¨¦ateur,Max 1,Thing
+NonPubli¨¦,titre,Max 1,Thing
+NonPubli¨¦,date,Max 1,Thing
+NonPubli¨¦,titre,exactly 1,Thing
+NonPubli¨¦,note,Min,1,Thing
+NonPubli¨¦,titre,exactly,1,Thing
+NonPubli¨¦,auteurs,exactly,1,Thing
+Partie,cr¨¦ateur,Max 1,Thing
+Partie,titre,Max 1,Thing
+Partie,date,Max 1,Thing
+Partie,titre,exactly,1,Thing
+Partie,pages,Max,1,Thing
+Raport,cr¨¦ateur,Max 1,Thing
+Raport,titre,Max 1,Thing
+Raport,date,Max 1,Thing
+Raport,auteurs,exactly,1,Thing
+Raport,titre,exactly,1,Thing
+Raport,institution,exactly,1,Thing
+Raport,date,exactly,1,Thing
+Raport,date,only,Date
+Raport,num¨¦ro,Max,1,Thing
+Polycopi¨¦,cr¨¦ateur,Max 1,Thing
+Polycopi¨¦,titre,Max 1,Thing
+Polycopi¨¦,date,Max 1,Thing
+Polycopi¨¦,titre,exactly 1,Thing
+ExtraitCompilation,cr¨¦ateur,Max 1,Thing
+ExtraitCompilation,titre,Max 1,Thing
+ExtraitCompilation,date,Max 1,Thing
+ExtraitCompilation,titre,exactly 1,Thing
+ExtraitCompilation,pages,Max 1,Thing
+ExtraitCompilation,collection,exactly,1,Thing
+ExtraitCompilation,auteurs,exactly,1,Thing
+Article,cr¨¦ateur,Max 1,Thing
+Article,titre,Max 1,Thing
+Article,date,Max 1,Thing
+Article,titre,exactly 1,Thing
+Article,pages,Max 1,Thing
+Article,date,only,Date
+Article,pages,exactly,1,Thing
+Article,auteurs,exactly,1,Thing
+Article,date,exactly,1,Thing
+Article,num¨¦ro,Max,1,Thing
+Article,volume,Max,1,Thing
+Article,journal,exactly,1,Thing
+Monographie,cr¨¦ateur,Max 1,Thing
+Monographie,titre,Max 1,Thing
+Monographie,date,Max 1,Thing
+Monographie,volume,Max 1,Thing
+Monographie,¨¦diteur,Max 1,Thing
+Monographie,s¨¦rie,Max 1,Thing
+Monographie,auteurs,exactly 1,Thing
+Monographie,¨¦dition,Max 1,Thing
+Monographie,date,exactly 1,Thing
+Monographie,date,only,Date
+Monographie,titre,exactly 1,Thing
+Monographie,chapitres,only,Chapitre
+Institution,adresse,Max,1,Thing
+Institution,nomCourt,exactly,1,Thing
+Institution,nom,exactly,1,Thing
+M¨¦moireDeDoctorat,cr¨¦ateur,Max 1,Thing
+M¨¦moireDeDoctorat,titre,Max 1,Thing
+M¨¦moireDeDoctorat,date,Max 1,Thing
+M¨¦moireDeDoctorat,date,exactly 1,Thing
+M¨¦moireDeDoctorat,institution,exactly 1,Thing
+M¨¦moireDeDoctorat,titre,exactly 1,Thing
+M¨¦moireDeDoctorat,auteurs,exactly 1,Thing
+M¨¦moireDeDoctorat,auteurs,exactly 1,Thing
+M¨¦moireDeDoctorat,titre,exactly 1,Thing
+M¨¦moireDeDoctorat,institution,exactly 1,Thing
+M¨¦moireDeDoctorat,date,exactly 1,Thing
+M¨¦moireDeDoctorat,date,only,Date
+M¨¦moireDeDoctorat,num¨¦ro,Max 1,Thing
+Actes,cr¨¦ateur,Max 1,Thing
+Actes,titre,Max 1,Thing
+Actes,date,Max 1,Thing
+Actes,volume,Max 1,Thing
+Actes,¨¦diteur,Max 1,Thing
+Actes,s¨¦rie,Max 1,Thing
+Actes,auteurs,exactly 1,Thing
+Actes,¨¦dition,Max 1,Thing
+Actes,date,exactly 1,Thing
+Actes,date,only,Date
+Actes,titre,exactly 1,Thing
+Actes,¨¦v¨¨nement,only,Conf¨¦rence
+Actes,communications,only,ExtraitActes
+Actes,¨¦diteurs,Max,1,Thing
+Actes,¨¦v¨¨nement,Max,1,Thing
+Actes,organisation,Max,1,Thing
+Livre,cr¨¦ateur,Max 1,Thing
+Livre,titre,Max 1,Thing
+Livre,date,Max 1,Thing
+Livre,volume,Max,1,Thing
+Livre,¨¦diteur,Max,1,Thing
+Livre,s¨¦rie,Max,1,Thing
+Livre,auteurs,exactly,1,Thing
+Livre,¨¦dition,Max,1,Thing
+Livre,date,exactly,1,Thing
+Livre,date,only,Date
+Livre,titre,exactly,1,Thing
+IntervalleDePages,pageFin,exactly,1,Thing
+IntervalleDePages,pageD¨¦but,exactly,1,Thing
+M¨¦moire,cr¨¦ateur,Max 1,Thing
+M¨¦moire,titre,Max 1,Thing
+M¨¦moire,date,Max 1,Thing
+M¨¦moire,auteurs,exactly 1,Thing
+M¨¦moire,titre,exactly 1,Thing
+M¨¦moire,institution,exactly 1,Thing
+M¨¦moire,date,exactly 1,Thing
+M¨¦moire,date,only,Date
+M¨¦moire,num¨¦ro,Max 1,Thing
+M¨¦moire,date,exactly,1,Thing
+M¨¦moire,institution,exactly,1,Thing
+M¨¦moire,titre,exactly,1,Thing
+M¨¦moire,auteurs,exactly,1,Thing
+Divers,cr¨¦ateur,Max 1,Thing
+Divers,titre,Max 1,Thing
+Divers,date,Max 1,Thing
+Livret,cr¨¦ateur,Max 1,Thing
+Livret,titre,Max 1,Thing
+Livret,date,Max 1,Thing
+Livret,titre,exactly 1,Thing
+Universit¨¦,adresse,Max 1,Thing
+Universit¨¦,nomCourt,exactly 1,Thing
+Universit¨¦,nom,exactly 1,Thing
+R¨¦f¨¦rence,cr¨¦ateur,Max,1,Thing
+R¨¦f¨¦rence,titre,Max,1,Thing
+R¨¦f¨¦rence,date,Max,1,Thing
+Compilation,cr¨¦ateur,Max 1,Thing
+Compilation,titre,Max 1,Thing
+Compilation,date,Max 1,Thing
+Compilation,volume,Max 1,Thing
+Compilation,¨¦diteur,Max 1,Thing
+Compilation,s¨¦rie,Max 1,Thing
+Compilation,auteurs,exactly 1,Thing
+Compilation,¨¦dition,Max 1,Thing
+Compilation,date,exactly 1,Thing
+Compilation,date,only,Date
+Compilation,titre,exactly 1,Thing
+Compilation,parties,only,ExtraitCompilation
+Compilation,chapitres,only,Chapitre
+Livrable,cr¨¦ateur,Max 1,Thing
+Livrable,titre,Max 1,Thing
+Livrable,date,Max 1,Thing
+Livrable,auteurs,exactly 1,Thing
+Livrable,titre,exactly 1,Thing
+Livrable,institution,exactly 1,Thing
+Livrable,date,exactly 1,Thing
+Livrable,date,only,Date
+Livrable,num¨¦ro,Max 1,Thing
+Livrable,contrat,Max,1,Thing
+ExtraitActes,cr¨¦ateur,Max 1,Thing
+ExtraitActes,titre,Max 1,Thing
+ExtraitActes,date,Max 1,Thing
+ExtraitActes,titre,exactly 1,Thing
+ExtraitActes,pages,Max 1,Thing
+ExtraitActes,actes,exactly,1,Thing
+ExtraitActes,auteurs,exactly,1,Thing
+ExtraitLivre,cr¨¦ateur,Max 1,Thing
+ExtraitLivre,titre,Max 1,Thing
+ExtraitLivre,date,Max 1,Thing
+ExtraitLivre,titre,exactly 1,Thing
+ExtraitLivre,pages,Max 1,Thing
+ExtraitLivre,livre,exactly,1,Thing
+ExtraitLivre,pages,Min,1,Thing
+ExtraitLivre,auteurs,exactly,1,Thing

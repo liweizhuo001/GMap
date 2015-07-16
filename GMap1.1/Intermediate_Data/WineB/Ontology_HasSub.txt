@@ -1,0 +1,3 @@
+VinosRojos--BurdeosRojo,Nebbiolo,MezclaDeCabernet,PetiteSirah,Sangiovese,Berbera,Tempranillo,CabernetSauvignon,PinotNior,Syrah,Chianti,BurgonaRoja,RojoItaliano,Dolcetto,Zinfandel,Merlot
+Vino--Chardonnay,VinosRojos,Nebbiolo,PetiteSirah,Sangiovese,Berbera,Tempranillo,SauvignonBlanc,PinotNior,Chablis,Sake,CheninBlanc,Syrah,Chianti,Zinfandel,Merlot,BurdeosRojo,BlancoItaliano,Gewurztaminer,VinosBlancos,MezclaDeCabernet,PinotBlanc,PinotGris,CabernetSauvignon,BorgonaBlanca,Semillon,Muscat,BurdeosBlanco,Riesling,BurgonaRoja,RojoItaliano,Dolcetto
+VinosBlancos--Chardonnay,BlancoItaliano,Gewurztaminer,PinotBlanc,PinotGris,SauvignonBlanc,BorgonaBlanca,Chablis,Sake,Semillon,CheninBlanc,Muscat,BurdeosBlanco,Riesling

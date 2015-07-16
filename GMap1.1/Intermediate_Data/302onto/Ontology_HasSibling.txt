@@ -1,0 +1,12 @@
+SoftCopy--Publication
+Publication--SoftCopy
+InProceedings--InCollection,Article,MastersThesis,TechReport,Misc,Book,Proceedings,PhdThesis,InBook
+InCollection--InProceedings,Article,MastersThesis,TechReport,Misc,Book,Proceedings,PhdThesis,InBook
+Article--InProceedings,InCollection,MastersThesis,TechReport,Misc,Book,Proceedings,PhdThesis,InBook
+MastersThesis--InProceedings,InCollection,Article,TechReport,Misc,Book,Proceedings,PhdThesis,InBook
+TechReport--InProceedings,InCollection,Article,MastersThesis,Misc,Book,Proceedings,PhdThesis,InBook
+Misc--InProceedings,InCollection,Article,MastersThesis,TechReport,Book,Proceedings,PhdThesis,InBook
+Book--InProceedings,InCollection,Article,MastersThesis,TechReport,Misc,Proceedings,PhdThesis,InBook
+Proceedings--InProceedings,InCollection,Article,MastersThesis,TechReport,Misc,Book,PhdThesis,InBook
+PhdThesis--InProceedings,InCollection,Article,MastersThesis,TechReport,Misc,Book,Proceedings,InBook
+InBook--InProceedings,InCollection,Article,MastersThesis,TechReport,Misc,Book,Proceedings,PhdThesis

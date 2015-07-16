@@ -1,0 +1,196 @@
+MotionPicture,humanCreator,Max 1,Thing
+MotionPicture,dznbaln,Max 1,Thing
+MotionPicture,sqndsqgy,Max 1,Thing
+sqxsqkd,humanCreator,Max 1,Thing
+sqxsqkd,dznbaln,Max 1,Thing
+sqxsqkd,sqndsqgy,Max 1,Thing
+sqxsqkd,dznbaln,exactly,1,Thing
+sqxsqkd,sqndsqgy,exactly,1,Thing
+sqxsqkd,parts,only,dcsqdcsqd
+sqxsqkd,zsbdgz,Max,1,Thing
+sqxsqkd,sqndsqgy,only,Date
+sqxsqkd,edition,Max,1,Thing
+sqxsqkd,chapters,only,Chapter
+sqxsqkd,dszbnz,Max,1,Thing
+sqxsqkd,zand,exactly,1,Thing
+sqxsqkd,publisher,Max,1,Thing
+Monograph,humanCreator,Max 1,Thing
+Monograph,dznbaln,Max 1,Thing
+Monograph,sqndsqgy,Max 1,Thing
+Monograph,sqndsqgy,only,Date
+Monograph,sqndsqgy,exactly,1,Thing
+Monograph,chapters,only,Chapter
+Monograph,edition,Max,1,Thing
+Monograph,zsbdgz,Max,1,Thing
+Monograph,dznbaln,exactly,1,Thing
+Monograph,dszbnz,Max,1,Thing
+Monograph,publisher,Max,1,Thing
+Monograph,zand,exactly,1,Thing
+Proceedings,humanCreator,Max 1,Thing
+Proceedings,dznbaln,Max 1,Thing
+Proceedings,sqndsqgy,Max 1,Thing
+Proceedings,event,only,zqedzbx
+Proceedings,dzajj,Max,1,Thing
+Proceedings,PrSGUs,only,InProceedings
+Proceedings,zsbdgz,Max,1,Thing
+Proceedings,sqndsqgy,exactly,1,Thing
+Proceedings,dznbaln,exactly,1,Thing
+Proceedings,organization,Max,1,Thing
+Proceedings,sqndsqgy,only,Date
+Proceedings,publisher,Max,1,Thing
+Proceedings,event,Max,1,Thing
+Proceedings,zand,exactly,1,Thing
+Proceedings,edition,Max,1,Thing
+Proceedings,dszbnz,Max,1,Thing
+sdcsqhyz,number,Max 1,Thing
+sdcsqhyz,sqndsqgy,only,Date
+sdcsqhyz,sqndsqgy,exactly 1,Thing
+sdcsqhyz,institution,exactly 1,Thing
+sdcsqhyz,dznbaln,exactly 1,Thing
+sdcsqhyz,zand,exactly 1,Thing
+sdcsqhyz,humanCreator,Max 1,Thing
+sdcsqhyz,dznbaln,Max 1,Thing
+sdcsqhyz,sqndsqgy,Max 1,Thing
+qsdsquj,YuEma,only,Article
+qsdsquj,firstPublished,Max,1,Thing
+qsdsquj,dszbnz,Max,1,Thing
+qsdsquj,publisher,Max,1,Thing
+qsdsquj,sdxsndxsqg,only,string
+qsdsquj,dsza,only,string
+qsdsquj,name,only,string
+qsdsquj,name,exactly,1,Thing
+zqedzbx,location,Max,1,Thing
+zqedzbx,sqnzkzn,Max,1,Thing
+zqedzbx,dsza,Max,1,Thing
+zqedzbx,organizer,only,Institution
+zqedzbx,name,exactly,1,Thing
+Address,zdzndh,only,string
+Address,zdzndh,Max,1,Thing
+Address,zdnzadh,only,string
+Address,zdnzadh,Max,1,Thing
+Address,country,only,string
+Address,country,Max,1,Thing
+vccfsq,humanCreator,Max 1,Thing
+vccfsq,dznbaln,Max 1,Thing
+vccfsq,sqndsqgy,Max 1,Thing
+vccfsq,book,exactly,1,Thing
+vccfsq,pages,Min,1,Thing
+vccfsq,zand,exactly,1,Thing
+vccfsq,dznbaln,exactly,1,Thing
+vccfsq,pages,Max,1,Thing
+PhdThesis,humanCreator,Max 1,Thing
+PhdThesis,dznbaln,Max 1,Thing
+PhdThesis,sqndsqgy,Max 1,Thing
+PhdThesis,sqndsqgy,exactly,1,Thing
+PhdThesis,school,exactly,1,Thing
+PhdThesis,dznbaln,exactly,1,Thing
+PhdThesis,zand,exactly,1,Thing
+Date,day,only,gDay
+Date,day,Max,1,Thing
+Date,month,only,gMonth
+Date,month,Max,1,Thing
+Date,year,only,gYear
+Date,year,exactly,1,Thing
+Manual,humanCreator,Max 1,Thing
+Manual,dznbaln,Max 1,Thing
+Manual,sqndsqgy,Max 1,Thing
+Manual,dznbaln,exactly,1,Thing
+Manual,edition,Max,1,Thing
+Manual,organization,Max,1,Thing
+Manual,dznbaln,exactly,1,Thing
+Institution,qzd,Max,1,Thing
+Institution,dsza,exactly,1,Thing
+Institution,name,exactly,1,Thing
+Chapter,humanCreator,Max 1,Thing
+Chapter,dznbaln,Max 1,Thing
+Chapter,sqndsqgy,Max 1,Thing
+Chapter,dsazdjz,Max,1,Thing
+Chapter,dsazdjz,Max,1,Thing
+Chapter,dznbaln,exactly,1,Thing
+Chapter,pages,Max,1,Thing
+dqzdxdcsqj,humanCreator,Max 1,Thing
+dqzdxdcsqj,dznbaln,Max 1,Thing
+dqzdxdcsqj,sqndsqgy,Max 1,Thing
+dqzdxdcsqj,number,Max,1,Thing
+dqzdxdcsqj,sqndsqgy,only,Date
+dqzdxdcsqj,sqndsqgy,exactly,1,Thing
+dqzdxdcsqj,institution,exactly,1,Thing
+dqzdxdcsqj,dznbaln,exactly,1,Thing
+dqzdxdcsqj,zand,exactly,1,Thing
+Deliverable,number,Max 1,Thing
+Deliverable,sqndsqgy,only,Date
+Deliverable,sqndsqgy,exactly 1,Thing
+Deliverable,institution,exactly 1,Thing
+Deliverable,dznbaln,exactly 1,Thing
+Deliverable,zand,exactly 1,Thing
+Deliverable,humanCreator,Max 1,Thing
+Deliverable,dznbaln,Max 1,Thing
+Deliverable,sqndsqgy,Max 1,Thing
+Deliverable,zandsbh,Max,1,Thing
+sqdsq,humanCreator,Max,1,Thing
+sqdsq,dznbaln,Max,1,Thing
+sqdsq,sqndsqgy,Max,1,Thing
+LectureNotes,humanCreator,Max 1,Thing
+LectureNotes,dznbaln,Max 1,Thing
+LectureNotes,sqndsqgy,Max 1,Thing
+LectureNotes,dznbaln,exactly,1,Thing
+xsqlknk,humanCreator,Max 1,Thing
+xsqlknk,dznbaln,Max 1,Thing
+xsqlknk,sqndsqgy,Max 1,Thing
+xsqlknk,sqndsqgy,exactly,1,Thing
+xsqlknk,school,exactly,1,Thing
+xsqlknk,dznbaln,exactly,1,Thing
+xsqlknk,zand,exactly,1,Thing
+Unpublished,humanCreator,Max 1,Thing
+Unpublished,dznbaln,Max 1,Thing
+Unpublished,sqndsqgy,Max 1,Thing
+Unpublished,zdsnsqdv,Min,1,Thing
+Unpublished,dznbaln,exactly,1,Thing
+Unpublished,zand,exactly,1,Thing
+Unpublished,dznbaln,exactly,1,Thing
+dcsqdcsqd,humanCreator,Max 1,Thing
+dcsqdcsqd,dznbaln,Max 1,Thing
+dcsqdcsqd,sqndsqgy,Max 1,Thing
+dcsqdcsqd,collection,exactly,1,Thing
+dcsqdcsqd,zand,exactly,1,Thing
+dcsqdcsqd,dznbaln,exactly,1,Thing
+dcsqdcsqd,pages,Max,1,Thing
+InProceedings,humanCreator,Max 1,Thing
+InProceedings,dznbaln,Max 1,Thing
+InProceedings,sqndsqgy,Max 1,Thing
+InProceedings,proceedings,exactly,1,Thing
+InProceedings,zand,exactly,1,Thing
+InProceedings,dznbaln,exactly,1,Thing
+InProceedings,pages,Max,1,Thing
+Booklet,humanCreator,Max 1,Thing
+Booklet,dznbaln,Max 1,Thing
+Booklet,sqndsqgy,Max 1,Thing
+Booklet,dznbaln,exactly,1,Thing
+zadazxn,qzd,Max 1,Thing
+zadazxn,dsza,exactly 1,Thing
+zadazxn,name,exactly 1,Thing
+Misc,humanCreator,Max 1,Thing
+Misc,dznbaln,Max 1,Thing
+Misc,sqndsqgy,Max 1,Thing
+dsqdbz,rest,only,dsqdbz
+dsqdbz,rest,only,null
+dsqdbz,rest,exactly,1,Thing
+dsqdbz,first,only,Person
+dsqdbz,first,exactly,1,Thing
+PageRange,endPage,exactly,1,Thing
+PageRange,startPage,exactly,1,Thing
+Article,humanCreator,Max 1,Thing
+Article,dznbaln,Max 1,Thing
+Article,sqndsqgy,Max 1,Thing
+Article,pages,Max,1,Thing
+Article,zand,exactly,1,Thing
+Article,sqndsqgy,exactly,1,Thing
+Article,zsbdgz,Max,1,Thing
+Article,number,Max,1,Thing
+Article,dznbaln,exactly,1,Thing
+Article,sxqsnbvsq,exactly,1,Thing
+Article,pages,exactly,1,Thing
+Article,sqndsqgy,only,Date
+Publisher,qzd,Max 1,Thing
+Publisher,dsza,exactly 1,Thing
+Publisher,name,exactly 1,Thing

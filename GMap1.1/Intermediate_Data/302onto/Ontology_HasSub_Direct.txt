@@ -1,0 +1,3 @@
+Resource--SoftCopy,Publication
+Publication--InProceedings,InCollection,Article,MastersThesis,TechReport,Misc,Book,Proceedings,PhdThesis,InBook
+Thing--Project,Resource,Person

@@ -1,0 +1,15 @@
+Resource--Thing
+InProceedings--Thing,Publication
+MastersThesis--Thing,Publication
+TechReport--Thing,Publication
+Misc--Thing,Publication
+Book--Thing,Publication
+Person--Thing
+Project--Thing
+SoftCopy--Thing
+Publication--Thing
+InCollection--Thing,Publication
+Article--Thing,Publication
+Proceedings--Thing,Publication
+PhdThesis--Thing,Publication
+InBook--Thing,Publication

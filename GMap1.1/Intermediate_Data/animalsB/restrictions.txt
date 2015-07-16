@@ -1,0 +1,16 @@
+Person,hasSpouse,only,Person
+Person,shoesize,Min,1,Literal
+Person,hasFather,exactly,1,Literal
+Person,hasParent,only,Person
+Woman,hasSpouse,only,Person
+Woman,shoesize,Min 1,Literal
+Woman,hasFather,exactly 1,Literal
+Woman,hasParent,only,Person
+Man,hasSpouse,only,Person
+Man,shoesize,Min 1,Literal
+Man,hasFather,exactly 1,Literal
+Man,hasParent,only,Person
+BipedalPerson,hasSpouse,only,Person
+BipedalPerson,shoesize,Min 1,Literal
+BipedalPerson,hasFather,exactly 1,Literal
+BipedalPerson,hasParent,only,Person

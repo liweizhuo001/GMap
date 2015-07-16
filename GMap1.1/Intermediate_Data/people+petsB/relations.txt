@@ -1,0 +1,7 @@
+null,has_father,man
+null,has_mother,woman
+null,reads,publication
+person,has_pet,animal
+animal,is_pet_of,person
+null,eaten_by,animal
+animal,eats,null

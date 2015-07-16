@@ -1,0 +1,5 @@
+ConnectedWith
+HasSoftware
+NodeB
+ConnectedTo
+NodeA

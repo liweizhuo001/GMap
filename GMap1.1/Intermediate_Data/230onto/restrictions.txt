@@ -1,0 +1,398 @@
+MastersThesis,month,Max 1,Thing
+MastersThesis,year,only,gYear
+MastersThesis,month,only,gMonth
+MastersThesis,year,exactly 1,Thing
+MastersThesis,day,only,gDay
+MastersThesis,author,exactly 1,Thing
+MastersThesis,day,Max 1,Thing
+MastersThesis,schoolName,exactly 1,Thing
+MastersThesis,title,exactly 1,Thing
+MastersThesis,year,only,gYear
+MastersThesis,day,Max 1,Thing
+MastersThesis,month,only,gMonth
+MastersThesis,title,Max 1,Thing
+MastersThesis,day,only,gDay
+MastersThesis,year,exactly 1,Thing
+MastersThesis,author,Max 1,Thing
+MastersThesis,month,Max 1,Thing
+InProceedings,year,only,gYear
+InProceedings,day,Max 1,Thing
+InProceedings,month,only,gMonth
+InProceedings,title,Max 1,Thing
+InProceedings,day,only,gDay
+InProceedings,year,exactly 1,Thing
+InProceedings,author,Max 1,Thing
+InProceedings,month,Max 1,Thing
+InProceedings,title,exactly 1,Thing
+InProceedings,endPage,exactly 1,Thing
+InProceedings,startPage,exactly 1,Thing
+InProceedings,proceedings,exactly,1,Thing
+InProceedings,author,exactly,1,Thing
+Misc,year,only,gYear
+Misc,day,Max 1,Thing
+Misc,month,only,gMonth
+Misc,title,Max 1,Thing
+Misc,day,only,gDay
+Misc,year,exactly 1,Thing
+Misc,author,Max 1,Thing
+Misc,month,Max 1,Thing
+TechReport,year,only,gYear
+TechReport,day,Max 1,Thing
+TechReport,month,only,gMonth
+TechReport,title,Max 1,Thing
+TechReport,day,only,gDay
+TechReport,year,exactly 1,Thing
+TechReport,author,Max 1,Thing
+TechReport,month,Max 1,Thing
+TechReport,title,exactly 1,Thing
+TechReport,number,Max 1,Thing
+TechReport,year,only,gYear
+TechReport,day,Max 1,Thing
+TechReport,month,Max 1,Thing
+TechReport,month,only,gMonth
+TechReport,organizationName,exactly 1,Thing
+TechReport,year,exactly 1,Thing
+TechReport,day,only,gDay
+TechReport,author,exactly 1,Thing
+Monograph,year,only,gYear
+Monograph,day,Max 1,Thing
+Monograph,month,only,gMonth
+Monograph,title,Max 1,Thing
+Monograph,day,only,gDay
+Monograph,year,exactly 1,Thing
+Monograph,author,Max 1,Thing
+Monograph,month,Max 1,Thing
+Monograph,year,exactly 1,Thing
+Monograph,month,Max 1,Thing
+Monograph,edition,Max 1,Thing
+Monograph,volume,Max 1,Thing
+Monograph,humanCreator,exactly 1,Thing
+Monograph,shortName,exactly 1,Thing
+Monograph,publisherName,Max 1,Thing
+Monograph,city,Max 1,Thing
+Monograph,month,only,gMonth
+Monograph,day,Max 1,Thing
+Monograph,city,only,string
+Monograph,year,only,gYear
+Monograph,day,only,gDay
+Monograph,title,exactly 1,Thing
+Monograph,country,Max 1,Thing
+Monograph,state,Max 1,Thing
+Monograph,series,Max 1,Thing
+Monograph,country,only,string
+Monograph,state,only,string
+Proceedings,year,only,gYear
+Proceedings,day,Max 1,Thing
+Proceedings,month,only,gMonth
+Proceedings,title,Max 1,Thing
+Proceedings,day,only,gDay
+Proceedings,year,exactly 1,Thing
+Proceedings,author,Max 1,Thing
+Proceedings,month,Max 1,Thing
+Proceedings,year,exactly 1,Thing
+Proceedings,month,Max 1,Thing
+Proceedings,edition,Max 1,Thing
+Proceedings,volume,Max 1,Thing
+Proceedings,humanCreator,exactly 1,Thing
+Proceedings,shortName,exactly 1,Thing
+Proceedings,publisherName,Max 1,Thing
+Proceedings,city,Max 1,Thing
+Proceedings,month,only,gMonth
+Proceedings,day,Max 1,Thing
+Proceedings,city,only,string
+Proceedings,year,only,gYear
+Proceedings,day,only,gDay
+Proceedings,title,exactly 1,Thing
+Proceedings,country,Max 1,Thing
+Proceedings,state,Max 1,Thing
+Proceedings,series,Max 1,Thing
+Proceedings,country,only,string
+Proceedings,state,only,string
+Proceedings,country,only,string
+Proceedings,editor,Max,1,Thing
+Proceedings,state,only,string
+Proceedings,eventName,exactly,1,Thing
+Proceedings,country,Max,1,Thing
+Proceedings,city,only,string
+Proceedings,organizationName,Max,1,Thing
+Proceedings,state,Max,1,Thing
+Proceedings,issue,Max,1,Thing
+Proceedings,city,Max,1,Thing
+Proceedings,organizationName,only,string
+Proceedings,shortName,Max,1,Thing
+InCollection,year,only,gYear
+InCollection,day,Max 1,Thing
+InCollection,month,only,gMonth
+InCollection,title,Max 1,Thing
+InCollection,day,only,gDay
+InCollection,year,exactly 1,Thing
+InCollection,author,Max 1,Thing
+InCollection,month,Max 1,Thing
+InCollection,title,exactly 1,Thing
+InCollection,endPage,exactly 1,Thing
+InCollection,startPage,exactly 1,Thing
+InCollection,collection,exactly,1,Thing
+InCollection,author,exactly,1,Thing
+Part,year,only,gYear
+Part,day,Max 1,Thing
+Part,month,only,gMonth
+Part,title,Max 1,Thing
+Part,day,only,gDay
+Part,year,exactly 1,Thing
+Part,author,Max 1,Thing
+Part,month,Max 1,Thing
+Part,title,exactly,1,Thing
+Part,endPage,exactly,1,Thing
+Part,startPage,exactly,1,Thing
+Chapter,year,only,gYear
+Chapter,day,Max 1,Thing
+Chapter,month,only,gMonth
+Chapter,title,Max 1,Thing
+Chapter,day,only,gDay
+Chapter,year,exactly 1,Thing
+Chapter,author,Max 1,Thing
+Chapter,month,Max 1,Thing
+Chapter,title,exactly 1,Thing
+Chapter,endPage,exactly 1,Thing
+Chapter,startPage,exactly 1,Thing
+Chapter,chapter,Max,1,Thing
+Chapter,chapter,Max,1,Thing
+Academic,year,only,gYear
+Academic,day,Max 1,Thing
+Academic,month,only,gMonth
+Academic,title,Max 1,Thing
+Academic,day,only,gDay
+Academic,year,exactly 1,Thing
+Academic,author,Max 1,Thing
+Academic,month,Max 1,Thing
+Academic,month,Max,1,Thing
+Academic,year,only,gYear
+Academic,month,only,gMonth
+Academic,year,exactly,1,Thing
+Academic,day,only,gDay
+Academic,author,exactly,1,Thing
+Academic,day,Max,1,Thing
+Academic,schoolName,exactly,1,Thing
+Academic,title,exactly,1,Thing
+Reference,year,only,gYear
+Reference,day,Max,1,Thing
+Reference,month,only,gMonth
+Reference,title,Max,1,Thing
+Reference,day,only,gDay
+Reference,year,exactly,1,Thing
+Reference,author,Max,1,Thing
+Reference,month,Max,1,Thing
+MotionPicture,year,only,gYear
+MotionPicture,day,Max 1,Thing
+MotionPicture,month,only,gMonth
+MotionPicture,title,Max 1,Thing
+MotionPicture,day,only,gDay
+MotionPicture,year,exactly 1,Thing
+MotionPicture,author,Max 1,Thing
+MotionPicture,month,Max 1,Thing
+Report,year,only,gYear
+Report,day,Max 1,Thing
+Report,month,only,gMonth
+Report,title,Max 1,Thing
+Report,day,only,gDay
+Report,year,exactly 1,Thing
+Report,author,Max 1,Thing
+Report,month,Max 1,Thing
+Report,title,exactly,1,Thing
+Report,number,Max,1,Thing
+Report,year,only,gYear
+Report,day,Max,1,Thing
+Report,month,Max,1,Thing
+Report,month,only,gMonth
+Report,organizationName,exactly,1,Thing
+Report,year,exactly,1,Thing
+Report,day,only,gDay
+Report,author,exactly,1,Thing
+PhdThesis,month,Max 1,Thing
+PhdThesis,year,only,gYear
+PhdThesis,month,only,gMonth
+PhdThesis,year,exactly 1,Thing
+PhdThesis,day,only,gDay
+PhdThesis,author,exactly 1,Thing
+PhdThesis,day,Max 1,Thing
+PhdThesis,schoolName,exactly 1,Thing
+PhdThesis,title,exactly 1,Thing
+PhdThesis,year,only,gYear
+PhdThesis,day,Max 1,Thing
+PhdThesis,month,only,gMonth
+PhdThesis,title,Max 1,Thing
+PhdThesis,day,only,gDay
+PhdThesis,year,exactly 1,Thing
+PhdThesis,author,Max 1,Thing
+PhdThesis,month,Max 1,Thing
+InBook,year,only,gYear
+InBook,day,Max 1,Thing
+InBook,month,only,gMonth
+InBook,title,Max 1,Thing
+InBook,day,only,gDay
+InBook,year,exactly 1,Thing
+InBook,author,Max 1,Thing
+InBook,month,Max 1,Thing
+InBook,title,exactly 1,Thing
+InBook,endPage,exactly 1,Thing
+InBook,startPage,exactly 1,Thing
+InBook,book,exactly,1,Thing
+InBook,endPage,exactly,1,Thing
+InBook,startPage,exactly,1,Thing
+InBook,author,exactly,1,Thing
+Informal,year,only,gYear
+Informal,day,Max 1,Thing
+Informal,month,only,gMonth
+Informal,title,Max 1,Thing
+Informal,day,only,gDay
+Informal,year,exactly 1,Thing
+Informal,author,Max 1,Thing
+Informal,month,Max 1,Thing
+Informal,title,exactly,1,Thing
+Article,year,only,gYear
+Article,day,Max 1,Thing
+Article,month,only,gMonth
+Article,title,Max 1,Thing
+Article,day,only,gDay
+Article,year,exactly 1,Thing
+Article,author,Max 1,Thing
+Article,month,Max 1,Thing
+Article,title,exactly 1,Thing
+Article,endPage,exactly 1,Thing
+Article,startPage,exactly 1,Thing
+Article,journalName,only,string
+Article,author,exactly,1,Thing
+Article,day,Max,1,Thing
+Article,startPage,exactly,1,Thing
+Article,month,only,gMonth
+Article,volume,Max,1,Thing
+Article,month,Max,1,Thing
+Article,year,only,gYear
+Article,series,Max,1,Thing
+Article,publisherName,Max,1,Thing
+Article,day,only,gDay
+Article,endPage,exactly,1,Thing
+Article,number,Max,1,Thing
+Article,journalName,exactly,1,Thing
+Article,year,exactly,1,Thing
+Article,journalName,exactly,1,Thing
+Deliverable,year,only,gYear
+Deliverable,day,Max 1,Thing
+Deliverable,month,only,gMonth
+Deliverable,title,Max 1,Thing
+Deliverable,day,only,gDay
+Deliverable,year,exactly 1,Thing
+Deliverable,author,Max 1,Thing
+Deliverable,month,Max 1,Thing
+Deliverable,title,exactly 1,Thing
+Deliverable,number,Max 1,Thing
+Deliverable,year,only,gYear
+Deliverable,day,Max 1,Thing
+Deliverable,month,Max 1,Thing
+Deliverable,month,only,gMonth
+Deliverable,organizationName,exactly 1,Thing
+Deliverable,year,exactly 1,Thing
+Deliverable,day,only,gDay
+Deliverable,author,exactly 1,Thing
+Deliverable,contract,Max,1,Thing
+Book,year,only,gYear
+Book,day,Max 1,Thing
+Book,month,only,gMonth
+Book,title,Max 1,Thing
+Book,day,only,gDay
+Book,year,exactly 1,Thing
+Book,author,Max 1,Thing
+Book,month,Max 1,Thing
+Book,year,exactly,1,Thing
+Book,month,Max,1,Thing
+Book,edition,Max,1,Thing
+Book,volume,Max,1,Thing
+Book,humanCreator,exactly,1,Thing
+Book,shortName,exactly,1,Thing
+Book,publisherName,Max,1,Thing
+Book,city,Max,1,Thing
+Book,month,only,gMonth
+Book,day,Max,1,Thing
+Book,city,only,string
+Book,year,only,gYear
+Book,day,only,gDay
+Book,title,exactly,1,Thing
+Book,country,Max,1,Thing
+Book,state,Max,1,Thing
+Book,series,Max,1,Thing
+Book,country,only,string
+Book,state,only,string
+PersonList,rest,only,PersonList
+PersonList,rest,only,null
+PersonList,rest,exactly,1,Thing
+PersonList,first,only,Person
+PersonList,first,exactly,1,Thing
+Unpublished,year,only,gYear
+Unpublished,day,Max 1,Thing
+Unpublished,month,only,gMonth
+Unpublished,title,Max 1,Thing
+Unpublished,day,only,gDay
+Unpublished,year,exactly 1,Thing
+Unpublished,author,Max 1,Thing
+Unpublished,month,Max 1,Thing
+Unpublished,title,exactly 1,Thing
+Unpublished,note,Min,1,Thing
+Unpublished,title,exactly,1,Thing
+Unpublished,author,exactly,1,Thing
+LectureNotes,year,only,gYear
+LectureNotes,day,Max 1,Thing
+LectureNotes,month,only,gMonth
+LectureNotes,title,Max 1,Thing
+LectureNotes,day,only,gDay
+LectureNotes,year,exactly 1,Thing
+LectureNotes,author,Max 1,Thing
+LectureNotes,month,Max 1,Thing
+LectureNotes,title,exactly 1,Thing
+Manual,year,only,gYear
+Manual,day,Max 1,Thing
+Manual,month,only,gMonth
+Manual,title,Max 1,Thing
+Manual,day,only,gDay
+Manual,year,exactly 1,Thing
+Manual,author,Max 1,Thing
+Manual,month,Max 1,Thing
+Manual,title,exactly 1,Thing
+Manual,title,exactly,1,Thing
+Manual,edition,Max,1,Thing
+Manual,organizationName,Max,1,Thing
+Booklet,year,only,gYear
+Booklet,day,Max 1,Thing
+Booklet,month,only,gMonth
+Booklet,title,Max 1,Thing
+Booklet,day,only,gDay
+Booklet,year,exactly 1,Thing
+Booklet,author,Max 1,Thing
+Booklet,month,Max 1,Thing
+Booklet,title,exactly 1,Thing
+Collection,year,only,gYear
+Collection,day,Max 1,Thing
+Collection,month,only,gMonth
+Collection,title,Max 1,Thing
+Collection,day,only,gDay
+Collection,year,exactly 1,Thing
+Collection,author,Max 1,Thing
+Collection,month,Max 1,Thing
+Collection,year,exactly 1,Thing
+Collection,month,Max 1,Thing
+Collection,edition,Max 1,Thing
+Collection,volume,Max 1,Thing
+Collection,humanCreator,exactly 1,Thing
+Collection,shortName,exactly 1,Thing
+Collection,publisherName,Max 1,Thing
+Collection,city,Max 1,Thing
+Collection,month,only,gMonth
+Collection,day,Max 1,Thing
+Collection,city,only,string
+Collection,year,only,gYear
+Collection,day,only,gDay
+Collection,title,exactly 1,Thing
+Collection,country,Max 1,Thing
+Collection,state,Max 1,Thing
+Collection,series,Max 1,Thing
+Collection,country,only,string
+Collection,state,only,string

@@ -1,0 +1,6 @@
+Person--Woman,Man,BipedalPerson
+Animal--Hermaphrodite,Person,Male,Female
+Male--Man
+Female--Woman
+BipedalThing--BipedalPerson
+Thing--Animal,BipedalThing

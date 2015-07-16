@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+
+<!-- This is an ontology created by the Ontrapro group at Lockheed Martin -->
+
+<!DOCTYPE rdf:RDF [
+     <!ENTITY owl  "http://www.w3.org/2002/07/owl#" >
+     <!ENTITY xsd  "http://www.w3.org/2001/XMLSchema#" >
+   ]>
+   
+<rdf:RDF
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xml:base="http://www.atl.lmco.com/projects/ontology/ontologies/network/networkB.owl"
+	xmlns="http://www.atl.lmco.com/projects/ontology/ontologies/network/networkB.owl#">
+	
+<owl:Ontology rdf:about=""> 
+	<rdfs:comment>A networking ontology</rdfs:comment>
+	<rdfs:label>Network Ontology 2</rdfs:label>
+</owl:Ontology>
+
+<owl:Class rdf:ID="Equipment"/>
+
+<owl:Class rdf:ID="NetworkNode">
+	<rdfs:subClassOf rdf:resource="#Equipment"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Computer">
+	<rdfs:subClassOf rdf:resource="#NetworkNode"/>
+</owl:Class>
+
+<owl:Class rdf:ID="PC">
+	<rdfs:subClassOf rdf:resource="#Computer"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Server">
+	<rdfs:subClassOf rdf:resource="#Computer"/>
+</owl:Class>
+
+<owl:Class rdf:ID="CentralHub">
+	<rdfs:subClassOf rdf:resource="#NetworkNode"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Switch">
+	<rdfs:subClassOf rdf:resource="#CentralHub"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Hub">
+	<rdfs:subClassOf rdf:resource="#CentralHub"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Router">
+	<rdfs:subClassOf rdf:resource="#CentralHub"/>
+</owl:Class>
+
+<owl:Class rdf:ID="WirelessDevice">
+	<rdfs:subClassOf rdf:resource="#Equipment"/>
+</owl:Class>
+
+<owl:Class rdf:ID="WAP">
+	<rdfs:subClassOf rdf:resource="#WirelessDevice"/>
+</owl:Class>
+
+<owl:Class rdf:ID="WirelessBridge">
+	<rdfs:subClassOf rdf:resource="#WirelessDevice"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Cable">
+	<rdfs:subClassOf rdf:resource="#Equipment"/>
+</owl:Class>
+
+<owl:Class rdf:ID="CrossOver">
+	<rdfs:subClassOf rdf:resource="#Cable"/>
+</owl:Class>
+
+<owl:Class rdf:ID="StraightThrough">
+	<rdfs:subClassOf rdf:resource="#Cable"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Coax">
+	<rdfs:subClassOf rdf:resource="#Cable"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Software"/>
+
+<owl:Class rdf:ID="OS">
+	<rdfs:subClassOf rdf:resource="#Software"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Office">
+	<rdfs:subClassOf rdf:resource="#Software"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ServerSoftware">
+	<rdfs:subClassOf rdf:resource="#Software"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Web">
+	<rdfs:subClassOf rdf:resource="#ServerSoftware"/>
+</owl:Class>
+
+<owl:Class rdf:ID="FTP">
+	<rdfs:subClassOf rdf:resource="#ServerSoftware"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Telnet">
+	<rdfs:subClassOf rdf:resource="#ServerSoftware"/>
+</owl:Class>
+
+<owl:Class rdf:ID="SSH">
+	<rdfs:subClassOf rdf:resource="#ServerSoftware"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Other">
+	<rdfs:subClassOf rdf:resource="#ServerSoftware"/>
+</owl:Class>
+
+<owl:Class rdf:ID="PairOfNodes"/>
+
+<owl:Class rdf:ID="ConnectionType"/>
+<ConnectionType rdf:ID="Wired"/>
+<ConnectionType rdf:ID="Wireless"/>
+
+
+<owl:ObjectProperty rdf:ID="ConnectedTo">
+	<rdf:type rdf:resource="&owl;FunctionalProperty" />
+	<rdfs:domain rdf:resource="#NetworkNode"/>
+	<rdfs:range rdf:resource="#NetworkNode"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="HasSoftware">
+	<rdf:type rdf:resource="&owl;FunctionalProperty" />
+	<rdfs:domain rdf:resource="#Computer"/>
+	<rdfs:range rdf:resource="#Software"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="ConnectedThrough">
+	<rdf:type rdf:resource="&owl;FunctionalProperty" />
+	<rdfs:domain rdf:resource="#PairOfNodes"/>
+	<rdfs:range rdf:resource="#Cable"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="hasConnectionType">
+	<rdf:type rdf:resource="&owl;FunctionalProperty"/>
+	<rdfs:range rdf:resource="#ConnectionType"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="NodeA">
+	<rdf:type rdf:resource="&owl;FunctionalProperty" />
+	<rdfs:domain rdf:resource="#PairOfNodes"/>
+	<rdfs:range rdf:resource="#NetworkNode"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="NodeB">
+	<rdf:type rdf:resource="&owl;FunctionalProperty" />
+	<rdfs:domain rdf:resource="#PairOfNodes"/>
+	<rdfs:range rdf:resource="#NetworkNode"/>
+</owl:ObjectProperty>
+
+</rdf:RDF>

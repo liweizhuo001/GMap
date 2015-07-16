@@ -1,0 +1,16 @@
+X1--sum_X1#0.5
+X0--sum_X1#0.5
+X1--sum_X2#0.1
+X0--sum_X2#0.9
+Y1--sum_Y1#0.6
+Y2--sum_Y1#0.3
+Y3--sum_Y1#0.1
+Y1--sum_Y2#0.4
+Y2--sum_Y2#0.4
+Y3--sum_Y2#0.2
+sum_X1--prod_sumX1_sumY1#1
+sum_Y1--prod_sumX1_sumY1#1
+sum_X2--prod_sumX2_sumY2#1
+sum_Y2--prod_sumX2_sumY2#1
+prod_sumX1_sumY1--R#0.4
+prod_sumX2_sumY2--R#0.6

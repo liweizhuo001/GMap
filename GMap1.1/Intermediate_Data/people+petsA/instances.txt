@@ -1,0 +1,33 @@
+male--Mick
+bus--The42
+dog_owner--Mick,Joe
+animal--Tibbs,Huey,Flossie,Fluffy,Fred,Louie,Mick,Kevin,Joe,Rex,Fido,Tom,Minnie,Walt,Dewey
+cat_liker--Minnie,Fred
+duck--Huey,Louie,Dewey
+woman--Minnie
+broadsheet--the times,the guardian
+white_van_man--Mick
+tiger--Fluffy
+old_lady--Minnie
+cow--Flossie
+newspaper--the sun,daily mirror,the times,the guardian
+vegetarian--Flossie
+cat_owner--Minnie,Fred
+grownup--Minnie,Mick
+cat--Tibbs,Tom
+white_thing--q123 abc
+van_driver--Mick
+van--q123 abc
+driver--Mick
+tabloid--the sun,daily mirror
+person--Minnie,Walt,Fred,Mick,Kevin,Joe
+dog--Rex,Fido
+vehicle--q123 abc,The42
+female--Minnie
+man--Mick
+dog_liker--Mick,Joe
+elderly--Minnie
+pet_owner--Minnie,Walt,Fred,Mick,Joe
+pet--Tibbs,Rex,Huey,Fido,Tom,Louie,Dewey
+publication--the sun,daily mirror,the times,the guardian
+adult--Minnie,Mick

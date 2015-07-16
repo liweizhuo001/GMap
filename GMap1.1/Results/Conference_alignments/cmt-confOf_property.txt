@@ -1,0 +1,6 @@
+hasBeenAssigned--reviewes
+hasAuthor--writtenBy
+title--hasTitle
+email--hasEmail
+writePaper--writes
+hasSubjectArea--dealsWith

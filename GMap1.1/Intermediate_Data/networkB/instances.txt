@@ -1,0 +1,1 @@
+ConnectionType--Wired,Wireless

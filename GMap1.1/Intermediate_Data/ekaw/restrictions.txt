@@ -1,0 +1,64 @@
+Conference_Proceedings,volumeContainsPaper,Min 1,Literal
+Conference_Proceedings,volumeContainsPaper,only,Accepted_Paper
+Conference_Proceedings,volumeContainsPaper,only,Invited_Talk_Abstract
+Conference_Proceedings,volumeContainsPaper,only,Conference_Paper
+Conference_Proceedings,volumeContainsPaper,only,Invited_Talk_Abstract
+Rejected_Paper,hasReview,Min 3,Literal
+Rejected_Paper,hasReviewer,Min 3,Literal
+Workshop_Session,partOfEvent,some,Conference
+Workshop_Session,partOfEvent,some,Workshop
+Workshop_Session,partOfEvent,only,Conference
+Workshop_Session,partOfEvent,only,Track
+Workshop_Session,partOfEvent,only,Workshop
+Workshop_Session,hasEvent,some,Individual_Presentation
+Proceedings,volumeContainsPaper,Min,1,Literal
+Proceedings,volumeContainsPaper,only,Accepted_Paper
+Proceedings,volumeContainsPaper,only,Invited_Talk_Abstract
+Session,partOfEvent,some,Conference
+Session,partOfEvent,some,Workshop
+Session,partOfEvent,only,Conference
+Session,partOfEvent,only,Track
+Session,partOfEvent,only,Workshop
+Session,hasEvent,some,Individual_Presentation
+Industrial_Session,partOfEvent,some,Conference
+Industrial_Session,partOfEvent,some,Workshop
+Industrial_Session,partOfEvent,only,Conference
+Industrial_Session,partOfEvent,only,Track
+Industrial_Session,partOfEvent,only,Workshop
+Industrial_Session,hasEvent,some,Individual_Presentation
+Industrial_Session,partOfEvent,some,Conference
+Poster_Session,partOfEvent,some,Conference
+Poster_Session,partOfEvent,some,Workshop
+Poster_Session,partOfEvent,only,Conference
+Poster_Session,partOfEvent,only,Track
+Poster_Session,partOfEvent,only,Workshop
+Poster_Session,hasEvent,some,Individual_Presentation
+Regular_Session,partOfEvent,some,Conference
+Regular_Session,partOfEvent,some,Workshop
+Regular_Session,partOfEvent,only,Conference
+Regular_Session,partOfEvent,only,Track
+Regular_Session,partOfEvent,only,Workshop
+Regular_Session,hasEvent,some,Individual_Presentation
+Conference_Session,partOfEvent,some,Conference
+Conference_Session,partOfEvent,some,Workshop
+Conference_Session,partOfEvent,only,Conference
+Conference_Session,partOfEvent,only,Track
+Conference_Session,partOfEvent,only,Workshop
+Conference_Session,hasEvent,some,Individual_Presentation
+Conference_Session,partOfEvent,some,Conference
+Camera_Ready_Paper,updatedVersionOf,some,Accepted_Paper
+Camera_Ready_Paper,writtenBy,some,Conference_Participant
+Accepted_Paper,hasReview,Min 3,Literal
+Accepted_Paper,hasReviewer,Min 3,Literal
+Accepted_Paper,hasReview,some,Positive_Review
+Assigned_Paper,hasReviewer,Min,3,Literal
+Contributed_Talk,presentationOfPaper,exactly,1,Literal
+Contributed_Talk,presentationOfPaper,some,Camera_Ready_Paper
+Evaluated_Paper,hasReviewer,Min 3,Literal
+Evaluated_Paper,hasReview,Min,3,Literal
+Demo_Session,partOfEvent,some,Conference
+Demo_Session,partOfEvent,some,Workshop
+Demo_Session,partOfEvent,only,Conference
+Demo_Session,partOfEvent,only,Track
+Demo_Session,partOfEvent,only,Workshop
+Demo_Session,hasEvent,some,Individual_Presentation

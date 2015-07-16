@@ -1,0 +1,16 @@
+authornotreviewer,author,2.0
+co-author,author,2.0
+author,author,2.0
+paperfullversion,short_paper,1.0
+paperfullversion,paper,1.0
+paperfullversion,poster,1.0
+paperfullversion,contribution,1.0
+paperabstract,short_paper,1.0
+paperabstract,paper,1.0
+paperabstract,poster,1.0
+paperabstract,contribution,1.0
+paper,short_paper,1.0
+paper,paper,1.0
+paper,poster,1.0
+paper,contribution,1.0
+subjectarea,topic,2.0

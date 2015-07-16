@@ -1,0 +1,5 @@
+hasAuthor--isWrittenBy
+hasConferenceMember--hasMember
+memberOfConference--isMemberOf
+assignedTo--isReviewedBy
+hasBeenAssigned--isReviewing

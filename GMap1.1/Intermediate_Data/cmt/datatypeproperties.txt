@@ -1,0 +1,10 @@
+siteURL
+date
+acceptsHardcopySubmissions
+maxPapers
+name
+email
+title
+reviewsPerPaper
+logoURL
+paperID

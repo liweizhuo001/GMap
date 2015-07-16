@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://confOf</onto1>
+	<onto2>http://iasted</onto2>
+	<uri1>http://confOf</uri1>
+	<uri2>http://iasted</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#author"/>
+			<entity2 rdf:resource="http://iasted#author"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#city"/>
+			<entity2 rdf:resource="http://iasted#city"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#person"/>
+			<entity2 rdf:resource="http://iasted#person"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#tutorial"/>
+			<entity2 rdf:resource="http://iasted#tutorial"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#submission_event"/>
+			<entity2 rdf:resource="http://iasted#submission"/>
+			<measure rdf:datatype="xsd:float">0.6677890214312083</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#university"/>
+			<entity2 rdf:resource="http://iasted#presenter_university"/>
+			<measure rdf:datatype="xsd:float">0.6066543451565389</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#banquet"/>
+			<entity2 rdf:resource="http://iasted#dinner_banquet"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#member"/>
+			<entity2 rdf:resource="http://iasted#iasted_member"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#reception"/>
+			<entity2 rdf:resource="http://iasted#coctail_reception"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#plenary_lecture"/>
+			<entity2 rdf:resource="http://iasted#tutorial"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://confOf#writes"/>
+			<entity2 rdf:resource="http://iasted#write"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

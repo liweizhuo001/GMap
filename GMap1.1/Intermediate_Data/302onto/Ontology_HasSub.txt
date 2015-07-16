@@ -1,0 +1,2 @@
+Resource--InProceedings,MastersThesis,TechReport,Misc,Book,SoftCopy,Publication,InCollection,Article,Proceedings,PhdThesis,InBook
+Publication--InProceedings,InCollection,Article,MastersThesis,TechReport,Misc,Book,Proceedings,PhdThesis,InBook

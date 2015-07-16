@@ -1,0 +1,13 @@
+is_close_to--is_close_to
+belong_to_country___city--belong_to___city
+has_sight___city--has_attractions
+has_capital--has_capital_city
+has_birthplace--has_birthplace
+take_place_at--is_at
+take_place_on--is_on
+has_duration_value--has_duration
+has_length_unit___palace--has_length_unit
+has_time_unit--has_time_unit
+lie_in--lie_in___locatable_thing
+has_training_place--has_place
+DEFAULT_ROOT_RELATION--DEFAULT_ROOT_RELATION

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://animalsA</onto1>
+	<onto2>http://animalsB</onto2>
+	<uri1>http://animalsA</uri1>
+	<uri2>http://animalsB</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#person"/>
+			<entity2 rdf:resource="http://animalsB#person"/>
+			<measure rdf:datatype="xsd:float">0.9334949931301412</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#animal"/>
+			<entity2 rdf:resource="http://animalsB#animal"/>
+			<measure rdf:datatype="xsd:float">0.9037155163222116</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#woman"/>
+			<entity2 rdf:resource="http://animalsB#woman"/>
+			<measure rdf:datatype="xsd:float">0.869215865194503</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#male"/>
+			<entity2 rdf:resource="http://animalsB#male"/>
+			<measure rdf:datatype="xsd:float">0.8585705423459095</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#female"/>
+			<entity2 rdf:resource="http://animalsB#female"/>
+			<measure rdf:datatype="xsd:float">0.8585705423459095</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#man"/>
+			<entity2 rdf:resource="http://animalsB#man"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#humanbeing"/>
+			<entity2 rdf:resource="http://animalsB#person"/>
+			<measure rdf:datatype="xsd:float">0.9334949931301412</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#hasSpouse"/>
+			<entity2 rdf:resource="http://animalsB#hasSpouse"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#hasChild"/>
+			<entity2 rdf:resource="http://animalsB#hasChild"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#hasMother"/>
+			<entity2 rdf:resource="http://animalsB#hasMother"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#hasFather"/>
+			<entity2 rdf:resource="http://animalsB#hasFather"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#biologicalMotherOf"/>
+			<entity2 rdf:resource="http://animalsB#biologicalMotherOf"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#hasAncestor"/>
+			<entity2 rdf:resource="http://animalsB#hasAncestor"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#spouseOf"/>
+			<entity2 rdf:resource="http://animalsB#spouseOf"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#hasParent"/>
+			<entity2 rdf:resource="http://animalsB#hasParent"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#hasFriend"/>
+			<entity2 rdf:resource="http://animalsB#hasFriend"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#age"/>
+			<entity2 rdf:resource="http://animalsB#age"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#shirtsize"/>
+			<entity2 rdf:resource="http://animalsB#shirtsize"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#shoesize"/>
+			<entity2 rdf:resource="http://animalsB#shoesize"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#hasFemaleParent"/>
+			<entity2 rdf:resource="http://animalsB#hasMother"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#hasMom"/>
+			<entity2 rdf:resource="http://animalsB#hasMother"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://animalsA#hasMaleParent"/>
+			<entity2 rdf:resource="http://animalsB#hasFather"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

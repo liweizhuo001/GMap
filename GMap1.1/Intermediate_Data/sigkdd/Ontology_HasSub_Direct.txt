@@ -1,0 +1,13 @@
+Place--Hotel,Conference_hall,Main_office
+Deadline--Deadline_Author_notification,Deadline_Abstract_Submission,Deadline_Paper_Submission
+Fee--Registration_fee,Sponzor_fee
+Registration_fee--Registration_Non-Member,Registration_SIGMOD_Member,Registration_SIGKDD_Member,Registration_Student
+Author--Author_of_paper,Author_of_paper_student
+Document--Review,Paper,Abstract
+Sponzor--Exhibitor,Silver_Supporter,Best_Student_Paper_Supporter,Gold_Supporter,Platinum_Supporter,Bronze_Supporter
+Thing--Deadline,Place,Fee,Award,Document,Conference,ACM_SIGKDD,Person,Committee
+Organizator--Organizing_Committee_member,Program_Committee_member,Webmaster,Program_Chair,General_Chair
+Person--Speaker,Listener,Organizator,Sponzor
+Committee--Program_Committee,Organizing_Committee,Best_Paper_Awards_Committee
+Speaker--Invited_Speaker,Author
+Award--Best_Student_Paper_Award,Best_Applications_Paper_Award,Best_Research_Paper_Award

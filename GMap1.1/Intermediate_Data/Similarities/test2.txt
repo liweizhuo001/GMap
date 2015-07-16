@@ -1,0 +1,8 @@
+conferencemember,person,3.0
+person,participant,1.0
+person,person,5.0
+paper,contribution,1.0
+user,person,2.0
+chairman,person,1.0
+document,contribution,1.0
+programcommitteemember,person,1.0

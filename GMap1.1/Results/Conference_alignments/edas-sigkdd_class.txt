@@ -1,0 +1,11 @@
+Author--Author
+AccommodationPlace--Hotel
+ConferenceChair--General_Chair
+Person--Person
+ConferenceVenuePlace--Conference_hall
+Place--Place
+Paper--Paper
+Attendee--Listener
+Review--Review
+Document--Document
+Conference--Conference

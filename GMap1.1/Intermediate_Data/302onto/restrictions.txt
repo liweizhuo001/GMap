@@ -1,0 +1,103 @@
+Resource,firstAuthor,Max,1,Thing
+Resource,author,Min,1,Thing
+Resource,version,Max,1,Thing
+Resource,description,Max,1,Thing
+Resource,publishedOn,Max,1,Thing
+Resource,title,exactly,1,Thing
+InProceedings,firstAuthor,Max 1,Thing
+InProceedings,author,Min 1,Thing
+InProceedings,version,Max 1,Thing
+InProceedings,description,Max 1,Thing
+InProceedings,publishedOn,Max 1,Thing
+InProceedings,title,exactly 1,Thing
+InProceedings,abstract,Max 1,Thing
+InProceedings,editor,Min 1,Thing
+MastersThesis,firstAuthor,Max 1,Thing
+MastersThesis,author,Min 1,Thing
+MastersThesis,version,Max 1,Thing
+MastersThesis,description,Max 1,Thing
+MastersThesis,publishedOn,Max 1,Thing
+MastersThesis,title,exactly 1,Thing
+MastersThesis,abstract,Max 1,Thing
+MastersThesis,editor,Min 1,Thing
+TechReport,firstAuthor,Max 1,Thing
+TechReport,author,Min 1,Thing
+TechReport,version,Max 1,Thing
+TechReport,description,Max 1,Thing
+TechReport,publishedOn,Max 1,Thing
+TechReport,title,exactly 1,Thing
+TechReport,abstract,Max 1,Thing
+TechReport,editor,Min 1,Thing
+Misc,firstAuthor,Max 1,Thing
+Misc,author,Min 1,Thing
+Misc,version,Max 1,Thing
+Misc,description,Max 1,Thing
+Misc,publishedOn,Max 1,Thing
+Misc,title,exactly 1,Thing
+Misc,abstract,Max 1,Thing
+Misc,editor,Min 1,Thing
+Book,firstAuthor,Max 1,Thing
+Book,author,Min 1,Thing
+Book,version,Max 1,Thing
+Book,description,Max 1,Thing
+Book,publishedOn,Max 1,Thing
+Book,title,exactly 1,Thing
+Book,abstract,Max 1,Thing
+Book,editor,Min 1,Thing
+SoftCopy,firstAuthor,Max 1,Thing
+SoftCopy,author,Min 1,Thing
+SoftCopy,version,Max 1,Thing
+SoftCopy,description,Max 1,Thing
+SoftCopy,publishedOn,Max 1,Thing
+SoftCopy,title,exactly 1,Thing
+SoftCopy,softCopySize,exactly,1,Thing
+SoftCopy,softCopyURI,exactly,1,Thing
+SoftCopy,softCopyFormat,exactly,1,Thing
+Publication,firstAuthor,Max 1,Thing
+Publication,author,Min 1,Thing
+Publication,version,Max 1,Thing
+Publication,description,Max 1,Thing
+Publication,publishedOn,Max 1,Thing
+Publication,title,exactly 1,Thing
+Publication,abstract,Max,1,Thing
+Publication,editor,Min,1,Thing
+InCollection,firstAuthor,Max 1,Thing
+InCollection,author,Min 1,Thing
+InCollection,version,Max 1,Thing
+InCollection,description,Max 1,Thing
+InCollection,publishedOn,Max 1,Thing
+InCollection,title,exactly 1,Thing
+InCollection,abstract,Max 1,Thing
+InCollection,editor,Min 1,Thing
+Article,firstAuthor,Max 1,Thing
+Article,author,Min 1,Thing
+Article,version,Max 1,Thing
+Article,description,Max 1,Thing
+Article,publishedOn,Max 1,Thing
+Article,title,exactly 1,Thing
+Article,abstract,Max 1,Thing
+Article,editor,Min 1,Thing
+Proceedings,firstAuthor,Max 1,Thing
+Proceedings,author,Min 1,Thing
+Proceedings,version,Max 1,Thing
+Proceedings,description,Max 1,Thing
+Proceedings,publishedOn,Max 1,Thing
+Proceedings,title,exactly 1,Thing
+Proceedings,abstract,Max 1,Thing
+Proceedings,editor,Min 1,Thing
+PhdThesis,firstAuthor,Max 1,Thing
+PhdThesis,author,Min 1,Thing
+PhdThesis,version,Max 1,Thing
+PhdThesis,description,Max 1,Thing
+PhdThesis,publishedOn,Max 1,Thing
+PhdThesis,title,exactly 1,Thing
+PhdThesis,abstract,Max 1,Thing
+PhdThesis,editor,Min 1,Thing
+InBook,firstAuthor,Max 1,Thing
+InBook,author,Min 1,Thing
+InBook,version,Max 1,Thing
+InBook,description,Max 1,Thing
+InBook,publishedOn,Max 1,Thing
+InBook,title,exactly 1,Thing
+InBook,abstract,Max 1,Thing
+InBook,editor,Min 1,Thing

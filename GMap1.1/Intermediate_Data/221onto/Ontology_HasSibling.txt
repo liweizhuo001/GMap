@@ -1,0 +1,11 @@
+InCollection--Article,InBook,InProceedings
+Article--InCollection,InBook,InProceedings
+InBook--InCollection,Article,InProceedings
+InProceedings--InCollection,Article,InBook
+Book--Part,Unpublished,Academic,Manual,Informal,Report
+Part--Book,Unpublished,Academic,Manual,Informal,Report
+Unpublished--Book,Part,Academic,Manual,Informal,Report
+Academic--Book,Part,Unpublished,Manual,Informal,Report
+Manual--Book,Part,Unpublished,Academic,Informal,Report
+Informal--Book,Part,Unpublished,Academic,Manual,Report
+Report--Book,Part,Unpublished,Academic,Manual,Informal

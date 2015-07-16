@@ -1,0 +1,6 @@
+hasConnectionType
+NodeB
+HasSoftware
+ConnectedTo
+NodeA
+ConnectedThrough

@@ -1,0 +1,14 @@
+Working_event--AcademicEvent
+Reception--Reception
+Organization--Organization
+Social_event--SocialEvent
+Participant--Attendee
+Person--Person
+Member_PC--TPCMember
+Trip--Excursion
+Paper--Paper
+Event--ConferenceEvent
+Topic--Topic
+Country--Country
+Workshop--Workshop
+Author--Author

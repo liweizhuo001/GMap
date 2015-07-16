@@ -1,0 +1,4 @@
+Part--dcsqdcsqd,Article,InProceedings,InBook
+sqdsq--qsdsnbsqd,Book,Report,Unpublished,Part,Academic,Manual
+Thing--Address,List,xsqlknk,Organization,Proceedings,sdcsqhyz,Misc,Person,Booklet,Date,Journal,Collection,PhdThesis,Monograph,PageRange,School,zqedzbx,LectureNotes,sqdsq,Publisher,Institution,MotionPicture,Deliverable,Chapter
+List--dsqdbz

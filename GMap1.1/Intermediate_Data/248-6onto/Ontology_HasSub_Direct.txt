@@ -1,0 +1,4 @@
+sqdsq--Book,zdazsx,qsdsnbsqd,Unpublished,dcsqdsq,Part,dqzdxdcsqj
+Thing--Address,dscdscg,Institution,Booklet,List,dzajndsq,zauio,Organization,dzqndbzq,zadazxn,Person,Date,qsdsquj,Misc,LectureNotes,xsqlknk,sqxsqkd,zqedzbx,sdcsqhyz,PhdThesis,PageRange,zdqssqdb,Deliverable,sqdsq
+List--dsqdbz
+Part--InProceedings,dcsqdcsqd,vccfsq,Article

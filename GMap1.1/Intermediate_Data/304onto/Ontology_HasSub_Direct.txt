@@ -1,0 +1,13 @@
+Entry--MotionPicture,Academic,Published,Composite,Part,Informal
+Book--Monography,Collection
+Thesis--MastersThesis,PhdThesis
+Text--Title
+Date--DateWithMonth
+Published--BookPart,Article,Book
+Composite--Proceedings,Book
+Part--InBook,InProceedings,BookPart,InCollection,Article
+Thing--Publisher,Journal,Text,Organization,Chapter,List,Institution,Date,Person,School,Entry,PageRange
+List--PersonList
+Chapter--InBook,InCollection
+Academic--LectureNotes,Thesis
+Informal--Booklet,Misc,Manual,Unpublished,LectureNotes,TechReport,Deliverable

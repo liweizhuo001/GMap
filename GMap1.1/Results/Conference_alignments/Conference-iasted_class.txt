@@ -1,0 +1,13 @@
+Reviewer--Reviewer
+Person--Person
+Regular_author--Author
+Conference_fees--Fee
+Active_conference_participant--Speaker
+Passive_conference_participant--Listener
+Submitted_contribution--Submission
+Camera_ready_contribution--Final_manuscript
+Conference_proceedings--Publication
+Review--Review
+Conference_document--Document
+Conference_part--Conference_activity
+Tutorial--Tutorial

@@ -1,0 +1,9 @@
+qsdsnbsqd--Booklet,LectureNotes,Unpublished,Manual
+Academic--PhdThesis,xsqlknk
+Organization--School,Publisher,Institution
+sqdsq--Booklet,Proceedings,qsdsnbsqd,Chapter,Misc,MotionPicture,LectureNotes,Academic,InBook,dcsqdcsqd,xsqlknk,Monograph,InProceedings,Article,PhdThesis,Report,Part,Unpublished,Manual,Deliverable,Book,Collection,sdcsqhyz
+Report--Deliverable,sdcsqhyz
+Book--Proceedings,Monograph,Collection
+List--dsqdbz
+Part--Article,Chapter,InBook,dcsqdcsqd,InProceedings
+Institution--School,Publisher

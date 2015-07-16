@@ -1,0 +1,4 @@
+Hermaphrodite
+Woman
+Man
+BipedalPerson

@@ -1,0 +1,5 @@
+NodePair,ConnectedWith,Cable
+Computer,HasSoftware,Software
+NodePair,NodeB,NetworkNode
+NetworkNode,ConnectedTo,NetworkNode
+NodePair,NodeA,NetworkNode

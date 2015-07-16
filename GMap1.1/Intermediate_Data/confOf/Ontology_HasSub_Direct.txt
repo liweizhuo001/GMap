@@ -1,0 +1,9 @@
+Event--Social_event,Working_event,Administrative_event
+Contribution--Short_paper,Paper,Poster
+Organization--University,Company
+Participant--Member,Regular,Student
+Person--Participant,Author,Science_Worker,Chair_PC,Scholar,Member_PC,Administrator,Assistant,Volunteer
+Thing--Event,Topic,Contribution,Person,Organization,City,Country
+Social_event--Banquet,Trip,Reception
+Working_event--Conference,Workshop,Tutorial
+Administrative_event--Reviewing_event,Submission_event,Camera_Ready_event,Registration_of_participants_event,Reviewing_results_event

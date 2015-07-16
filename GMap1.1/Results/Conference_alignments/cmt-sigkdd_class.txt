@@ -1,0 +1,10 @@
+Person--Person
+Paper--Paper
+ProgramCommittee--Program_Committee
+Review--Review
+Conference--Conference
+Author--Author
+ProgramCommitteeChair--Program_Chair
+Document--Document
+ProgramCommitteeMember--Program_Committee_member
+ConferenceChair--General_Chair

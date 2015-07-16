@@ -1,0 +1,1 @@
+Thing--Date,Institution,School,PhdThesis,Organization,Reference,Journal,Collection,Person,LectureNotes,Report,MastersThesis,InProceedings,Conference,InCollection,Book,Proceedings,Informal,Unpublished,Manual,Part,Misc,Article,Deliverable,List,PersonList,Publisher,Address,Monograph,Chapter,PageRange,Academic,Booklet,InBook,MotionPicture,TechReport

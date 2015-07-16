@@ -1,0 +1,3 @@
+is_dated_on
+has_amount_of
+done_till

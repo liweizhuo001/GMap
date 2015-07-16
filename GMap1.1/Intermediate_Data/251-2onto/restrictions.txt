@@ -1,0 +1,196 @@
+InBook,humanCreator,Max 1,Thing
+InBook,dznbaln,Max 1,Thing
+InBook,date,Max 1,Thing
+InBook,book,exactly,1,Thing
+InBook,pages,Min,1,Thing
+InBook,author,exactly,1,Thing
+InBook,dznbaln,exactly,1,Thing
+InBook,pages,Max,1,Thing
+dsqdbz,rest,only,dsqdbz
+dsqdbz,rest,only,null
+dsqdbz,rest,exactly,1,Thing
+dsqdbz,first,only,Person
+dsqdbz,first,exactly,1,Thing
+Publisher,qzd,Max 1,Thing
+Publisher,shortName,exactly 1,Thing
+Publisher,name,exactly 1,Thing
+MotionPicture,humanCreator,Max 1,Thing
+MotionPicture,dznbaln,Max 1,Thing
+MotionPicture,date,Max 1,Thing
+PageRange,endPage,exactly,1,Thing
+PageRange,startPage,exactly,1,Thing
+LectureNotes,humanCreator,Max 1,Thing
+LectureNotes,dznbaln,Max 1,Thing
+LectureNotes,date,Max 1,Thing
+LectureNotes,dznbaln,exactly,1,Thing
+zqedzbx,location,Max,1,Thing
+zqedzbx,issue,Max,1,Thing
+zqedzbx,shortName,Max,1,Thing
+zqedzbx,organizer,only,Institution
+zqedzbx,name,exactly,1,Thing
+Date,day,only,gDay
+Date,day,Max,1,Thing
+Date,month,only,gMonth
+Date,month,Max,1,Thing
+Date,year,only,gYear
+Date,year,exactly,1,Thing
+Deliverable,number,Max 1,Thing
+Deliverable,date,only,Date
+Deliverable,date,exactly 1,Thing
+Deliverable,institution,exactly 1,Thing
+Deliverable,dznbaln,exactly 1,Thing
+Deliverable,author,exactly 1,Thing
+Deliverable,humanCreator,Max 1,Thing
+Deliverable,dznbaln,Max 1,Thing
+Deliverable,date,Max 1,Thing
+Deliverable,zandsbh,Max,1,Thing
+Booklet,humanCreator,Max 1,Thing
+Booklet,dznbaln,Max 1,Thing
+Booklet,date,Max 1,Thing
+Booklet,dznbaln,exactly,1,Thing
+Institution,qzd,Max,1,Thing
+Institution,shortName,exactly,1,Thing
+Institution,name,exactly,1,Thing
+sqdsq,humanCreator,Max,1,Thing
+sqdsq,dznbaln,Max,1,Thing
+sqdsq,date,Max,1,Thing
+PhdThesis,humanCreator,Max 1,Thing
+PhdThesis,dznbaln,Max 1,Thing
+PhdThesis,date,Max 1,Thing
+PhdThesis,date,exactly,1,Thing
+PhdThesis,school,exactly,1,Thing
+PhdThesis,dznbaln,exactly,1,Thing
+PhdThesis,author,exactly,1,Thing
+sdcsqhyz,number,Max 1,Thing
+sdcsqhyz,date,only,Date
+sdcsqhyz,date,exactly 1,Thing
+sdcsqhyz,institution,exactly 1,Thing
+sdcsqhyz,dznbaln,exactly 1,Thing
+sdcsqhyz,author,exactly 1,Thing
+sdcsqhyz,humanCreator,Max 1,Thing
+sdcsqhyz,dznbaln,Max 1,Thing
+sdcsqhyz,date,Max 1,Thing
+Journal,articles,only,Article
+Journal,firstPublished,Max,1,Thing
+Journal,series,Max,1,Thing
+Journal,publisher,Max,1,Thing
+Journal,periodicity,only,string
+Journal,shortName,only,string
+Journal,name,only,string
+Journal,name,exactly,1,Thing
+Manual,humanCreator,Max 1,Thing
+Manual,dznbaln,Max 1,Thing
+Manual,date,Max 1,Thing
+Manual,dznbaln,exactly,1,Thing
+Manual,edition,Max,1,Thing
+Manual,organization,Max,1,Thing
+Manual,dznbaln,exactly,1,Thing
+Unpublished,humanCreator,Max 1,Thing
+Unpublished,dznbaln,Max 1,Thing
+Unpublished,date,Max 1,Thing
+Unpublished,zdsnsqdv,Min,1,Thing
+Unpublished,dznbaln,exactly,1,Thing
+Unpublished,author,exactly,1,Thing
+Unpublished,dznbaln,exactly,1,Thing
+Address,city,only,string
+Address,city,Max,1,Thing
+Address,zdnzadh,only,string
+Address,zdnzadh,Max,1,Thing
+Address,country,only,string
+Address,country,Max,1,Thing
+Collection,humanCreator,Max 1,Thing
+Collection,dznbaln,Max 1,Thing
+Collection,date,Max 1,Thing
+Collection,parts,only,dcsqdcsqd
+Collection,date,only,Date
+Collection,edition,Max,1,Thing
+Collection,dznbaln,exactly,1,Thing
+Collection,series,Max,1,Thing
+Collection,zsbdgz,Max,1,Thing
+Collection,date,exactly,1,Thing
+Collection,chapters,only,Chapter
+Collection,publisher,Max,1,Thing
+Collection,author,exactly,1,Thing
+Proceedings,humanCreator,Max 1,Thing
+Proceedings,dznbaln,Max 1,Thing
+Proceedings,date,Max 1,Thing
+Proceedings,event,Max,1,Thing
+Proceedings,date,exactly,1,Thing
+Proceedings,dznbaln,exactly,1,Thing
+Proceedings,event,only,zqedzbx
+Proceedings,date,only,Date
+Proceedings,zsbdgz,Max,1,Thing
+Proceedings,author,exactly,1,Thing
+Proceedings,publisher,Max,1,Thing
+Proceedings,dzajj,Max,1,Thing
+Proceedings,edition,Max,1,Thing
+Proceedings,organization,Max,1,Thing
+Proceedings,PrSGUs,only,InProceedings
+Proceedings,series,Max,1,Thing
+School,qzd,Max 1,Thing
+School,shortName,exactly 1,Thing
+School,name,exactly 1,Thing
+Report,humanCreator,Max 1,Thing
+Report,dznbaln,Max 1,Thing
+Report,date,Max 1,Thing
+Report,number,Max,1,Thing
+Report,date,only,Date
+Report,date,exactly,1,Thing
+Report,institution,exactly,1,Thing
+Report,dznbaln,exactly,1,Thing
+Report,author,exactly,1,Thing
+Monograph,humanCreator,Max 1,Thing
+Monograph,dznbaln,Max 1,Thing
+Monograph,date,Max 1,Thing
+Monograph,publisher,Max,1,Thing
+Monograph,zsbdgz,Max,1,Thing
+Monograph,dznbaln,exactly,1,Thing
+Monograph,chapters,only,Chapter
+Monograph,edition,Max,1,Thing
+Monograph,author,exactly,1,Thing
+Monograph,date,only,Date
+Monograph,date,exactly,1,Thing
+Monograph,series,Max,1,Thing
+dcsqdcsqd,humanCreator,Max 1,Thing
+dcsqdcsqd,dznbaln,Max 1,Thing
+dcsqdcsqd,date,Max 1,Thing
+dcsqdcsqd,collection,exactly,1,Thing
+dcsqdcsqd,author,exactly,1,Thing
+dcsqdcsqd,dznbaln,exactly,1,Thing
+dcsqdcsqd,pages,Max,1,Thing
+Article,humanCreator,Max 1,Thing
+Article,dznbaln,Max 1,Thing
+Article,date,Max 1,Thing
+Article,pages,exactly,1,Thing
+Article,dznbaln,exactly,1,Thing
+Article,author,exactly,1,Thing
+Article,date,exactly,1,Thing
+Article,sxqsnbvsq,exactly,1,Thing
+Article,zsbdgz,Max,1,Thing
+Article,pages,Max,1,Thing
+Article,number,Max,1,Thing
+Article,date,only,Date
+Chapter,humanCreator,Max 1,Thing
+Chapter,dznbaln,Max 1,Thing
+Chapter,date,Max 1,Thing
+Chapter,dsazdjz,Max,1,Thing
+Chapter,dsazdjz,Max,1,Thing
+Chapter,dznbaln,exactly,1,Thing
+Chapter,pages,Max,1,Thing
+InProceedings,humanCreator,Max 1,Thing
+InProceedings,dznbaln,Max 1,Thing
+InProceedings,date,Max 1,Thing
+InProceedings,proceedings,exactly,1,Thing
+InProceedings,author,exactly,1,Thing
+InProceedings,dznbaln,exactly,1,Thing
+InProceedings,pages,Max,1,Thing
+Misc,humanCreator,Max 1,Thing
+Misc,dznbaln,Max 1,Thing
+Misc,date,Max 1,Thing
+xsqlknk,humanCreator,Max 1,Thing
+xsqlknk,dznbaln,Max 1,Thing
+xsqlknk,date,Max 1,Thing
+xsqlknk,date,exactly,1,Thing
+xsqlknk,school,exactly,1,Thing
+xsqlknk,dznbaln,exactly,1,Thing
+xsqlknk,author,exactly,1,Thing

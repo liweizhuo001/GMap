@@ -1,0 +1,8 @@
+Author--Paper_Author
+ConferenceMember--Conference_Participant
+PaperFullVersion--Regular_Paper
+Conference--Conference
+Paper--Paper
+Document--Document
+Review--Review
+Person--Person

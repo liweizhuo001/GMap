@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://Conference</onto1>
+	<onto2>http://confOf</onto2>
+	<uri1>http://Conference</uri1>
+	<uri2>http://confOf</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#person"/>
+			<entity2 rdf:resource="http://confOf#person"/>
+			<measure rdf:datatype="xsd:float">0.8364881235491677</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#conference_participant"/>
+			<entity2 rdf:resource="http://confOf#participant"/>
+			<measure rdf:datatype="xsd:float">0.811296658767958</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#paper"/>
+			<entity2 rdf:resource="http://confOf#paper"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#poster"/>
+			<entity2 rdf:resource="http://confOf#poster"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#workshop"/>
+			<entity2 rdf:resource="http://confOf#workshop"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#organization"/>
+			<entity2 rdf:resource="http://confOf#organization"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#conference"/>
+			<entity2 rdf:resource="http://confOf#conference"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#topic"/>
+			<entity2 rdf:resource="http://confOf#topic"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#tutorial"/>
+			<entity2 rdf:resource="http://confOf#tutorial"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#regular_contribution"/>
+			<entity2 rdf:resource="http://confOf#regular"/>
+			<measure rdf:datatype="xsd:float">0.6338007635454443</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#committee_member"/>
+			<entity2 rdf:resource="http://confOf#member"/>
+			<measure rdf:datatype="xsd:float">0.6141346882535182</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#conference_contribution"/>
+			<entity2 rdf:resource="http://confOf#contribution"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#regular_author"/>
+			<entity2 rdf:resource="http://confOf#author"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#has_an_email"/>
+			<entity2 rdf:resource="http://confOf#hasEmail"/>
+			<measure rdf:datatype="xsd:float">0.753120445806815</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#has_the_first_name"/>
+			<entity2 rdf:resource="http://confOf#hasFirstName"/>
+			<measure rdf:datatype="xsd:float">0.753120445806815</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://Conference#has_a_location"/>
+			<entity2 rdf:resource="http://confOf#location"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

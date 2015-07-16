@@ -1,0 +1,10 @@
+Organization--Institution
+Informel--Manuel,Polycopi¨¦,NonPubli¨¦,Livret
+Partie--ExtraitActes,ExtraitLivre,Chapitre,ExtraitCompilation,Article
+Raport--M¨¦moire,Livrable,RaportTechnique
+Institution--?diteur,Universit¨¦
+Livre--Compilation,Actes,Monographie
+Thing--Date,onographie,IntervalleDePages,List,Organization,ntervalleDePages,ivers,diteur,Person,rticle,R¨¦f¨¦rence,Conf¨¦rence,ate,xtraitLivre,ersonnes,ctes,dresse,evue,Adresse,onf¨¦rence,xtraitActes,Revue
+M¨¦moire--M¨¦moireDeMast¨¨re,M¨¦moireDeDoctorat
+List--Personnes
+R¨¦f¨¦rence--Divers,Informel,Partie,Raport,Livre,Film

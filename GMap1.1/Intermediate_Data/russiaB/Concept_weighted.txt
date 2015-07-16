@@ -1,0 +1,154 @@
+architecture--architecture#1.0
+sight--sight#1.0
+ship--ship#1.0
+town--town#1.0
+timber--timber#1.0
+means of transport--means#0.2222222222222222,of#0.2222222222222222,transport#0.5555555555555556
+skiing--ski#1.0
+gdp per head--gdp#0.2222222222222222,per#0.2222222222222222,head#0.5555555555555556
+season--season#1.0
+capital city--capital#0.25,city#0.75
+travel event--travel#0.25,event#0.75
+inhabitant--inhabitant#1.0
+culture offer--culture#0.25,offer#0.75
+cruiser--cruiser#1.0
+area unit--area#0.25,unit#0.75
+animal--animal#1.0
+embroidery--embroidery#1.0
+garden--garden#1.0
+cinema--cinema#1.0
+fact--fact#1.0
+written document--write#0.25,document#0.75
+political fact--political#0.25,fact#0.75
+string--string#1.0
+bus--bus#1.0
+infrastructure--infrastructure#1.0
+economical fact--economical#0.25,fact#0.75
+bicycling--bicycle#1.0
+location--location#1.0
+risk--risk#1.0
+integer--integer#1.0
+railway--railway#1.0
+palace--palace#1.0
+plant--plant#1.0
+trekking--trek#1.0
+food--food#1.0
+sea--sea#1.0
+surface area--surface#0.25,area#0.75
+political area--political#0.25,area#0.75
+alpine vista--alpine#0.25,vista#0.75
+partial material thing--partial#0.2222222222222222,material#0.2222222222222222,thing#0.5555555555555556
+adventure--adventure#1.0
+hiking--hike#1.0
+musical performance--musical#0.25,performance#0.75
+boat--boat#1.0
+month--month#1.0
+time zone--time#0.25,zone#0.75
+continent--continent#1.0
+natur reserve--natur#0.25,reserve#0.75
+rate--rate#1.0
+space--space#1.0
+battleship--battleship#1.0
+theatre--theatre#1.0
+document--document#1.0
+growth rate--growth#0.25,rate#0.75
+forest--forest#1.0
+pay bills--pay#0.25,bill#0.75
+cathedral--cathedral#1.0
+kayaking--kayake#1.0
+literature--literature#1.0
+alcohol--alcohol#1.0
+ordinary city--ordinary#0.25,city#0.75
+vacation area--vacation#0.25,area#0.75
+steamship--steamship#1.0
+oil--oil#1.0
+monetary unit--monetary#0.25,unit#0.75
+automotive--automotive#1.0
+time unit--time#0.25,unit#0.75
+nature area--nature#0.25,area#0.75
+attractions of city--attraction#0.2222222222222222,of#0.2222222222222222,city#0.5555555555555556
+annual growth--annual#0.25,growth#0.75
+accomodation--accomodation#1.0
+eating--eat#1.0
+plane--plane#1.0
+industry--industry#1.0
+gender--gender#1.0
+zone--zone#1.0
+default root concept--default#0.2222222222222222,root#0.2222222222222222,concept#0.5555555555555556
+island--island#1.0
+area--area#1.0
+fortress--fortress#1.0
+construction equipment--construction#0.25,equipment#0.75
+ethnic--ethnic#1.0
+church--church#1.0
+appartment--appartment#1.0
+museum--museum#1.0
+unit--unit#1.0
+measurement--measurement#1.0
+country--country#1.0
+coal--coal#1.0
+ballet--ballet#1.0
+human being--human#0.25,be#0.75
+population--population#1.0
+volume unit--volume#0.25,unit#0.75
+waterway--waterway#1.0
+physical thing--physical#0.25,thing#0.75
+gdp--gdp#1.0
+government--government#1.0
+iron ore--iron#0.25,ore#0.75
+day--day#1.0
+restaurant--restaurant#1.0
+living being--live#0.25,be#0.75
+health risk--health#0.25,risk#0.75
+locatable thing--locatable#0.25,thing#0.75
+hilltop view--hilltop#0.25,view#0.75
+land transfer--land#0.25,transfer#0.75
+material thing--material#0.25,thing#0.75
+length unit--length#0.25,unit#0.75
+lake--lake#1.0
+religion--religion#1.0
+transfer--transfer#1.0
+causal agent--causal#0.25,agent#0.75
+peninsula--peninsula#1.0
+drink--drink#1.0
+hotel--hotel#1.0
+language--language#1.0
+taxi--taxi#1.0
+arcade--arcade#1.0
+danger--danger#1.0
+musical composition--musical#0.25,composition#0.75
+drive--drive#1.0
+inflation--inflation#1.0
+waterfall--waterfall#1.0
+president--president#1.0
+level--level#1.0
+music--music#1.0
+agricultural--agricultural#1.0
+flight--flight#1.0
+payment--payment#1.0
+river transfer--river#0.25,transfer#0.75
+immaterial thing--immaterial#0.25,thing#0.75
+canal--canal#1.0
+lodging--lodge#1.0
+woodcarving--woodcarve#1.0
+mountaineering--mountaineer#1.0
+mountain--mountain#1.0
+river--river#1.0
+city--city#1.0
+culture--culture#1.0
+boolean--boolean#1.0
+approval--approval#1.0
+maritime reserve--maritime#0.25,reserve#0.75
+festival--festival#1.0
+jaunt--jaunt#1.0
+gulf--gulf#1.0
+traveller--traveller#1.0
+building--build#1.0
+person--person#1.0
+electromagnetic unit--electromagnetic#0.25,unit#0.75
+art--art#1.0
+region--region#1.0
+district--district#1.0
+nameable thing--nameable#0.25,thing#0.75
+square--square#1.0
+monument--monument#1.0

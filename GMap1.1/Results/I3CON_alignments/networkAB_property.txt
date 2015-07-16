@@ -1,0 +1,5 @@
+ConnectedTo--ConnectedTo
+ConnectedWith--ConnectedThrough
+HasSoftware--HasSoftware
+NodeA--NodeA
+NodeB--NodeB

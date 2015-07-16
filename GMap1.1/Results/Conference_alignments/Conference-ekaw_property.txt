@@ -1,0 +1,2 @@
+contributes--authorOf
+has_a_review--hasReview

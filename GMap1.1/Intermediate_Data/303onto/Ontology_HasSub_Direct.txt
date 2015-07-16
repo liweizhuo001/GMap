@@ -1,0 +1,17 @@
+Report--ProjectReport,TechnicalReport
+Event--Workshop,Exhibition,Lecture,Conference,Meeting
+Thesis--MasterThesis,PhDThesis
+FacultyMember--AssistantProfessor,FullProfessor,AssociateProfessor
+Meeting--ProjectMeeting
+Project--DevelopmentProject,ResearchProject
+DevelopmentProject--SoftwareProject
+Topic--ResearchTopic
+Graduate--PhDStudent
+AcademicStaff--FacultyMember,Lecturer
+Thing--Project,integer,string,Person,Topic,Product,Publication,Event,Organization
+Product--SoftwareComponent
+Student--Undergraduate,Graduate
+Employee--AdministrativeStaff,Manager,AcademicStaff,TechnicalStaff
+Person--Employee,Student
+Publication--Unpublished,Article,Proceedings,InBook,InProceedings,Thesis,Manual,Book,Report,InCollection,Booklet,Misc
+Organization--Association,ResearchGroup,Department,Institute,Enterprise,University

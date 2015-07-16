@@ -1,0 +1,1650 @@
+The result of  mouse and human £º
+**************************************
+kidney,kidney,0.9431799222533291 (Right)
+urethra,urethra,0.9413955828849309 (Right)
+lung,lung,0.9374907304507638 (Right)
+lateral ventricle,lateral_ventricle,0.9285290003910215 (Right)
+vertebra,vertebra,0.9268023849289411 (Right)
+sympathetic ganglion,sympathetic_ganglion,0.9262845733617298 (Right)
+peripheral nerve,peripheral_nerve,0.9256022452388925 (Right)
+spinal cord,spinal_cord,0.9256022452388925 (Right)
+spleen,spleen,0.9250275465195039 (Right)
+brain white matter,brain_white_matter,0.9249756885319516 (Right)
+tooth,tooth,0.9244232777018451 (Right)
+rib,rib,0.9235928359663876 (Right)
+brain ventricle,ventricle_brain,0.9229454647012673 (Right)
+gall bladder,gallbladder,0.9216862503680044 (Right)
+choroid plexus,choroid_plexus,0.919245144588034 (Right)
+intestine,intestine,0.9186392641375454 (Right)
+uterus,uterus,0.9186074058587027 (Right)
+salivary gland,salivary_gland,0.9185526347606406 (Right)
+head/neck muscle,head_and_neck_muscle,0.9169600283131331 (Right)
+lymph node,lymph_node,0.9152888629818853 (Right)
+testis,testis,0.9143522970936833 (Right)
+ureter,ureter,0.9143522970936833 (Right)
+exocrine pancreas,exocrine_pancreas,0.9143522970936833 (Right)
+pelvis bone,pelvic_bone,0.9143522970936833 (Right)
+vulva,vulva,0.9143522970936833 (Right)
+penis,penis,0.9143522970936833 (Right)
+blood,blood,0.9143522970936833 (Right)
+liver,liver,0.9143522970936833 (Right)
+fourth ventricle,fourth_ventricle_of_the_brain,0.9141424476780753 (Right)
+artery,artery,0.9138135168989068 (Right)
+renal tubule,renal_tubule,0.9131431371813029 (Right)
+tonsil,tonsil,0.9115135430748023 (Right)
+adrenal gland,adrenal_gland,0.9115135430748023 (Right)
+seminal vesicle,seminal_vesicle,0.9086455320128555 (Right)
+trunk skin,skin_of_the_trunk,0.9086455320128555 (Right)
+epididymis,epididymis,0.9086455320128555 (Right)
+thymus,thymus_gland,0.9086455320128555 (Right)
+vas deferens,vas_deferens,0.9086455320128555 (Right)
+vagina,vagina,0.9086455320128555 (Right)
+vein,vein,0.9080708525248411 (Right)
+muscle,muscle,0.9080708525248411 (Right)
+blood vessel,blood_vessel,0.9080708525248411 (Right)
+third ventricle,third_ventricle_of_brain,0.9061747827098999 (Right)
+ovary,ovary,0.9032269325683567 (Right)
+bronchiole,bronchiole,0.9032269325683567 (Right)
+cerebellum white matter,cerebellum_white_matter,0.902156073301428 (Right)
+cerebral white matter,cerebral_white_matter,0.9014932363471829 (Right)
+foot skin,foot_skin,0.8953484449921119 (Right)
+neck muscle,neck_muscle,0.8953484449921119 (Right)
+vitreous humor,vitreous_humor,0.8932627900850207 (Right)
+lateral ventricle ependyma,lateral_ventricle_ependyma,0.8929931512097719 (Right)
+lateral ventricle choroid plexus,choroid_plexus_of_the_lateral_ventricle,0.8929931512097719 (Right)
+lateral ventricle choroid plexus epithelium,choroid_plexus_epithelium_of_the_lateral_ventricle,0.8929931512097719 (Right)
+nucleus ambiguus,nucleus_ambiguus,0.8922682406698057 (Right)
+fourth ventricle ependyma,fourth_ventricle_ependyma,0.8922682406698057 (Right)
+third ventricle choroid plexus,choroid_plexus_of_the_third_ventricle,0.8922682406698057 (Right)
+fourth ventricle choroid plexus,choroid_plexus_of_the_fourth_ventricle,0.8922682406698057 (Right)
+aqueous humour,aqueous_humor,0.8922682406698057 (Right)
+fourth ventricle choroid plexus epithelium,choroid_plexus_epithelium_of_the_fourth_ventricle,0.8922682406698057 (Right)
+retina layer,retina_layer,0.8912775238061701 (Right)
+spinal cord pia mater,spinal_cord_pia_mater,0.8903553647372746 (Right)
+brain pia mater,brain_pia_mater,0.8903553647372746 (Right)
+spinal cord dura mater,spinal_cord_dura_mater,0.8903553647372746 (Right)
+pineal gland,pineal_gland,0.8903553647372746 (Right)
+pituitary gland,pituitary_gland,0.8903553647372746 (Right)
+spinal cord white matter,white_matter_of_the_spinal_cord,0.8903553647372746 (Right)
+forebrain,fore-brain,0.889665613568004 (Right)
+brain nucleus,brain_nucleus,0.8896655885849182 (Right)
+cerebellum,cerebellum,0.8893529245431545 (Right)
+brainstem,brain_stem,0.8893470567894853 (Right)
+vestibular labyrinth,vestibular_labyrinth,0.8893470567894853 (Right)
+uvea,uvea,0.8893470567894853 (Right)
+urinary bladder,bladder,0.8892800598948366 (Right)
+basal ganglia,basal_ganglia,0.8888074201565277 (Right)
+tongue papilla,papilla_of_the_tongue,0.8888074201565277 (Right)
+autonomic ganglion,autonomic_ganglion,0.8888074201565277 (Right)
+spinal cord grey matter,gray_matter_of_the_spinal_cord,0.8873882845060634 (Right)
+eye chamber,chamber_of_the_eye,0.8873882845060634 (Right)
+cornea,cornea,0.8873882845060634 (Right)
+lens,crystalline_lens,0.8873882845060634 (Right)
+diencephalon,diencephalon,0.8873882845060634 (Right)
+tooth substance,tooth_tissue,0.8868376006290172 (Right)
+choroid plexus epithelium,choroid_plexus_epithelium,0.8866461463594575 (Right)
+bile duct,bile_duct,0.8855479997558728 (Right)
+head skin,head_skin,0.8855479997558728 (Right)
+neck skin,neck_skin,0.8855479997558728 (Right)
+arm skin,arm_skin,0.8855479997558728 (Right)
+hand skin,hand_skin,0.8855479997558728 (Right)
+brainstem nucleus,vestibular_nucleus,0.8848282987149849
+brain,brain,0.884828021649145 (Right)
+bone,bone,0.884828021649145 (Right)
+eye,eye,0.8848280216472719 (Right)
+thoracic vertebra,thoracic_vertebra,0.8848277168109213 (Right)
+membranous labyrinth,membranous_labyrinth,0.8848257692517837 (Right)
+mouth,oral_cavity,0.8848218993730427
+joint,joint,0.8848113823454461 (Right)
+foot phalanx,foot_phalanx,0.8847828117741617 (Right)
+cervical vertebra,cervical_vertebra,0.8847828117741617 (Right)
+hand phalanx,hand_phalanx,0.8847828117741617 (Right)
+metacarpal bone,metacarpal_bone,0.8844954825833727 (Right)
+autonomic nervous system,autonomic_nervous_system,0.8844954825833727 (Right)
+carotid artery,carotid_artery,0.8844954825833727 (Right)
+large intestine,large_intestine,0.8844954825833727 (Right)
+metatarsal bone,metatarsal_bone,0.8844954825833727 (Right)
+lumbar vertebra,lumbar_vertebra,0.8844954825833727 (Right)
+sacral vertebra,sacral_vertebra,0.8839321856021842 (Right)
+carpal bone,carpal_bone,0.8839321856021842 (Right)
+tarsal bone,tarsal_bone,0.8839321856021842 (Right)
+vertebral column,vertebral_column,0.8839321856021842 (Right)
+tongue,tongue,0.8839321856021842 (Right)
+right lung,right_lung,0.8839321856021842 (Right)
+medulla oblongata,medulla_oblongata,0.8838519022048182 (Right)
+olfactory lobe,olfactory_lobe,0.8838519022048182 (Right)
+common carotid artery,common_carotid_artery,0.8838519022048182 (Right)
+sympathetic nervous system,sympathetic_nervous_system,0.8838519022048182 (Right)
+lymphatic vessel,lymphatic_vessel,0.8838519022048182 (Right)
+retina,retina,0.8838519022048182 (Right)
+palate,palate,0.8838519022048182 (Right)
+major salivary gland,major_salivary_gland,0.8824508280015667 (Right)
+iliac vein,iliac_vein,0.8824508280015667 (Right)
+semen,semen,0.8824508280015667 (Right)
+glomerulus,glomerulus,0.8824508280015667 (Right)
+left lung,left_lung,0.8824508280015667 (Right)
+muscle tissue,muscle_tissue,0.8824508280015667 (Right)
+jugular vein,jugular_vein,0.8824508280015667 (Right)
+lower leg bone,bone_of_the_lower_extremity,0.8810791574756085
+solitary tract nucleus,solitary_nucleus,0.8796684666663426 (Right)
+psoas muscle,psoas_muscle,0.8787593931490031 (Right)
+suprarenal artery,suprarenal_artery,0.8787593931490031 (Right)
+temporal vein,temporal_vein,0.8787593931490031 (Right)
+pancreatico-duodenal artery,pancreatico-duodenal_artery,0.8787593931490031 (Right)
+mesenteric vein,mesenteric_vein,0.8787593931490031 (Right)
+small intestine,small_intestine,0.8787593931490031 (Right)
+liver lobe,liver_lobe,0.8787593931490031 (Right)
+cochlea,cochlea,0.8787593931490031 (Right)
+spermatic vein,spermatic_vein,0.8787593931490031 (Right)
+mesenteric artery,mesenteric_artery,0.8787593931490031 (Right)
+renal artery,renal_artery,0.8787593931490031 (Right)
+renal vein,renal_vein,0.8787593931490031 (Right)
+subclavian artery,subclavian_artery,0.8787593931490031 (Right)
+spermatic artery,spermatic_artery,0.8787593931490031 (Right)
+tibial vein,tibial_vein,0.8787593931490031 (Right)
+pulmonary vein,pulmonary_vein,0.8787593931490031 (Right)
+crypt of lieberkuhn,crypts_of_the_lieberkuhn,0.8787593931490031 (Right)
+heart septum,heart_septum,0.8787593931490031 (Right)
+coronary artery,coronary_artery,0.8787593931490031 (Right)
+pulmonary artery,pulmonary_artery,0.8787593931490031 (Right)
+saccule,saccule,0.8782742273707664 (Right)
+vitreous body,vitreous_body,0.8782742273707664 (Right)
+iris,iris,0.8782742273707664 (Right)
+utricle,utricle,0.8782742273707664 (Right)
+spinal cord dorsal horn,dorsal_horn_of_the_spinal_cord,0.8782742273707664 (Right)
+ciliary body,ciliary_body,0.8782742273707664 (Right)
+submandibular gland,submandibular_gland,0.8761128749313475 (Right)
+parotid gland,parotid_gland,0.8761128749313475 (Right)
+thalamus,thalamus,0.8761128749313475 (Right)
+glomerular capillary,glomerular_capillary,0.8761128749313475 (Right)
+cecum,cecum,0.8761128749313475 (Right)
+gingiva,gingiva,0.8761128749313475 (Right)
+cervix epithelium,cervix_epithelium,0.8761128749313475 (Right)
+esophagus,esophagus,0.8748297590141463 (Right)
+vein endothelium,vein_endothelium,0.8748297590141463 (Right)
+parotid duct,parotid_duct,0.8748297590141463 (Right)
+lacrimal gland,lacrimal_gland,0.8748297590141463 (Right)
+vena cava endothelium,vena_cava_endothelium,0.8748297590141463 (Right)
+venule endothelium,venule_endothelium,0.8748297590141463 (Right)
+arteriole endothelium,arteriole_endothelium,0.8748297590141463 (Right)
+submandibular duct,submandibular_duct,0.8748297590141463 (Right)
+stomach,stomach,0.8748297590141463 (Right)
+artery endothelium,artery_endothelium,0.8748297590141463 (Right)
+capillary endothelium,capillary_endothelium,0.8748297590141463 (Right)
+aorta endothelium,aorta_endothelium,0.8748297590141463 (Right)
+endocrine pancreas,endocrine_pancreas,0.8748297590141463 (Right)
+venous system endothelium,venous_system_endothelium,0.8748297590141463 (Right)
+head,head,0.8740423561471676 (Right)
+nervous system,nervous_system,0.8740423561471676 (Right)
+central nervous system,central_nervous_system,0.8740423561471676 (Right)
+nerve,nerve,0.8740423561468904 (Right)
+gastrointestinal system,gastrointestinal_system,0.8740423560353286
+exocrine gland,exocrine_gland,0.8740423539008209 (Right)
+phalanx,phalanx,0.8740423500409644 (Right)
+immune system,immune_system,0.8740423395487891 (Right)
+skin,skin,0.8740422335010049 (Right)
+musculoskeletal system,musculoskeletal_system,0.8740420227613479 (Right)
+cranial nerve,cranial_nerve,0.8740420227613479 (Right)
+cardiovascular system,cardiovascular_system,0.8740398928165146 (Right)
+skeletal system,skeletal_system,0.8740356605300228 (Right)
+heart,heart,0.8740356605300228 (Right)
+peripheral nervous system,peripheral_nervous_system,0.8740241586001665 (Right)
+endocrine gland,endocrine_gland,0.8740241586001665 (Right)
+nerve plexus,nerve_plexus,0.8740241586001665 (Right)
+pancreas,pancreas,0.8739929124420814 (Right)
+renal corpuscle,renal_corpuscle,0.8736786753472591 (Right)
+hindlimb,lower_extremity,0.8736786753472591 (Right)
+middle ear,middle_ear,0.8736786753472591 (Right)
+respiratory system,respiratory_system,0.8736786753472591 (Right)
+brunner's gland,brunner_s_gland,0.8733407441322896 (Right)
+biliary tract,biliary_tract,0.8730626265343805 (Right)
+ligament,ligament,0.8714425422417511 (Right)
+exocrine gland fluid/secretion,exocrine_gland_fluid_or_secretion,0.8714425422417511 (Right)
+thyroid gland,thyroid_gland,0.8714425422417511 (Right)
+minor salivary gland,minor_salivary_gland,0.8706810485107068 (Right)
+sternum,sternum,0.8706810485107068 (Right)
+prostate gland,prostate_gland,0.8706810485107068 (Right)
+pancreatico-duodenal vein,pancreatico-duodenal_vein,0.8706810485107068 (Right)
+plasma,plasma,0.8706810485107068 (Right)
+iliac artery,iliac_artery,0.8706810485107068 (Right)
+facial vein,facial_vein,0.8706810485107068 (Right)
+nasal cavity epithelium,nasal_cavity_epithelium,0.8706810485107068 (Right)
+thoracic vein,thoracic_vein,0.8706810485107068 (Right)
+tympanic membrane,tympanic_membrane,0.8706810485107068 (Right)
+femoral vein,femoral_vein,0.8706810485107068 (Right)
+prepuce,prepuce,0.8706810485107068 (Right)
+lip,lip,0.8706810485107068 (Right)
+endometrium,endometrium,0.8706810485107068 (Right)
+bronchus,bronchus,0.87026030923879 (Right)
+reproductive system,reproductive_system,0.8674054106137028 (Right)
+neck,neck,0.8674054106137028 (Right)
+vitreous chamber,vitreous_chamber,0.8674054106137028 (Right)
+incisor,incisor,0.8674054106137028 (Right)
+aorta,aorta,0.8674054106137028 (Right)
+spinal nerve plexus,spinal_nerve_plexus,0.8674054106137028 (Right)
+otolymph,otolymph,0.8674054106137028 (Right)
+pectoralis muscle,pectoralis_muscle,0.8674054106137028 (Right)
+skin fluid/secretion,skin_fluid_or_secretion,0.8674054106137028 (Right)
+main bronchus,main_bronchus,0.8674054106137028 (Right)
+foot interosseus muscle,foot_interosseous_muscle,0.8674054106137028 (Right)
+arteriole,arteriole,0.8674054106137028 (Right)
+trachea,trachea,0.8674054106137028 (Right)
+lower jaw tooth,lower_jaw_tooth,0.8674054106137028 (Right)
+thyroid gland lobe,thyroid_gland_lobe,0.8674054106137028 (Right)
+integumental system,integumentary_system,0.8670035541797423 (Right)
+eyelid,eyelid,0.8661860515635158 (Right)
+midbrain,mesencephalon,0.8652550054926731 (Right)
+oculomotor iii nucleus,oculomotor_nucleus,0.865250691927069
+abducens vi nucleus,abducens_nucleus,0.865250691927069 (Right)
+brain meninges,cerebral_meninges,0.8647716165093053 (Right)
+hypoglossal xii nucleus,hypoglossal_nucleus,0.8619290362944475 (Right)
+nasal cavity,nasal_cavity,0.8585705423459095 (Right)
+venule,venule,0.8585705423459095 (Right)
+parathyroid gland,parathyroid_gland,0.8585705423459095 (Right)
+leg,leg,0.8585705423459095 (Right)
+respiratory system fluid/secretion,respiratory_system_fluid_or_secretion,0.8585705423459095 (Right)
+vena cava,vena_cava,0.8585705423459095 (Right)
+sebaceous gland,sebaceous_gland,0.8585705423459095 (Right)
+right lung lobe,lobe_of_the_right_lung,0.8585705423459095 (Right)
+nasopharynx,nasopharynx,0.8585705423459095 (Right)
+oropharynx,oropharynx,0.8585705423459095 (Right)
+terminal bronchiole,terminal_bronchiole,0.8585705423459095 (Right)
+endocrine system,endocrine_system,0.8585705423459095 (Right)
+hand interosseous muscle,hand_interosseous_muscle,0.8585705423459095 (Right)
+prostate gland lobe,prostate_gland_lobe,0.8585705423459095 (Right)
+striated muscle tissue,striated_muscle_tissue,0.8585705423459095 (Right)
+respiratory bronchiole,respiratory_bronchiole,0.8585705423459095 (Right)
+exocrine system,exocrine_system,0.8585705423459095 (Right)
+foot,foot,0.8585705423459095 (Right)
+cranium,skull,0.8575444285194931 (Right)
+heart valve,cardiac_valve,0.8568496955760272 (Right)
+peyer's patch,peyer_s_patch,0.8561430866642459 (Right)
+forebrain dura mater,cerebral_dura_mater,0.8559416875272792
+urethra gland,paraurethral_gland,0.8556150582446372
+osseus semicircular canal,semicircular_canal,0.8552757253167403
+bony labyrinth,osseous_labyrinth,0.8550226878685989 (Right)
+back muscle,dorsal_muscle_of_the_back,0.8530290402359498
+renal/urinary system,urinary_system,0.8519996537538261 (Right)
+dorsal motor nucleus of vagus x nerve,dorsal_nucleus_of_the_vagus_nerve,0.8518023610100942
+renal convoluted tubule,convoluted_tubule,0.8515625202508414 (Right)
+larynx cartilage,laryngeal_cartilage,0.8515217685346927 (Right)
+heart ventricle,cardiac_ventricle,0.8504699182171038 (Right)
+heart atrium,cardiac_atrium,0.8504699182171038 (Right)
+metencephalon,epencephalon,0.8499995628349098
+striatum,corpus_striatum,0.8489422905396287 (Right)
+hepatic duct,right_hepatic_duct,0.8472923579828011
+limb long bone,long_bone,0.845777771528404 (Right)
+efferent duct,efferent_ductule,0.8450704907518621 (Right)
+limb bone,bone_of_the_extremity,0.8446522392481735 (Right)
+limb skin,skin_of_the_extremity,0.8445912586785671 (Right)
+ocular refractive media,refractile_media,0.8417795859731101 (Right)
+lymphoid system,lymphatic_system,0.8414999032857945 (Right)
+hematopoietic system,hematopoietic_and_lymphatic_system,0.8413783063669357
+intestine mucosa,intestinal_mucosa,0.8405066264965385 (Right)
+gigantocellular reticular nucleus,lenticular_nucleus,0.8392928206158506
+tectum,tectum_mesencephali,0.8387911008911294 (Right)
+facial vii nucleus,facial_nerve_nucleus,0.8375081684402571 (Right)
+pancreas secretion,pancreatic_secretion,0.8364666730902335 (Right)
+gastrointestinal system lamina propria,gastrointestinal_tract_lamina_propria,0.8364666730902335 (Right)
+cuneate nucleus,caudate_nucleus,0.8355330430856086
+cerebellar cortex,cortex,0.8348171996116966
+lentiform nucleus,lentiform_nucleus,0.8347559124102103 (Right)
+putamen,putamen,0.8347559124102103 (Right)
+corpora quadrigemina,corpora_quadrigemina,0.8347559124102103 (Right)
+substantia gelatinosa,substantia_gelatinosa,0.8343384738247842 (Right)
+pupil,pupil,0.8343384738247842 (Right)
+macula of utricle,macula_of_utricle,0.8343384738247842 (Right)
+macula of saccule,macula_of_saccule,0.8343384738247842 (Right)
+ciliary epithelium,ciliary_epithelium,0.8343384738247842 (Right)
+substantia nigra,substantia_nigra,0.8343384738247842 (Right)
+globus pallidus,globus_pallidus,0.8343384738247842 (Right)
+head muscle,oculomotor_muscle,0.83430172898954
+dorsal tegmental nucleus,dorsal_motor_nucleus,0.8335026420648394
+corneal epithelium,corneal_epithelium,0.833216211205625 (Right)
+cerebral hemisphere,cerebral_hemisphere,0.833216211205625 (Right)
+soft palate,soft_palate,0.833216211205625 (Right)
+dental pulp,dental_pulp,0.833216211205625 (Right)
+hypothalamus,hypothalamus,0.833216211205625 (Right)
+mammillary body,mamillary_body,0.833216211205625 (Right)
+corneal stroma,corneal_stroma,0.833216211205625 (Right)
+vertebral body,vertebral_body,0.833216211205625 (Right)
+lymphatic vessel endothelium,lymphatic_vessel_endothelium,0.833216211205625 (Right)
+choroid,choroid,0.833216211205625 (Right)
+lens capsule,lens_capsule,0.833216211205625 (Right)
+macula,macula,0.833216211205625 (Right)
+glomerular capillary endothelium,endothelium_of_the_glomerular_capillary,0.833216211205625 (Right)
+hard palate,hard_palate,0.833216211205625 (Right)
+fibula,fibula,0.833216211205625 (Right)
+olfactory bulb,olfactory_bulb,0.833216211205625 (Right)
+spinal cord ventral horn,ventral_horn_of_the_spinal_cord,0.833216211205625 (Right)
+epithalamus,epithalamus,0.833216211205625 (Right)
+dentate gyrus,dentate_gyrus,0.833216211205625 (Right)
+gingival epithelium,gingival_epithelium,0.833216211205625 (Right)
+semicircular duct,semicircular_duct,0.833216211205625 (Right)
+left common carotid artery,left_common_carotid_artery,0.833216211205625 (Right)
+olfactory tract,olfactory_tract,0.833216211205625 (Right)
+corneal endothelium,corneal_endothelium,0.833216211205625 (Right)
+lymphatic vessel smooth muscle,lymphatic_vessel_smooth_muscle_tissue,0.833216211205625 (Right)
+right common carotid artery,right_common_carotid_artery,0.833216211205625 (Right)
+subiculum,subiculum,0.833216211205625 (Right)
+modiolus,modiolus,0.833216211205625 (Right)
+hippocampus,hippocampus,0.833216211205625 (Right)
+tibia,tibia,0.833216211205625 (Right)
+lens fiber,lens_fiber,0.833216211205625 (Right)
+claustrum,claustrum,0.833216211205625 (Right)
+intrinsic tongue muscle,tongue_muscle,0.8330291063047401
+pelvis muscle,pelvic_floor_muscle,0.8321078696860246
+cochlear duct,cochlear_duct,0.8302548124732115 (Right)
+right pulmonary artery,right_pulmonary_artery,0.8302548124732115 (Right)
+humerus,humerus,0.8302548124732115 (Right)
+superior mesenteric vein,superior_mesenteric_vein,0.8302548124732115 (Right)
+cervical vertebra 4,c4_vertebra,0.8302548124732115 (Right)
+inferior mesenteric vein,inferior_mesenteric_vein,0.8302548124732115 (Right)
+parasympathetic nerve,parasympathetic_nervous_system,0.8302548124732115
+sclera,sclera,0.8302548124732115 (Right)
+cerebral grey matter,cerebral_gray_matter,0.8302548124732115 (Right)
+subthalamic nucleus,subthalamic_nucleus,0.8302548124732115 (Right)
+metacarpal bone digit 3,metacarpal_bone_digit_3,0.8302548124732115 (Right)
+metacarpal bone digit 5,metacarpal_bone_digit_5,0.8302548124732115 (Right)
+metacarpal bone digit 4,metacarpal_bone_digit_4,0.8302548124732115 (Right)
+metacarpal bone digit 2,metacarpal_bone_digit_2,0.8302548124732115 (Right)
+metacarpal bone digit 1,metacarpal_bone_digit_1,0.8302548124732115 (Right)
+tectorial membrane,tectorial_membrane,0.8302548124732115 (Right)
+lumbar vertebra 1,l1_vertebra,0.8302548124732115 (Right)
+proximal phalanx of foot,proximal_phalanx_of_foot,0.8302548124732115 (Right)
+left renal artery,left_renal_artery,0.8302548124732115 (Right)
+hand digit 1 phalanx,hand_digit_1_phalanx,0.8302548124732115 (Right)
+hand digit 5 phalanx,hand_digit_5_phalanx,0.8302548124732115 (Right)
+hand digit 3 phalanx,hand_digit_3_phalanx,0.8302548124732115 (Right)
+hand digit 4 phalanx,hand_digit_4_phalanx,0.8302548124732115 (Right)
+hand digit 2 phalanx,hand_digit_2_phalanx,0.8302548124732115 (Right)
+metatarsal bone digit 2,metatarsal_bone_digit_2,0.8302548124732115 (Right)
+metatarsal bone digit 5,metatarsal_bone_digit_5,0.8302548124732115 (Right)
+metatarsal bone digit 4,metatarsal_bone_digit_4,0.8302548124732115 (Right)
+metatarsal bone digit 3,metatarsal_bone_digit_3,0.8302548124732115 (Right)
+metatarsal bone digit 1,metatarsal_bone_digit_1,0.8302548124732115 (Right)
+inferior pancreatico-duodenal artery,inferior_pancreatico-duodenal_artery,0.8302548124732115 (Right)
+superior pancreatico-duodenal artery,superior_pancreatico-duodenal_artery,0.8302548124732115 (Right)
+right spermatic vein,right_spermatic_vein,0.8302548124732115 (Right)
+cervical vertebra 7,c7_vertebra,0.8302548124732115 (Right)
+lymph node capsule,lymph_node_capsule,0.8302548124732115 (Right)
+psoas minor,psoas_minor,0.8302548124732115 (Right)
+rectum,rectum,0.8302548124732115 (Right)
+tongue epithelium,tongue_epithelium,0.8302548124732115 (Right)
+oral epithelium,oral_cavity_epithelium,0.8302548124732115 (Right)
+orbit,orbit,0.8302548124732115 (Right)
+inferior pancreatico-duodenal vein,inferior_pancreatico-duodenal_vein,0.8302548124732115 (Right)
+gall bladder epithelium,gallbladder_epithelium,0.8302548124732115 (Right)
+rib 7,rib_7,0.8302548124732115 (Right)
+psoas major,psoas_major,0.8302548124732115 (Right)
+left pulmonary artery,left_pulmonary_artery,0.8302548124732115 (Right)
+maxilla,maxilla,0.8302548124732115 (Right)
+upper jaw molar,upper_jaw_molar,0.8302548124732115 (Right)
+rib 4,rib_4,0.8302548124732115 (Right)
+right pulmonary vein,right_pulmonary_vein,0.8302548124732115 (Right)
+thoracic vertebra 8,t8_vertebra,0.8302548124732115 (Right)
+cervical vertebra 3,c3_vertebra,0.8302548124732115 (Right)
+superior mesenteric artery,superior_mesenteric_artery,0.8302548124732115 (Right)
+lumbar vertebra 3,l3_vertebra,0.8302548124732115 (Right)
+sacral vertebra 1,s1_vertebra,0.8302548124732115 (Right)
+brachial plexus,brachial_plexus,0.8302548124732115 (Right)
+distal phalanx of foot,distal_phalanx_of_foot,0.8302548124732115 (Right)
+rib 3,rib_3,0.8302548124732115 (Right)
+rib 6,rib_6,0.8302548124732115 (Right)
+sacral vertebra 4,s4_vertebra,0.8302548124732115 (Right)
+taste bud,taste_bud_cell,0.8302548124732115
+left spermatic artery,left_spermatic_artery,0.8302548124732115 (Right)
+inferior suprarenal artery,inferior_suprarenal_artery,0.8302548124732115 (Right)
+superior suprarenal artery,superior_suprarenal_artery,0.8302548124732115 (Right)
+anterior facial vein,anterior_facial_vein,0.8302548124732115 (Right)
+gall bladder lamina propria,gallbladder_lamina_propria,0.8302548124732115 (Right)
+common iliac artery,common_iliac_artery,0.8302548124732115 (Right)
+distal phalanx of hand,distal_phalanx_of_hand,0.8302548124732115 (Right)
+cervical vertebra 6,c6_vertebra,0.8302548124732115 (Right)
+external carotid artery,external_carotid_artery,0.8302548124732115 (Right)
+internal carotid artery,internal_carotid_artery,0.8302548124732115 (Right)
+left subclavian artery,left_subclavian_artery,0.8302548124732115 (Right)
+lip skin,skin_of_the_lip,0.8302548124732115 (Right)
+tympanic epithelium,tympanic_epithelium,0.8302548124732115 (Right)
+left adrenal gland,left_adrenal_gland,0.8302548124732115 (Right)
+vestibular membrane,vestibular_membrane,0.8302548124732115 (Right)
+internal thoracic vein,internal_thoracic_vein,0.8302548124732115 (Right)
+right coronary artery,right_coronary_artery,0.8302548124732115 (Right)
+thoracic vertebra 2,t2_vertebra,0.8302548124732115 (Right)
+colon,colon,0.8302548124732115 (Right)
+lumbar vertebra 2,l2_vertebra,0.8302548124732115 (Right)
+amygdala,amygdala,0.8302548124732115 (Right)
+sacral vertebra 2,s2_vertebra,0.8302548124732115 (Right)
+left spermatic vein,left_spermatic_vein,0.8302548124732115 (Right)
+deep temporal vein,deep_temporal_vein,0.8302548124732115 (Right)
+internal iliac vein,internal_iliac_vein,0.8302548124732115 (Right)
+external iliac vein,external_iliac_vein,0.8302548124732115 (Right)
+rib 12,rib_12,0.8302548124732115 (Right)
+spinal cord dorsal column,spinal_cord_column,0.8302548124732115
+rib 1,rib_1,0.8302548124732115 (Right)
+foot digit 4 phalanx,foot_digit_4_phalanx,0.8302548124732115 (Right)
+foot digit 1 phalanx,foot_digit_1_phalanx,0.8302548124732115 (Right)
+foot digit 5 phalanx,foot_digit_5_phalanx,0.8302548124732115 (Right)
+foot digit 2 phalanx,foot_digit_2_phalanx,0.8302548124732115 (Right)
+foot digit 3 phalanx,foot_digit_3_phalanx,0.8302548124732115 (Right)
+right renal artery,right_renal_artery,0.8302548124732115 (Right)
+thoracic vertebra 12,t12_vertebra,0.8302548124732115 (Right)
+lower jaw molar,lower_jaw_molar,0.8302548124732115 (Right)
+right renal vein,right_renal_vein,0.8302548124732115 (Right)
+external jugular vein,external_jugular_vein,0.8302548124732115 (Right)
+internal jugular vein,internal_jugular_vein,0.8302548124732115 (Right)
+tongue skeletal muscle,tongue_skeletal_muscle_tissue,0.8302548124732115
+calcaneum,calcaneum,0.8302548124732115 (Right)
+left coronary artery,left_coronary_artery,0.8302548124732115 (Right)
+thoracic vertebra 4,t4_vertebra,0.8302548124732115 (Right)
+cerebral aqueduct,cerebral_aqueduct,0.8302548124732115 (Right)
+proximal phalanx of hand,proximal_phalanx_of_hand,0.8302548124732115 (Right)
+right adrenal gland,right_adrenal_gland,0.8302548124732115 (Right)
+superficial temporal vein,superficial_temporal_vein,0.8302548124732115 (Right)
+serum,serum,0.8302548124732115 (Right)
+thoracic vertebra 9,t9_vertebra,0.8302548124732115 (Right)
+ulna,ulna,0.8302548124732115 (Right)
+sacral vertebra 3,s3_vertebra,0.8302548124732115 (Right)
+common iliac vein,common_iliac_vein,0.8302548124732115 (Right)
+anterior tibial vein,anterior_tibial_vein,0.8302548124732115 (Right)
+mandible,mandible,0.8302548124732115 (Right)
+cervical vertebra 2,c2_vertebra,0.8302548124732115 (Right)
+right subclavian artery,right_subclavian_artery,0.8302548124732115 (Right)
+right spermatic artery,right_spermatic_artery,0.8302548124732115 (Right)
+rib 9,rib_9,0.8302548124732115 (Right)
+hindbrain,hind-brain,0.8302548124732115 (Right)
+upper jaw incisor,upper_jaw_incisor,0.8302548124732115 (Right)
+thoracic vertebra 7,t7_vertebra,0.8302548124732115 (Right)
+left renal vein,left_renal_vein,0.8302548124732115 (Right)
+crura cerebri,crus_cerebri,0.8302548124732115 (Right)
+thoracic vertebra 10,t10_vertebra,0.8302548124732115 (Right)
+femur,femur,0.8302548124732115 (Right)
+rib 8,rib_8,0.8302548124732115 (Right)
+scapula,scapula,0.8302548124732115 (Right)
+jaw,jaw,0.8302548124732115 (Right)
+thoracic vertebra 5,t5_vertebra,0.8302548124732115 (Right)
+inferior mesenteric artery,inferior_mesenteric_artery,0.8302548124732115 (Right)
+talus,talus,0.8302548124732115 (Right)
+posterior tibial vein,posterior_tibial_vein,0.8302548124732115 (Right)
+rib 11,rib_11,0.8302548124732115 (Right)
+rib 2,rib_2,0.8302548124732115 (Right)
+medial femoral vein,medial_femoral_vein,0.8302548124732115 (Right)
+thoracic vertebra 1,t1_vertebra,0.8302548124732115 (Right)
+cervical vertebra 1,c1_vertebra,0.8302548124732115 (Right)
+lower jaw incisor,lower_jaw_incisor,0.8302548124732115 (Right)
+cervical vertebra 5,c5_vertebra,0.8302548124732115 (Right)
+rib 10,rib_10,0.8302548124732115 (Right)
+left pulmonary vein,left_pulmonary_vein,0.8302548124732115 (Right)
+anterior jugular vein,anterior_jugular_vein,0.8302548124732115 (Right)
+thoracic vertebra 3,t3_vertebra,0.8302548124732115 (Right)
+prepuce epithelium,prepuce_epithelium,0.8302548124732115 (Right)
+rib 5,rib_5,0.8302548124732115 (Right)
+lumbar vertebra 5,l5_vertebra,0.8302548124732115 (Right)
+spinal ganglion,ganglion,0.8275747658326629
+uterine cervix,cervix,0.8275747658326629 (Right)
+sympathetic nerve trunk,thoracic_sympathetic_nerve_trunk,0.8256234940184225
+blood vessel endothelium,blood_vessel_tissue,0.8250999750199564
+glomerular capillary basement membrane,glomerular_basement_membrane,0.8242178109204745 (Right)
+cerebellum granule cell layer,granular_layer_of_the_cerebellum,0.823113527461803 (Right)
+thoracic ganglion,thoracic_ganglion,0.8228123409986846 (Right)
+thyroid cartilage,thyroid_cartilage,0.8228123409986846 (Right)
+renal tubule epithelium,renal_tubule_epithelium,0.8228123409986846 (Right)
+spinal vestibular nucleus,spinal_vestibular_nucleus,0.8228123409986846 (Right)
+pectoralis minor,pectoralis_minor,0.8228123409986846 (Right)
+retinal vein,retinal_vein,0.8228123409986846 (Right)
+pericardiacophrenic vein,pericardiacophrenic_vein,0.8228123409986846 (Right)
+epiglottic cartilage,epiglottic_cartilage,0.8228123409986846 (Right)
+thyroid artery,thyroid_artery,0.8228123409986846 (Right)
+intrinsic tongue muscle vertical component,intrinsic_tongue_muscle_vertical_component,0.8228123409986846 (Right)
+dorsal foot interosseus muscle,dorsal_foot_interosseous_muscle,0.8228123409986846 (Right)
+bronchial artery,bronchial_artery,0.8228123409986846 (Right)
+patella,patella,0.8228123409986846 (Right)
+internal mammary artery,internal_mammary_artery,0.8228123409986846 (Right)
+communicating artery,communicating_artery,0.8228123409986846 (Right)
+posterior communicating artery,posterior_communicating_artery,0.8228123409986846 (Right)
+sciatic nerve,sciatic_nerve,0.8228123409986846 (Right)
+hair shaft,shaft_of_the_hair,0.8228123409986846 (Right)
+brachial vein,brachial_vein,0.8228123409986846 (Right)
+bile canaliculus,bile_canaliculus,0.8228123409986846 (Right)
+heart apex,apex_of_the_heart,0.8228123409986846 (Right)
+cephalic vein,cephalic_vein,0.8228123409986846 (Right)
+bronchiole epithelium,bronchiole_epithelium,0.8228123409986846 (Right)
+myometrium,myometrium,0.8228123409986846 (Right)
+phrenic nerve,phrenic_nerve,0.8228123409986846 (Right)
+axillary nerve,axillary_nerve,0.8228123409986846 (Right)
+common palmar digital arteries,common_palmar_digital_artery,0.8228123409986846 (Right)
+labium,labium,0.8228123409986846 (Right)
+male urethra,male_urethra,0.8228123409986846 (Right)
+female urethra,female_urethra,0.8228123409986846 (Right)
+left kidney,left_kidney,0.8228123409986846 (Right)
+lymphoid tissue,lymphoid_tissue,0.8228123409986846 (Right)
+ileal vein,ileal_vein,0.8228123409986846 (Right)
+wrist skin,wrist_skin,0.8228123409986846 (Right)
+sweat,sweat,0.8228123409986846 (Right)
+median artery,median_artery,0.8228123409986846 (Right)
+median nerve,median_nerve,0.8228123409986846 (Right)
+retinal artery,retinal_artery,0.8228123409986846 (Right)
+cervical artery,cervical_artery,0.8228123409986846 (Right)
+infraorbital artery,infraorbital_artery,0.8228123409986846 (Right)
+subcostal vein,subcostal_vein,0.8228123409986846 (Right)
+ophthalmic artery,opthalmic_artery,0.8228123409986846 (Right)
+coccygeal vertebra,coccygeal_vertebra,0.8228123409986846 (Right)
+middle cerebral artery,middle_cerebral_artery,0.8228123409986846 (Right)
+cerebral artery,cerebral_artery,0.8228123409986846 (Right)
+basilic vein,basilic_vein,0.8228123409986846 (Right)
+dorsal hand interosseus muscle,dorsal_hand_interosseous_muscle,0.8228123409986846 (Right)
+radial artery,radial_artery,0.8228123409986846 (Right)
+subscapular artery,subscapular_artery,0.8228123409986846 (Right)
+ulnar nerve,ulnar_nerve,0.8228123409986846 (Right)
+dorsal nasal artery,dorsal_nasal_artery,0.8228123409986846 (Right)
+pancreatic acinus,pancreatic_acinus,0.8228123409986846 (Right)
+cerebellar vein,cerebellar_vein,0.8228123409986846 (Right)
+cutaneous vein,cutaneous_vein,0.8228123409986846 (Right)
+lacrimal artery,lacrimal_artery,0.8228123409986846 (Right)
+ovarian vein,ovarian_vein,0.8228123409986846 (Right)
+superficial cervical artery,superficial_cervical_artery,0.8228123409986846 (Right)
+falciform ligament,falciform_ligament,0.8228123409986846 (Right)
+quadratus lumborum,quadratus_lumborum,0.8228123409986846 (Right)
+tear,tear,0.8228123409986846 (Right)
+gastroepiploic artery,gastroepiploic_artery,0.8228123409986846 (Right)
+renal tubule basement membrane,renal_tubule_basement_membrane,0.8228123409986846 (Right)
+left ureter,left_ureter,0.8228123409986846 (Right)
+iliac circumflex artery,circumflex_iliac_artery,0.8228123409986846 (Right)
+distal convoluted tubule,distal_convoluted_tubule,0.8228123409986846 (Right)
+occipital artery,occipital_artery,0.8228123409986846 (Right)
+mental artery,mental_artery,0.8228123409986846 (Right)
+supraorbital vein,supra-orbital_vein,0.8228123409986846 (Right)
+digital vein,digital_vein,0.8228123409986846 (Right)
+gastric artery,gastric_artery,0.8228123409986846 (Right)
+epigastric artery,epigastric_artery,0.8228123409986846 (Right)
+superior vesical artery,superior_vesical_artery,0.8228123409986846 (Right)
+seminal vesicle epithelium,seminal_vesicle_epithelium,0.8228123409986846 (Right)
+tibial nerve,tibial_nerve,0.8228123409986846 (Right)
+auricular artery,auricular_artery,0.8228123409986846 (Right)
+posterior cerebral artery,posterior_cerebral_artery,0.8228123409986846 (Right)
+median vein,median_vein,0.8228123409986846 (Right)
+right ureter,right_ureter,0.8228123409986846 (Right)
+levator ani,levator_ani,0.8228123409986846 (Right)
+anterior auricular vein,anterior_auricular_vein,0.8228123409986846 (Right)
+gastric vein,gastric_vein,0.8228123409986846 (Right)
+epigastric vein,epigastric_vein,0.8228123409986846 (Right)
+cementum,cementum,0.8228123409986846 (Right)
+temporal artery,temporal_artery,0.8228123409986846 (Right)
+masseteric vein,masseteric_vein,0.8228123409986846 (Right)
+celiac artery,coeliac_artery,0.8228123409986846 (Right)
+intrahepatic bile duct epithelium,intrahepatic_bile_duct,0.8228123409986846
+membranous urethra,membranous_urethra,0.8228123409986846 (Right)
+left main bronchus,left_main_bronchus,0.8228123409986846 (Right)
+axial skeleton,axial_skeleton,0.8228123409986846 (Right)
+perilymph,perilymph,0.8228123409986846 (Right)
+ethmoidal artery,ethmoidal_artery,0.8228123409986846 (Right)
+submental vein,submental_vein,0.8228123409986846 (Right)
+femoral artery,femoral_artery,0.8228123409986846 (Right)
+peroneal nerve,peroneal_nerve,0.8228123409986846 (Right)
+subcostal artery,subcostal_artery,0.8228123409986846 (Right)
+uterine gland,uterine_gland,0.8228123409986846 (Right)
+inferior epigastric artery,inferior_epigastric_artery,0.8228123409986846 (Right)
+right kidney,right_kidney,0.8228123409986846 (Right)
+suprarenal vein,suprarenal_vein,0.8228123409986846 (Right)
+ilio-lumbar vein,iliolumbar_vein,0.8228123409986846 (Right)
+dorsal metacarpal artery,dorsal_metacarpal_artery,0.8228123409986846 (Right)
+sublingual artery,sublingual_artery,0.8228123409986846 (Right)
+lingual artery,lingual_artery,0.8228123409986846 (Right)
+bone marrow,bone_marrow,0.8228123409986846 (Right)
+endolymph,endolymph,0.8228123409986846 (Right)
+middle phalanx of hand,middle_phalanx_of_the_hand,0.8228123409986846 (Right)
+labial artery,labial_artery,0.8228123409986846 (Right)
+face,face,0.8228123409986846 (Right)
+inferior vesical artery,inferior_vesical_artery,0.8228123409986846 (Right)
+basilar artery,basilar_artery,0.8228123409986846 (Right)
+clavicle,clavicle,0.8228123409986846 (Right)
+facial artery,facial_artery,0.8228123409986846 (Right)
+transversus abdominis,transversus_abdominis,0.8228123409986846 (Right)
+pancreatic vein,pancreatic_vein,0.8228123409986846 (Right)
+transverse facial artery,transverse_facial_artery,0.8228123409986846 (Right)
+perineal artery,peroneal_artery,0.8228123409986846
+peroneal artery,perineal_artery,0.8228123409986846
+urinary space,urinary_space,0.8228123409986846 (Right)
+anterior tibial artery,anterior_tibial_artery,0.8228123409986846 (Right)
+superior intercostal vein,superior_intercostal_vein,0.8228123409986846 (Right)
+intercostal artery,intercostal_artery,0.8228123409986846 (Right)
+leg skin,leg_skin,0.8228123409986846 (Right)
+ilium,ilium,0.8228123409986846 (Right)
+dentin,dentin,0.8228123409986846 (Right)
+axillary vein,axillary_vein,0.8228123409986846 (Right)
+medial vestibular nucleus,medial_vestibular_nucleus,0.8228123409986846 (Right)
+left ovary,left_ovary,0.8228123409986846 (Right)
+elbow skin,elbow_skin,0.8228123409986846 (Right)
+cheek,cheek,0.8228123409986846 (Right)
+lung surfactant,lung_surfactant,0.8228123409986846 (Right)
+clitoris,clitoris,0.8228123409986846 (Right)
+buccal artery,buccal_artery,0.8228123409986846 (Right)
+tibial artery,tibial_artery,0.8228123409986846 (Right)
+oropharynx epithelium,oropharynx_epithelium,0.8228123409986846 (Right)
+nasopharynx epithelium,nasopharynx_epithelium,0.8228123409986846 (Right)
+vas deferens epithelium,vas_deferens_epithelium,0.8228123409986846 (Right)
+cerumen,cerumen,0.8228123409986846 (Right)
+arytenoid cartilage,arytenoid_cartilage,0.8228123409986846 (Right)
+femoral nerve,femoral_nerve,0.8228123409986846 (Right)
+vertebral artery,vertebral_artery,0.8228123409986846 (Right)
+ilio-lumbar artery,iliolumbar_artery,0.8228123409986846 (Right)
+penis erectile tissue,penis_erectile_tissue,0.8228123409986846 (Right)
+medial palpebral ligament,medial_palpebral_ligament,0.8228123409986846 (Right)
+ischium,ischium,0.8228123409986846 (Right)
+ulnar artery,ulnar_artery,0.8228123409986846 (Right)
+subclavian vein,subclavian_vein,0.8228123409986846 (Right)
+atrioventricular node,atrioventricular_node,0.8228123409986846 (Right)
+lateral thoracic artery,lateral_thoracic_artery,0.8228123409986846 (Right)
+external sural artery,external_sural_artery,0.8228123409986846 (Right)
+bronchial vein,bronchial_vein,0.8228123409986846 (Right)
+posterior tibial artery,posterior_tibial_artery,0.8228123409986846 (Right)
+phrenic artery,phrenic_artery,0.8228123409986846 (Right)
+maxillary artery,axillary_artery,0.8228123409986846
+ankle skin,ankle_skin,0.8228123409986846 (Right)
+anterior cerebral artery,anterior_cerebral_artery,0.8228123409986846 (Right)
+saliva,saliva,0.8228123409986846 (Right)
+glans penis,glans_penis,0.8228123409986846 (Right)
+right main bronchus,right_main_bronchus,0.8228123409986846 (Right)
+internal iliac artery,internal_iliac_artery,0.8228123409986846 (Right)
+popliteal artery,popliteal_artery,0.8228123409986846 (Right)
+inferior rectal artery,inferior_rectal_artery,0.8228123409986846 (Right)
+iliacus,iliacus,0.8228123409986846 (Right)
+obturator vein,obturator_vein,0.8228123409986846 (Right)
+ileocolic vein,ileocolic_vein,0.8228123409986846 (Right)
+plantar foot interosseus muscle,plantar_foot_interosseus_muscle,0.8228123409986846 (Right)
+lumbosacral plexus,lumbosacral_plexus,0.8228123409986846 (Right)
+appendicular skeleton,appendicular_skeleton,0.8228123409986846 (Right)
+phrenic vein,phrenic_vein,0.8228123409986846 (Right)
+spinal artery,spinal_artery,0.8228123409986846 (Right)
+alveolar artery,alveolar_artery,0.8228123409986846 (Right)
+upper leg,thigh,0.8228123409986846 (Right)
+thoracodorsal artery,thoracodorsal_artery,0.8228123409986846 (Right)
+cerebellar artery,cerebellar_artery,0.8228123409986846 (Right)
+external iliac artery,external_iliac_artery,0.8228123409986846 (Right)
+anterior abdominal wall muscle,anterior_abdominal_wall_muscle,0.8228123409986846 (Right)
+medial tarsal artery,medial_tarsal_artery,0.8228123409986846 (Right)
+pectoralis major,pectoralis_major,0.8228123409986846 (Right)
+celiac ganglion,coeliac_ganglion,0.8228123409986846 (Right)
+portal vein,portal_vein,0.8228123409986846 (Right)
+pancreatic duct,pancreatic_duct,0.8228123409986846 (Right)
+internal mammary vein,internal_mammary_vein,0.8228123409986846 (Right)
+frontal artery,frontal_artery,0.8228123409986846 (Right)
+intrinsic tongue muscle transverse component,intrinsic_tongue_muscle_transverse_component,0.8228123409986846 (Right)
+sebum,sebum,0.8228123409986846 (Right)
+ovarian artery,ovarian_artery,0.8228123409986846 (Right)
+azygos vein,azygos_vein,0.8228123409986846 (Right)
+middle colic artery,middle_colic_artery,0.8228123409986846 (Right)
+dorsal metatarsal vein,dorsal_metatarsal_vein,0.8228123409986846 (Right)
+medial plantar artery,medial_plantar_artery,0.8228123409986846 (Right)
+brachial artery,brachial_artery,0.8228123409986846 (Right)
+purkinje fiber,purkinje_fiber,0.8228123409986846 (Right)
+rectus abdominis,rectus_abdominis,0.8228123409986846 (Right)
+right ovary,right_ovary,0.8228123409986846 (Right)
+superior cerebellar artery,superior_cerebellar_artery,0.8228123409986846 (Right)
+venous system smooth muscle,venous_system_smooth_muscle_tissue,0.8228123409986846 (Right)
+popliteal vein,popliteal_vein,0.8228123409986846 (Right)
+obturator artery,obturator_artery,0.8228123409986846 (Right)
+skeletal muscle tissue,skeletal_muscle_tissue,0.8228123409986846 (Right)
+left testis,left_testis,0.8228123409986846 (Right)
+cerebral vein,cerebral_vein,0.8228123409986846 (Right)
+hepatic artery,hepatic_artery,0.8228123409986846 (Right)
+saphenous vein,saphenous_vein,0.8228123409986846 (Right)
+radial nerve,radial_nerve,0.8228123409986846 (Right)
+thymic vein,thymic_vein,0.8228123409986846 (Right)
+ileocolic artery,ileo-colic_artery,0.8228123409986846 (Right)
+inferior palpebral vein,inferior_palpebral_vein,0.8228123409986846 (Right)
+right testis,right_testis,0.8228123409986846 (Right)
+vertebral vein,vertebral_vein,0.8228123409986846 (Right)
+enamel,enamel,0.8228123409986846 (Right)
+cricoid cartilage,cricoid_cartilage,0.8228123409986846 (Right)
+urethra epithelium,urethra_epithelium,0.8228123409986846 (Right)
+atrioventricular bundle,atrioventricular_bundle,0.8228123409986846 (Right)
+foot bone,foot_bone,0.8228123409986846 (Right)
+pons,pons_varolii,0.8224772598445799 (Right)
+cerebellar layer,cortical_cell_layer,0.8203756091717396
+head bone,ethmoid_bone,0.8187843596522655
+cerebellar hemisphere,hemisphere_of_the_cerebellum,0.8175467276754302 (Right)
+thoracic vertebra 11,t11_vertebra,0.816109419786523 (Right)
+endometrium stroma,endometrial_stroma,0.8149825458245915 (Right)
+vertebra dorsal arch,arch_of_the_vertebra,0.8143306804001555 (Right)
+molar,molar_tooth,0.812394890243049 (Right)
+coat hair,hair,0.8114274275090679 (Right)
+head/neck skin,skin_of_the_scalp_and_neck,0.8099267295083347 (Right)
+osseus spiral lamina,lamina_spiralis_ossea,0.8082105865365614 (Right)
+efferent duct epithelium,efferent_ductule_epithelium,0.8077783192861472 (Right)
+thoraco-acromial artery,acromial_thoracic_artery,0.8073703425214434 (Right)
+axillary lymph node,axillary_lymph_node,0.8062190094571811 (Right)
+seminal fluid,seminal_fluid,0.8062190094571811 (Right)
+eyelid skin,eyelid_skin,0.8062190094571811 (Right)
+right lung bronchiole,right_lung_bronchiole,0.8062190094571811 (Right)
+smooth muscle tissue,smooth_muscle_tissue,0.8062190094571811 (Right)
+artery smooth muscle,artery_smooth_muscle_tissue,0.8062190094571811 (Right)
+sternohyoid,sternohyoid,0.8062190094571811 (Right)
+sesamoid bone,sesamoid_bone,0.8062190094571811 (Right)
+mammary gland,mammary_gland,0.8062190094571811 (Right)
+omotransverse,omotransverse,0.8062190094571811 (Right)
+thoracic cavity,thoracic_cavity,0.8062190094571811 (Right)
+soleus,soleus,0.8062190094571811 (Right)
+subscapularis,subscapularis,0.8062190094571811 (Right)
+colostrum,colostrum,0.8062190094571811 (Right)
+bronchus smooth muscle,bronchus_smooth_muscle_tissue,0.8062190094571811 (Right)
+longissimus lumborum,longissimus_lumborum,0.8062190094571811 (Right)
+nasal septum,nasal_septum,0.8062190094571811 (Right)
+palatine bone,palatine_bone,0.8062190094571811 (Right)
+auricle,external_ear,0.8062190094571811
+cleidooccipital,cleidooccipital,0.8062190094571811 (Right)
+perineal muscle,perineal_muscle,0.8062190094571811 (Right)
+extensor digitorum lateralis,extensor_digitorum_lateralis,0.8062190094571811 (Right)
+inferior vena cava,inferior_vena_cava,0.8062190094571811 (Right)
+fibrocartilage,fibrocartilage,0.8062190094571811 (Right)
+arterial system endothelium,arterial_system_endothelium,0.8062190094571811 (Right)
+infraspinatus,infraspinatus,0.8062190094571811 (Right)
+spleen germinal center,spleen_germinal_center,0.8062190094571811 (Right)
+left lung alveolar duct,left_lung_alveolar_duct,0.8062190094571811 (Right)
+nail,nail,0.8062190094571811 (Right)
+longus capitis,longus_capitis,0.8062190094571811 (Right)
+tibialis caudalis,tibialis_caudalis,0.8062190094571811 (Right)
+thyrohyoid,thyrohyoid,0.8062190094571811 (Right)
+aorta smooth muscle,aorta_smooth_muscle_tissue,0.8062190094571811 (Right)
+peyer's patch germinal center,peyer_s_patch_germinal_center,0.8062190094571811 (Right)
+visual system,visual_system,0.8062190094571811 (Right)
+tensor tympani,tensor_tympani,0.8062190094571811 (Right)
+arteriole smooth muscle,arteriole_smooth_muscle_tissue,0.8062190094571811 (Right)
+bile,bile,0.8062190094571811 (Right)
+biceps femoris,biceps_femoris,0.8062190094571811 (Right)
+trachea smooth muscle,trachea_smooth_muscle_tissue,0.8062190094571811 (Right)
+peroneus longus,peroneus_longus,0.8062190094571811 (Right)
+sputum,sputum,0.8062190094571811 (Right)
+semispinalis thoracis,semispinalis_thoracis,0.8062190094571811 (Right)
+cervix squamous epithelium,cervix_squamous_epithelium,0.8062190094571811 (Right)
+constrictor vulvae,constrictor_vulvae,0.8062190094571811 (Right)
+eye posterior chamber,posterior_chamber_of_the_eye,0.8062190094571811 (Right)
+levator nasolabialis,levator_nasolabialis,0.8062190094571811 (Right)
+posterior semicircular canal,posterior_semicircular_canal,0.8062190094571811 (Right)
+deltoid,deltoid,0.8062190094571811 (Right)
+inguinal lymph node,inguinal_lymph_node,0.8062190094571811 (Right)
+extensor carpi radialis longus,extensor_carpi_radialis_longus,0.8062190094571811 (Right)
+extensor digitorum longus,extensor_digitorum_longus,0.8062190094571811 (Right)
+synovial fluid,synovial_fluid,0.8062190094571811 (Right)
+levator palpebrae superioris,levator_palpebrae_superioris,0.8062190094571811 (Right)
+abdominal aorta,abdominal_aorta,0.8062190094571811 (Right)
+sphenoid sinus,sphenoid_sinus,0.8062190094571811 (Right)
+scalenus medius,scalenus_medius,0.8062190094571811 (Right)
+tensor fasciae lata,tensor_fasciae_lata,0.8062190094571811 (Right)
+sternoclavicular joint,sternoclavicular_joint,0.8062190094571811 (Right)
+triceps surae,triceps_surae,0.8062190094571811 (Right)
+lacrimal sac,lacrimal_sac,0.8062190094571811 (Right)
+pulmonary valve,pulmonary_valve,0.8062190094571811 (Right)
+geniohyoid,geniohyoid,0.8062190094571811 (Right)
+trachea basal lamina,trachea_basal_lamina,0.8062190094571811 (Right)
+serratus ventralis,serratus_ventralis,0.8062190094571811 (Right)
+mylohyoid,mylohyoid,0.8062190094571811 (Right)
+outer canthus,outer_canthus,0.8062190094571811 (Right)
+obturator externus,obturator_externus_muscle,0.8062190094571811 (Right)
+frontal sinus,frontal_sinus,0.8062190094571811 (Right)
+gluteus maximus,gluteus_maximus,0.8062190094571811 (Right)
+sternocostal joint,sternocostal_joint,0.8062190094571811 (Right)
+maxillary sinus,maxillary_sinus,0.8062190094571811 (Right)
+mitral valve,mitral_valve,0.8062190094571811 (Right)
+genioglossus,genioglossus,0.8062190094571811 (Right)
+pectineus,pectineus,0.8062190094571811 (Right)
+urethralis,urethralis,0.8062190094571811 (Right)
+right lung alveolar duct,right_lung_alveolar_duct,0.8062190094571811 (Right)
+left lung alveolus,left_lung_alveolus,0.8062190094571811 (Right)
+meibomian gland,meibomian_gland,0.8062190094571811 (Right)
+costal cartilage,costal_cartilage,0.8062190094571811 (Right)
+palatine tonsil,palatine_tonsil,0.8062190094571811 (Right)
+terminal bronchiole epithelium,terminal_bronchiole_epithelium,0.8062190094571811 (Right)
+thyroid gland capsule,thyroid_gland_capsule,0.8062190094571811 (Right)
+thyroid gland left lobe,left_thyroid_gland_lobe,0.8062190094571811 (Right)
+esophagus secretion,esophagus_secretion,0.8062190094571811 (Right)
+adductor group (leg),adductor_group_of_the_leg,0.8062190094571811 (Right)
+segmental bronchus,segmental_bronchus,0.8062190094571811 (Right)
+popliteal lymph node,popliteal_lymph_node,0.8062190094571811 (Right)
+eye anterior chamber,anterior_chamber_of_the_eye,0.8062190094571811 (Right)
+palmar hand interosseus muscle,palmar_hand_interosseus_muscle,0.8062190094571811 (Right)
+aortic valve,aortic_valve,0.8062190094571811 (Right)
+iliothoracic,iliothoracic,0.8062190094571811 (Right)
+flexor carpi radialis,flexor_carpi_radialis,0.8062190094571811 (Right)
+articular cartilage,articular_cartilage,0.8062190094571811 (Right)
+urine,urine,0.8062190094571811 (Right)
+flexor hallucis longus,flexor_hallucis_longus,0.8062190094571811 (Right)
+semitendinosus,semitendinosus,0.8062190094571811 (Right)
+liver left lobe,left_lobe_of_the_liver,0.8062190094571811 (Right)
+bulboglandular,bulboglandular,0.8062190094571811 (Right)
+foot digit 4,foot_digit_4,0.8062190094571811 (Right)
+extensor digitorum communis,extensor_digitorum_communis,0.8062190094571811 (Right)
+orbicularis oculi,orbicularis_oculi,0.8062190094571811 (Right)
+sacroiliac joint,sacroiliac_joint,0.8062190094571811 (Right)
+costochondral joint,costochondral_joint,0.8062190094571811 (Right)
+submucous nerve plexus,submucous_nerve_plexus,0.8062190094571811 (Right)
+flexor digitorum profundus,flexor_digitorum_profundus,0.8062190094571811 (Right)
+cutaneous trunci,cutaneous_trunci,0.8062190094571811 (Right)
+longus colli,longus_colli,0.8062190094571811 (Right)
+rectus femoris,rectus_femoris,0.8062190094571811 (Right)
+fungiform papilla,fungiform_papilla,0.8062190094571811 (Right)
+elastic cartilage,elastic_cartilage,0.8062190094571811 (Right)
+diaphragm,diaphragm,0.8062190094571811 (Right)
+right lung middle lobe,middle_lobe_of_the_right_lung,0.8062190094571811 (Right)
+rib shaft,rib_shaft,0.8062190094571811 (Right)
+nasal mucus,nasal_mucus,0.8062190094571811 (Right)
+abductor pollicis longus,abductor_pollicis_longus,0.8062190094571811 (Right)
+depressor labii inferioris,depressor_labii_inferioris,0.8062190094571811 (Right)
+anus,anus,0.8062190094571811 (Right)
+anal canal,anal_canal,0.8062190094571811 (Right)
+sternal manubrium,sternal_manubrium,0.8062190094571811 (Right)
+right lung alveolus,right_lung_alveolus,0.8062190094571811 (Right)
+costovertebral joint,costovertebral_joint,0.8062190094571811 (Right)
+lobar bronchus,lobar_bronchus,0.8062190094571811 (Right)
+hand digit 2,hand_digit_2,0.8062190094571811 (Right)
+transversus thoracis,transversus_thoracis,0.8062190094571811 (Right)
+retina outer nuclear layer,outer_nuclear_layer_of_retina,0.8062190094571811 (Right)
+thyroid gland isthmus,thyroid_gland_isthmus,0.8062190094571811 (Right)
+nasal cartilage,nasal_cartilage,0.8062190094571811 (Right)
+external anal sphincter,external_anal_sphincter,0.8062190094571811 (Right)
+extensor carpi radialis brevis,extensor_carpi_radialis_brevis,0.8062190094571811 (Right)
+semispinalis capitis,semispinalis_capitis,0.8062190094571811 (Right)
+cervical lymph node,cervical_lymph_node,0.8062190094571811 (Right)
+tricuspid valve,tricuspid_valve,0.8062190094571811 (Right)
+sternothyroid,sternothyroid,0.8062190094571811 (Right)
+rib tubercle,rib_tubercle,0.8062190094571811 (Right)
+vagina squamous epithelium,vaginal_squamous_epithelium,0.8062190094571811 (Right)
+inner canthus,inner_canthus,0.8062190094571811 (Right)
+loop of henle,loop_of_henle,0.8062190094571811 (Right)
+zygomaticus,zygomaticus,0.8062190094571811 (Right)
+longissimus thoracis,longissimus_thoracis,0.8062190094571811 (Right)
+dorsal root ganglion,dorsal_root_ganglion,0.8062190094571811 (Right)
+pancreas body,body_of_the_pancreas,0.8062190094571811 (Right)
+oropharyngeal lymphoid tissue,oropharyngeal_lymphoid_tissue,0.8062190094571811 (Right)
+styloglossus,styloglossus,0.8062190094571811 (Right)
+seminal vesicle secretion,seminal_vesicle_secretion,0.8062190094571811 (Right)
+pronator teres,pronator_teres,0.8062190094571811 (Right)
+hyaline cartilage,hyaline_cartilage,0.8062190094571811 (Right)
+longissimus cervicis,longissimus_cervicis,0.8062190094571811 (Right)
+nasal turbinate,nasal_turbinate,0.8062190094571811 (Right)
+ethmoid sinus,ethmoid_sinus,0.8062190094571811 (Right)
+cleidocephalic,cleidocephalic,0.8062190094571811 (Right)
+parotidoauricular,parotidoauricular,0.8062190094571811 (Right)
+eyelid connective tissue,eyelid_connective_tissue,0.8062190094571811 (Right)
+external acoustic meatus,external_acoustic_meatus,0.8062190094571811 (Right)
+internal carotid nerve plexus,internal_carotid_nerve_plexus,0.8062190094571811 (Right)
+parathyroid gland capsule,parathyroid_gland_capsule,0.8062190094571811 (Right)
+thyroid gland right lobe,right_thyroid_gland_lobe,0.8062190094571811 (Right)
+foliate papilla,foliate_papilla,0.8062190094571811 (Right)
+rib head,rib_head,0.8062190094571811 (Right)
+pancreas tail,tail_of_the_pancreas,0.8062190094571811 (Right)
+semispinalis cervicis,semispinalis_cervicis,0.8062190094571811 (Right)
+upper eyelid,upper_eyelid,0.8062190094571811 (Right)
+visceral pleura,visceral_pleura,0.8062190094571811 (Right)
+hand digit 4,hand_digit_4,0.8062190094571811 (Right)
+liver right lobe,right_lobe_of_the_liver,0.8062190094571811 (Right)
+gluteus medius,gluteus_medius,0.8062190094571811 (Right)
+hand digit 1,hand_digit_1,0.8062190094571811 (Right)
+flexor carpi ulnaris,flexor_carpi_ulnaris,0.8062190094571811 (Right)
+sweat gland,sweat_gland,0.8062190094571811 (Right)
+lymph,lymph,0.8062190094571811 (Right)
+erector spinae,erector_spinae,0.8062190094571811 (Right)
+bronchus connective tissue,bronchus_connective_tissue,0.8062190094571811 (Right)
+ear skin,ear_skin,0.8062190094571811 (Right)
+hand digit 3,hand_digit_3,0.8062190094571811 (Right)
+sphincter colli superficialis,sphincter_colli_superficialis,0.8062190094571811 (Right)
+myenteric nerve plexus,myenteric_nerve_plexus,0.8062190094571811 (Right)
+hypogastric nerve plexus,hypogastric_nerve_plexus,0.8062190094571811 (Right)
+spinalis thoracis,spinalis_thoracis,0.8062190094571811 (Right)
+superior vena cava,superior_vena_cava,0.8062190094571811 (Right)
+corniculate cartilage,corniculate_cartilage,0.8062190094571811 (Right)
+splenic cord,splenic_cord,0.8062190094571811 (Right)
+hand digit 5,hand_digit_5,0.8062190094571811 (Right)
+decidua,decidua,0.8062190094571811 (Right)
+teres major,teres_major_muscle,0.8062190094571811 (Right)
+foot digit 5,foot_digit_5,0.8062190094571811 (Right)
+superior sagittal sinus,superior_sagittal_sinus,0.8062190094571811 (Right)
+lower respiratory tract cartilage,lower_respiratory_tract_cartilage,0.8062190094571811 (Right)
+left lung bronchiole,left_lung_bronchiole,0.8062190094571811 (Right)
+alveolar wall,alveolar_wall,0.8062190094571811 (Right)
+prostate gland secretion,prostate_gland_secretion,0.8062190094571811 (Right)
+foot digit 1,foot_digit_1,0.8062190094571811 (Right)
+filiform papilla,filiform_papilla,0.8062190094571811 (Right)
+vastus lateralis,vastus_lateralis,0.8062190094571811 (Right)
+foot digit 2,foot_digit_2,0.8062190094571811 (Right)
+levator labii superioris,levator_labii_superioris,0.8062190094571811 (Right)
+nasolacrimal duct,nasolacrimal_duct,0.8062190094571811 (Right)
+buccinator,buccinator,0.8062190094571811 (Right)
+extensor carpi ulnaris,extensor_carpi_ulnaris,0.8062190094571811 (Right)
+external ear cartilage,external_ear_cartilage,0.8062190094571811 (Right)
+brachialis,brachialis,0.8062190094571811 (Right)
+feces,feces,0.8062190094571811 (Right)
+lacrimal canaliculus,lacrimal_canaliculus,0.8062190094571811 (Right)
+respiratory bronchiole epithelium,respiratory_bronchiole_epithelium,0.8062190094571811 (Right)
+parasympathetic ganglion,parasympathetic_ganglion,0.8062190094571811 (Right)
+superficial palmal arch,superficial_palmar_arch,0.8062190094571811 (Right)
+trachea epithelium,tracheal_epithelium,0.8062190094571811 (Right)
+longissimus capitis,longissimus_capitis,0.8062190094571811 (Right)
+adrenal gland capsule,adrenal_gland_capsule,0.8062190094571811 (Right)
+gracilis,gracilis,0.8062190094571811 (Right)
+cardiac nerve plexus,cardiac_nerve_plexus,0.8062190094571811 (Right)
+foot digit 3,foot_digit_3,0.8062190094571811 (Right)
+orbitalis muscle,orbitalis_muscle,0.8062190094571811 (Right)
+nasal cavity respiratory epithelium,nasal_cavity_respiratory_epithelium,0.8062190094571811 (Right)
+scalenus dorsalis,scalenus_dorsalis,0.8062190094571811 (Right)
+spinal nerve,spinal_nerve,0.8062190094571811 (Right)
+sternooccipital,sternooccipital,0.8062190094571811 (Right)
+auditory system,auditory_system,0.8062190094571811 (Right)
+joint of rib,joint_of_the_rib,0.8062190094571811 (Right)
+pancreas head,head_of_the_pancreas,0.8062190094571811 (Right)
+semimembranosus,semimembranosus,0.8062190094571811 (Right)
+cerebrospinal fluid,cerebrospinal_fluid,0.8062190094571811 (Right)
+omohyoid,omohyoid,0.8062190094571811 (Right)
+trachea cartilage,trachea_cartilage,0.8062190094571811 (Right)
+hypopharynx,hypopharynx,0.8062190094571811 (Right)
+flexor digitorum longus,flexor_digitorum_longus,0.8062190094571811 (Right)
+cleidobrachial,cleidobrachial,0.8062190094571811 (Right)
+serratus dorsalis cranialis,serratus_dorsalis_cranialis,0.8062190094571811 (Right)
+bronchus basal lamina,bronchus_basal_lamina,0.8062190094571811 (Right)
+lower eyelid,lower_eyelid,0.8062190094571811 (Right)
+supraspinatus,supraspinatus,0.8062190094571811 (Right)
+splenius,splenius,0.8062190094571811 (Right)
+cerebellum purkinje cell layer,purkinje_cell_layer_of_the_cerebellum,0.8062190094571811 (Right)
+circumvallate papilla,circumvallate_papilla,0.8062190094571811 (Right)
+serratus dorsalis caudalis,serratus_dorsalis_caudalis,0.8062190094571811 (Right)
+ischiocavernosus,ischiocavernosus,0.8062190094571811 (Right)
+endocrine pancreas secretion,pancreatic_endocrine_secretion,0.8059990807840491 (Right)
+exocrine pancreas secretion,pancreatic_exocrine_secretion,0.8059990807840491 (Right)
+tympanic cavity muscle,muscle_of_the_tympanum,0.8058991802635217 (Right)
+male reproductive system fluid/secretion,male_genital_system_fluid_or_secretion,0.8057703434892094 (Right)
+female reproductive system fluid/secretion,female_genital_system_fluid_or_secretion,0.8057703434892094 (Right)
+eye anterior segment,eye_segment,0.8054097112247145
+head/neck,head_and_neck,0.8049999999999999 (Right)
+body fluid/substance,body_fluid_or_substance,0.8049999999999999 (Right)
+ear,ear,0.8049999999995708 (Right)
+male reproductive system,male_reproductive_system,0.8049999301494141 (Right)
+female reproductive system,female_reproductive_system,0.8049999301494141 (Right)
+organ system,organ_system,0.8049994838722537
+cartilage,cartilage,0.8049985970309477 (Right)
+hepatobiliary system,hepatobiliary_system,0.8049896342508218 (Right)
+connective tissue,connective_tissue,0.8049896342508218 (Right)
+nephron,nephron,0.8049896342508218 (Right)
+pericardiacoophrenic artery,pericardiac_artery,0.8048078298955639
+vascular system,vascular_system,0.8047921823960594 (Right)
+pharynx,pharynx,0.8047921823960594 (Right)
+larynx,larynx,0.804436971399171 (Right)
+parafascicular nucleus,parafascicular_nucleus_of_the_thalamus,0.804165895747864 (Right)
+viscerocranium bone,palate_bone,0.8038454142149627
+lacrimal apparatus,lacrimal_apparatus,0.8034832419164912 (Right)
+epidermis,epidermis,0.8034832419164912 (Right)
+paranasal sinus,paranasal_sinus,0.8034832419164912 (Right)
+white matter,white_matter,0.8034832419164912 (Right)
+thorax,thorax,0.8034832419164912 (Right)
+nose,nose,0.8034832419164912 (Right)
+medial femoral circumflex artery,medial_circumflex_artery,0.8020129403645373
+head/neck bone,hyoid_bone,0.8018138143121212
+neck bone,occipital_bone,0.8018138143121212
+chest nerve,intercostal_nerve,0.8018138143121212
+thorax muscle,papillary_muscle,0.8018138143121212
+chest muscle,intercostal_muscle,0.8018138143121212
+hamate,hamate_bone,0.8013860656567945 (Right)
+navicular,navicular_bone,0.8013860656567945 (Right)
+pisiform,pisiform_bone,0.8013860656567945 (Right)
+trapezoid,trapezoid_bone,0.8013860656567945 (Right)
+radius,radius_bone,0.8013860656567945 (Right)
+cuboid,cuboid_bone,0.8013860656567945 (Right)
+capitate,capitate_bone,0.8013860656567945 (Right)
+retina inner nuclear layer,inner_nuclear_layer,0.8011592556017264 (Right)
+inner ear,internal_ear,0.8005670836216454 (Right)
+chest bone,flat_bone,0.8005670670090367
+skeletal muscle,abdominal_muscle,0.8005564918975485
+parietal bone,parietal_bone,0.7 (Right)
+lacrimal bone,lacrimal_bone,0.7 (Right)
+frontal bone,frontal_bone,0.7 (Right)
+sphenoid bone,sphenoid_bone,0.7 (Right)
+temporal bone,temporal_bone,0.7 (Right)
+descending aorta,descending_aorta,0.7 (Right)
+ciliary muscle,ciliary_muscle,0.7 (Right)
+inferior hypogastric nerve plexus,inferior_hypogastric_nerve_plexus,0.7 (Right)
+left hepatic duct,left_hepatic_duct,0.7 (Right)
+lumbar sympathetic nerve trunk,lumbar_sympathetic_nerve_trunk,0.7 (Right)
+cortical bone,cortical_bone,0.7 (Right)
+trachea basement membrane,trachea_basement_membrane,0.7 (Right)
+shoulder,shoulder,0.7 (Right)
+shoulder joint,shoulder_joint,0.7 (Right)
+eyelid subcutaneous connective tissue,eyelid_subcutaneous_connective_tissue,0.7 (Right)
+back,back,0.7 (Right)
+pelvis,pelvis,0.7 (Right)
+trunk,trunk,0.7 (Right)
+arm,arm,0.7 (Right)
+right lung terminal bronchiole,right_lung_terminal_bronchiole,0.7 (Right)
+right lung respiratory bronchiole,right_lung_respiratory_bronchiole,0.7 (Right)
+adipose tissue,adipose_tissue,0.7 (Right)
+bronchus basement membrane,bronchus_basement_membrane,0.7 (Right)
+pleural cavity,pleural_cavity,0.7 (Right)
+common hepatic duct,common_hepatic_duct,0.7 (Right)
+myocardium,myocardium,0.7 (Right)
+wrist joint,wrist_joint,0.7 (Right)
+pia mater,pia_mater,0.7 (Right)
+foot digit skin,foot_digit_skin,0.7 (Right)
+limb,limb,0.7 (Right)
+ankle joint,ankle_joint,0.7 (Right)
+dura mater,dura_mater,0.7 (Right)
+metacarpo-phalangeal joint,metacarpophalangeal_joint,0.7 (Right)
+cortical arch,cortical_arch,0.7 (Right)
+lactiferous duct,lactiferous_duct,0.7 (Right)
+internal naris,internal_nare,0.7 (Right)
+bronchus lamina propria,bronchus_lamina_propria,0.7 (Right)
+seminiferous tubule epithelium,seminiferous_tubule,0.7
+meninges,meninges,0.7 (Right)
+incus,incus,0.7 (Right)
+thymus cortex,thymus_cortex,0.7 (Right)
+stomach fundus,fundus_of_the_stomach,0.7 (Right)
+posterior commissure,posterior_commissure,0.7 (Right)
+anterior commissure,anterior_commissure,0.7 (Right)
+pelvic girdle bone,pelvic_girdle,0.7
+mucosa associated lymphoid tissue,mucosa-associated_lymphoid_tissue,0.7 (Right)
+hand,hand,0.7 (Right)
+eyelid muscle,eyelid_muscle,0.7 (Right)
+elbow joint,elbow_joint,0.7 (Right)
+hip joint,hip_joint,0.7 (Right)
+knee joint,knee_joint,0.7 (Right)
+alveolus,alveolus,0.7 (Right)
+chest,chest,0.7 (Right)
+interlobular bile duct,interlobular_bile_duct,0.7 (Right)
+lymph node cortex,lymph_node_cortex,0.7 (Right)
+arcuate nucleus,arcuate_nucleus,0.7 (Right)
+ascending aorta,ascending_aorta,0.7 (Right)
+thoracic aorta,thoracic_aorta,0.7 (Right)
+cingulate cortex,cingulate_cortex,0.7 (Right)
+intervertebral disc,intervertebral_disc,0.7 (Right)
+thymus medulla,thymus_medulla,0.7 (Right)
+nasal bone,nasal_bone,0.7 (Right)
+mesangium,mesangium,0.7 (Right)
+loop of henle ascending limb,ascending_limb_of_the_henle_s_loop,0.7 (Right)
+internal capsule,internal_capsule,0.7 (Right)
+portal lobule,portal_lobule,0.7 (Right)
+pericardial cavity,pericardial_cavity,0.7 (Right)
+macula densa,macula_densa,0.7 (Right)
+anal region,anal_region,0.7 (Right)
+eyelash,eyelash,0.7 (Right)
+nipple,nipple,0.7 (Right)
+trachea lamina propria,trachea_lamina_propria,0.7 (Right)
+interlobular artery,interlobular_artery,0.7 (Right)
+common bile duct,common_bile_duct,0.7 (Right)
+extrahepatic bile duct epithelium,extrahepatic_bile_duct,0.7
+bile duct epithelium,bile_duct_epithelium,0.7 (Right)
+bronchus cartilage,bronchus_cartilage,0.7 (Right)
+vagina epithelium,vaginal_epithelium,0.7 (Right)
+ileum,ileum,0.7 (Right)
+dorsal thalamus,dorsal_thalamus,0.7 (Right)
+pigmented retinal epithelium,retinal_pigment_epithelium,0.7 (Right)
+long bone epiphysis,long_bone_epiphysis,0.7 (Right)
+hand digit skin,hand_digit_skin,0.7 (Right)
+ventral thalamus,ventral_thalamus,0.7 (Right)
+alveolar sac,alveolar_sac,0.7 (Right)
+cystic duct,cystic_duct,0.7 (Right)
+ophthalmic plexus,ophthalmic_plexus,0.7 (Right)
+optic disc,optic_disc,0.7 (Right)
+transverse colon,transverse_colon,0.7 (Right)
+ascending colon,ascending_colon,0.7 (Right)
+descending colon,descending_colon,0.7 (Right)
+capillary,capillary,0.7
+venous sinus,venous_sinus,0.7 (Right)
+stomach body,body_of_stomach,0.7 (Right)
+submandibular ganglion,submandibular_ganglion,0.7 (Right)
+perineum,perineum,0.7 (Right)
+enteric ganglion,enteric_ganglion,0.7 (Right)
+bronchus submucosa,bronchus_submucosa,0.7 (Right)
+palpebral conjunctiva,palpebral_conjunctiva,0.7 (Right)
+conjunctiva,conjunctiva,0.7 (Right)
+malleus,malleus,0.7 (Right)
+pericardium,pericardium,0.7 (Right)
+parietal pleura,parietal_pleura,0.7 (Right)
+lesser omentum,lesser_omentum,0.7 (Right)
+internal anal sphincter,internal_anal_sphincter,0.7 (Right)
+bronchus associated lymphoid tissue,bronchus-associated_lymphoid_tissue,0.7 (Right)
+left lung terminal bronchiole,left_lung_terminal_bronchiole,0.7 (Right)
+lower jaw,lower_jaw,0.7 (Right)
+arterial system smooth muscle,arterial_system_smooth_muscle_tissue,0.7 (Right)
+lymph node trabeculum,lymph_node_trabecula,0.7 (Right)
+mesothelium,mesothelium,0.7 (Right)
+portal triad,portal_triad,0.7 (Right)
+gonad,gonad,0.7 (Right)
+renal pyramid,renal_pyramid,0.7 (Right)
+dermis,dermis,0.7 (Right)
+thyroid gland follicle,thyroid_gland_follicle,0.7 (Right)
+gut associated lymphoid tissue,gut_associated_lymphoid_tissue,0.7 (Right)
+anterior olfactory nucleus,anterior_olfactory_nucleus,0.7 (Right)
+hair follicle,hair_follicle,0.7 (Right)
+left lung respiratory bronchiole,left_lung_respiratory_bronchiole,0.7 (Right)
+thymus epithelium,thymic_epithelial_tissue,0.7 (Right)
+upper jaw tooth,upper_jaw_tooth,0.7 (Right)
+duodenum,duodenum,0.7 (Right)
+eye posterior segment,posterior_eye_segment,0.7 (Right)
+trachea submucosa,trachea_submucosa,0.7 (Right)
+accumbens nucleus,accumbens_nucleus,0.7 (Right)
+areola,areola,0.7 (Right)
+costal arch,costal_arch,0.7 (Right)
+auditory cortex,auditory_cortex,0.7 (Right)
+peritoneal cavity,peritoneal_cavity,0.7 (Right)
+bulbourethral gland secretion,bulbourethral_gland_secretion,0.7 (Right)
+tendon,tendon,0.7 (Right)
+sinoatrial node,sinoatrial_node,0.7 (Right)
+acetabulum,acetabulum,0.7 (Right)
+renal papilla,renal_papilla,0.7 (Right)
+corpus callosum,corpus_callosum,0.7 (Right)
+alveolar duct,alveolar_duct,0.7 (Right)
+zona pellucida,zona_pellucida,0.7 (Right)
+liver acinus,liver_acinus,0.7 (Right)
+venous system,venous_system,0.7 (Right)
+loop of henle descending limb,descending_limb_of_the_henle_s_loop,0.7 (Right)
+sphincter pupillae,sphincter_pupillae_muscle,0.7 (Right)
+jejunum,jejunum,0.7 (Right)
+upper lip,posterior_surface_of_the_vagina,0.7
+basilar membrane,basilar_membrane,0.7 (Right)
+scrotum,scrotum,0.7 (Right)
+stapes,stapes,0.7 (Right)
+tunica vasculosa plexus,tunica_vasculosa,0.6976386605150363 (Right)
+urinary bladder muscularis mucosa,bladder_muscularis_mucosa,0.6913460262571393 (Right)
+spinal cord central canal,remnants_of_the_central_canal_of_the_spinal_cord,0.6902617346756345
+adrenal gland medulla,adrenal_medulla,0.6869804810325363 (Right)
+choroid fissure,choroidal_fissure,0.6868750699999999 (Right)
+ductus venosus,fissure_of_the_ductus_venosus,0.686507387219301
+adrenal gland cortex,adrenal_cortex,0.686430164863577 (Right)
+cerebellum molecular cell layer,molecular_layer_of_the_cerebellum,0.6864170556923599 (Right)
+renal cortex vein,renal_cortex,0.6861228441461921
+urinary bladder lamina propria,bladder_lamina_propria,0.6856802064196559 (Right)
+retina inner plexiform layer,inner_plexiform_layer,0.6852325161823062 (Right)
+stomach lesser curvature,lesser_curvature,0.6849886049504605 (Right)
+retina outer plexiform layer,outer_plexiform_layer,0.6847695227801537 (Right)
+fat pad,breast_fat_pad,0.6842104250887305
+large intestine muscularis mucosa,large_intestinal_muscularis_mucosa,0.6834899125171624 (Right)
+small intestine muscularis mucosa,small_intestinal_muscularis_mucosa,0.6834899125171624 (Right)
+small intestine lamina propria,small_intestinal_lamina_propria,0.6834899125171624 (Right)
+small intestine crypt of lieberkuhn,small_intestinal_crypt_of_lieberkuhn,0.6834899125171624 (Right)
+large intestine crypt of lieberkuhn,large_intestinal_crypt_of_the_lieberkuhn,0.6834899125171624 (Right)
+stomach greater curvature,greater_curvature,0.6810593604474879 (Right)
+large intestine mucosa,large_intestinal_mucosa,0.6804323800203407 (Right)
+small intestine mucosa,small_intestinal_mucosa,0.6804323800203407 (Right)
+large intestine submucosa,large_intestinal_submucosa,0.6804323800203407 (Right)
+small intestine submucosa,small_intestinal_submucosa,0.6804323800203407 (Right)
+hassall's corpuscle,hassall_s_corpuscle,0.6798642062888838 (Right)
+liver perisinusoidal space,perisinusoidal_space,0.6792801154731821 (Right)
+lymph node follicle,lymph_node_lymphoid_follicle,0.6768971622458196 (Right)
+hamstring muscle,hamstring,0.6755017303378276 (Right)
+mammary gland epithelium,mammary_epithelium,0.6711861242615403 (Right)
+retina ganglion cell layer,ganglion_cell_layer,0.6710779236236769 (Right)
+nasopharyngeal tonsil,pharyngeal_tonsil,0.6708334033333333 (Right)
+intestine muscularis mucosa,muscularis_mucosa,0.6689384259648586
+superior oblique extraocular muscle,superior_oblique_muscle,0.6681073214779463 (Right)
+ventricular septum,interventricular_septum,0.6675926625925925 (Right)
+ovary growing follicle,growing_follicle,0.6669608671448523 (Right)
+ovary primordial follicle,primordial_follicle,0.6669608671448523 (Right)
+inferior oblique extraocular muscle,inferior_oblique_muscle,0.6669043934481635 (Right)
+tibialis muscle,tibialis,0.6655600365312542 (Right)
+esophagus muscularis mucosa,esophageal_muscularis_mucosa,0.6621811607336523 (Right)
+esophagus squamous epithelium,esophageal_squamous_epithelium,0.6621811607336523 (Right)
+esophagus lamina propria,esophageal_lamina_propria,0.6621811607336523 (Right)
+iliopsoas,iliopsoas_muscle,0.6621285838817028 (Right)
+sartorius,sartorius_muscle,0.6621285838817028 (Right)
+popliteus,popliteus_muscle,0.6621285838817028 (Right)
+trapezius,trapezius_muscle,0.6621285838817028 (Right)
+digastric,digastric_muscle,0.6621285838817028 (Right)
+stapedius,stapedius_muscle,0.6621285838817028 (Right)
+masseter,masseter_muscle,0.6621285838817028 (Right)
+gastrocnemius,gastrocnemius_muscle,0.6621285838817028 (Right)
+palatoglossus,palatoglossus_muscle,0.6621285838817028 (Right)
+hyoglossus,hyoglossus_muscle,0.6621285838817028 (Right)
+ovary stratum granulosum,stratum_granulosum,0.6620984434008371
+medial rectus extraocular muscle,medial_rectus_muscle,0.6616431314093737 (Right)
+urinary bladder trigone,bladder_trigone,0.6607376904065748 (Right)
+lower lip,external_lower_lip,0.6593873006286031 (Right)
+epidermis stratum lucidum,stratum_lucidum,0.6583534611643069 (Right)
+interalveolar septum,alveolar_septum,0.6583334033333332 (Right)
+lateral rectus extraocular muscle,lateral_rectus_muscle,0.6573964802665664 (Right)
+superior rectus extraocular muscle,superior_rectus_muscle,0.6571609472104215 (Right)
+pharynx muscle,pharyngeal_muscle,0.6565277890012695 (Right)
+eye sebaceous gland,sebaceous_gland_of_the_eyelash,0.6564445844444443 (Right)
+epidermis stratum basale,stratum_basale,0.6560906107085697 (Right)
+epidermis stratum spinosum,stratum_spinosum,0.6560906107085697 (Right)
+meningeal artery,posterior_meningeal_artery,0.6558748263633678
+inferior rectus extraocular muscle,inferior_rectus_muscle,0.6557854917951514 (Right)
+constrictor muscle of pharynx superior,superior_constrictor_muscle,0.6553823262232946 (Right)
+vomer bone,vomer,0.655284870930946 (Right)
+larynx connective tissue,laryngeal_connective_tissue,0.6547476147474747 (Right)
+ulnar artery palmar branch,ulnar_artery_branch,0.6541767136829814
+spleen lymphoid follicle,lymphoid_follicle,0.6541026148695095
+spleen marginal zone,marginal_zone,0.6538689553112077
+ovary follicle fluid,ovarian_follicle_fluid,0.6525720125718725 (Right)
+bronchus epithelium,bronchial_epithelium,0.6508885503921568 (Right)
+hippocampus molecular layer,molecular_layer,0.6508491275837335
+cerebellum internal granule cell layer,internal_granular_layer_of_the_cerebellum,0.6504863938461538 (Right)
+epidermis stratum corneum,stratum_corneum,0.6497568220649261 (Right)
+larynx muscle,laryngeal_muscle,0.649090979090909 (Right)
+larynx ligament,laryngeal_ligament,0.649090979090909 (Right)
+larynx epithelium,laryngeal_epithelium,0.649090979090909 (Right)
+larynx mucosa,laryngeal_mucosa,0.649090979090909 (Right)
+stomach squamous epithelium,squamous_epithelium,0.6489950987051621
+tarsus,tarsus_bone,0.6489786769739299
+scaphoid,scaphoid_bone,0.6489786769739299 (Right)
+atrial septum,interatrial_septum,0.6485294817647058 (Right)
+superior gluteal artery,gluteal_artery,0.6479928325965022
+thymus lymphoid tissue,thymic_lymphoid_tissue,0.6478680078678678 (Right)
+ovary follicle,ovarian_follicle,0.6466434266433566 (Right)
+ovary capsule,ovarian_capsule,0.6466434266433566 (Right)
+sublingual gland,sublingual_salivary_gland,0.6457779421026433 (Right)
+spinal cord meninges,spinal_meninges,0.6457461008382062 (Right)
+urinary bladder wall,bladder_wall,0.6453454732464016 (Right)
+cricoarytenoid,cricoarytenoid_muscle,0.6446971206355734 (Right)
+cricothyroid,cricothyroid_muscle,0.6446971206355734 (Right)
+maxillary vein,internal_maxillary_vein,0.6445223850985742
+superficial temporal artery,superficial_femoral_artery,0.644
+urethra lamina propria,lamina_propria,0.6438642992123083
+lung connective tissue,lung_tissue,0.6430393971023675
+ovary germinal epithelium,germinal_epithelium,0.6423736940139722 (Right)
+pars intermedia,pars_media,0.6416667366666665
+proximal convoluted tubule,proximal_convoluted_tube,0.6416666899999999 (Right)
+spiral organ,spiral_organ_of_corti,0.6408879921625986
+palatine gland,palatine_salivary_gland,0.6407761721646215 (Right)
+parathyroid gland parenchyma,parathyroid_gland_parenchymal_cell,0.6400001599999999
+latissimus dorsi,musculus_latissimus_dorsi,0.64 (Right)
+cuboidal oviduct epithelium,cuboidal_epithelium,0.6395359061251912
+axillary artery,axillary_artery_branch,0.6394756304033511
+urinary bladder mucosa,bladder_mucosa,0.6388518365371563 (Right)
+spleen white pulp,splenic_white_pulp,0.6378854756381446 (Right)
+spleen trabecular vein,splenic_trabecular_vein,0.6378854756381446 (Right)
+spleen red pulp,splenic_red_pulp,0.6378854756381446 (Right)
+spleen marginal sinus,splenic_marginal_sinus,0.6378854756381446 (Right)
+spleen trabecular artery,splenic_trabecular_artery,0.6378854756381446 (Right)
+lunate,lunate_bone,0.6377143971793069 (Right)
+urinary bladder neck,bladder_neck,0.6370865062635558 (Right)
+gut,gut_epithelium,0.636800688612752
+lumbar vertebra 4,l4_vertebra,0.63636363 (Right)
+thoracic vertebra 6,t6_vertebra,0.63636363 (Right)
+hippocampal commissure,hippocampal_fissure,0.6359395537071518
+joint of vertebral body,vertebral_joint,0.6353392051122295 (Right)
+abdomen skin,abdominal_skin,0.6342099756603773 (Right)
+small intestine wall,small_intestinal_wall_tissue,0.6311312485910427 (Right)
+large intestine wall,large_intestinal_wall_tissue,0.6311312485910427
+joint of girdle,joint_of_the_pelvic_girdle,0.6309609748287296
+hair root sheath,hair_root,0.630948218602721
+peyer's patch follicle,peyer_s_patch_lymphoid_follicle,0.6304295981680912 (Right)
+heart left atrium,left_atrium,0.6304157260945786 (Right)
+spleen hilum,splenic_hilum,0.6301210725929126 (Right)
+spleen capsule,splenic_capsule,0.6301210725929126 (Right)
+spleen pulp,splenic_pulp,0.6301210725929126 (Right)
+spleen trabeculum,splenic_trabecula,0.6301210725929126 (Right)
+cranial/facial muscle,facial_muscle,0.6300000699999999
+heart right atrium,right_atrium,0.6295277489460451 (Right)
+middle phalanx of foot,phalanx_of_the_foot,0.6294435250994983
+lingual tonsillar tissue,tonsilar_tissue,0.6286707373014074
+afferent lymphatic vessel,lymph_node_afferent_vessel,0.6242858742857142 (Right)
+efferent lymphatic vessel,lymph_node_efferent_vessel,0.6242858742857142 (Right)
+heart left ventricle,left_ventricle,0.6242208510391615 (Right)
+cochlear viii nucleus,cochlear_nucleus,0.6236697378583297 (Right)
+heart right ventricle,right_ventricle,0.6232398300195617 (Right)
+superficial cervical vein,superficial_vein,0.6222223822222221
+abducens vi nerve,abducens_nerve,0.6222223822222221 (Right)
+trochlear iv nerve,trochlear_nerve,0.6222223822222221 (Right)
+oculomotor iii nerve,oculomotor_nerve,0.6222223822222221 (Right)
+vagus x nerve,vagus_nerve,0.6222223822222221 (Right)
+facial vii nerve,facial_nerve,0.6222223822222221 (Right)
+olfactory i nerve,olfactory_nerve,0.6222223822222221 (Right)
+optic ii nerve,optic_nerve,0.6222223822222221 (Right)
+glossopharyngeal ix nerve,glossopharyngeal_nerve,0.6222223822222221 (Right)
+hypoglossal xii nerve,hypoglossal_nerve,0.6222223822222221 (Right)
+accessory xi nerve,accessory_nerve,0.6222223822222221 (Right)
+trigeminal v nerve,trigeminal_nerve,0.6222223822222221 (Right)
+vestibulocochlear viii nerve,vestibulocochlear_nerve,0.6222223822222221 (Right)
+vibrissa hair bulb,hair_bulb,0.6222223822222221
+oval nucleus,oval_subthalamic_nucleus,0.6222223822222221 (Right)
+radio-carpal joint,carpal_joint,0.6222223822222221
+hepatic portal vein,hepatic_vein,0.6222223822222221
+hand joint,interphalangeal_joint_of_the_hand,0.6222223822222221
+cervical mammary gland,cervical_gland,0.6222223822222221
+endometrium glandular epithelium,glandular_epithelium,0.6222223822222221
+carpus,carpus_bone,0.6159571980322291
+vertebra neural canal,vertebral_canal,0.6159477924183006
+uterus serosa,uterus_serosal_surface,0.614017174017094 (Right)
+spinal cord central cervical nucleus,cervical_spinal_cord,0.6130713611745181
+prostate gland dorsolateral lobe,lateral_lobe_of_the_prostate,0.6105264757894737
+respiratory system vein,systemic_vein,0.6069842069841269
+larynx mucous gland,laryngeal_mucous_salivary_gland,0.6063637963636364 (Right)
+cerebellar vermis,vermis,0.605595451207588 (Right)
+fornix,cerebral_fornix,0.6052004601516545 (Right)
+smooth muscle,smooth_muscle_tissue_cell,0.6050246790275206
+sensory organ system,special_sense_organ_system,0.6042658942657342 (Right)
+respiratory system basement membrane,basement_membrane,0.6024269431733378
+retina photoreceptor layer inner segment,inner_segment_of_the_photoreceptor_cell,0.6021828276785336
+retina photoreceptor layer outer segment,outer_segment_of_the_photoreceptor_cell,0.6017321638664259
+neural retinal epithelium,neural_retina,0.6017094817094018 (Right)
+fimbria hippocampus,fimbria,0.600024205681302 (Right)
+olfactory gland,gland,0.6000000799999999
+salivary duct,duct,0.6000000799999999
+trunk organ,organ,0.6000000799999999
+pupillary membrane,membrane,0.6000000799999999
+hyaloid cavity,cavity,0.6000000799999999
+saccule epithelium,epithelium,0.6000000799999999
+carotid body,body,0.6000000799999999
+fovea,fovea_centralis,0.6000000799999999 (Right)
+ventricle endocardium,endocardium,0.6000000799999999
+ear lobe,lobe,0.6000000799999999
+stomach serosa,serosa,0.6000000799999999
+tympanic endothelium,endothelium,0.6000000799999999
+intercerebral commissure,commissure,0.6000000799999999
+transverse sinus,sinus,0.6000000799999999
+triceps brachii,triceps,0.6000000799999999 (Right)
+vaginal hymen,hymen,0.6000000799999999 (Right)
+limb digit,digit,0.6000000799999999 (Right)
+urethra urothelium,urothelium,0.6000000799999999
+nail matrix,matrix,0.6000000799999999
+tail,tail_of_the_epididymis,0.6000000799999999
+larynx submucosa,submucosa,0.6000000799999999
+esophagus mesentery,mesentery,0.6000000799999999
+optic chiasma,chiasma,0.6000000799999999
+brain ependyma,ependyma,0.6000000799999999 (Right)
+urethral sphincter,sphincter,0.6000000799999999
+pubis,mons_pubis,0.6000000799999999
+appendix,vermiform_appendix,0.6000000799999999 (Right)
+unfertilized egg,egg,0.6000000799999999 (Right)
+infundibulum,brain_infundibulum,0.6000000799999999 (Right)
+intestine wall,intestinal_wall_tissue,0.5998591479597544
+respiratory system basal lamina,basal_lamina,0.5990905126309255
+prostate gland epithelium,prostatic_epithelium,0.5966133614448934 (Right)
+lens epithelium,subcapsular_epithelium_of_the_lens,0.5955235859190069 (Right)
+Concept pairs that was not found£º
+limb,[extremities,]
+hemolymphoid system,[hematopoietic_and_lymphatic_system,]
+sensory organ,[organ_of_the_special_sense,]
+visceral organ system,[viscera,]
+forelimb,[upper_extremity,]
+abdomen,[abdominal_cavity,]
+lower arm,[forearm,]
+hand digit,[finger,]
+foot digit,[toe,]
+brown fat,[brown_adipose_tissue,]
+white fat,[white_adipose_tissue,]
+capillary,[blood_capillary,]
+heart endocardium,[endocardium,]
+heart myocardium,[myocardium,]
+synovium,[synovial_membrane,]
+pancreatic islet,[islet_of_langerhans,]
+skin apocrine gland,[apocrine_sweat_gland,]
+coat hair bulb,[hair_bulb,]
+forebrain,[prosencephalon,]
+adenohypophysis,[anterior_lobe_of_the_pituitary_gland,]
+neurohypophysis,[posterior_lobe_of_the_pituitary_gland,]
+telencephalon,[supratentorial_brain,]
+cerebral cortex,[cortex,]
+neocortex layer,[cortical_cell_layer_of_the_cerebral_cortex,]
+cerebellar cortex,[cerebellar_cortex,]
+cerebellar layer,[cortical_cell_layer_of_the_cerebellum,]
+myelencephalon,[medulla_oblongata,]
+cerebral aqueduct,[aqueduct_of_sylvius,]
+parasympathetic nervous system,[parasympathetic_nervous_system,]
+spinal ganglion,[dorsal_root_ganglion,]
+semicircular canal,[semicircular_canal,]
+auditory bone,[auditory_ossicle,]
+auditory tube,[eustachian_tube,]
+outer ear,[external_ear,]
+auricle,[auricle,]
+eyelid tarsus,[tarsal_plate,]
+carpal bone,[carpus_bone,]
+tarsal bone,[tarsus_bone,]
+foot phalanx,[phalanx_of_the_foot,]
+hand phalanx,[phalanx_of_the_hand,]
+synovial joint,[diarthrosis,]
+gastrointestinal system,[gastrointestinal_tract,]
+ileocaecal junction,[ileocecal_valve,]
+hepatic duct,[hepatic_duct,]
+liver caudate lobe,[lobus_caudatus,]
+liver quadrate lobe,[lobus_quadratus,]
+liver parenchyma,[hepatic_tissue,]
+liver sinusoid,[hepatic_sinusoid,]
+kidney calyx,[renal_calyx,]
+kidney capsule,[renal_capsule,]
+kidney collecting duct,[collecting_tube,]
+kidney cortex,[renal_cortex,]
+kidney medulla,[renal_medulla,]
+kidney pelvis,[renal_pelvis,]
+oviduct,[fallopian_tube,]
+bulbourethral gland,[cowper_s_gland,]
+seminiferous tubule,[seminiferous_tubule,]
+right lung caudal lobe,[lower_lobe_of_the_right_lung,]
+right lung cranial lobe,[upper_lobe_of_the_right_lung,]
+pleura,[pleural_tissue,]
+lower respiratory tract,[lower_respiratory_system,]
+upper respiratory tract,[upper_respiratory_system,]
+peritoneal cavity lining,[peritoneum,]
+subcutaneous adipose tissue,[subcutis,]
+abdomen muscle,[abdominal_muscle,]
+pelvic girdle muscle,[pelvic_floor_muscle,]
+male reproductive gland/organ,[male_genital_organ,]
+forelimb bone,[bone_of_the_upper_extremity,]
+forelimb skin,[skin_of_the_upper_limb_and_shoulder,]
+hindlimb bone,[bone_of_the_lower_extremity,]
+hindlimb skin,[skin_of_the_lower_limb_and_hip,]
+blood vessel endothelium,[vascular_endothelium,]
+blood vessel smooth muscle,[vascular_smooth_muscle_tissue,]
+lymph node secondary follicle,[lymph_node_germinal_center,]
+lymph node medulla,[lymph_node_medullary_portion,]
+spleen marginal zone,[splenic_marginal_zone,]
+spleen venous sinus,[splenic_sinus,]
+spleen central arteriole,[splenic_arteriole,]
+spleen periarteriolar lymphatic sheath,[periarteriolar_lymphoid_sheath,]
+thymus capsule,[thymic_capsule,]
+thymus lobule,[thymic_lobule,]
+lingual tonsillar tissue,[lingual_tonsil,]
+tonsil capsule,[tonsillar_capsule,]
+tonsil crypt,[tonsillar_crypt,]
+arrector pili smooth muscle,[erector_muscle_of_the_hair,]
+mammary gland lobule,[terminal_ductal_lobular_unit,]
+dermis papillary layer,[stratum_papillare,]
+dermis reticular layer,[stratum_reticulare,]
+epidermis stratum granulosum,[stratum_granulosum,]
+brain arachnoid matter,[cerebral_arachnoid_membrane,]
+brain dura mater,[cerebral_dura_mater,]
+geniculate thalamic group,[geniculate_body,]
+lateral geniculate nucleus,[external_geniculate_body,]
+medial geniculate nucleus,[internal_geniculate_body,]
+amygdala,[amygdaloid_body,]
+pallidum,[globus_pallidus,]
+caudate nucleus,[caudate_nucleus,]
+cortical layer i,[molecular_layer,]
+cortical layer ii,[external_granular_layer,]
+cortical layer iii,[external_pyramidal_cell_layer,]
+cortical layer iv,[internal_granular_layer,]
+cortical layer v,[ganglionic_layer,]
+cortical layer vi,[multiform_cell_layer,]
+frontal cortex,[frontal_lobe,]
+occipital cortex,[occipital_lobe,]
+parietal cortex,[parietal_lobe_of_the_brain,]
+upper lip,[external_upper_lip,]
+temporal cortex,[temporal_lobe,]
+hippocampus ca1,[ca1_field_of_the_cornu_ammonis,]
+hippocampus ca2,[ca2_field_of_the_cornu_ammonis,]
+hippocampus ca3,[ca3_field_of_the_cornu_ammonis,]
+hippocampus ca4,[ca4_field_of_the_cornu_ammonis,]
+cochlear viii nucleus,[cochlear_nuclei,]
+trigeminal v nucleus,[trigeminal_nucleus,]
+trigeminal v motor nucleus,[motor_nucleus_of_the_trigeminal_nerve,]
+trigeminal v sensory nucleus,[principal_sensory_nucleus_of_the_trigeminal_nerve,]
+vestibular viii nucleus,[vestibular_nucleus,]
+cuneate nucleus,[cuneate_nucleus,]
+dorsal motor nucleus of vagus x nerve,[dorsal_motor_nucleus,]
+solitary tract nucleus,[nucleus_of_the_solitary_tract,]
+trigeminal v spinal sensory nucleus,[nucleus_of_the_spinal_tract_of_the_trigeminal_nerve,]
+trigeminal v mesencephalic nucleus,[nucleus_of_the_mesencephalic_tract_of_the_trigeminal_nerve,]
+inferior colliculus,[posterior_quadrigeminal_body,]
+superior colliculus,[anterior_quadrigeminal_body,]
+interpeduncular nucleus,[oculomotor_nucleus,]
+facial vii ganglion,[geniculate_ganglion,]
+vestibulocochlear viii ganglion vestibular component,[vestibular_ganglion,]
+accessory xi nerve spinal component,[spinal_accessory_nerve,]
+optic chiasma,[optic_commissure,]
+trigeminal v nerve ophthalmic division,[ophthalmic_nerve,]
+vestibulocochlear viii nerve cochlear component,[cochlear_nerve,]
+vestibulocochlear viii nerve vestibular component,[vestibular_nerve,]
+grey matter,[gray_matter,]
+arachnoid mater,[arachnoid_membrane,]
+spinal cord central canal,[central_canal,]
+spinal cord ependymal layer,[remnants_of_the_central_canal_of_the_spinal_cord,]
+spinal cord arachnoid mater,[spinal_cord_arachnoid_membrane,]
+thoracic sympathetic nerve trunk,[thoracic_sympathetic_nerve_trunk,]
+osseus labyrinth vestibule,[vestibule,]
+spiral organ,[organ_of_corti,]
+anterior semicircular canal,[superior_semicircular_canal,]
+posterior limiting lamina,[descemet_s_membrane,]
+dilatator pupillae,[dilator_pupillae_muscle,]
+lens anterior epithelium,[anterior_surface_of_the_lens,]
+retina photoreceptor layer,[layer_of_the_rods_and_cones,]
+retina external limiting lamina,[outer_limiting_membrane,]
+retina internal limiting lamina,[inner_limiting_membrane,]
+retina nerve fiber layer,[layer_of_the_ophthalmic_nerve_fibers,]
+external naris,[nostril,]
+nasal cavity olfactory epithelium,[olfactory_epithelium,]
+xiphisternum,[xiphoid_process,]
+pubis,[pubic_bone,]
+trapezium,[trapezial_bone,]
+triquetral,[triangular_bone,]
+talus,[astragalus,]
+medial cuneiform,[internal_cuneiform_bone_of_the_foot,]
+intermediate cuneiform,[middle_cuneiform_bone_of_the_foot,]
+lateral cuneiform,[external_cuneiform_bone_of_the_foot,]
+long bone metaphysis,[metaphysis,]
+distal phalanx of hand,[distal_phalanx_of_the_hand,]
+proximal phalanx of hand,[proximal_phalanx_of_the_hand,]
+coccygeal vertebra,[coccyx,]
+cervical vertebra 1,[atlas_of_the_vertebra,]
+cervical vertebra 2,[axis_of_the_vertebra,]
+occipital bone,[occipital_bone,]
+ethmoid bone,[ethmoid_bone,]
+hyoid bone,[hyoid_bone,]
+zygomatic bone,[zygomatic_arch,]
+joint articular surface,[articular_bone_surface,]
+bowel,[intestine,]
+bowel wall,[intestinal_wall_tissue,]
+intestine epithelium,[intestinal_epithelium,]
+intestine serosa,[intestinal_serosal_surface,]
+intestine smooth muscle,[intestinal_smooth_muscle_tissue,]
+large intestine serosa,[large_intestinal_serosal_surface,]
+large intestine smooth muscle,[large_intestinal_muscular_coat,]
+small intestine serosa,[small_intestinal_serosal_surface,]
+small intestine smooth muscle,[small_intestinal_muscular_coat,]
+esophagus epithelium,[esophageal_epithelium,]
+esophagus serosa,[esophageal_serosal_surface,]
+salivary duct,[duct_salivary_gland_system,]
+tongue skeletal muscle,[tongue_muscle,]
+stomach cardiac region,[cardia,]
+stomach pyloric antrum,[antrum_pylori,]
+stomach serosa,[gastric_serosal_surface,]
+stomach smooth muscle,[gastric_muscular_coat,]
+bile duct intrahepatic part,[intrahepatic_bile_duct,]
+gall bladder serosa,[gallbladder_serosal_surface,]
+gall bladder smooth muscle,[gallbladder_smooth_muscle_tissue,]
+right hepatic duct,[right_hepatic_duct,]
+renal column,[cortical_column,]
+glomerular capsule,[bowman_s_capsule,]
+urethra urothelium,[urethra_transitional_cell_epithelium,]
+urethra gland,[urethral_gland,]
+urinary bladder urothelium,[bladder_transitional_cell_epithelium,]
+urinary bladder fundus region,[bladder_fundus,]
+urinary bladder serosa,[bladder_serosal_surface,]
+urinary bladder smooth muscle,[bladder_muscular_coat,]
+clitoral gland,[glans_clitoris,]
+ovary mature follicle,[graafian_follicle,]
+left oviduct,[left_fallopian_tube,]
+right oviduct,[right_fallopian_tube,]
+prostate gland smooth muscle,[prostatic_muscular_tissue,]
+penis foreskin,[male_prepuce,]
+seminiferous tubule epithelium,[seminiferous_epithelium,]
+alveolus epithelium,[alveolar_epithelium,]
+left lung hilus,[hilar_area_of_the_left_lung,]
+right lung hilus,[hilar_area_of_the_right_lung,]
+bronchus elastic framework,[bronchus_elastic_tissue,]
+xiphoid cartilage,[xiphoid_process,]
+adrenal gland zona fasciculata,[fasciculata_zone,]
+adrenal gland zona glomerulosa,[glomeruloza_zone,]
+adrenal gland zona reticularis,[reticularis_zone,]
+gastrointestinal system mesentery,[mesentery,]
+upper jaw,[upper_jaw,]
+suprarenal artery,[adrenal_artery,]
+brachiocephalic trunk,[innominate_artery,]
+common plantar digital arteries,[plantar_metatarsal_artery,]
+lienal artery,[splenic_artery,]
+perineal artery,[perineal_artery,]
+peroneal artery,[peroneal_artery,]
+profunda brachii artery,[superior_profunda_artery,]
+profunda femoris artery,[deep_femoral_artery,]
+caudal auricular vein,[posterior_auricular_vein,]
+great vein of heart,[great_cardiac_vein,]
+lienal vein,[splenic_vein,]
+great saphenous vein,[long_saphenous_vein,]
+small saphenous vein,[short_saphenous_vein,]
+biceps brachii,[biceps,]
+coccygeus,[coccygeal_muscle,]
+constrictor muscle of pharynx inferior,[cricopharyngeus_muscle,]
+coracobrachial,[coracobrachialis,]
+iliocostalis,[iliocostal_muscle,]
+intercostales,[intercostal_muscle,]
+intercostales externus,[external_intercostal_muscle,]
+obliquus externus abdominis,[external_oblique_muscle,]
+obliquus internus abdominis,[internal_oblique_muscle,]
+pterygoid lateralis,[external_pterygoid_muscle,]
+pterygoid medialis,[internal_pterygoid_muscle,]
+quadriceps,[quadriceps_muscle_of_the_thigh,]
+sternomastoid,[sternocleidomastoid_muscle,]
+temporalis,[temporal_muscle,]
+tibilais cranialis,[tibialis_cranialis,]
+ganglion,[ganglion,]
+digestive system,[gastrointestinal_system,]
+oculomotor muscle,[oculomotor_muscle,]
+hematopoietic system,[hematopoietic_system,]
+body cavity,[cavity,]
+periodontal ligament,[periodontium,]
+ear lobe,[lobule_of_the_auricle,]
+eye anterior segment,[anterior_eye_segment,]
+liver lobule,[hepatic_lobule,]
+mammary gland fluid/secretion,[breast_fluid_or_secretion,]
+digestive system fluid/secretion,[gastrointestinal_fluid_or_secretion,]
+intestine secretion,[intestinal_secretion,]
+stomach secretion,[gastric_secretion,]
+juxtaglomerular complex,[juxtaglomerular_apparatus,]
+mammary gland milk,[breast_milk,]
+stomach pyloric region,[pylorus,]
+sensory ganglion,[sensory_ganglion,]
+corpora quadrigemina,[quadrigeminal_body,]
+axillary artery,[axillary_artery,]
+afferent arteriole,[renal_afferent_vessel,]
+efferent arteriole,[renal_efferent_vessel,]
+glomerular parietal epithelium,[parietal_layer_of_bowman_s_capsule,]
+glomerular visceral epithelium,[visceral_layer_of_bowman_s_capsule,]
+kidney interstitium,[renal_interstitial_tissue,]
+prostatic urethra,[prostatic_portion_of_the_male_urethra,]
+bile duct extrahepatic part,[extrahepatic_bile_duct,]
+extrahepatic bile duct epithelium,[extrahepatic_bile_duct_epithelium,]
+intrahepatic bile duct epithelium,[intrahepatic_bile_duct_epithelium,]
+intrahepatic part of left hepatic duct,[intrahepatic_portion_of_the_left_hepatic_duct,]
+intrahepatic part of right hepatic duct,[intrahepatic_portion_of_the_right_hepatic_duct,]
+hilar part of hepatic duct,[hilar_portion_of_the_hepatic_duct,]
+hilar part of left hepatic duct,[hilar_portion_of_the_left_hepatic_duct,]
+hilar part of right hepatic duct,[hilar_portion_of_the_right_hepatic_duct,]
+intralobular bile duct,[canal_of_hering,]
+spleen lymphoid follicle,[splenic_lymphoid_follicle,]
+thymus trabecula,[thymic_trabecula,]
+parathyroid gland parenchyma,[parathyroid_gland_tissue,]
+esophagus mucosa,[esophageal_mucosa,]
+esophagus muscularis mucosa,[esophageal_muscular_coat,]
+esophagus muscle,[esophageal_muscularis_mucosa,]
+stomach mucosa,[gastric_mucosa,]
+stomach muscularis mucosa,[gastric_muscularis_mucosa,]
+stomach submucosa,[gastric_submucosa,]
+anterior buccal gland,[buccal_salivary_gland,]
+anterior lingual gland,[lingual_salivary_gland,]
+skin muscle,[cutaneous_muscle,]
+The number of  concept pairs that is right£º1227.0
+**************************************
+UNDEFINED_part_of,UNDEFINED_part_of,0.7000000999999999
+All the property pairs were found! 
+The number of  property pairs that is right £º0.0
+==========================================
+Precision£º0.9095626389918459 	Recall£º0.8093667546174143 	f1-measure£º0.856544502617801
+
+
+Time consumption£º11384s

@@ -1,0 +1,3 @@
+has_a_review_expertise--hasRating
+has_the_last_name--hasLastName
+has_the_first_name--hasFirstName

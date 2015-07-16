@@ -1,0 +1,9 @@
+Tutorial--Tutorial
+Country--State
+Banquet--Dinner_banquet
+Administrative_event--Activity_before_conference
+Reception--Coctail_reception
+City--City
+Event--Activity
+Author--Author
+Person--Person

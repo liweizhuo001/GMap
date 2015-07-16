@@ -1,0 +1,38 @@
+member--member#1.0
+banquet--banquet#1.0
+event--event#1.0
+author--author#1.0
+regular--regular#1.0
+paper--paper#1.0
+poster--poster#1.0
+conference--conference#1.0
+contribution--contribution#1.0
+member pc--member#0.25,pc#0.75
+organization--organization#1.0
+city--city#1.0
+assistant--assistant#1.0
+registration of participants event--registration#0.4375,of#0.1875,participants#0.1875,event#0.1875
+volunteer--volunteer#1.0
+reviewing results event--reviewing#0.5555555555555556,results#0.2222222222222222,event#0.2222222222222222
+participant--participant#1.0
+short paper--short#0.25,paper#0.75
+science worker--science#0.25,worker#0.75
+trip--trip#1.0
+person--person#1.0
+reviewing event--reviewing#0.75,event#0.25
+submission event--submission#0.25,event#0.75
+social event--social#0.25,event#0.75
+camera ready event--camera#0.5555555555555556,ready#0.2222222222222222,event#0.2222222222222222
+working event--working#0.25,event#0.75
+chair pc--chair#0.25,pc#0.75
+topic--topic#1.0
+company--company#1.0
+administrative event--administrative#0.25,event#0.75
+workshop--workshop#1.0
+country--country#1.0
+tutorial--tutorial#1.0
+university--university#1.0
+scholar--scholar#1.0
+reception--reception#1.0
+student--student#1.0
+administrator--administrator#1.0

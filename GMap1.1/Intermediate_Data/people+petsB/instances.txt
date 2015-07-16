@@ -1,0 +1,31 @@
+cat--Tibbs,Tom
+man--Mick
+duck--Huey,Dewey,Louie
+adult--Minnie,Mick
+male--Mick
+van_driver--Mick
+white_thing--q123 abc
+cat_lover--Fred,Minnie
+tiger--Fluffy
+publication--the guardian,the sun,daily mirror,the times
+dog_owner--Mick,Joe
+person--Walt,Fred,Kevin,Minnie,Mick,Joe
+woman--Minnie
+vehicle--The42,q123 abc
+tabloid--the sun,daily mirror
+newspaper--the guardian,the sun,daily mirror,the times
+pet--Rex,Tom,Tibbs,Fido,Huey,Dewey,Louie
+pet_owner--Walt,Fred,Minnie,Mick,Joe
+white_van_man--Mick
+old_lady--Minnie
+van--q123 abc
+cat_owner--Fred,Minnie
+dog_lover--Mick,Joe
+senior_citizen--Minnie
+female--Minnie
+animal--Rex,Huey,Fred,Tom,Tibbs,Fido,Fluffy,Walt,Dewey,Kevin,Minnie,Louie,Mick,Joe
+grownup--Minnie,Mick
+coach--The42
+dog--Rex,Fido
+driver--Mick
+broadsheet--the guardian,the times

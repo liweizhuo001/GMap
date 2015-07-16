@@ -1,0 +1,6 @@
+OneRoom
+SmokingPreference
+TownHouse
+NumBeds
+OnFloor
+Suite

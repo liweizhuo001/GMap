@@ -1,0 +1,129 @@
+#Disclaimer: http://www.lockheedmartin.com/disclaimer.html
+#This is the "correct" mapping of the hotelA and hotelB ontologies. 
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/10/XMLSchema#> .
+@prefix dc: <http://www.dublincore.org/2003/03/24/dces#>.
+@prefix dct: <http://dublincore.org/2003/03/24/dcq#>.
+@prefix ao: <http://www.atl.lmco.com/projects/ontology/ontologies/core/alignment/Alignment.n3#>.
+
+@prefix a: <http://www.atl.lmco.com/projects/ontology/ontologies/hotel/hotelA.owl#>.
+@prefix b: <http://www.atl.lmco.com/projects/ontology/ontologies/hotel/hotelB.owl#>.
+@prefix : <http://www.atl.lmco.com/projects/ontology/ontologies/hotel/hotelAB.owl#>.
+
+<http://www.atl.lmco.com/projects/ontology/ontologies/core/alignment/hotelAB.owl>=<>;
+	a ao:AlignmentFile;
+	dc:title "Correct Alignment for hotelA and hotelB";
+	dc:publisher "Lockheed Martin Advanced Technology Laboratories";
+	dc:creator "Zhongli Ding, <zding1@umbc.edu>; Rong Pan, <pan.rong@umbc.edu>";
+	dct:created "2004-07-14";
+	owl:versionInfo "0.0.1";
+	dc:format"text/n3";
+	dc:language "en";
+	rdfs:label "hotelAB";
+	ao:inputA <http://www.atl.lmco.com/projects/ontology/ontologies/hotel/hotelA.owl>;
+	ao:inputB <http://www.atl.lmco.com/projects/ontology/ontologies/hotel/hotelB.owl>.
+
+:Alignment1
+	a ao:Alignment;
+	ao:elementA a:HotelRoom ;
+	ao:elementB b:Room ;
+	ao:alignmentConfidence "1". 
+
+:Alignment2
+	a ao:Alignment;
+	ao:elementA a:OneRoom ;
+	ao:elementB b:SingleRoom ;
+	ao:alignmentConfidence "1". 
+
+:Alignment3
+	a ao:Alignment;
+	ao:elementA a:Suite ;
+	ao:elementB b:Suite ;
+	ao:alignmentConfidence "1". 
+
+:Alignment4
+	a ao:Alignment;
+	ao:elementA a:TownHouse ;
+	ao:elementB b:TownHouse ;
+	ao:alignmentConfidence "1". 
+
+:Alignment5
+	a ao:Alignment;
+	ao:elementA a:NumBeds ;
+	ao:elementB b:NumBedAttribute ;
+	ao:alignmentConfidence "1". 
+
+:Alignment6
+	a ao:Alignment;
+	ao:elementA a:SmokingPreference ;
+	ao:elementB b:SmokingAttribute ;
+	ao:alignmentConfidence "1". 
+
+:Alignment7
+	a ao:Alignment;
+	ao:elementA a:OnFloor ;
+	ao:elementB b:FloorAttribute ;
+	ao:alignmentConfidence "1". 
+
+:Alignment8
+	a ao:Alignment;
+	ao:elementA a:hasNumBeds ;
+	ao:elementB b:NumBeds ;
+	ao:alignmentConfidence "1". 
+
+:Alignment9
+	a ao:Alignment;
+	ao:elementA a:hasOnFloor ;
+	ao:elementB b:OnFloor ;
+	ao:alignmentConfidence "1". 
+
+:Alignment10
+	a ao:Alignment;
+	ao:elementA a:hasSmokingPreference ;
+	ao:elementB b:SmokingOrNon ;
+	ao:alignmentConfidence "1". 
+
+:Alignment11
+	a ao:Alignment;
+	ao:elementA a:one ;
+	ao:elementB b:OneBed ;
+	ao:alignmentConfidence "1". 
+
+:Alignment12
+	a ao:Alignment;
+	ao:elementA a:two ;
+	ao:elementB b:TwoBeds ;
+	ao:alignmentConfidence "1". 
+
+:Alignment13
+	a ao:Alignment;
+	ao:elementA a:three ;
+	ao:elementB b:ThreeBeds ;
+	ao:alignmentConfidence "1". 
+
+:Alignment14
+	a ao:Alignment;
+	ao:elementA a:NonSmoking ;
+	ao:elementB b:NonSmoking ;
+	ao:alignmentConfidence "1". 
+
+:Alignment15
+	a ao:Alignment;
+	ao:elementA a:Smoking ;
+	ao:elementB b:Smoking ;
+	ao:alignmentConfidence "1". 
+
+:Alignment16
+	a ao:Alignment;
+	ao:elementA a:Carpet ;
+	ao:elementB b:Carpet ;
+	ao:alignmentConfidence "1". 
+
+:Alignment17
+	a ao:Alignment;
+	ao:elementA a:Hardwood ;
+	ao:elementB b:Hardwood ;
+	ao:alignmentConfidence "1". 

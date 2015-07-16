@@ -1,0 +1,3 @@
+SmokingPreference--Smoking,NonSmoking
+NumBeds--one,three,two
+OnFloor--Carpet,Hardwood

@@ -1,0 +1,4 @@
+Thing--LectureNotes,Proceedings,Misc,Chapter,Booklet,PhdThesis,List,Organization,MotionPicture,Institution,Date,Person,zadazxn,qsdsquj,Publisher,zqedzbx,xsqlknk,sqdsq,sqxsqkd,Address,Deliverable,sdcsqhyz,PageRange,Monograph
+List--dsqdbz
+sqdsq--Unpublished,Book,qsdsnbsqd,zdazsx,Manual,Part,dqzdxdcsqj
+Part--Article,vccfsq,InProceedings,dcsqdcsqd

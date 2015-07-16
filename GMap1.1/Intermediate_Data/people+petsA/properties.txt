@@ -1,0 +1,15 @@
+has_father
+has_part
+drives
+has_pet
+has_parent
+part_of
+has_mother
+likes
+eaten_by
+has_child
+works_for
+eats
+is_pet_of
+reads
+service_number

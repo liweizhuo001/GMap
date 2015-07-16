@@ -1,0 +1,11 @@
+rest
+directors
+first
+collection
+contract
+editor
+isPartOf
+humanCreator
+proceedings
+book
+author

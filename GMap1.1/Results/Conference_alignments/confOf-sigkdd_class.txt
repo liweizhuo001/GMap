@@ -1,0 +1,6 @@
+Member_PC--Program_Committee_member
+Author--Author
+Conference--Conference
+Paper--Paper
+Person--Person
+Chair_PC--Program_Chair

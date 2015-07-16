@@ -1,0 +1,3 @@
+hasNumBeds--NumBeds
+hasOnFloor--OnFloor
+hasSmokingPreference--SmokingOrNon

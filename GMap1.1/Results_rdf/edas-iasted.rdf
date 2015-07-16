@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://edas</onto1>
+	<onto2>http://iasted</onto2>
+	<uri1>http://edas</uri1>
+	<uri2>http://iasted</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#reviewer"/>
+			<entity2 rdf:resource="http://iasted#reviewer"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#review"/>
+			<entity2 rdf:resource="http://iasted#review"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#author"/>
+			<entity2 rdf:resource="http://iasted#author"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#sessionchair"/>
+			<entity2 rdf:resource="http://iasted#session_chair"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#person"/>
+			<entity2 rdf:resource="http://iasted#person"/>
+			<measure rdf:datatype="xsd:float">0.804436971399171</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#place"/>
+			<entity2 rdf:resource="http://iasted#place"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#document"/>
+			<entity2 rdf:resource="http://iasted#document"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#coffeebreak"/>
+			<entity2 rdf:resource="http://iasted#coffee_break"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#paperpresentation"/>
+			<entity2 rdf:resource="http://iasted#video_presentation"/>
+			<measure rdf:datatype="xsd:float">0.6611656261581276</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#welcometalk"/>
+			<entity2 rdf:resource="http://iasted#welcome_address"/>
+			<measure rdf:datatype="xsd:float">0.6478921376275962</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edas#reception"/>
+			<entity2 rdf:resource="http://iasted#coctail_reception"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

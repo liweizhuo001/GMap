@@ -1,0 +1,6 @@
+SmokingOrNon
+ExclusiveProperty
+OnFloor
+RoomProperty
+NumBeds
+SizeOfRoom

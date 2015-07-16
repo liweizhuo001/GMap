@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+
+<!-- This is an ontology created by the Ontrapro group at Lockheed Martin -->
+
+<!DOCTYPE rdf:RDF [
+     <!ENTITY owl  "http://www.w3.org/2002/07/owl#" >
+     <!ENTITY xsd  "http://www.w3.org/2001/XMLSchema#" >
+   ]>
+   
+<rdf:RDF
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xml:base="http://www.atl.lmco.com/projects/ontology/ontologies/hotel/hotelB.owl"
+	xmlns="http://www.atl.lmco.com/projects/ontology/ontologies/hotel/hotelB.owl#">
+	
+<owl:Ontology rdf:about=""> 
+	<rdfs:comment>A hotel ontology</rdfs:comment>
+	<rdfs:label>Hotel Ontology 2</rdfs:label>
+</owl:Ontology>
+
+<owl:Class rdf:ID="Room">
+	<rdfs:subClassOf>
+		<owl:Restriction>
+			<owl:onProperty rdf:resource="#ExclusiveProperty"/>
+			<owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
+		</owl:Restriction>
+	</rdfs:subClassOf>
+</owl:Class>
+<owl:Class rdf:ID="RoomAttribute"/>
+
+<owl:Class rdf:ID="ExclusiveAttribute">
+	<rdfs:subClassOf rdf:resource="#RoomAttribute"/>
+</owl:Class>
+
+<owl:Class rdf:ID="SmokingAttribute">
+	<rdfs:subClassOf rdf:resource="#ExclusiveAttribute"/>
+</owl:Class>
+<SmokingAttribute rdf:ID="Smoking"/>
+<SmokingAttribute rdf:ID="NonSmoking"/>
+
+<owl:Class rdf:ID="SizeAttribute">
+	<rdfs:subClassOf rdf:resource="#ExclusiveAttribute"/>
+</owl:Class>
+<SizeAttribute rdf:ID="SingleRoom"/>
+<SizeAttribute rdf:ID="TownHouse"/>
+<SizeAttribute rdf:ID="Suite"/>
+
+<owl:Class rdf:ID="FloorAttribute">
+	<rdfs:subClassOf rdf:resource="#ExclusiveAttribute"/>
+</owl:Class>
+<FloorAttribute rdf:ID="Carpet"/>
+<FloorAttribute rdf:ID="Hardwood"/>
+
+<owl:Class rdf:ID="NumBedsAttribute">
+	<rdfs:subClassOf rdf:resource="#ExclusiveAttribute"/>
+</owl:Class>
+<NumBedsAttribute rdf:ID="OneBed"/>
+<NumBedsAttribute rdf:ID="TwoBeds"/>
+<NumBedsAttribute rdf:ID="ThreeBeds"/>
+
+<owl:ObjectProperty rdf:ID="RoomProperty"/>
+
+<owl:ObjectProperty rdf:ID="ExclusiveProperty">
+	<rdfs:subPropertyOf rdf:resource="#RoomProperty"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="SizeOfRoom">
+	<rdfs:subPropertyOf rdf:resource="#ExclusiveProperty"/>
+	<rdf:type rdf:resource="&owl;FunctionalProperty" />
+	<rdfs:domain rdf:resource="#Room" />
+	<rdfs:range rdf:resource="#SizeAttribute" />
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="SmokingOrNon">
+	<rdfs:subPropertyOf rdf:resource="#ExclusiveProperty"/>
+	<rdf:type rdf:resource="&owl;FunctionalProperty" />
+	<rdfs:domain rdf:resource="#Room" />
+	<rdfs:range rdf:resource="#SmokingAttribute"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="OnFloor">
+	<rdfs:subPropertyOf rdf:resource="#ExclusiveProperty"/>
+	<rdf:type rdf:resource="&owl;FunctionalProperty" />
+	<rdfs:domain rdf:resource="#Room" />
+	<rdfs:range rdf:resource="#FloorAttribute" />
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="NumBeds">
+	<rdfs:subPropertyOf rdf:resource="#ExclusiveProperty"/>
+	<rdf:type rdf:resource="&owl;FunctionalProperty" />
+	<rdfs:domain rdf:resource="#Room" />
+	<rdfs:range rdf:resource="#NumBedsAttribute"/>
+</owl:ObjectProperty>
+
+</rdf:RDF>

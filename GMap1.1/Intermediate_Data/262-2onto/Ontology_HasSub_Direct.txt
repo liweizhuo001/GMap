@@ -1,0 +1,1 @@
+Thing--Date,Proceedings,InBook,Article,InProceedings,Manual,Organization,xsqlknk,Chapter,Unpublished,PhdThesis,Person,qsdsnbsqd,Misc,Part,Institution,sqdsq,School,Address,Journal,Publisher,Collection,Booklet,List,MotionPicture,zqedzbx,sdcsqhyz,PageRange,dcsqdcsqd,dsqdbz,Monograph,Deliverable,Book,Report,LectureNotes,Academic

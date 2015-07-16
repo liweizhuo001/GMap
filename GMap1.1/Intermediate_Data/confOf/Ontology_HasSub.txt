@@ -1,0 +1,8 @@
+Event--Banquet,Reviewing_event,Submission_event,Social_event,Camera_Ready_event,Working_event,Administrative_event,Conference,Workshop,Registration_of_participants_event,Tutorial,Reviewing_results_event,Trip,Reception
+Contribution--Short_paper,Paper,Poster
+Organization--University,Company
+Participant--Member,Regular,Student
+Person--Member,Author,Regular,Chair_PC,Member_PC,Assistant,Volunteer,Participant,Science_Worker,Scholar,Administrator,Student
+Social_event--Banquet,Trip,Reception
+Working_event--Conference,Workshop,Tutorial
+Administrative_event--Reviewing_event,Submission_event,Camera_Ready_event,Registration_of_participants_event,Reviewing_results_event

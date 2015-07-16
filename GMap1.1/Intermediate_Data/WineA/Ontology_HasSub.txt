@@ -1,0 +1,3 @@
+Wine--CabernetSauvignon,WhiteBordeaux,PetiteSirah,Berbera,Sake,Chianti,ItialianWhite,Sangiovese,Chardonnay,RedBordeaux,Tempranillo,WhiteBurgundy,PinotNior,CabernetMerlot,Nebbiolo,ItalianRed,SauvignonBlanc,CheninBlanc,Merlot,Chablis,RedWine,Muscat,RedBurgundy,Syrah,Zinfandel,Semillon,PinotGris,Riesling,PinotBlanc,WhiteWine,Gewurztaminer,Dolcetto
+RedWine--CabernetSauvignon,PetiteSirah,ItalianRed,Berbera,Merlot,Chianti,RedBurgundy,Syrah,Zinfandel,Sangiovese,RedBordeaux,Tempranillo,PinotNior,CabernetMerlot,Nebbiolo,Dolcetto
+WhiteWine--WhiteBordeaux,SauvignonBlanc,CheninBlanc,Sake,Chablis,Muscat,Semillon,ItialianWhite,PinotGris,Chardonnay,Riesling,PinotBlanc,WhiteBurgundy,Gewurztaminer

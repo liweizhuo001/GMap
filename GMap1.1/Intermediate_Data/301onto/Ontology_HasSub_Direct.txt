@@ -1,0 +1,2 @@
+Entry--Inbook,Booklet,Misc,Conference,Inproceedings,Incollection,Mastersthesis,TechReport,Article,Phdthesis,Proceedings,Book,Manual,Unpublished
+Thing--Entry

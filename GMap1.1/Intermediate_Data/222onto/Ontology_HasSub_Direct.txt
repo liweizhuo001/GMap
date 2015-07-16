@@ -1,0 +1,6 @@
+Organization--Institution
+Institution--School,Publisher
+Thing--PageRange,Reference,Date,List,Organization,Address,Conference,Journal,Person
+Reference--InProceedings,Proceedings,Misc,Report,Manual,InBook,Booklet,Chapter,Unpublished,InCollection,PhdThesis,Monograph,LectureNotes,Collection,MastersThesis,MotionPicture,Article
+Report--TechReport,Deliverable
+List--PersonList

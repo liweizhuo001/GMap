@@ -1,0 +1,465 @@
+#Disclaimer: http://www.lockheedmartin.com/disclaimer.html
+#This is the "correct" mapping of the WeaponsA and WeaponsB ontologies. 
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix dc: <http://www.dublincore.org/2003/03/24/dces#>.
+@prefix dct: <http://dublincore.org/2003/03/24/dcq#>.
+@prefix ao: <http://www.atl.lmco.com/projects/ontology/ontologies/core/alignment/Alignment.n3#>.
+
+@prefix a: <http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#>.
+@prefix b: <http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsB.n3#>.
+@prefix : < http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsAB.n3#>.
+
+<http://www.atl.lmco.com/projects/ontology/ontologies/core/alignment/WeaponsAB.n3>=<>;
+	a ao:AlignmentFile;
+	dc:title "Correct Alignment for WeaponsA and WeaponsB";
+	dc:publisher "Lockheed Martin Advanced Technology Laboratories";
+	dc:creator "thughes@atl.lmco.com";
+	dct:created "2004-04-30";
+	dct:issued "2004-04-30"; 
+	owl:versionInfo "0.0.1";
+	dc:format "text/n3";
+	dc:language "en";
+	rdfs:label "WeaponsAB";
+	ao:inputA <http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3 >;
+	ao:inputB <http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsB.n3 >.
+
+:Alignment1
+	a ao:Alignment;
+	ao:elementA a:WEAPON ;
+	ao:elementB b:WEAPON ;
+	ao:alignmentConfidence "1". 
+
+:Alignment2
+	a ao:Alignment;
+	ao:elementA a:ANTI-SHIP-MISSILE-RADAR ;
+	ao:elementB b:ANTI-SHIP-MISSILE-RADAR ;
+	ao:alignmentConfidence "1". 
+
+:Alignment3
+	a ao:Alignment;
+	ao:elementA a:ARTILLERY ;
+	ao:elementB b:ARTILLERY ;
+	ao:alignmentConfidence "1". 
+
+:Alignment4
+	a ao:Alignment;
+	ao:elementA a:MORTAR ;
+	ao:elementB b:MORTAR ;
+	ao:alignmentConfidence "1". 
+
+:Alignment5
+	a ao:Alignment;
+	ao:elementA a:SELF-PROPELLED-ARTILLERY ;
+	ao:elementB b:SELF-PROPELLED-ARTILLERY ;
+	ao:alignmentConfidence "1". 
+
+:Alignment6
+	a ao:Alignment;
+	ao:elementA a:TOWED-ARTILLERY ;
+	ao:elementB b:TOWED-ARTILLERY ;
+	ao:alignmentConfidence "1". 
+
+:Alignment7
+	a ao:Alignment;
+	ao:elementA a:BOMB ;
+	ao:elementB b:BOMB ;
+	ao:alignmentConfidence "1". 
+
+:Alignment8
+	a ao:Alignment;
+	ao:elementA a:MOLOTOV-COCKTAIL ;
+	ao:elementB b:MOLOTOV-COCKTAIL ;
+	ao:alignmentConfidence "1". 
+
+:Alignment9
+	a ao:Alignment;
+	ao:elementA a:TRUCK-BOMB ;
+	ao:elementB b:TRUCK-BOMB ;
+	ao:alignmentConfidence "1". 
+
+:Alignment10
+	a ao:Alignment;
+	ao:elementA a:CONVENTIONAL-WEAPON ;
+	ao:elementB b:CONVENTIONAL-WEAPON ;
+	ao:alignmentConfidence "1". 
+
+:Alignment11
+	a ao:Alignment;
+	ao:elementA a:AIR-DEFENSE-GUN ;
+	ao:elementB b:AIR-DEFENSE-GUN ;
+	ao:alignmentConfidence "1". 
+
+:Alignment12
+	a ao:Alignment;
+	ao:elementA a:ARMORED-COMBAT-VEHICLE ;
+	ao:elementB b:ARMORED-COMBAT-VEHICLE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment13
+	a ao:Alignment;
+	ao:elementA a:TANK-VEHICLE ;
+	ao:elementB b:TANK-VEHICLE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment14
+	a ao:Alignment;
+	ao:elementA a:MACHINE-GUN ;
+	ao:elementB b:MACHINE-GUN ;
+	ao:alignmentConfidence "1". 
+
+:Alignment15
+	a ao:Alignment;
+	ao:elementA a:MODERN-NAVAL-SHIP ;
+	ao:elementB b:MODERN-NAVAL-SHIP ;
+	ao:alignmentConfidence "1". 
+
+:Alignment16
+	a ao:Alignment;
+	ao:elementA a:AIRCRAFT-CARRIER ;
+	ao:elementB b:AIRCRAFT-CARRIER ;
+	ao:alignmentConfidence "1". 
+
+:Alignment17
+	a ao:Alignment;
+	ao:elementA a:MINE-WARFARE-VESSEL ;
+	ao:elementB b:MINE-WARFARE-VESSEL ;
+	ao:alignmentConfidence "1". 
+
+:Alignment18
+	a ao:Alignment;
+	ao:elementA a:MISSILE-CRAFT ;
+	ao:elementB b:MISSILE-CRAFT ;
+	ao:alignmentConfidence "1". 
+
+:Alignment19
+	a ao:Alignment;
+	ao:elementA a:SAUDI-NAVAL-MISSILE-CRAFT ;
+	ao:elementB b:SAUDI-NAVAL-MISSILE-CRAFT ;
+	ao:alignmentConfidence "1". 
+
+:Alignment20
+	a ao:Alignment;
+	ao:elementA a:PATROL-CRAFT ;
+	ao:elementB b:PATROL-WATERCRAFT ;
+	ao:alignmentConfidence "1". 
+
+:Alignment21
+	a ao:Alignment;
+	ao:elementA a:TORPEDO-CRAFT ;
+	ao:elementB b:TORPEDO-CRAFT ;
+	ao:alignmentConfidence "1". 
+
+:Alignment22
+	a ao:Alignment;
+	ao:elementA a:SMALL-ARMS ;
+	ao:elementB b:SMALL-ARMS ;
+	ao:alignmentConfidence "1". 
+
+:Alignment23
+	a ao:Alignment;
+	ao:elementA a:WARPLANE ;
+	ao:elementB b:WARPLANE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment24
+	a ao:Alignment;
+	ao:elementA a:SUPER-ENTENDARD ;
+	ao:elementB b:SUPER-ENTENDARD-FIGHTER ;
+	ao:alignmentConfidence "1". 
+
+:Alignment25
+	a ao:Alignment;
+	ao:elementA a:MINE ;
+	ao:elementB b:MINE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment26
+	a ao:Alignment;
+	ao:elementA a:NAVAL-COUNTERMINE-WEAPON ;
+	ao:elementB b:NAVAL-COUNTERMINE-WEAPON ;
+	ao:alignmentConfidence "1". 
+
+:Alignment27
+	a ao:Alignment;
+	ao:elementA a:NUCLEAR-WEAPON ;
+	ao:elementB b:NUCLEAR-WEAPON ;
+	ao:alignmentConfidence "1". 
+
+:Alignment28
+	a ao:Alignment;
+	ao:elementA a:PROJECTILE-WEAPON ;
+	ao:elementB b:PROJECTILE-WEAPON ;
+	ao:alignmentConfidence "1". 
+
+:Alignment29
+	a ao:Alignment;
+	ao:elementA a:ARTILLERY-SHELL ;
+	ao:elementB b:ARTILLERY-SHELL ;
+	ao:alignmentConfidence "1". 
+
+:Alignment30
+	a ao:Alignment;
+	ao:elementA a:MISSILE ;
+	ao:elementB b:MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment31
+	a ao:Alignment;
+	ao:elementA a:AIR-TO-AIR-MISSILE ;
+	ao:elementB b:AIR-TO-AIR-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment32
+	a ao:Alignment;
+	ao:elementA a:AIR-TO-SURFACE-MISSILE ;
+	ao:elementB b:AIR-TO-SURFACE-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment33
+	a ao:Alignment;
+	ao:elementA a:ANTI-RADAR-MISSILE ;
+	ao:elementB b:ANTI-RADAR-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment34
+	a ao:Alignment;
+	ao:elementA a:CRUISE-MISSILE ;
+	ao:elementB b:CRUISE-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment35
+	a ao:Alignment;
+	ao:elementA a:AS-11-KILTER-ALCM ;
+	ao:elementB b:AS-11-KILTER-ALCM ;
+	ao:alignmentConfidence "1". 
+
+:Alignment36
+	a ao:Alignment;
+	ao:elementA a:AS-9-KYLE-ALCM ;
+	ao:elementB b:AS-9-KYLE-ALCM ;
+	ao:alignmentConfidence "1". 
+
+:Alignment37
+	a ao:Alignment;
+	ao:elementA a:HY-4-C-201-MISSILE ;
+	ao:elementB b:HY-4-C-201-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment38
+	a ao:Alignment;
+	ao:elementA a:RGM-84A-HARPOON-SLCM ;
+	ao:elementB b:RGM-84A-HARPOON-SLCM ;
+	ao:alignmentConfidence "1". 
+
+:Alignment39
+	a ao:Alignment;
+	ao:elementA a:SILKWORM-MISSILE-MOD ;
+	ao:elementB b:SILKWORM-MISSILE-MOD ;
+	ao:alignmentConfidence "1". 
+
+:Alignment40
+	a ao:Alignment;
+	ao:elementA a:SS-N-22-SUNBURN-LCM ;
+	ao:elementB b:SS-N-22-SUNBURN-LCM ;
+	ao:alignmentConfidence "1". 
+
+:Alignment41
+	a ao:Alignment;
+	ao:elementA a:SURFACE-TO-AIR-MISSILE ;
+	ao:elementB b:SURFACE-TO-AIR-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment42
+	a ao:Alignment;
+	ao:elementA a:SURFACE-TO-SURFACE-MISSILE ;
+	ao:elementB b:SURFACE-TO-SURFACE-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment43
+	a ao:Alignment;
+	ao:elementA a:BALLISTIC-MISSILE ;
+	ao:elementB b:BALLISTIC-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment44
+	a ao:Alignment;
+	ao:elementA a:AL-FATTAH-MISSILE ;
+	ao:elementB b:AL-FATTAH-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment45
+	a ao:Alignment;
+	ao:elementA a:AL-HIJARAH-MISSILE ;
+	ao:elementB b:AL-HIJARAH-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment46
+	a ao:Alignment;
+	ao:elementA a:AL-HUSSEIN-MISSILE ;
+	ao:elementB b:AL-HUSSEIN-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment47
+	a ao:Alignment;
+	ao:elementA a:ARABIL-100-MISSILE ;
+	ao:elementB b:ARABIL-100-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment48
+	a ao:Alignment;
+	ao:elementA a:BADAR-2000-MISSILE ;
+	ao:elementB b:BADAR-2000-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment49
+	a ao:Alignment;
+	ao:elementA a:CSS2-MISSILE ;
+	ao:elementB b:CSS2-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment50
+	a ao:Alignment;
+	ao:elementA a:CSS8-MISSILE ;
+	ao:elementB b:CSS8-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment51
+	a ao:Alignment;
+	ao:elementA a:ICBM ;
+	ao:elementB b:ICBM ;
+	ao:alignmentConfidence "1". 
+
+:Alignment52
+	a ao:Alignment;
+	ao:elementA a:M-9-MISSILE ;
+	ao:elementB b:M-9-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment53
+	a ao:Alignment;
+	ao:elementA a:MRBM ;
+	ao:elementB b:MRBM ;
+	ao:alignmentConfidence "1". 
+
+:Alignment54
+	a ao:Alignment;
+	ao:elementA a:MUSHAK120-MISSILE ;
+	ao:elementB b:MUSHAK120-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment55
+	a ao:Alignment;
+	ao:elementA a:NODONG-1-MISSILE ;
+	ao:elementB b:NODONG-1-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment56
+	a ao:Alignment;
+	ao:elementA a:NODONG-2-MISSILE ;
+	ao:elementB b:NODONG-2-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment57
+	a ao:Alignment;
+	ao:elementA a:OGHAB-MISSILE ;
+	ao:elementB b:OGHAB-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment58
+	a ao:Alignment;
+	ao:elementA a:SAQR-2000 ;
+	ao:elementB b:SAQR-2000 ;
+	ao:alignmentConfidence "1". 
+
+:Alignment59
+	a ao:Alignment;
+	ao:elementA a:SCARAB-MISSILE ;
+	ao:elementB b:SCARAB-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment60
+	a ao:Alignment;
+	ao:elementA a:SCUDB-MISSILE ;
+	ao:elementB b:SCUDB-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment61
+	a ao:Alignment;
+	ao:elementA a:SCUDC-MISSILE ;
+	ao:elementB b:SCUDC-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment62
+	a ao:Alignment;
+	ao:elementA a:SILKWORM-MISSILE ;
+	ao:elementB b:SILKWORM-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment63
+	a ao:Alignment;
+	ao:elementA a:TAMMOUZ1-MISSILE ;
+	ao:elementB b:TAMMOUZ1-MISSILE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment64
+	a ao:Alignment;
+	ao:elementA a:TORNADO ;
+	ao:elementB b:TORNADO ;
+	ao:alignmentConfidence "1". 
+
+:Alignment65
+	a ao:Alignment;
+	ao:elementA a:TORPEDO ;
+	ao:elementB b:TORPEDO ;
+	ao:alignmentConfidence "1". 
+
+:Alignment66
+	a ao:Alignment;
+	ao:elementA a:SURFACE-SHIP ;
+	ao:elementB b:SURFACE-SHIP ;
+	ao:alignmentConfidence "1". 
+
+:Alignment67
+	a ao:Alignment;
+	ao:elementA a:AMPHIBIOUS-VESSEL ;
+	ao:elementB b:AMPHIBIOUS-VESSEL ;
+	ao:alignmentConfidence "1". 
+
+:Alignment68
+	a ao:Alignment;
+	ao:elementA a:CORVETTE ;
+	ao:elementB b:CORVETTE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment69
+	a ao:Alignment;
+	ao:elementA a:CRUISER ;
+	ao:elementB b:CRUISER ;
+	ao:alignmentConfidence "1". 
+
+:Alignment70
+	a ao:Alignment;
+	ao:elementA a:FRIGATE ;
+	ao:elementB b:FRIGATE ;
+	ao:alignmentConfidence "1". 
+
+:Alignment71
+	a ao:Alignment;
+	ao:elementA a:PATROL-COMBATANT ;
+	ao:elementB b:PATROL-COMBATANT ;
+	ao:alignmentConfidence "1". 
+
+:Alignment72
+	a ao:Alignment;
+	ao:elementA a:PRINCIPAL-SURFACE-COMBATANT ;
+	ao:elementB b:PRINCIPAL-SURFACE-COMBATANT ;
+	ao:alignmentConfidence "1". 
+
+:Alignment73
+	a ao:Alignment;
+	ao:elementA a:SUPPORT-VESSEL ;
+	ao:elementB b:SUPPORT-VESSEL ;
+	ao:alignmentConfidence "1". 

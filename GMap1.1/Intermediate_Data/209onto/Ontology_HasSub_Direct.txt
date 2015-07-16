@@ -1,0 +1,10 @@
+Entry--StudentReport,Various,NonFormal,Report,Section,Book,Movie
+Section--InCompilation,Communication,Extract,Chapter,JournalPaper
+Organization--Organization
+NonFormal--Manuscript,ReferenceGuide,Brochure,CourseMaterial
+StudentReport--MScThesis,DoctoralThesis
+Report--Deliverable,TechnicalReport
+Organization--University,PublishingHouse
+Thing--irections,Entry,List,Congress,eople,Periodical,Organization,PageInterval,Person,ageInterval,arious,ongress,Date,onferenceMinutes,xtract,eriodical,ate,Directions,ommunication,onography,ublishingHouse,ournalPaper
+List--People
+Book--Compilation,ConferenceMinutes,Monography

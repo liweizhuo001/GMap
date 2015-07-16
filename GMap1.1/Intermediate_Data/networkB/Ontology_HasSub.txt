@@ -1,0 +1,8 @@
+Computer--PC,Server
+NetworkNode--Router,Computer,CentralHub,Switch,PC,Hub,Server
+WirelessDevice--WirelessBridge,WAP
+Software--Telnet,Other,Web,FTP,ServerSoftware,Office,OS,SSH
+Cable--Coax,StraightThrough,CrossOver
+CentralHub--Router,Switch,Hub
+Equipment--Cable,StraightThrough,Switch,PC,CrossOver,Hub,Coax,WirelessBridge,Router,Computer,CentralHub,NetworkNode,WirelessDevice,Server,WAP
+ServerSoftware--Telnet,Other,Web,FTP,SSH

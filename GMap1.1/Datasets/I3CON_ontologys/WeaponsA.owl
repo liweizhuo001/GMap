@@ -1,0 +1,674 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY WeaponsA "http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#" >
+]>
+
+
+<rdf:RDF xmlns="file:/F:/TDDOWNLOAD/I3CON/modified_ontology/WeaponsA.owl#"
+     xml:base="file:/F:/TDDOWNLOAD/I3CON/modified_ontology/WeaponsA.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:WeaponsA="http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#AIR-DEFENSE-GUN -->
+
+    <owl:Class rdf:about="&WeaponsA;AIR-DEFENSE-GUN">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CONVENTIONAL-WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#AIR-TO-AIR-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;AIR-TO-AIR-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#AIR-TO-SURFACE-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;AIR-TO-SURFACE-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#AIRCRAFT-CARRIER -->
+
+    <owl:Class rdf:about="&WeaponsA;AIRCRAFT-CARRIER">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MODERN-NAVAL-SHIP"/>
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#AL-FATTAH-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;AL-FATTAH-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#AL-HIJARAH-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;AL-HIJARAH-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#AL-HUSSEIN-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;AL-HUSSEIN-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#AMPHIBIOUS-VESSEL -->
+
+    <owl:Class rdf:about="&WeaponsA;AMPHIBIOUS-VESSEL">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#ANTI-RADAR-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;ANTI-RADAR-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#ANTI-SHIP-MISSILE-RADAR -->
+
+    <owl:Class rdf:about="&WeaponsA;ANTI-SHIP-MISSILE-RADAR">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#ARABIL-100-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;ARABIL-100-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#ARMORED-COMBAT-VEHICLE -->
+
+    <owl:Class rdf:about="&WeaponsA;ARMORED-COMBAT-VEHICLE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CONVENTIONAL-WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#ARTILLERY -->
+
+    <owl:Class rdf:about="&WeaponsA;ARTILLERY">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#ARTILLERY-SHELL -->
+
+    <owl:Class rdf:about="&WeaponsA;ARTILLERY-SHELL">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;PROJECTILE-WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#AS-11-KILTER-ALCM -->
+
+    <owl:Class rdf:about="&WeaponsA;AS-11-KILTER-ALCM">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CRUISE-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#AS-9-KYLE-ALCM -->
+
+    <owl:Class rdf:about="&WeaponsA;AS-9-KYLE-ALCM">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CRUISE-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#BADAR-2000 -->
+
+    <owl:Class rdf:about="&WeaponsA;BADAR-2000">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#BALLISTIC-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;BALLISTIC-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-TO-SURFACE-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#BIOLOGICAL-WEAPON -->
+
+    <owl:Class rdf:about="&WeaponsA;BIOLOGICAL-WEAPON">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON-OF-MASS-DESTRUCTION"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#BOMB -->
+
+    <owl:Class rdf:about="&WeaponsA;BOMB">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#CHEMICAL-WEAPON -->
+
+    <owl:Class rdf:about="&WeaponsA;CHEMICAL-WEAPON">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON-OF-MASS-DESTRUCTION"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#CONVENTIONAL-WEAPON -->
+
+    <owl:Class rdf:about="&WeaponsA;CONVENTIONAL-WEAPON">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#CORVETTE -->
+
+    <owl:Class rdf:about="&WeaponsA;CORVETTE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#CRUISE-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;CRUISE-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#CRUISER -->
+
+    <owl:Class rdf:about="&WeaponsA;CRUISER">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#CSS2-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;CSS2-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#CSS8-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;CSS8-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#FRIGATE -->
+
+    <owl:Class rdf:about="&WeaponsA;FRIGATE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#HY-4-C-201-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;HY-4-C-201-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CRUISE-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#ICBM -->
+
+    <owl:Class rdf:about="&WeaponsA;ICBM">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#M-9-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;M-9-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#MACHINE-GUN -->
+
+    <owl:Class rdf:about="&WeaponsA;MACHINE-GUN">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CONVENTIONAL-WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#MINE -->
+
+    <owl:Class rdf:about="&WeaponsA;MINE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#MINE-WARFARE-VESSEL -->
+
+    <owl:Class rdf:about="&WeaponsA;MINE-WARFARE-VESSEL">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MODERN-NAVAL-SHIP"/>
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;PROJECTILE-WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#MISSILE-CRAFT -->
+
+    <owl:Class rdf:about="&WeaponsA;MISSILE-CRAFT">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MODERN-NAVAL-SHIP"/>
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#MODERN-NAVAL-SHIP -->
+
+    <owl:Class rdf:about="&WeaponsA;MODERN-NAVAL-SHIP">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CONVENTIONAL-WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#MOLOTOV-COCKTAIL -->
+
+    <owl:Class rdf:about="&WeaponsA;MOLOTOV-COCKTAIL">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BOMB"/>
+        <rdfs:subClassOf rdf:resource="&WeaponsA;PROJECTILE-WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#MORTAR -->
+
+    <owl:Class rdf:about="&WeaponsA;MORTAR">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;ARTILLERY"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#MRBM -->
+
+    <owl:Class rdf:about="&WeaponsA;MRBM">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#MUSHAK120-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;MUSHAK120-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#NAVAL-COUNTERMINE-WEAPON -->
+
+    <owl:Class rdf:about="&WeaponsA;NAVAL-COUNTERMINE-WEAPON">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#NODONG-1-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;NODONG-1-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#NODONG-2-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;NODONG-2-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#NUCLEAR-WEAPON -->
+
+    <owl:Class rdf:about="&WeaponsA;NUCLEAR-WEAPON">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON-OF-MASS-DESTRUCTION"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#OGHAB-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;OGHAB-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#PATROL-COMBATANT -->
+
+    <owl:Class rdf:about="&WeaponsA;PATROL-COMBATANT">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#PATROL-CRAFT -->
+
+    <owl:Class rdf:about="&WeaponsA;PATROL-CRAFT">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MODERN-NAVAL-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#PRINCIPAL-SURFACE-COMBATANT -->
+
+    <owl:Class rdf:about="&WeaponsA;PRINCIPAL-SURFACE-COMBATANT">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#PROJECTILE-WEAPON -->
+
+    <owl:Class rdf:about="&WeaponsA;PROJECTILE-WEAPON">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#RGM-84A-HARPOON-SLCM -->
+
+    <owl:Class rdf:about="&WeaponsA;RGM-84A-HARPOON-SLCM">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CRUISE-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SAQR-2000 -->
+
+    <owl:Class rdf:about="&WeaponsA;SAQR-2000">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SAUDI-NAVAL-MISSILE-CRAFT -->
+
+    <owl:Class rdf:about="&WeaponsA;SAUDI-NAVAL-MISSILE-CRAFT">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MISSILE-CRAFT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SCARAB-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;SCARAB-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SCUDB-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;SCUDB-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SCUDC-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;SCUDC-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SELF-PROPELLED-ARTILLERY -->
+
+    <owl:Class rdf:about="&WeaponsA;SELF-PROPELLED-ARTILLERY">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;ARTILLERY"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SILKWORM-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;SILKWORM-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SILKWORM-MISSILE-MOD -->
+
+    <owl:Class rdf:about="&WeaponsA;SILKWORM-MISSILE-MOD">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CRUISE-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SMALL-ARMS -->
+
+    <owl:Class rdf:about="&WeaponsA;SMALL-ARMS">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CONVENTIONAL-WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SS-N-22-SUNBURN-LCM -->
+
+    <owl:Class rdf:about="&WeaponsA;SS-N-22-SUNBURN-LCM">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CRUISE-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SUPER-ENTENDARD -->
+
+    <owl:Class rdf:about="&WeaponsA;SUPER-ENTENDARD">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WARPLANE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SUPPORT-VESSEL -->
+
+    <owl:Class rdf:about="&WeaponsA;SUPPORT-VESSEL">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SURFACE-SHIP -->
+
+    <owl:Class rdf:about="&WeaponsA;SURFACE-SHIP">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SURFACE-TO-AIR-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;SURFACE-TO-AIR-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#SURFACE-TO-SURFACE-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;SURFACE-TO-SURFACE-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#TAMMOUZ1-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;TAMMOUZ1-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#TANK-VEHICLE -->
+
+    <owl:Class rdf:about="&WeaponsA;TANK-VEHICLE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;ARMORED-COMBAT-VEHICLE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#TORNADO -->
+
+    <owl:Class rdf:about="&WeaponsA;TORNADO">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#TORPEDO -->
+
+    <owl:Class rdf:about="&WeaponsA;TORPEDO">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;PROJECTILE-WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#TORPEDO-CRAFT -->
+
+    <owl:Class rdf:about="&WeaponsA;TORPEDO-CRAFT">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;MODERN-NAVAL-SHIP"/>
+        <rdfs:subClassOf rdf:resource="&WeaponsA;SURFACE-SHIP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#TOWED-ARTILLERY -->
+
+    <owl:Class rdf:about="&WeaponsA;TOWED-ARTILLERY">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;ARTILLERY"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#TRUCK-BOMB -->
+
+    <owl:Class rdf:about="&WeaponsA;TRUCK-BOMB">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BOMB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#WARPLANE -->
+
+    <owl:Class rdf:about="&WeaponsA;WARPLANE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CONVENTIONAL-WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#WEAPON -->
+
+    <owl:Class rdf:about="&WeaponsA;WEAPON"/>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#WEAPON-OF-MASS-DESTRUCTION -->
+
+    <owl:Class rdf:about="&WeaponsA;WEAPON-OF-MASS-DESTRUCTION">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#WEAPON-OF-SHORT-STRIKE -->
+
+    <owl:Class rdf:about="&WeaponsA;WEAPON-OF-SHORT-STRIKE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;WEAPON"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#YJ-2-C-802-LCM -->
+
+    <owl:Class rdf:about="&WeaponsA;YJ-2-C-802-LCM">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;CRUISE-MISSILE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.atl.lmco.com/projects/ontology/ontologies/weapons/WeaponsA.n3#ZELZAL2-MISSILE -->
+
+    <owl:Class rdf:about="&WeaponsA;ZELZAL2-MISSILE">
+        <rdfs:subClassOf rdf:resource="&WeaponsA;BALLISTIC-MISSILE"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

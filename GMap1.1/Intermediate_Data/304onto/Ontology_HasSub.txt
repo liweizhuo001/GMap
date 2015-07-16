@@ -1,0 +1,12 @@
+Entry--Proceedings,MastersThesis,Misc,Manual,InCollection,LectureNotes,Deliverable,TechReport,Book,Thesis,InBook,BookPart,Published,Collection,Article,Composite,Part,InProceedings,PhdThesis,Booklet,Unpublished,MotionPicture,Monography,Academic,Informal
+Book--Monography,Collection
+Thesis--MastersThesis,PhdThesis
+Text--Title
+Date--DateWithMonth
+Published--BookPart,Monography,Collection,Article,Book
+Composite--Proceedings,Monography,Collection,Book
+Part--InBook,InProceedings,BookPart,InCollection,Article
+List--PersonList
+Chapter--InBook,InCollection
+Academic--MastersThesis,LectureNotes,PhdThesis,Thesis
+Informal--Booklet,Misc,Manual,Unpublished,LectureNotes,TechReport,Deliverable

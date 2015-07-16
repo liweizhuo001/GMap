@@ -1,0 +1,10 @@
+PaperFullVersion--Paper
+Conference--Conference
+Administrator--Administrator
+ConferenceMember--Member
+SubjectArea--Topic
+Author--Author
+ProgramCommitteeChair--Chair_PC
+Paper--Contribution
+Person--Person
+ProgramCommitteeMember--Member_PC

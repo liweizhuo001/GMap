@@ -1,0 +1,29 @@
+external reviewer--external#0.25,reviewer#0.75
+conference member--conference#0.25,member#0.75
+person--person#1.0
+paper--paper#1.0
+acceptance--acceptance#1.0
+meta review--meta#0.25,review#0.75
+subject area--subject#0.25,area#0.75
+rejection--rejection#1.0
+conference chair--conference#0.25,chair#0.75
+review--review#1.0
+user--user#1.0
+meta reviewer--meta#0.25,reviewer#0.75
+associated chair--associated#0.25,chair#0.75
+author not reviewer--author#0.5555555555555556,not#0.2222222222222222,reviewer#0.2222222222222222
+paper abstract--paper#0.75,abstract#0.25
+program committee chair--program#0.2222222222222222,committee#0.2222222222222222,chair#0.5555555555555556
+chairman--chairman#1.0
+reviewer--reviewer#1.0
+document--document#1.0
+program committee--program#0.25,committee#0.75
+author--author#1.0
+administrator--administrator#1.0
+paper full version--paper#0.5555555555555556,full#0.2222222222222222,version#0.2222222222222222
+decision--decision#1.0
+program committee member--program#0.2222222222222222,committee#0.2222222222222222,member#0.5555555555555556
+conference--conference#1.0
+preference--preference#1.0
+co author--co#0.25,author#0.75
+bid--bid#1.0

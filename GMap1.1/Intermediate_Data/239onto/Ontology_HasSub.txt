@@ -1,0 +1,5 @@
+Organization--Publisher,School,Institution
+Institution--Publisher,School
+Reference--MastersThesis,Unpublished,PhdThesis,LectureNotes,Report,Deliverable,InCollection,Article,Collection,Booklet,Misc,Chapter,TechReport,MotionPicture,InBook,Proceedings,Monograph,Manual,InProceedings
+List--PersonList
+Report--Deliverable,TechReport

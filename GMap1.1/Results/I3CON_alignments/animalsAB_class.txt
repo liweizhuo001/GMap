@@ -1,0 +1,9 @@
+Person--Person
+TwoLeggedThing--BipedalThing
+TwoLeggedPerson--BipedalPerson
+Animal--Animal
+Male--Male
+Female--Female
+Man--Man
+Woman--Woman
+HumanBeing--Person

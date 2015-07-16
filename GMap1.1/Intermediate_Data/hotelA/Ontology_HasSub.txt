@@ -1,0 +1,1 @@
+HotelRoom--OneRoom,TownHouse,Suite

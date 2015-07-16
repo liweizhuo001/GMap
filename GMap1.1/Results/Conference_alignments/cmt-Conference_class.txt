@@ -1,0 +1,12 @@
+Document--Conference_document
+PaperAbstract--Abstract
+Conference--Conference
+Review--Review
+Person--Person
+Author--Regular_author
+Co-author--Contribution_co-author
+Preference--Review_preference
+Conference--Conference_volume
+SubjectArea--Topic
+Chairman--Chair
+ProgramCommittee--Program_committee

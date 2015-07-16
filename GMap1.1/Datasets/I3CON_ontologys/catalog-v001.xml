@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="file:/F:/TDDOWNLOAD/I3CON/modified_ontology/WeaponsA.owl" uri="WeaponsA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="file:/F:/TDDOWNLOAD/I3CON/modified_ontology/WeaponsB.owl" uri="WeaponsB.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="file:/F:/TDDOWNLOAD/I3CON/modified_ontology/WineA.owl#" uri="WineA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="file:/F:/TDDOWNLOAD/I3CON/modified_ontology/WineB.owl#" uri="WineB.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="file:/F:/TDDOWNLOAD/I3CON/modified_ontology/russiaA.owl" uri="russiaA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="file:/F:/TDDOWNLOAD/I3CON/modified_ontology/russiaB.owl" uri="russiaB.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="http://www.atl.lmco.com/projects/ontology/ontologies/animals/animalsA.owl" uri="animalsA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="http://www.atl.lmco.com/projects/ontology/ontologies/animals/animalsB.owl" uri="animalsB.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="http://www.atl.lmco.com/projects/ontology/ontologies/hotel/hotelA.owl" uri="hotelA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="http://www.atl.lmco.com/projects/ontology/ontologies/hotel/hotelB.owl" uri="hotelB.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="http://www.atl.lmco.com/projects/ontology/ontologies/network/networkA.owl" uri="networkA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="http://www.atl.lmco.com/projects/ontology/ontologies/network/networkB.owl" uri="networkB.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="http://www.atl.lmco.com/projects/ontology/ontologies/people+pets/people+petsA.owl" uri="people+petsA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1428413911445" name="http://www.atl.lmco.com/projects/ontology/ontologies/people+pets/people+petsB.owl" uri="people+petsB.owl"/>
+    </group>
+</catalog>

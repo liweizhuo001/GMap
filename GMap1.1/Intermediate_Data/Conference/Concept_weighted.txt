@@ -1,0 +1,59 @@
+committee member--committee#0.25,member#0.75
+steering committee--steer#0.25,committee#0.75
+review expertise--review#0.25,expertise#0.75
+contribution 1th author--contribution#0.2222222222222222,1th#0.2222222222222222,author#0.5555555555555556
+organizer--organizer#1.0
+invited speaker--invite#0.25,speaker#0.75
+co chair--co#0.25,chair#0.75
+person--person#1.0
+conference contribution--conference#0.25,contribution#0.75
+accepted contribution--accept#0.25,contribution#0.75
+review preference--review#0.25,preference#0.75
+conference applicant--conference#0.25,applicant#0.75
+conference www--conference#0.25,www#0.75
+regular contribution--regular#0.25,contribution#0.75
+conference announcement--conference#0.25,announcement#0.75
+rejected contribution--reject#0.25,contribution#0.75
+paper--paper#1.0
+workshop--workshop#1.0
+organization--organization#1.0
+passive conference participant--passive#0.2222222222222222,conference#0.2222222222222222,participant#0.5555555555555556
+conference--conference#1.0
+abstract--abstract#1.0
+extended abstract--extend#0.25,abstract#0.75
+conference fees--conference#0.25,fee#0.75
+track--track#1.0
+conference document--conference#0.25,document#0.75
+conference contributor--conference#0.25,contributor#0.75
+conference volume--conference#0.25,volume#0.75
+topic--topic#1.0
+information for participants--information#0.2222222222222222,for#0.2222222222222222,participant#0.5555555555555556
+conference participant--conference#0.25,participant#0.75
+tutorial--tutorial#1.0
+registeered applicant--registeer#0.25,applicant#0.75
+conference proceedings--conference#0.25,proceedings#0.75
+poster--poster#1.0
+reviewer--reviewer#1.0
+reviewed contribution--review#0.25,contribution#0.75
+camera ready contribution--camera#0.2222222222222222,ready#0.2222222222222222,contribution#0.5555555555555556
+publisher--publisher#1.0
+early paid applicant--early#0.2222222222222222,pay#0.2222222222222222,applicant#0.5555555555555556
+call for paper--call#0.2222222222222222,for#0.2222222222222222,paper#0.5555555555555556
+conference part--conference#0.25,part#0.75
+chair--chair#1.0
+review--review#1.0
+committee--committee#1.0
+submitted contribution--submit#0.25,contribution#0.75
+written contribution--write#0.25,contribution#0.75
+invited talk--invite#0.25,talk#0.75
+contribution co author--contribution#0.2222222222222222,co#0.2222222222222222,author#0.5555555555555556
+program committee--program#0.25,committee#0.75
+track workshop chair--track#0.2222222222222222,workshop#0.2222222222222222,chair#0.5555555555555556
+paid applicant--pay#0.25,applicant#0.75
+call for participation--call#0.2222222222222222,for#0.2222222222222222,participation#0.5555555555555556
+important dates--important#0.25,date#0.75
+presentation--presentation#1.0
+active conference participant--active#0.2222222222222222,conference#0.2222222222222222,participant#0.5555555555555556
+late paid applicant--late#0.2222222222222222,pay#0.2222222222222222,applicant#0.5555555555555556
+regular author--regular#0.25,author#0.75
+organizing committee--organize#0.25,committee#0.75

@@ -1,0 +1,3 @@
+assignedTo--hasReviewer
+writtenBy--reviewWrittenBy
+hasBeenAssigned--reviewerOfPaper

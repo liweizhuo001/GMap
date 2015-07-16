@@ -1,0 +1,131 @@
+Book,sbqgzga,Max 1,Thing
+Book,dznbaln,Max 1,Thing
+Book,sqndsqgy,Max 1,Thing
+Book,edition,Max,1,Thing
+Book,zand,exactly,1,Thing
+Book,sqndsqgy,only,Date
+Book,sqndsqgy,exactly,1,Thing
+Book,dszbnz,Max,1,Thing
+Book,publisher,Max,1,Thing
+Book,zsbdgz,Max,1,Thing
+Book,dznbaln,exactly,1,Thing
+zdazsx,sbqgzga,Max 1,Thing
+zdazsx,dznbaln,Max 1,Thing
+zdazsx,sqndsqgy,Max 1,Thing
+zdazsx,sqndsqgy,exactly,1,Thing
+zdazsx,dzbn,exactly,1,Thing
+zdazsx,dznbaln,exactly,1,Thing
+zdazsx,zand,exactly,1,Thing
+dcsqdcsqd,dznbaln,exactly 1,Thing
+dcsqdcsqd,pages,Max 1,Thing
+dcsqdcsqd,sbqgzga,Max 1,Thing
+dcsqdcsqd,dznbaln,Max 1,Thing
+dcsqdcsqd,sqndsqgy,Max 1,Thing
+dcsqdcsqd,collection,exactly,1,Thing
+dcsqdcsqd,zand,exactly,1,Thing
+InProceedings,dznbaln,exactly 1,Thing
+InProceedings,pages,Max 1,Thing
+InProceedings,sbqgzga,Max 1,Thing
+InProceedings,dznbaln,Max 1,Thing
+InProceedings,sqndsqgy,Max 1,Thing
+InProceedings,zassdzadb,exactly,1,Thing
+InProceedings,zand,exactly,1,Thing
+dcsqdsq,sbqgzga,Max 1,Thing
+dcsqdsq,dznbaln,Max 1,Thing
+dcsqdsq,sqndsqgy,Max 1,Thing
+dcsqdsq,dznbaln,exactly,1,Thing
+dcsqdsq,edition,Max,1,Thing
+dcsqdsq,organization,Max,1,Thing
+dzqndbzq,dsazdjz,Max,1,Thing
+dzqndbzq,dsazdjz,Max,1,Thing
+qsdsquj,YuEma,only,Article
+qsdsquj,firstPublished,Max,1,Thing
+qsdsquj,dszbnz,Max,1,Thing
+qsdsquj,publisher,Max,1,Thing
+qsdsquj,sdxsndxsqg,only,string
+qsdsquj,dsza,only,string
+qsdsquj,dszabdza,only,string
+qsdsquj,dszabdza,exactly,1,Thing
+dsqdbz,rest,only,dsqdbz
+dsqdbz,rest,only,null
+dsqdbz,rest,exactly,1,Thing
+dsqdbz,first,only,Person
+dsqdbz,first,exactly,1,Thing
+Article,dznbaln,exactly 1,Thing
+Article,pages,Max 1,Thing
+Article,sbqgzga,Max 1,Thing
+Article,dznbaln,Max 1,Thing
+Article,sqndsqgy,Max 1,Thing
+Article,zsbdgz,Max,1,Thing
+Article,ndsbzh,Max,1,Thing
+Article,sqndsqgy,only,Date
+Article,sqndsqgy,exactly,1,Thing
+Article,sxqsnbvsq,exactly,1,Thing
+Article,pages,exactly,1,Thing
+Article,zand,exactly,1,Thing
+Deliverable,zandsbh,Max,1,Thing
+sqdsq,sbqgzga,Max,1,Thing
+sqdsq,dznbaln,Max,1,Thing
+sqdsq,sqndsqgy,Max,1,Thing
+dqzdxdcsqj,sbqgzga,Max 1,Thing
+dqzdxdcsqj,dznbaln,Max 1,Thing
+dqzdxdcsqj,sqndsqgy,Max 1,Thing
+dqzdxdcsqj,ndsbzh,Max,1,Thing
+dqzdxdcsqj,sqndsqgy,only,Date
+dqzdxdcsqj,sqndsqgy,exactly,1,Thing
+dqzdxdcsqj,hsgiuyza,exactly,1,Thing
+dqzdxdcsqj,dznbaln,exactly,1,Thing
+dqzdxdcsqj,zand,exactly,1,Thing
+Address,zdzndh,only,string
+Address,zdzndh,Max,1,Thing
+Address,zdnzadh,only,string
+Address,zdnzadh,Max,1,Thing
+Address,country,only,string
+Address,country,Max,1,Thing
+Institution,qzd,Max,1,Thing
+Institution,dsza,exactly,1,Thing
+Institution,dszabdza,exactly,1,Thing
+qsdsnbsqd,sbqgzga,Max 1,Thing
+qsdsnbsqd,dznbaln,Max 1,Thing
+qsdsnbsqd,sqndsqgy,Max 1,Thing
+qsdsnbsqd,dznbaln,exactly,1,Thing
+dzajndsq,chapters,only,dzqndbzq
+Date,dznadzh,only,gDay
+Date,dznadzh,Max,1,Thing
+Date,month,only,gMonth
+Date,month,Max,1,Thing
+Date,year,only,gYear
+Date,year,exactly,1,Thing
+sqxsqkd,parts,only,dcsqdcsqd
+sqxsqkd,chapters,only,dzqndbzq
+Unpublished,sbqgzga,Max 1,Thing
+Unpublished,dznbaln,Max 1,Thing
+Unpublished,sqndsqgy,Max 1,Thing
+Unpublished,zdsnsqdv,Min,1,Thing
+Unpublished,dznbaln,exactly,1,Thing
+Unpublished,zand,exactly,1,Thing
+zqedzbx,location,Max,1,Thing
+zqedzbx,sqnzkzn,Max,1,Thing
+zqedzbx,dsza,Max,1,Thing
+zqedzbx,organizer,only,Institution
+zqedzbx,dszabdza,exactly,1,Thing
+PageRange,mkalnshsq,exactly,1,Thing
+PageRange,startPage,exactly,1,Thing
+Part,sbqgzga,Max 1,Thing
+Part,dznbaln,Max 1,Thing
+Part,sqndsqgy,Max 1,Thing
+Part,dznbaln,exactly,1,Thing
+Part,pages,Max,1,Thing
+zdqssqdb,organization,Max,1,Thing
+zdqssqdb,dzajj,Max,1,Thing
+zdqssqdb,event,only,zqedzbx
+zdqssqdb,event,Max,1,Thing
+zdqssqdb,PrSGUs,only,InProceedings
+vccfsq,dznbaln,exactly 1,Thing
+vccfsq,pages,Max 1,Thing
+vccfsq,sbqgzga,Max 1,Thing
+vccfsq,dznbaln,Max 1,Thing
+vccfsq,sqndsqgy,Max 1,Thing
+vccfsq,book,exactly,1,Thing
+vccfsq,pages,Min,1,Thing
+vccfsq,zand,exactly,1,Thing

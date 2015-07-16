@@ -1,0 +1,9 @@
+Organization--School,Institution,Publisher
+Part--In_proceedings,In_book,Article,Chapter,In_collection
+Institution--School,Publisher
+Academic--MSc_thesis,PhD_thesis
+REFERENCE--Motion_picture,In_book,MSc_thesis,PhD_thesis,Misc.,Un_published,Article,Monograph,Booklet,Proc.,Deliverable,Part,Report,Technical_report,In_proceedings,Book,Informal,Chapter,Lecture_notes,Collection,Manual,In_collection,Academic
+Report--Technical_report,Deliverable
+Informal--Un_published,Booklet,Lecture_notes,Manual
+List--PERSON_LIST
+Book--Monograph,Proc.,Collection

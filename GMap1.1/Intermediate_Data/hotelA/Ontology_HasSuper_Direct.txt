@@ -1,0 +1,7 @@
+HotelRoom--Thing
+OneRoom--Thing,HotelRoom
+SmokingPreference--Thing
+TownHouse--Thing,HotelRoom
+NumBeds--Thing
+OnFloor--Thing
+Suite--Thing,HotelRoom

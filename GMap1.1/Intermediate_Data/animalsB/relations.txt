@@ -1,0 +1,11 @@
+Woman,biologicalMotherOf,Person
+Person,hasFriend,Person
+Animal,hasMother,Animal
+Person,hasSpouse,Person
+Animal,hasChild,Animal
+Person,hasHusband,Person
+Person,hasWife,Person
+Person,spouseOf,Person
+Animal,hasFather,Animal
+Animal,hasParent,Animal
+Animal,hasAncestor,Animal

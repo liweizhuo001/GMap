@@ -1,0 +1,4 @@
+startDate--Start_of_conference
+hasCostAmount--Price
+hasName--Name_of_conference
+endDate--End_of_conference

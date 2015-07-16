@@ -1,0 +1,3 @@
+ObsoleteProperty
+UNDEFINED_is_a
+UNDEFINED_part_of

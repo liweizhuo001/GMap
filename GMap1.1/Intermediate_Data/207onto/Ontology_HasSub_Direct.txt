@@ -1,0 +1,10 @@
+Livre--Compilation,Actes,Monographie
+Organization--Institution
+Raport--M¨¦moire,RaportTechnique,Livrable
+Partie--Chapitre,ExtraitActes,ExtraitLivre,Article,ExtraitCompilation
+Thing--Adresse,onographie,List,Organization,ntervalleDePages,ivers,Revue,Date,diteur,Person,rticle,R¨¦f¨¦rence,IntervalleDePages,Conf¨¦rence,ate,xtraitLivre,ersonnes,dresse,ctes,evue,onf¨¦rence,xtraitActes
+M¨¦moire--M¨¦moireDeDoctorat,M¨¦moireDeMast¨¨re
+List--Personnes
+Institution--Universit¨¦,?diteur
+R¨¦f¨¦rence--Partie,Livre,Raport,Film,Divers,Informel
+Informel--Polycopi¨¦,NonPubli¨¦,Livret,Manuel

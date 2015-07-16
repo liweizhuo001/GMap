@@ -1,0 +1,4 @@
+has_the_last_name--hasSurname
+has_the_first_name--hasFirstName
+has_a_track-workshop-tutorial_topic--hasTopic
+has_an_email--hasEmail

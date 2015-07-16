@@ -1,0 +1,9 @@
+qsdsnbsqd--dcsqdsq,Booklet,LectureNotes,Unpublished
+Organization--zauio,zadazxn,Institution
+Institution--zauio,zadazxn
+dqzdxdcsqj--Deliverable,sdcsqhyz
+Part--dzqndbzq,vccfsq,InProceedings,dcsqdcsqd,Article
+zdazsx--xsqlknk,PhdThesis
+Book--dzajndsq,sqxsqkd,zdqssqdb
+List--dsqdbz
+sqdsq--Part,vccfsq,Deliverable,InProceedings,dcsqdcsqd,Book,zdazsx,qsdsnbsqd,Article,dzqndbzq,dcsqdsq,xsqlknk,dscdscg,Misc,dzajndsq,Booklet,LectureNotes,sqxsqkd,Unpublished,zdqssqdb,PhdThesis,sdcsqhyz,dqzdxdcsqj

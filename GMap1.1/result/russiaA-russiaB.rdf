@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://russiaA</onto1>
+	<onto2>http://russiaB</onto2>
+	<uri1>http://russiaA</uri1>
+	<uri2>http://russiaB</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#drink"/>
+			<entity2 rdf:resource="http://russiaB#drink"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#month"/>
+			<entity2 rdf:resource="http://russiaB#month"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#city"/>
+			<entity2 rdf:resource="http://russiaB#city"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#season"/>
+			<entity2 rdf:resource="http://russiaB#season"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#country"/>
+			<entity2 rdf:resource="http://russiaB#country"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#food"/>
+			<entity2 rdf:resource="http://russiaB#food"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#political_region"/>
+			<entity2 rdf:resource="http://russiaB#political_area"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#time"/>
+			<entity2 rdf:resource="http://russiaB#time_unit"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#palace"/>
+			<entity2 rdf:resource="http://russiaB#palace"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#river"/>
+			<entity2 rdf:resource="http://russiaB#river"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#square"/>
+			<entity2 rdf:resource="http://russiaB#square"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#language"/>
+			<entity2 rdf:resource="http://russiaB#language"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#sea"/>
+			<entity2 rdf:resource="http://russiaB#sea"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#lake"/>
+			<entity2 rdf:resource="http://russiaB#lake"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#animal"/>
+			<entity2 rdf:resource="http://russiaB#animal"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#area_unit"/>
+			<entity2 rdf:resource="http://russiaB#area_unit"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#unit"/>
+			<entity2 rdf:resource="http://russiaB#unit"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#length_unit"/>
+			<entity2 rdf:resource="http://russiaB#length_unit"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#surface_area"/>
+			<entity2 rdf:resource="http://russiaB#surface_area"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#music"/>
+			<entity2 rdf:resource="http://russiaB#music"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#restaurant"/>
+			<entity2 rdf:resource="http://russiaB#restaurant"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#living_being"/>
+			<entity2 rdf:resource="http://russiaB#living_being"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#document"/>
+			<entity2 rdf:resource="http://russiaB#document"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#string"/>
+			<entity2 rdf:resource="http://russiaB#string"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#region"/>
+			<entity2 rdf:resource="http://russiaB#region"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#integer"/>
+			<entity2 rdf:resource="http://russiaB#integer"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#fortress"/>
+			<entity2 rdf:resource="http://russiaB#fortress"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#peninsula"/>
+			<entity2 rdf:resource="http://russiaB#peninsula"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#town"/>
+			<entity2 rdf:resource="http://russiaB#town"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#cathedral"/>
+			<entity2 rdf:resource="http://russiaB#cathedral"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#church"/>
+			<entity2 rdf:resource="http://russiaB#church"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#monument"/>
+			<entity2 rdf:resource="http://russiaB#monument"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#canal"/>
+			<entity2 rdf:resource="http://russiaB#canal"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#forest"/>
+			<entity2 rdf:resource="http://russiaB#forest"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#religion"/>
+			<entity2 rdf:resource="http://russiaB#religion"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#president"/>
+			<entity2 rdf:resource="http://russiaB#president"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#hotel"/>
+			<entity2 rdf:resource="http://russiaB#hotel"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#plant"/>
+			<entity2 rdf:resource="http://russiaB#plant"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#festival"/>
+			<entity2 rdf:resource="http://russiaB#festival"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#mountain"/>
+			<entity2 rdf:resource="http://russiaB#mountain"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#museum"/>
+			<entity2 rdf:resource="http://russiaB#museum"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#architecture"/>
+			<entity2 rdf:resource="http://russiaB#architecture"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#default_root_concept"/>
+			<entity2 rdf:resource="http://russiaB#default_root_concept"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#garden"/>
+			<entity2 rdf:resource="http://russiaB#garden"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#ballet"/>
+			<entity2 rdf:resource="http://russiaB#ballet"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#time_zone"/>
+			<entity2 rdf:resource="http://russiaB#time_zone"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#island"/>
+			<entity2 rdf:resource="http://russiaB#island"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#theatre"/>
+			<entity2 rdf:resource="http://russiaB#theatre"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#boolean"/>
+			<entity2 rdf:resource="http://russiaB#boolean"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#travel_event"/>
+			<entity2 rdf:resource="http://russiaB#travel_event"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#literature"/>
+			<entity2 rdf:resource="http://russiaB#literature"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#person"/>
+			<entity2 rdf:resource="http://russiaB#person"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#human_being"/>
+			<entity2 rdf:resource="http://russiaB#human_being"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#public_building"/>
+			<entity2 rdf:resource="http://russiaB#building"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#means_of_payment"/>
+			<entity2 rdf:resource="http://russiaB#payment"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#public_space"/>
+			<entity2 rdf:resource="http://russiaB#space"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#bank"/>
+			<entity2 rdf:resource="http://russiaB#natur_reserve"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#currency"/>
+			<entity2 rdf:resource="http://russiaB#pay_bills"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#entertainment"/>
+			<entity2 rdf:resource="http://russiaB#musical_performance"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#has_birthplace"/>
+			<entity2 rdf:resource="http://russiaB#has_birthplace"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#has_time_unit"/>
+			<entity2 rdf:resource="http://russiaB#has_time_unit"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#is_close_to"/>
+			<entity2 rdf:resource="http://russiaB#is_close_to"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#has_destination"/>
+			<entity2 rdf:resource="http://russiaB#has_destination"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://russiaA#DEFAULT_ROOT_RELATION"/>
+			<entity2 rdf:resource="http://russiaB#DEFAULT_ROOT_RELATION"/>
+			<measure rdf:datatype="xsd:float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

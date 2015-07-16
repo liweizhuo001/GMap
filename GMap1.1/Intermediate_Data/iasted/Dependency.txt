@@ -1,0 +1,140 @@
+full day tour--full#0.2222222222222222,day#0.2222222222222222,tour#0.5555555555555556
+computer--computer#1.0
+submission--submission#1.0
+worker lecturer--worker#0.25,lecturer#0.75
+van--van#1.0
+review--review#1.0
+technical commitee--technical#0.25,commitee#0.75
+deadline for notification of acceptance--deadline#0.3599999999999999,for#0.16000000000000003,notification#0.16000000000000003,of#0.16000000000000003,acceptance#0.16000000000000003
+plenary lecture--plenary#0.25,lecture#0.75
+sponsor state--sponsor#0.25,state#0.75
+departure--departure#1.0
+conference city--conference#0.25,city#0.75
+accepting manuscript--accepting#0.75,manuscript#0.25
+presenter house--presenter#0.25,house#0.75
+trip day--trip#0.25,day#0.75
+fee--fee#1.0
+record of attendance--record#0.5555555555555556,of#0.2222222222222222,attendance#0.2222222222222222
+activity--activity#1.0
+speaker lecture--speaker#0.25,lecture#0.75
+deadline hotel reservation--deadline#0.5555555555555556,hotel#0.2222222222222222,reservation#0.2222222222222222
+research--research#1.0
+author--author#1.0
+nonmember registration fee--nonmember#0.5555555555555556,registration#0.2222222222222222,fee#0.2222222222222222
+session room--session#0.25,room#0.75
+conference days--conference#0.25,days#0.75
+technic activity--technic#0.25,activity#0.75
+conference hall--conference#0.25,hall#0.75
+simulating--simulating#1.0
+nonauthor registration fee--nonauthor#0.5555555555555556,registration#0.2222222222222222,fee#0.2222222222222222
+place--place#1.0
+video cassette player--video#0.2222222222222222,cassette#0.2222222222222222,player#0.5555555555555556
+conference state--conference#0.25,state#0.75
+city--city#1.0
+lcd projector--lcd#0.25,projector#0.75
+hotel fee--hotel#0.25,fee#0.75
+sponzorship--sponzorship#1.0
+deadline--deadline#1.0
+plenary lecture speaker--plenary#0.2222222222222222,lecture#0.5555555555555556,speaker#0.2222222222222222
+conference building--conference#0.25,building#0.75
+worker non speaker--worker#0.5555555555555556,non#0.2222222222222222,speaker#0.2222222222222222
+tip--tip#1.0
+document--document#1.0
+taxi--taxi#1.0
+submissions deadline--submissions#0.25,deadline#0.75
+money--money#1.0
+introduction of speaker--introduction#0.5555555555555556,of#0.2222222222222222,speaker#0.2222222222222222
+time--time#1.0
+book proceeding--book#0.25,proceeding#0.75
+time zone--time#0.25,zone#0.75
+delegate--delegate#1.0
+single hotel room--single#0.2222222222222222,hotel#0.2222222222222222,room#0.5555555555555556
+non speaker--non#0.25,speaker#0.75
+one day presenter--one#0.2222222222222222,day#0.5555555555555556,presenter#0.2222222222222222
+value added tax--value#0.2222222222222222,added#0.5555555555555556,tax#0.2222222222222222
+conference airport--conference#0.25,airport#0.75
+author attendee book registration fee--author#0.3599999999999999,attendee#0.16000000000000003,book#0.16000000000000003,registration#0.16000000000000003,fee#0.16000000000000003
+presentation--presentation#1.0
+conference hotel--conference#0.25,hotel#0.75
+car--car#1.0
+tutorial--tutorial#1.0
+transparency--transparency#1.0
+session chair--session#0.25,chair#0.75
+person--person#1.0
+double hotel room--double#0.5555555555555556,hotel#0.2222222222222222,room#0.2222222222222222
+camera ready manuscript deadline--camera#0.4375,ready#0.1875,manuscript#0.1875,deadline#0.1875
+viza--viza#1.0
+currency--currency#1.0
+hotel room--hotel#0.25,room#0.75
+refusing manuscript--refusing#0.75,manuscript#0.25
+author book proceedings included--author#0.1875,book#0.1875,proceedings#0.1875,included#0.4375
+hotel presenter--hotel#0.25,presenter#0.75
+activity after conference--activity#0.5555555555555556,after#0.2222222222222222,conference#0.2222222222222222
+registration fee--registration#0.25,fee#0.75
+registration--registration#1.0
+power point presentation--power#0.5555555555555556,point#0.2222222222222222,presentation#0.2222222222222222
+presenter city--presenter#0.25,city#0.75
+card--card#1.0
+mailing list--mailing#0.25,list#0.75
+shuttle bus--shuttle#0.25,bus#0.75
+sponsor--sponsor#1.0
+renting--renting#1.0
+sponsor company house--sponsor#0.5555555555555556,company#0.2222222222222222,house#0.2222222222222222
+lecturer--lecturer#1.0
+credit card--credit#0.25,card#0.75
+social program--social#0.25,program#0.75
+listener--listener#1.0
+final manuscript--final#0.25,manuscript#0.75
+presenter state--presenter#0.25,state#0.75
+iasted non member--iasted#0.5555555555555556,non#0.2222222222222222,member#0.2222222222222222
+student lecturer--student#0.25,lecturer#0.75
+student registration fee--student#0.5555555555555556,registration#0.2222222222222222,fee#0.2222222222222222
+memeber registration fee--memeber#0.5555555555555556,registration#0.2222222222222222,fee#0.2222222222222222
+cheque--cheque#1.0
+brief introduction for session chair--brief#0.16000000000000003,introduction#0.3599999999999999,for#0.16000000000000003,session#0.16000000000000003,chair#0.16000000000000003
+modelling--modelling#1.0
+session--session#1.0
+registration form--registration#0.25,form#0.75
+transport vehicle--transport#0.75,vehicle#0.25
+tutorial speaker--tutorial#0.25,speaker#0.75
+fee for extra trip--fee#0.4375,for#0.1875,extra#0.1875,trip#0.1875
+hotel registration form--hotel#0.2222222222222222,registration#0.2222222222222222,form#0.5555555555555556
+main office--main#0.25,office#0.75
+payment document--payment#0.25,document#0.75
+lecture--lecture#1.0
+conference activity--conference#0.25,activity#0.75
+student non speaker--student#0.5555555555555556,non#0.2222222222222222,speaker#0.2222222222222222
+activity before conference--activity#0.5555555555555556,before#0.2222222222222222,conference#0.2222222222222222
+cd proceening--cd#0.25,proceening#0.75
+dinner banquet--dinner#0.25,banquet#0.75
+introduction--introduction#1.0
+reviewer--reviewer#1.0
+speaker--speaker#1.0
+item--item#1.0
+bank transfer--bank#0.25,transfer#0.75
+sponsor city--sponsor#0.25,city#0.75
+invitation letter--invitation#0.25,letter#0.75
+building--building#1.0
+overhead projector--overhead#0.25,projector#0.75
+iasted member--iasted#0.25,member#0.75
+departure tax--departure#0.25,tax#0.75
+conference hiker--conference#0.25,hiker#0.75
+trip city--trip#0.25,city#0.75
+initial manuscipt--initial#0.25,manuscipt#0.75
+conference restaurant--conference#0.25,restaurant#0.75
+author attendee cd registration fee--author#0.3599999999999999,attendee#0.16000000000000003,cd#0.16000000000000003,registration#0.16000000000000003,fee#0.16000000000000003
+receiving manuscript--receiving#0.75,manuscript#0.25
+author cd proceedings included--author#0.1875,cd#0.1875,proceedings#0.1875,included#0.4375
+one conference day--one#0.2222222222222222,conference#0.5555555555555556,day#0.2222222222222222
+coctail reception--coctail#0.25,reception#0.75
+presenter university--presenter#0.25,university#0.75
+audiovisual equipment--audiovisual#0.25,equipment#0.75
+publication--publication#1.0
+coffee break--coffee#0.25,break#0.75
+form--form#1.0
+registation deadline--registation#0.25,deadline#0.75
+author information form--author#0.2222222222222222,information#0.2222222222222222,form#0.5555555555555556
+video presentation--video#0.25,presentation#0.75
+welcome address--welcome#0.25,address#0.75
+tax--tax#1.0
+state--state#1.0

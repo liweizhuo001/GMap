@@ -1,0 +1,11 @@
+zajdhqs--dcsqdsq,zdazsx,qsdsnbsqd,dqzdxdcsqj,zeadza,sqdsopq
+dcsqdsq--zajdhqs,zdazsx,qsdsnbsqd,dqzdxdcsqj,zeadza,sqdsopq
+zdazsx--zajdhqs,dcsqdsq,qsdsnbsqd,dqzdxdcsqj,zeadza,sqdsopq
+qsdsnbsqd--zajdhqs,dcsqdsq,zdazsx,dqzdxdcsqj,zeadza,sqdsopq
+dqzdxdcsqj--zajdhqs,dcsqdsq,zdazsx,qsdsnbsqd,zeadza,sqdsopq
+zeadza--zajdhqs,dcsqdsq,zdazsx,qsdsnbsqd,dqzdxdcsqj,sqdsopq
+sqdsopq--zajdhqs,dcsqdsq,zdazsx,qsdsnbsqd,dqzdxdcsqj,zeadza
+hazdn--dcsqdcsqd,deqdxcsqcsq,vccfsq
+dcsqdcsqd--hazdn,deqdxcsqcsq,vccfsq
+deqdxcsqcsq--hazdn,dcsqdcsqd,vccfsq
+vccfsq--hazdn,dcsqdcsqd,deqdxcsqcsq

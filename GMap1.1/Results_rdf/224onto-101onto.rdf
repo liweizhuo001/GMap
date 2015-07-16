@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://224onto</onto1>
+	<onto2>http://101onto</onto2>
+	<uri1>http://224onto</uri1>
+	<uri2>http://101onto</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#part"/>
+			<entity2 rdf:resource="http://101onto#part"/>
+			<measure rdf:datatype="xsd:float">0.9445669656331098</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#academic"/>
+			<entity2 rdf:resource="http://101onto#academic"/>
+			<measure rdf:datatype="xsd:float">0.9182715273129619</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#report"/>
+			<entity2 rdf:resource="http://101onto#report"/>
+			<measure rdf:datatype="xsd:float">0.9182715273097461</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#article"/>
+			<entity2 rdf:resource="http://101onto#article"/>
+			<measure rdf:datatype="xsd:float">0.9158529986942678</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#proceedings"/>
+			<entity2 rdf:resource="http://101onto#proceedings"/>
+			<measure rdf:datatype="xsd:float">0.8990821805611853</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#informal"/>
+			<entity2 rdf:resource="http://101onto#informal"/>
+			<measure rdf:datatype="xsd:float">0.8984501012211834</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#institution"/>
+			<entity2 rdf:resource="http://101onto#institution"/>
+			<measure rdf:datatype="xsd:float">0.8978394091435417</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#book"/>
+			<entity2 rdf:resource="http://101onto#book"/>
+			<measure rdf:datatype="xsd:float">0.8971540337910459</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#reference"/>
+			<entity2 rdf:resource="http://101onto#reference"/>
+			<measure rdf:datatype="xsd:float">0.8907869376871952</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#chapter"/>
+			<entity2 rdf:resource="http://101onto#chapter"/>
+			<measure rdf:datatype="xsd:float">0.8907853117091137</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#monograph"/>
+			<entity2 rdf:resource="http://101onto#monograph"/>
+			<measure rdf:datatype="xsd:float">0.8907853117069513</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#manual"/>
+			<entity2 rdf:resource="http://101onto#manual"/>
+			<measure rdf:datatype="xsd:float">0.8907853117069513</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#collection"/>
+			<entity2 rdf:resource="http://101onto#collection"/>
+			<measure rdf:datatype="xsd:float">0.8907853117069513</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#inproceedings"/>
+			<entity2 rdf:resource="http://101onto#inproceedings"/>
+			<measure rdf:datatype="xsd:float">0.8907853117069513</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#lecturenotes"/>
+			<entity2 rdf:resource="http://101onto#lecturenotes"/>
+			<measure rdf:datatype="xsd:float">0.8907853117026541</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#motionpicture"/>
+			<entity2 rdf:resource="http://101onto#motionpicture"/>
+			<measure rdf:datatype="xsd:float">0.88055753657241</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#publisher"/>
+			<entity2 rdf:resource="http://101onto#publisher"/>
+			<measure rdf:datatype="xsd:float">0.8705815254328021</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#school"/>
+			<entity2 rdf:resource="http://101onto#school"/>
+			<measure rdf:datatype="xsd:float">0.8705815254328021</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#list"/>
+			<entity2 rdf:resource="http://101onto#list"/>
+			<measure rdf:datatype="xsd:float">0.8700234079326858</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#personlist"/>
+			<entity2 rdf:resource="http://101onto#personlist"/>
+			<measure rdf:datatype="xsd:float">0.8634803045643081</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#conference"/>
+			<entity2 rdf:resource="http://101onto#conference"/>
+			<measure rdf:datatype="xsd:float">0.8602099203352944</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#organization"/>
+			<entity2 rdf:resource="http://101onto#organization"/>
+			<measure rdf:datatype="xsd:float">0.8583059024570363</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#techreport"/>
+			<entity2 rdf:resource="http://101onto#techreport"/>
+			<measure rdf:datatype="xsd:float">0.8582498727957018</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#inbook"/>
+			<entity2 rdf:resource="http://101onto#inbook"/>
+			<measure rdf:datatype="xsd:float">0.8582498727957018</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#mastersthesis"/>
+			<entity2 rdf:resource="http://101onto#mastersthesis"/>
+			<measure rdf:datatype="xsd:float">0.8582498727957018</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#incollection"/>
+			<entity2 rdf:resource="http://101onto#incollection"/>
+			<measure rdf:datatype="xsd:float">0.8582498727957018</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#booklet"/>
+			<entity2 rdf:resource="http://101onto#booklet"/>
+			<measure rdf:datatype="xsd:float">0.8582498727957018</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#phdthesis"/>
+			<entity2 rdf:resource="http://101onto#phdthesis"/>
+			<measure rdf:datatype="xsd:float">0.8582498727957018</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#deliverable"/>
+			<entity2 rdf:resource="http://101onto#deliverable"/>
+			<measure rdf:datatype="xsd:float">0.8582498727901244</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#unpublished"/>
+			<entity2 rdf:resource="http://101onto#unpublished"/>
+			<measure rdf:datatype="xsd:float">0.8582498727901244</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#journal"/>
+			<entity2 rdf:resource="http://101onto#journal"/>
+			<measure rdf:datatype="xsd:float">0.8565849403338236</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#misc"/>
+			<entity2 rdf:resource="http://101onto#misc"/>
+			<measure rdf:datatype="xsd:float">0.8449752075621949</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#date"/>
+			<entity2 rdf:resource="http://101onto#date"/>
+			<measure rdf:datatype="xsd:float">0.8228381976282638</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#address"/>
+			<entity2 rdf:resource="http://101onto#address"/>
+			<measure rdf:datatype="xsd:float">0.8228381976282638</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#pagerange"/>
+			<entity2 rdf:resource="http://101onto#pagerange"/>
+			<measure rdf:datatype="xsd:float">0.8101018246791837</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#person"/>
+			<entity2 rdf:resource="http://101onto#person"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#date"/>
+			<entity2 rdf:resource="http://101onto#date"/>
+			<measure rdf:datatype="xsd:float">0.7535305739950888</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#location"/>
+			<entity2 rdf:resource="http://101onto#location"/>
+			<measure rdf:datatype="xsd:float">0.7535305739950888</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#school"/>
+			<entity2 rdf:resource="http://101onto#school"/>
+			<measure rdf:datatype="xsd:float">0.7535305739950888</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#publisher"/>
+			<entity2 rdf:resource="http://101onto#publisher"/>
+			<measure rdf:datatype="xsd:float">0.7535305739950888</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#organization"/>
+			<entity2 rdf:resource="http://101onto#organization"/>
+			<measure rdf:datatype="xsd:float">0.7535305739950888</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#isPartOf"/>
+			<entity2 rdf:resource="http://101onto#isPartOf"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#rest"/>
+			<entity2 rdf:resource="http://101onto#rest"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#journal"/>
+			<entity2 rdf:resource="http://101onto#journal"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#collection"/>
+			<entity2 rdf:resource="http://101onto#collection"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#humanCreator"/>
+			<entity2 rdf:resource="http://101onto#humanCreator"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#contract"/>
+			<entity2 rdf:resource="http://101onto#contract"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#communications"/>
+			<entity2 rdf:resource="http://101onto#communications"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#proceedings"/>
+			<entity2 rdf:resource="http://101onto#proceedings"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#book"/>
+			<entity2 rdf:resource="http://101onto#book"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#author"/>
+			<entity2 rdf:resource="http://101onto#author"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#parts"/>
+			<entity2 rdf:resource="http://101onto#parts"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#event"/>
+			<entity2 rdf:resource="http://101onto#event"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#institution"/>
+			<entity2 rdf:resource="http://101onto#institution"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#pages"/>
+			<entity2 rdf:resource="http://101onto#pages"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#first"/>
+			<entity2 rdf:resource="http://101onto#first"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#address"/>
+			<entity2 rdf:resource="http://101onto#address"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#organizer"/>
+			<entity2 rdf:resource="http://101onto#organizer"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#articles"/>
+			<entity2 rdf:resource="http://101onto#articles"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#chapters"/>
+			<entity2 rdf:resource="http://101onto#chapters"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#directors"/>
+			<entity2 rdf:resource="http://101onto#directors"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#editor"/>
+			<entity2 rdf:resource="http://101onto#editor"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#issue"/>
+			<entity2 rdf:resource="http://101onto#issue"/>
+			<measure rdf:datatype="xsd:float">0.7540000819993219</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#reviewed"/>
+			<entity2 rdf:resource="http://101onto#reviewed"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#note"/>
+			<entity2 rdf:resource="http://101onto#note"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#issn"/>
+			<entity2 rdf:resource="http://101onto#issn"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#copyright"/>
+			<entity2 rdf:resource="http://101onto#copyright"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#series"/>
+			<entity2 rdf:resource="http://101onto#series"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#isbn"/>
+			<entity2 rdf:resource="http://101onto#isbn"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#lccn"/>
+			<entity2 rdf:resource="http://101onto#lccn"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#size"/>
+			<entity2 rdf:resource="http://101onto#size"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#key"/>
+			<entity2 rdf:resource="http://101onto#key"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#price"/>
+			<entity2 rdf:resource="http://101onto#price"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#annote"/>
+			<entity2 rdf:resource="http://101onto#annote"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#number"/>
+			<entity2 rdf:resource="http://101onto#number"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#affiliation"/>
+			<entity2 rdf:resource="http://101onto#affiliation"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#keywords"/>
+			<entity2 rdf:resource="http://101onto#keywords"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#abstract"/>
+			<entity2 rdf:resource="http://101onto#abstract"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#volume"/>
+			<entity2 rdf:resource="http://101onto#volume"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#url"/>
+			<entity2 rdf:resource="http://101onto#url"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#mrNumber"/>
+			<entity2 rdf:resource="http://101onto#mrNumber"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#title"/>
+			<entity2 rdf:resource="http://101onto#title"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#language"/>
+			<entity2 rdf:resource="http://101onto#language"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#contents"/>
+			<entity2 rdf:resource="http://101onto#contents"/>
+			<measure rdf:datatype="xsd:float">0.7540000819981569</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#chapter"/>
+			<entity2 rdf:resource="http://101onto#chapter"/>
+			<measure rdf:datatype="xsd:float">0.7538793416002514</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#edition"/>
+			<entity2 rdf:resource="http://101onto#edition"/>
+			<measure rdf:datatype="xsd:float">0.753673127198907</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#type"/>
+			<entity2 rdf:resource="http://101onto#type"/>
+			<measure rdf:datatype="xsd:float">0.753673127198907</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#name"/>
+			<entity2 rdf:resource="http://101onto#name"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#year"/>
+			<entity2 rdf:resource="http://101onto#year"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#city"/>
+			<entity2 rdf:resource="http://101onto#city"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#date"/>
+			<entity2 rdf:resource="http://101onto#date"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#creator"/>
+			<entity2 rdf:resource="http://101onto#creator"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#periodicity"/>
+			<entity2 rdf:resource="http://101onto#periodicity"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#shortName"/>
+			<entity2 rdf:resource="http://101onto#shortName"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#description"/>
+			<entity2 rdf:resource="http://101onto#description"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#state"/>
+			<entity2 rdf:resource="http://101onto#state"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#howPublished"/>
+			<entity2 rdf:resource="http://101onto#howPublished"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#endPage"/>
+			<entity2 rdf:resource="http://101onto#endPage"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#numberOrVolume"/>
+			<entity2 rdf:resource="http://101onto#numberOrVolume"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#country"/>
+			<entity2 rdf:resource="http://101onto#country"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#lastName"/>
+			<entity2 rdf:resource="http://101onto#lastName"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#firstPublished"/>
+			<entity2 rdf:resource="http://101onto#firstPublished"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#firstName"/>
+			<entity2 rdf:resource="http://101onto#firstName"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#month"/>
+			<entity2 rdf:resource="http://101onto#month"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#day"/>
+			<entity2 rdf:resource="http://101onto#day"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#startPage"/>
+			<entity2 rdf:resource="http://101onto#startPage"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://224onto#contributor"/>
+			<entity2 rdf:resource="http://101onto#contributor"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

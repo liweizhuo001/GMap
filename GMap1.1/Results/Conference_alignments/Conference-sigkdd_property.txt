@@ -1,0 +1,3 @@
+has_an_email--E-mail
+gives_presentations--presentation
+is_given_by--presentationed_by

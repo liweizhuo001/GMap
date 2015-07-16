@@ -1,0 +1,11 @@
+dcsqdcsqd--Article,InProceedings,InBook
+Article--dcsqdcsqd,InProceedings,InBook
+InProceedings--dcsqdcsqd,Article,InBook
+InBook--dcsqdcsqd,Article,InProceedings
+qsdsnbsqd--Book,Report,Unpublished,Part,Academic,Manual
+Book--qsdsnbsqd,Report,Unpublished,Part,Academic,Manual
+Report--qsdsnbsqd,Book,Unpublished,Part,Academic,Manual
+Unpublished--qsdsnbsqd,Book,Report,Part,Academic,Manual
+Part--qsdsnbsqd,Book,Report,Unpublished,Academic,Manual
+Academic--qsdsnbsqd,Book,Report,Unpublished,Part,Manual
+Manual--qsdsnbsqd,Book,Report,Unpublished,Part,Academic

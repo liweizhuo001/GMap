@@ -1,0 +1,10 @@
+Review--Review
+Conference_Banquet--Dinner_banquet
+Tutorial--Tutorial
+Location--Place
+Session_Chair--Session_chair
+Event--Activity
+Person--Person
+Paper_Author--Author
+Session--Session
+Document--Document

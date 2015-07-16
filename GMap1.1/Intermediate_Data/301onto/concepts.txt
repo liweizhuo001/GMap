@@ -1,0 +1,15 @@
+Inbook
+Inproceedings
+Booklet
+Misc
+Incollection
+Mastersthesis
+TechReport
+Article
+Phdthesis
+Conference
+Book
+Proceedings
+Manual
+Unpublished
+Entry

@@ -1,0 +1,10 @@
+R¨¦f¨¦rence--Film,Informel,Divers,Partie,Livre,Raport
+Organization--Institution
+Raport--Livrable,RaportTechnique,M¨¦moire
+Livre--Actes,Compilation,Monographie
+Partie--Chapitre,ExtraitCompilation,Article,ExtraitActes,ExtraitLivre
+Informel--Polycopi¨¦,Manuel,Livret,NonPubli¨¦
+M¨¦moire--M¨¦moireDeDoctorat,M¨¦moireDeMast¨¨re
+Thing--R¨¦f¨¦rence,Adresse,onographie,List,ntervalleDePages,Organization,IntervalleDePages,ivers,diteur,Date,Person,rticle,ate,xtraitLivre,ersonnes,dresse,ctes,evue,Revue,onf¨¦rence,xtraitActes,Conf¨¦rence
+List--Personnes
+Institution--?diteur,Universit¨¦

@@ -1,0 +1,59 @@
+bus--bus#1.0
+male--male#1.0
+dog owner--dog#0.25,owner#0.75
+grass--grass#1.0
+animal--animal#1.0
+brain--brain#1.0
+cat liker--cat#0.25,liker#0.75
+duck--duck#1.0
+woman--woman#1.0
+sheep--sheep#1.0
+mad cow--mad#0.25,cow#0.75
+broadsheet--broadsheet#1.0
+white van man--white#0.2222222222222222,van#0.2222222222222222,man#0.5555555555555556
+tiger--tiger#1.0
+old lady--old#0.25,lady#0.75
+cow--cow#1.0
+newspaper--newspaper#1.0
+vegetarian--vegetarian#1.0
+bicycle--bicycle#1.0
+company--company#1.0
+cat owner--cat#0.25,owner#0.75
+cat--cat#1.0
+white thing--white#0.25,thing#0.75
+grownup--grownup#1.0
+van driver--van#0.25,driver#0.75
+van--van#1.0
+bus driver--bus#0.25,driver#0.75
+tabloid--tabloid#1.0
+driver--driver#1.0
+tree--tree#1.0
+person--person#1.0
+kid--kid#1.0
+haulage worker--haulage#0.25,worker#0.75
+bus company--bus#0.25,company#0.75
+leaf--leaf#1.0
+dog--dog#1.0
+plant--plant#1.0
+magazine--magazine#1.0
+haulage truck driver--haulage#0.2222222222222222,truck#0.2222222222222222,driver#0.5555555555555556
+young--young#1.0
+vehicle--vehicle#1.0
+female--female#1.0
+man--man#1.0
+elderly--elderly#1.0
+dog liker--dog#0.25,liker#0.75
+quality broadsheet--quality#0.25,broadsheet#0.75
+giraffe--giraffe#1.0
+bone--bone#1.0
+pet owner--pet#0.25,owner#0.75
+lorry driver--lorry#0.25,driver#0.75
+truck--truck#1.0
+pet--pet#1.0
+car--car#1.0
+publication--publication#1.0
+haulage company--haulage#0.25,company#0.75
+red top--red#0.25,top#0.75
+adult--adult#1.0
+lorry--lorry#1.0
+animal lover--animal#0.25,lover#0.75

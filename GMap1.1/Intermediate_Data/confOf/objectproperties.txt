@@ -1,0 +1,13 @@
+employedBy
+studyAt
+dealsWith
+hasAdministrativeEvent
+expertOn
+hasCity
+writes
+parallel_with
+hasTopic
+reviewes
+hasCountry
+follows
+writtenBy

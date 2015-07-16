@@ -1,0 +1,8 @@
+NetworkNode--PC,Switch,RoutingComputer,SwitchEquipment,Hub,Router,Server,Computer
+SwitchEquipment--Switch,RoutingComputer,Hub,Router
+Equipment--HardwareSniffer,HardwareFirewall,StraightThroughCable,Switch,RoutingComputer,NetworkNode,SwitchEquipment,Hub,CoaxCable,Server,Computer,PC,Router,Cable,SecurityEquipment,CrossOverCable
+Computer--PC,RoutingComputer,Server
+Software--OfficeSoftware,OperatingSystem,OtherServer,ServerSoftware,TelnetServer,SSHServer,FTPServer,WebServer
+ServerSoftware--OtherServer,TelnetServer,SSHServer,FTPServer,WebServer
+Cable--StraightThroughCable,CoaxCable,CrossOverCable
+SecurityEquipment--HardwareSniffer,HardwareFirewall

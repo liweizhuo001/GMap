@@ -1,0 +1,9 @@
+person--person#1.0
+hermaphrodite--hermaphrodite#1.0
+woman--woman#1.0
+man--man#1.0
+animal--animal#1.0
+bipedal person--bipedal#0.25,person#0.75
+male--male#1.0
+female--female#1.0
+bipedal thing--bipedal#0.25,thing#0.75

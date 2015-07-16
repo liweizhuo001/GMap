@@ -1,0 +1,6 @@
+Organization--Institution
+Institution--School,Publisher
+sqdsq--Manual,InBook,Unpublished,MotionPicture,LectureNotes,Collection,Report,Proceedings,Booklet,Monograph,dcsqdcsqd,Article,Chapter,InProceedings,xsqlknk,Misc,PhdThesis
+Thing--List,PageRange,Organization,zqedzbx,sqdsq,Person,Address,Date,Journal
+List--dsqdbz
+Report--sdcsqhyz,Deliverable

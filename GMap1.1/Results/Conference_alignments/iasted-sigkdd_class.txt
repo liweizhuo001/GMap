@@ -1,0 +1,15 @@
+Place--Place
+Review--Review
+Student_registration_fee--Registration_Student
+Fee--Fee
+Deadline--Deadline
+Speaker--Speaker
+Main_office--Main_office
+Conference_hall--Conference_hall
+Person--Person
+Author--Author
+Listener--Listener
+Registration_fee--Registration_fee
+Sponsor--Sponzor
+Deadline_for_notification_of_acceptance--Deadline_Author_notification
+Nonmember_registration_fee--Registration_Non-Member

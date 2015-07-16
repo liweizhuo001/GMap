@@ -1,0 +1,27 @@
+cross over--cross#0.25,over#0.75
+hub--hub#1.0
+os--os#1.0
+ssh--ssh#1.0
+coax--coax#1.0
+wireless bridge--wireless#0.25,bridge#0.75
+router--router#1.0
+computer--computer#1.0
+network node--network#0.25,node#0.75
+pair of nodes--pair#0.2222222222222222,of#0.2222222222222222,node#0.5555555555555556
+wireless device--wireless#0.25,device#0.75
+web--web#1.0
+software--software#1.0
+office--office#1.0
+cable--cable#1.0
+switch--switch#1.0
+straight through--straight#0.25,through#0.75
+telnet--telnet#1.0
+other--other#1.0
+ftp--ftp#1.0
+pc--pc#1.0
+connection type--connection#0.25,type#0.75
+central hub--central#0.25,hub#0.75
+equipment--equipment#1.0
+server software--server#0.25,software#0.75
+server--server#1.0
+wap--wap#1.0

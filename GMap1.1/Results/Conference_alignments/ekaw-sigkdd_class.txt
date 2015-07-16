@@ -1,0 +1,11 @@
+Review--Review
+Invited_Speaker--Invited_Speaker
+OC_Member--Organizing_Committee_member
+Paper_Author--Author
+Document--Document
+Conference--Conference
+Person--Person
+Location--Place
+Paper--Paper
+Abstract--Abstract
+PC_Chair--Program_Chair

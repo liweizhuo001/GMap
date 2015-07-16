@@ -1,0 +1,10 @@
+B1--sum_B1#0.8
+B0--sum_B1#0.2
+B1--sum_B2#0.3
+B0--sum_B2#0.7
+A1--prod_A1_sumB1#1
+sum_B1--prod_A1_sumB1#1
+A0--prod_A0_sumB2#1
+sum_B2--prod_A0_sumB2#1
+prod_A1_sumB1--R#0.4
+prod_A0_sumB2--R#0.6

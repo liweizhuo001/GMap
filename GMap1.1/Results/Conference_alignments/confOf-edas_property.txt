@@ -1,0 +1,5 @@
+hasSurname--hasLastName
+writes--hasRelatedPaper
+reviewes--isReviewing
+writtenBy--isWrittenBy
+hasFirstName--hasFirstName

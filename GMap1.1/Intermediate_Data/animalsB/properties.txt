@@ -1,0 +1,14 @@
+biologicalMotherOf
+hasFriend
+hasMother
+hasSpouse
+hasChild
+hasHusband
+hasWife
+spouseOf
+hasFather
+hasParent
+hasAncestor
+shirtsize
+age
+shoesize

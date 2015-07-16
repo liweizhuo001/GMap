@@ -1,0 +1,4 @@
+sqdsq--zdazsx,qsdsnbsqd,dqzdxdcsqj,Manual,Part,Unpublished,Book
+Thing--Monograph,Misc,zadazxn,zqedzbx,List,Organization,xsqlknk,qsdsquj,Address,sqxsqkd,Person,PhdThesis,LectureNotes,Publisher,sdcsqhyz,PageRange,Institution,Date,MotionPicture,Deliverable,Proceedings,Chapter,Booklet,sqdsq
+List--dsqdbz
+Part--vccfsq,Article,InProceedings,dcsqdcsqd

@@ -1,0 +1,14 @@
+works_for--works_for
+drives--drives
+eaten_by--eaten_by
+eats--eats
+has_child--has_child
+has_parent--has_parent
+has_mother--has_mother
+has_father--has_father
+has_part--has_part
+is_pet_of--is_pet_of
+likes--likes
+part_of--part_of
+reads--reads
+service_number--service_number

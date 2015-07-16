@@ -1,0 +1,9 @@
+List,rest,List
+Reference,directors,PersonList
+InCollection,collection,Collection
+Reference,contract,Thing
+Reference,editor,PersonList
+Reference,humanCreator,PersonList
+InProceedings,proceedings,Proceedings
+InBook,book,Monograph
+Reference,author,PersonList

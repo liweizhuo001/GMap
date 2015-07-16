@@ -1,0 +1,165 @@
+park--park#1.0
+musician--musician#1.0
+area unit--area#0.25,unit#0.75
+animal--animal#1.0
+foreign business person--foreign#0.2222222222222222,business#0.2222222222222222,person#0.5555555555555556
+consumption information--consumption#0.25,information#0.75
+3days visa--3day#0.25,visa#0.75
+local store--local#0.25,store#0.75
+organisation--organisation#1.0
+open hour--open#0.25,hour#0.75
+surface area--surface#0.25,area#0.75
+recreation sports--recreation#0.25,sport#0.75
+music--music#1.0
+cooperative restaurant--cooperative#0.25,restaurant#0.75
+singing--sing#1.0
+consumer goods--consumer#0.25,goods#0.75
+sport--sport#1.0
+train travel--train#0.25,travel#0.75
+archipelago--archipelago#1.0
+czar--czar#1.0
+artwork organisation--artwork#0.25,organisation#0.75
+living being--live#0.25,be#0.75
+disco--disco#1.0
+document--document#1.0
+certificate--certificate#1.0
+fee scale--fee#0.25,scale#0.75
+string--string#1.0
+region--region#1.0
+palace--palace#1.0
+public place--public#0.25,place#0.75
+boutique--boutique#1.0
+cititzen of russia--cititzen#0.2222222222222222,of#0.2222222222222222,russium#0.5555555555555556
+direction--direction#1.0
+check--check#1.0
+cruise--cruise#1.0
+integer--integer#1.0
+concert hall--concert#0.25,hall#0.75
+shopping mall--shop#0.25,mall#0.75
+vegetable--vegetable#1.0
+theatre company--theatre#0.25,company#0.75
+place for nightlife--place#0.2222222222222222,for#0.2222222222222222,nightlife#0.5555555555555556
+classic music--classic#0.25,music#0.75
+3months visa--3month#0.25,visa#0.75
+river--river#1.0
+student--student#1.0
+novel--novel#1.0
+fortress--fortress#1.0
+public building--public#0.25,build#0.75
+robber--robber#1.0
+author--author#1.0
+disease type--disease#0.25,type#0.75
+inspector--inspector#1.0
+air travel--air#0.25,travel#0.75
+street--street#1.0
+meat--meat#1.0
+end point--end#0.25,point#0.75
+fruit--fruit#1.0
+town--town#1.0
+peninsula--peninsula#1.0
+cathedral--cathedral#1.0
+square--square#1.0
+clothes--clothe#1.0
+spiritual product--spiritual#0.25,product#0.75
+titanic--titanic#1.0
+overview--overview#1.0
+instrument--instrument#1.0
+dancer--dancer#1.0
+cure--cure#1.0
+folk music--folk#0.25,music#0.75
+cash--cash#1.0
+time--time#1.0
+drink--drink#1.0
+month--month#1.0
+monument--monument#1.0
+credit card--credit#0.25,card#0.75
+tourist information--tourist#0.25,information#0.75
+canal--canal#1.0
+forest--forest#1.0
+normal restaurant--normal#0.25,restaurant#0.75
+time point--time#0.25,point#0.75
+bank--bank#1.0
+religion--religion#1.0
+weekday--weekday#1.0
+time unit--time#0.25,unit#0.75
+president--president#1.0
+university--university#1.0
+hotel--hotel#1.0
+city--city#1.0
+13--13#1.0
+opera--opera#1.0
+plant--plant#1.0
+beginn point--beginn#0.25,point#0.75
+food--food#1.0
+festival--festival#1.0
+device to be observed--device#0.1875,to#0.1875,be#0.1875,observe#0.4375
+revolutionary--revolutionary#1.0
+photocopy--photocopy#1.0
+composer--composer#1.0
+tourist shop--tourist#0.25,shop#0.75
+mountain--mountain#1.0
+material--material#1.0
+passport--passport#1.0
+conservatory--conservatory#1.0
+hard currency restaurant--hard#0.2222222222222222,currency#0.2222222222222222,restaurant#0.5555555555555556
+year--year#1.0
+length unit--length#0.25,unit#0.75
+church--church#1.0
+ballet company--ballet#0.25,company#0.75
+season--season#1.0
+electronic device--electronic#0.25,device#0.75
+rock--rock#1.0
+museum--museum#1.0
+means of payment--means#0.2222222222222222,of#0.2222222222222222,payment#0.5555555555555556
+simple consumer device--simple#0.2222222222222222,consumer#0.2222222222222222,device#0.5555555555555556
+country--country#1.0
+village--village#1.0
+language--language#1.0
+restaurant--restaurant#1.0
+live music--live#0.25,music#0.75
+circuse--circuse#1.0
+architecture--architecture#1.0
+public space--public#0.25,space#0.75
+physician--physician#1.0
+default root concept--default#0.2222222222222222,root#0.2222222222222222,concept#0.5555555555555556
+garden--garden#1.0
+activity--activity#1.0
+dance--dance#1.0
+about health--about#0.25,health#0.75
+time slot--time#0.25,slot#0.75
+market--market#1.0
+culture and art--culture#0.2222222222222222,and#0.2222222222222222,art#0.5555555555555556
+island--island#1.0
+theatre--theatre#1.0
+dimension--dimension#1.0
+cafe--cafe#1.0
+sea--sea#1.0
+handwork--handwork#1.0
+boolean--boolean#1.0
+ballet--ballet#1.0
+travel event--travel#0.25,event#0.75
+sponsor--sponsor#1.0
+currency--currency#1.0
+valley--valley#1.0
+lake--lake#1.0
+normal traveler--normal#0.25,traveler#0.75
+time zone--time#0.25,zone#0.75
+literature--literature#1.0
+bar--bar#1.0
+shopping place--shop#0.25,place#0.75
+rest cure--rest#0.25,cure#0.75
+water cure--water#0.25,cure#0.75
+others--other#1.0
+political region--political#0.25,region#0.75
+unit--unit#1.0
+visa--visa#1.0
+entertainment--entertainment#1.0
+tour company--tour#0.25,company#0.75
+person--person#1.0
+human being--human#0.25,be#0.75
+convenience store--convenience#0.25,store#0.75
+casino--casino#1.0
+club--club#1.0
+tower--tower#1.0
+geographical environment--geographical#0.25,environment#0.75
+visual decorative art--visual#0.2222222222222222,decorative#0.2222222222222222,art#0.5555555555555556

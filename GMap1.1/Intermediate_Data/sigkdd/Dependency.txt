@@ -1,0 +1,49 @@
+place--place#1.0
+best student paper supporter--best#0.4375,student#0.1875,paper#0.1875,supporter#0.1875
+author of paper student--author#0.4375,of#0.1875,paper#0.1875,student#0.1875
+abstract--abstract#1.0
+best student paper award--best#0.4375,student#0.1875,paper#0.1875,award#0.1875
+registration sigmod member--registration#0.2222222222222222,sigmod#0.5555555555555556,member#0.2222222222222222
+listener--listener#1.0
+best research paper award--best#0.4375,research#0.1875,paper#0.1875,award#0.1875
+deadline paper submission--deadline#0.5555555555555556,paper#0.2222222222222222,submission#0.2222222222222222
+program committee--program#0.25,committee#0.75
+deadline--deadline#1.0
+hotel--hotel#1.0
+organizing committee member--organizing#0.5555555555555556,committee#0.2222222222222222,member#0.2222222222222222
+program committee member--program#0.5555555555555556,committee#0.2222222222222222,member#0.2222222222222222
+author of paper--author#0.5555555555555556,of#0.2222222222222222,paper#0.2222222222222222
+fee--fee#1.0
+invited speaker--invited#0.75,speaker#0.25
+organizing committee--organizing#0.75,committee#0.25
+registration fee--registration#0.25,fee#0.75
+author--author#1.0
+bronze supporter--bronze#0.25,supporter#0.75
+deadline author notification--deadline#0.5555555555555556,author#0.2222222222222222,notification#0.2222222222222222
+registration non member--registration#0.5555555555555556,non#0.2222222222222222,member#0.2222222222222222
+exhibitor--exhibitor#1.0
+document--document#1.0
+paper--paper#1.0
+registration sigkdd member--registration#0.2222222222222222,sigkdd#0.5555555555555556,member#0.2222222222222222
+webmaster--webmaster#1.0
+deadline abstract submission--deadline#0.5555555555555556,abstract#0.2222222222222222,submission#0.2222222222222222
+acm sigkdd--acm#0.75,sigkdd#0.25
+best applications paper award--best#0.1875,applications#0.4375,paper#0.1875,award#0.1875
+registration student--registration#0.25,student#0.75
+general chair--general#0.25,chair#0.75
+main office--main#0.25,office#0.75
+sponzor--sponzor#1.0
+conference--conference#1.0
+platinum supporter--platinum#0.25,supporter#0.75
+conference hall--conference#0.25,hall#0.75
+best paper awards committee--best#0.1875,paper#0.1875,awards#0.4375,committee#0.1875
+organizator--organizator#1.0
+person--person#1.0
+program chair--program#0.25,chair#0.75
+sponzor fee--sponzor#0.25,fee#0.75
+committee--committee#1.0
+speaker--speaker#1.0
+review--review#1.0
+silver supporter--silver#0.25,supporter#0.75
+award--award#1.0
+gold supporter--gold#0.25,supporter#0.75

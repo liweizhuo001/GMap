@@ -1,0 +1,729 @@
+#Disclaimer: http://www.lockheedmartin.com/disclaimer.html
+#This is the "correct" mapping of the russiaA and russiaB ontologies. 
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/10/XMLSchema#> .
+@prefix dc: <http://www.dublincore.org/2003/03/24/dces#>.
+@prefix dct: <http://dublincore.org/2003/03/24/dcq#>.
+@prefix ao: <http://www.atl.lmco.com/projects/ontology/ontologies/core/alignment/Alignment.n3#>.
+
+@prefix a: <http://travel.org/russia#>.
+@prefix b: <http://lonely.org/russia#>.
+@prefix : <http://www.atl.lmco.com/projects/ontology/ontologies/russia/russiaAB.owl#>.
+
+<http://www.atl.lmco.com/projects/ontology/ontologies/core/alignment/russiaAB.owl>=<>;
+	a ao:AlignmentFile;
+	dc:title "Correct Alignment for russiaA and russiaB";
+	dc:publisher "Lockheed Martin Advanced Technology Laboratories";
+	dc:creator "Zhongli Ding, <zding1@umbc.edu>; Rong Pan, <pan.rong@umbc.edu>";
+	dct:created "2004-07-14";
+	owl:versionInfo "0.0.1";
+	dc:format"text/n3";
+	dc:language "en";
+	rdfs:label "russiaAB";
+	ao:inputA <http://travel.org/russia>;
+	ao:inputB <http://lonely.org/russia>.
+
+:Alignment1
+	a ao:Alignment;
+	ao:elementA a:DEFAULT_ROOT_CONCEPT ;
+	ao:elementB b:DEFAULT_ROOT_CONCEPT ;
+	ao:alignmentConfidence "1". 
+
+:Alignment2
+	a ao:Alignment;
+	ao:elementA a:Dimension ;
+	ao:elementB b:measurement ;
+	ao:alignmentConfidence "1". 
+
+:Alignment3
+	a ao:Alignment;
+	ao:elementA a:region ;
+	ao:elementB b:region ;
+	ao:alignmentConfidence "1". 
+
+:Alignment4
+	a ao:Alignment;
+	ao:elementA a:geographical_environment ;
+	ao:elementB b:nature_area ;
+	ao:alignmentConfidence "1". 
+
+:Alignment5
+	a ao:Alignment;
+	ao:elementA a:canal ;
+	ao:elementB b:canal ;
+	ao:alignmentConfidence "1". 
+
+:Alignment6
+	a ao:Alignment;
+	ao:elementA a:forest ;
+	ao:elementB b:forest ;
+	ao:alignmentConfidence "1". 
+
+:Alignment7
+	a ao:Alignment;
+	ao:elementA a:island ;
+	ao:elementB b:island ;
+	ao:alignmentConfidence "1". 
+
+:Alignment8
+	a ao:Alignment;
+	ao:elementA a:lake ;
+	ao:elementB b:lake ;
+	ao:alignmentConfidence "1". 
+
+:Alignment9
+	a ao:Alignment;
+	ao:elementA a:mountain ;
+	ao:elementB b:mountain ;
+	ao:alignmentConfidence "1". 
+
+:Alignment10
+	a ao:Alignment;
+	ao:elementA a:peninsula ;
+	ao:elementB b:peninsula ;
+	ao:alignmentConfidence "1". 
+
+:Alignment11
+	a ao:Alignment;
+	ao:elementA a:river ;
+	ao:elementB b:river ;
+	ao:alignmentConfidence "1". 
+
+:Alignment12
+	a ao:Alignment;
+	ao:elementA a:sea ;
+	ao:elementB b:sea ;
+	ao:alignmentConfidence "1".  
+
+:Alignment13
+	a ao:Alignment;
+	ao:elementA a:political_region ;
+	ao:elementB b:political_area ;
+	ao:alignmentConfidence "1". 
+
+:Alignment14
+	a ao:Alignment;
+	ao:elementA a:city ;
+	ao:elementB b:city ;
+	ao:alignmentConfidence "1". 
+
+:Alignment15
+	a ao:Alignment;
+	ao:elementA a:country ;
+	ao:elementB b:country ;
+	ao:alignmentConfidence "1". 
+
+:Alignment16
+	a ao:Alignment;
+	ao:elementA a:town ;
+	ao:elementB b:town ;
+	ao:alignmentConfidence "1". 
+
+:Alignment17
+	a ao:Alignment;
+	ao:elementA a:public_building ;
+	ao:elementB b:building ;
+	ao:alignmentConfidence "1". 
+
+:Alignment18
+	a ao:Alignment;
+	ao:elementA a:public_space ;
+	ao:elementB b:space ;
+	ao:alignmentConfidence "1". 
+
+:Alignment19
+	a ao:Alignment;
+	ao:elementA a:cathedral ;
+	ao:elementB b:cathedral ;
+	ao:alignmentConfidence "1". 
+
+:Alignment20
+	a ao:Alignment;
+	ao:elementA a:church ;
+	ao:elementB b:church ;
+	ao:alignmentConfidence "1". 
+
+:Alignment21
+	a ao:Alignment;
+	ao:elementA a:month ;
+	ao:elementB b:month ;
+	ao:alignmentConfidence "1". 
+
+:Alignment22
+	a ao:Alignment;
+	ao:elementA a:season ;
+	ao:elementB b:season ;
+	ao:alignmentConfidence "1". 
+
+:Alignment23
+	a ao:Alignment;
+	ao:elementA a:time_zone ;
+	ao:elementB b:time_zone ;
+	ao:alignmentConfidence "1". 
+
+:Alignment24
+	a ao:Alignment;
+	ao:elementA a:unit ;
+	ao:elementB b:unit ;
+	ao:alignmentConfidence "1". 
+
+:Alignment25
+	a ao:Alignment;
+	ao:elementA a:area_unit ;
+	ao:elementB b:area_unit ;
+	ao:alignmentConfidence "1". 
+
+:Alignment26
+	a ao:Alignment;
+	ao:elementA a:length_unit ;
+	ao:elementB b:length_unit ;
+	ao:alignmentConfidence "1". 
+
+:Alignment27
+	a ao:Alignment;
+	ao:elementA a:time_unit ;
+	ao:elementB b:time_unit ;
+	ao:alignmentConfidence "1". 
+
+:Alignment28
+	a ao:Alignment;
+	ao:elementA a:Material ;
+	ao:elementB b:material_thing ;
+	ao:alignmentConfidence "1". 
+
+:Alignment29
+	a ao:Alignment;
+	ao:elementA a:drink ;
+	ao:elementB b:drink ;
+	ao:alignmentConfidence "1". 
+
+:Alignment30
+	a ao:Alignment;
+	ao:elementA a:food ;
+	ao:elementB b:food ;
+	ao:alignmentConfidence "1". 
+
+:Alignment31
+	a ao:Alignment;
+	ao:elementA a:concert_hall ;
+	ao:elementB b:theatre ;
+	ao:alignmentConfidence "1". 
+
+:Alignment32
+	a ao:Alignment;
+	ao:elementA a:fortress ;
+	ao:elementB b:fortress ;
+	ao:alignmentConfidence "1". 
+
+:Alignment33
+	a ao:Alignment;
+	ao:elementA a:hotel ;
+	ao:elementB b:hotel ;
+	ao:alignmentConfidence "1". 
+
+:Alignment34
+	a ao:Alignment;
+	ao:elementA a:monument ;
+	ao:elementB b:monument ;
+	ao:alignmentConfidence "1". 
+
+:Alignment35
+	a ao:Alignment;
+	ao:elementA a:meseum ;
+	ao:elementB b:museum ;
+	ao:alignmentConfidence "1". 
+
+:Alignment36
+	a ao:Alignment;
+	ao:elementA a:palace ;
+	ao:elementB b:palace ;
+	ao:alignmentConfidence "1". 
+
+:Alignment37
+	a ao:Alignment;
+	ao:elementA a:restaurant ;
+	ao:elementB b:restaurant ;
+	ao:alignmentConfidence "1". 
+
+:Alignment38
+	a ao:Alignment;
+	ao:elementA a:theatre ;
+	ao:elementB b:cinema ;
+	ao:alignmentConfidence "1". 
+
+:Alignment39
+	a ao:Alignment;
+	ao:elementA a:garden ;
+	ao:elementB b:garden ;
+	ao:alignmentConfidence "1". 
+
+:Alignment40
+	a ao:Alignment;
+	ao:elementA a:square ;
+	ao:elementB b:square ;
+	ao:alignmentConfidence "1". 
+	
+:Alignment41
+	a ao:Alignment;
+	ao:elementA a:document ;
+	ao:elementB b:document ;
+	ao:alignmentConfidence "1".  
+
+:Alignment42
+	a ao:Alignment;
+	ao:elementA a:living_being ;
+	ao:elementB b:living_being ;
+	ao:alignmentConfidence "1". 
+
+:Alignment43
+	a ao:Alignment;
+	ao:elementA a:animal ;
+	ao:elementB b:animal ;
+	ao:alignmentConfidence "1". 
+
+:Alignment44
+	a ao:Alignment;
+	ao:elementA a:human_being ;
+	ao:elementB b:human_being ;
+	ao:alignmentConfidence "1". 
+
+:Alignment45
+	a ao:Alignment;
+	ao:elementA a:person ;
+	ao:elementB b:person ;
+	ao:alignmentConfidence "1". 
+
+:Alignment46
+	a ao:Alignment;
+	ao:elementA a:normal_traveler ;
+	ao:elementB b:traveller ;
+	ao:alignmentConfidence "1". 
+
+:Alignment47
+	a ao:Alignment;
+	ao:elementA a:president ;
+	ao:elementB b:president ;
+	ao:alignmentConfidence "1". 
+
+:Alignment48
+	a ao:Alignment;
+	ao:elementA a:plant ;
+	ao:elementB b:plant ;
+	ao:alignmentConfidence "1".  
+
+:Alignment49
+	a ao:Alignment;
+	ao:elementA a:Spiritual_Product ;
+	ao:elementB b:immaterial_thing ;
+	ao:alignmentConfidence "1".  
+	
+:Alignment50
+	a ao:Alignment;
+	ao:elementA a:architecture ;
+	ao:elementB b:architecture ;
+	ao:alignmentConfidence "1". 
+
+:Alignment51
+	a ao:Alignment;
+	ao:elementA a:ballet ;
+	ao:elementB b:ballet ;
+	ao:alignmentConfidence "1". 
+
+:Alignment52
+	a ao:Alignment;
+	ao:elementA a:festival ;
+	ao:elementB b:festival ;
+	ao:alignmentConfidence "1". 
+
+:Alignment53
+	a ao:Alignment;
+	ao:elementA a:literature ;
+	ao:elementB b:literature ;
+	ao:alignmentConfidence "1". 
+
+:Alignment54
+	a ao:Alignment;
+	ao:elementA a:music ;
+	ao:elementB b:music ;
+	ao:alignmentConfidence "1". 
+
+:Alignment55
+	a ao:Alignment;
+	ao:elementA a:currency ;
+	ao:elementB b:monetary__unit ;
+	ao:alignmentConfidence "1". 
+
+:Alignment56
+	a ao:Alignment;
+	ao:elementA a:means_of_payment ;
+	ao:elementB b:payment ;
+	ao:alignmentConfidence "1". 
+
+:Alignment57
+	a ao:Alignment;
+	ao:elementA a:language ;
+	ao:elementB b:language ;
+	ao:alignmentConfidence "1". 
+
+:Alignment58
+	a ao:Alignment;
+	ao:elementA a:religion ;
+	ao:elementB b:religion ;
+	ao:alignmentConfidence "1". 
+
+:Alignment59
+	a ao:Alignment;
+	ao:elementA a:surface_area ;
+	ao:elementB b:surface_area ;
+	ao:alignmentConfidence "1". 
+
+:Alignment60
+	a ao:Alignment;
+	ao:elementA a:is_close_to ;
+	ao:elementB b:is_close_to ;
+	ao:alignmentConfidence "1". 
+
+:Alignment61
+	a ao:Alignment;
+	ao:elementA a:belong_to_country___city ;
+	ao:elementB b:belong_to___city ;
+	ao:alignmentConfidence "1". 
+
+:Alignment62
+	a ao:Alignment;
+	ao:elementA a:has_sight___city ;
+	ao:elementB b:has_attractions ;
+	ao:alignmentConfidence "1". 
+
+:Alignment63
+	a ao:Alignment;
+	ao:elementA a:has_capital ;
+	ao:elementB b:has_capital_city ;
+	ao:alignmentConfidence "1". 
+
+:Alignment64
+	a ao:Alignment;
+	ao:elementA a:has_birthplace ;
+	ao:elementB b:has_birthplace ;
+	ao:alignmentConfidence "1". 
+
+:Alignment65
+	a ao:Alignment;
+	ao:elementA a:take_place_at ;
+	ao:elementB b:is_at ;
+	ao:alignmentConfidence "1". 
+
+:Alignment66
+	a ao:Alignment;
+	ao:elementA a:take_place_on ;
+	ao:elementB b:is_on ;
+	ao:alignmentConfidence "1". 
+
+:Alignment67
+	a ao:Alignment;
+	ao:elementA a:has_duration_value ;
+	ao:elementB b:has_duration ;
+	ao:alignmentConfidence "1". 
+
+:Alignment68
+	a ao:Alignment;
+	ao:elementA a:has_length_unit___palace ;
+	ao:elementB b:has_length_unit ;
+	ao:alignmentConfidence "1". 
+
+:Alignment69
+	a ao:Alignment;
+	ao:elementA a:has_time_unit ;
+	ao:elementB b:has_time_unit ;
+	ao:alignmentConfidence "1". 
+
+:Alignment70
+	a ao:Alignment;
+	ao:elementA a:lie_in ;
+	ao:elementB b:lie_in___locatable_thing ;
+	ao:alignmentConfidence "1". 
+
+:Alignment71
+	a ao:Alignment;
+	ao:elementA a:Beijing ;
+	ao:elementB b:Beijing ;
+	ao:alignmentConfidence "1". 
+
+:Alignment72
+	a ao:Alignment;
+	ao:elementA a:Berlin ;
+	ao:elementB b:Berlin ;
+	ao:alignmentConfidence "1". 
+
+:Alignment73
+	a ao:Alignment;
+	ao:elementA a:Moscow ;
+	ao:elementB b:Moscow ;
+	ao:alignmentConfidence "1". 
+
+:Alignment74
+	a ao:Alignment;
+	ao:elementA a:Novgorod ;
+	ao:elementB b:Novgorod ;
+	ao:alignmentConfidence "1". 
+
+:Alignment75
+	a ao:Alignment;
+	ao:elementA <http://travel.org/russia#St.Petersburg> ;
+	ao:elementB b:St_Petesburg ;
+	ao:alignmentConfidence "1". 
+
+:Alignment76
+	a ao:Alignment;
+	ao:elementA a:Vladivostok ;
+	ao:elementB b:Vladivostok ;
+	ao:alignmentConfidence "1". 
+
+:Alignment77
+	a ao:Alignment;
+	ao:elementA a:Kazan ;
+	ao:elementB b:Kazan ;
+	ao:alignmentConfidence "1". 
+
+:Alignment78
+	a ao:Alignment;
+	ao:elementA a:Volgograd ;
+	ao:elementB b:Volgograd ;
+	ao:alignmentConfidence "1". 
+
+:Alignment79
+	a ao:Alignment;
+	ao:elementA a:China ;
+	ao:elementB b:China ;
+	ao:alignmentConfidence "1". 
+
+:Alignment80
+	a ao:Alignment;
+	ao:elementA a:Germany ;
+	ao:elementB b:Germany ;
+	ao:alignmentConfidence "1". 
+
+:Alignment81
+	a ao:Alignment;
+	ao:elementA a:Russia ;
+	ao:elementB b:Russia ;
+	ao:alignmentConfidence "1". 
+
+:Alignment82
+	a ao:Alignment;
+	ao:elementA <http://travel.org/russia#U.S.A> ;
+	ao:elementB <http://lonely.org/russia#U.S.A> ;
+	ao:alignmentConfidence "1". 
+
+:Alignment83
+	a ao:Alignment;
+	ao:elementA a:Ulyanovsk ;
+	ao:elementB b:Ulyanovsk ;
+	ao:alignmentConfidence "1". 
+
+:Alignment84
+	a ao:Alignment;
+	ao:elementA a:Peter_and_Paul_Fortress ;
+	ao:elementB b:Peter_Paul_fortress ;
+	ao:alignmentConfidence "1". 
+
+:Alignment85
+	a ao:Alignment;
+	ao:elementA a:St_Sofia_Cathedral ;
+	ao:elementB b:cathedral_of_St_Sophia ;
+	ao:alignmentConfidence "1". 
+
+:Alignment86
+	a ao:Alignment;
+	ao:elementA a:Kremlin ;
+	ao:elementB b:Kremlin ;
+	ao:alignmentConfidence "1". 
+
+:Alignment87
+	a ao:Alignment;
+	ao:elementA a:Red_Square ;
+	ao:elementB b:Red_Square ;
+	ao:alignmentConfidence "1". 
+
+:Alignment88
+	a ao:Alignment;
+	ao:elementA a:January ;
+	ao:elementB b:January ;
+	ao:alignmentConfidence "1". 
+
+:Alignment89
+	a ao:Alignment;
+	ao:elementA a:February ;
+	ao:elementB b:February ;
+	ao:alignmentConfidence "1". 
+
+:Alignment90
+	a ao:Alignment;
+	ao:elementA a:March ;
+	ao:elementB b:March ;
+	ao:alignmentConfidence "1". 
+
+:Alignment91
+	a ao:Alignment;
+	ao:elementA a:April ;
+	ao:elementB b:April ;
+	ao:alignmentConfidence "1". 
+
+:Alignment92
+	a ao:Alignment;
+	ao:elementA a:May ;
+	ao:elementB b:May ;
+	ao:alignmentConfidence "1". 
+
+:Alignment93
+	a ao:Alignment;
+	ao:elementA a:June ;
+	ao:elementB b:June ;
+	ao:alignmentConfidence "1". 
+
+:Alignment94
+	a ao:Alignment;
+	ao:elementA a:July ;
+	ao:elementB b:July ;
+	ao:alignmentConfidence "1". 
+
+:Alignment95
+	a ao:Alignment;
+	ao:elementA a:October ;
+	ao:elementB b:October ;
+	ao:alignmentConfidence "1". 
+
+:Alignment96
+	a ao:Alignment;
+	ao:elementA a:September ;
+	ao:elementB b:September ;
+	ao:alignmentConfidence "1". 
+
+:Alignment97
+	a ao:Alignment;
+	ao:elementA a:November ;
+	ao:elementB b:November ;
+	ao:alignmentConfidence "1". 
+
+:Alignment98
+	a ao:Alignment;
+	ao:elementA a:December ;
+	ao:elementB b:December ;
+	ao:alignmentConfidence "1". 
+
+:Alignment99
+	a ao:Alignment;
+	ao:elementA a:Autumn ;
+	ao:elementB b:Autumn ;
+	ao:alignmentConfidence "1". 
+
+:Alignment100
+	a ao:Alignment;
+	ao:elementA a:Spring ;
+	ao:elementB b:Spring ;
+	ao:alignmentConfidence "1". 
+
+:Alignment101
+	a ao:Alignment;
+	ao:elementA a:Summer ;
+	ao:elementB b:Summer ;
+	ao:alignmentConfidence "1". 
+
+:Alignment102
+	a ao:Alignment;
+	ao:elementA a:Winter ;
+	ao:elementB b:Winter ;
+	ao:alignmentConfidence "1". 
+
+:Alignment103
+	a ao:Alignment;
+	ao:elementA a:sq_meter ;
+	ao:elementB b:square_meter ;
+	ao:alignmentConfidence "1". 
+
+:Alignment104
+	a ao:Alignment;
+	ao:elementA a:kilo_meter ;
+	ao:elementB b:kilometer ;
+	ao:alignmentConfidence "1". 
+
+:Alignment105
+	a ao:Alignment;
+	ao:elementA a:Vodka ;
+	ao:elementB b:Vodka ;
+	ao:alignmentConfidence "1". 
+
+:Alignment106
+	a ao:Alignment;
+	ao:elementA a:has_training_place ;
+	ao:elementB b:has_place ;
+	ao:alignmentConfidence "1". 
+
+:Alignment107
+	a ao:Alignment;
+	ao:elementA a:English ;
+	ao:elementB b:English ;
+	ao:alignmentConfidence "1". 
+
+:Alignment108
+	a ao:Alignment;
+	ao:elementA a:Russian ;
+	ao:elementB b:russian ;
+	ao:alignmentConfidence "1". 
+
+:Alignment109
+	a ao:Alignment;
+	ao:elementA a:Lake_Baikal ;
+	ao:elementB b:Lake_Baikal ;
+	ao:alignmentConfidence "1". 
+
+:Alignment110
+	a ao:Alignment;
+	ao:elementA a:Neva ;
+	ao:elementB b:Neva ;
+	ao:alignmentConfidence "1". 
+
+:Alignment111
+	a ao:Alignment;
+	ao:elementA a:Volga ;
+	ao:elementB b:Volga ;
+	ao:alignmentConfidence "1". 
+
+:Alignment112
+	a ao:Alignment;
+	ao:elementA a:Caspian_Sea ;
+	ao:elementB b:Caspian_Sea ;
+	ao:alignmentConfidence "1". 
+
+:Alignment113
+	a ao:Alignment;
+	ao:elementA a:Irkutsk ;
+	ao:elementB b:Irkutsk ;
+	ao:alignmentConfidence "1". 
+
+:Alignment114
+	a ao:Alignment;
+	ao:elementA a:Hermitage_Museum ;
+	ao:elementB b:state_hermitage_museum ;
+	ao:alignmentConfidence "1". 
+
+:Alignment115
+	a ao:Alignment;
+	ao:elementA a:Dollar ;
+	ao:elementB b:us_dollar ;
+	ao:alignmentConfidence "1". 
+
+:Alignment116
+	a ao:Alignment;
+	ao:elementA a:Russian_Ruble ;
+	ao:elementB b:rouble ;
+	ao:alignmentConfidence "1". 
+	
+:Alignment117
+	a ao:Alignment;
+	ao:elementA a:DEFAULT_ROOT_RELATION ;
+	ao:elementB b:DEFAULT_ROOT_RELATION ;
+	ao:alignmentConfidence "1". 

@@ -1,0 +1,10 @@
+Organization--Institution
+Report--Deliverable,Technical_report
+Informal--Lecture_notes,Manual,Booklet,Un_published
+REFERENCE--Misc.,Motion_picture,Book,Informal,Part,Report,Academic
+Part--Chapter,In_book,In_proceedings,Article,In_collection
+Institution--Publisher,School
+Book--Proc.,Collection,Monograph
+Thing--ublisher,ATE,ADDRESS,ONFERENCE,ERSON_LIST,onograph,List,isc.,Organization,roc.,Person,n_proceedings,DATE,JOURNAL,rticle,OURNAL,CONFERENCE,PAGE_RANGE,n_book,AGE_RANGE,REFERENCE,DDRESS
+List--PERSON_LIST
+Academic--MSc_thesis,PhD_thesis

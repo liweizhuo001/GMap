@@ -1,0 +1,10 @@
+qsdsnbsqd--dcsqdsq,Booklet,LectureNotes,Unpublished
+Organization--Institution
+Institution--zauio,zadazxn
+dqzdxdcsqj--Deliverable,sdcsqhyz
+Thing--zqedzbx,qsdsquj,sqdsq,List,Organization,Address,PageRange,Person,Date
+Part--dzqndbzq,vccfsq,InProceedings,dcsqdcsqd,Article
+zdazsx--xsqlknk,PhdThesis
+Book--dzajndsq,sqxsqkd,zdqssqdb
+List--dsqdbz
+sqdsq--Part,dscdscg,Misc,Book,zdazsx,qsdsnbsqd,dqzdxdcsqj

@@ -1,0 +1,9 @@
+Organization--izxnquo,zadazxn,zauio
+dqzdxdcsqj--sdcsqhyz,Deliverable
+List--dsqdbz
+sqdsq--Booklet,InProceedings,dscdscg,xsqlknk,sdcsqhyz,zeadza,Article,sqxsqkd,qsdsnbsqd,sqdsopq,PhdThesis,scds,vccfsq,dzqndbzq,zdazsx,dcsqdcsqd,wxsdxqsdh,Deliverable,dzajndsq,dcsqdsq,zdqssqdb,dqzdxdcsqj,zajdhqs
+qsdsnbsqd--Booklet,scds,dcsqdsq,zeadza
+sqdsopq--InProceedings,vccfsq,dzqndbzq,dcsqdcsqd,Article
+izxnquo--zadazxn,zauio
+zdazsx--PhdThesis,xsqlknk
+zajdhqs--dzajndsq,zdqssqdb,sqxsqkd

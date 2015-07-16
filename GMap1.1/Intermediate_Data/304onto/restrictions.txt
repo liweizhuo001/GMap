@@ -1,0 +1,203 @@
+Proceedings,date,only,DateWithMonth
+Proceedings,title,exactly 1,Thing
+Proceedings,numberOrVolume,Max 1,Thing
+Proceedings,date,exactly 1,Thing
+Proceedings,series,Max 1,Thing
+Proceedings,title,exactly 1,Thing
+Proceedings,publisher,Max 1,Thing
+Proceedings,author,Max 1,Thing
+Proceedings,title,Max 1,Thing
+Proceedings,date,Max 1,Thing
+Proceedings,organization,Max,1,Thing
+Proceedings,editor,Max,1,Thing
+Proceedings,publisher,Max,1,Thing
+MastersThesis,school,exactly 1,Thing
+MastersThesis,title,exactly 1,Thing
+MastersThesis,author,exactly 1,Thing
+MastersThesis,author,Max 1,Thing
+MastersThesis,title,Max 1,Thing
+MastersThesis,date,Max 1,Thing
+MastersThesis,date,only,DateWithMonth
+MastersThesis,date,exactly 1,Thing
+Manual,author,Max 1,Thing
+Manual,title,Max 1,Thing
+Manual,date,Max 1,Thing
+Manual,title,exactly,1,Thing
+Manual,edition,Max,1,Thing
+Manual,organization,Max,1,Thing
+Misc,author,Max 1,Thing
+Misc,title,Max 1,Thing
+Misc,date,Max 1,Thing
+InCollection,author,Max 1,Thing
+InCollection,title,Max 1,Thing
+InCollection,date,Max 1,Thing
+InCollection,isPartOf,exactly 1,Thing
+InCollection,title,exactly 1,Thing
+InCollection,pages,Max 1,Thing
+InCollection,inCollection,exactly,1,Thing
+InCollection,author,exactly,1,Thing
+LectureNotes,school,exactly 1,Thing
+LectureNotes,title,exactly 1,Thing
+LectureNotes,author,exactly 1,Thing
+LectureNotes,author,Max 1,Thing
+LectureNotes,title,Max 1,Thing
+LectureNotes,date,Max 1,Thing
+Deliverable,author,Max 1,Thing
+Deliverable,title,Max 1,Thing
+Deliverable,date,Max 1,Thing
+TechReport,author,Max 1,Thing
+TechReport,title,Max 1,Thing
+TechReport,date,Max 1,Thing
+TechReport,title,exactly,1,Thing
+TechReport,institution,exactly,1,Thing
+TechReport,author,exactly,1,Thing
+TechReport,date,exactly,1,Thing
+TechReport,number,Max,1,Thing
+TechReport,date,only,DateWithMonth
+Entry,author,Max,1,Thing
+Entry,title,Max,1,Thing
+Entry,date,Max,1,Thing
+Book,date,only,DateWithMonth
+Book,title,exactly 1,Thing
+Book,numberOrVolume,Max 1,Thing
+Book,date,exactly 1,Thing
+Book,series,Max 1,Thing
+Book,title,exactly 1,Thing
+Book,publisher,Max 1,Thing
+Book,author,Max 1,Thing
+Book,title,Max 1,Thing
+Book,date,Max 1,Thing
+Book,edition,Max,1,Thing
+Book,humanCreator,exactly,1,Thing
+Thesis,school,exactly 1,Thing
+Thesis,title,exactly 1,Thing
+Thesis,author,exactly 1,Thing
+Thesis,author,Max 1,Thing
+Thesis,title,Max 1,Thing
+Thesis,date,Max 1,Thing
+Thesis,date,only,DateWithMonth
+Thesis,date,exactly,1,Thing
+DateWithMonth,month,Max 1,Thing
+DateWithMonth,year,exactly 1,Thing
+DateWithMonth,day,Max,1,Thing
+DateWithMonth,month,exactly,1,Thing
+InBook,author,Max 1,Thing
+InBook,title,Max 1,Thing
+InBook,date,Max 1,Thing
+InBook,isPartOf,exactly 1,Thing
+InBook,title,exactly 1,Thing
+InBook,pages,Max 1,Thing
+InBook,inMonography,exactly,1,Thing
+InBook,pagesOrChapter,Min,1,Thing
+InBook,author,exactly,1,Thing
+BookPart,author,Max 1,Thing
+BookPart,title,Max 1,Thing
+BookPart,date,Max 1,Thing
+BookPart,isPartOf,exactly 1,Thing
+BookPart,title,exactly 1,Thing
+BookPart,pages,Max 1,Thing
+BookPart,pagesOrChapter,Max,2,Thing
+BookPart,chapter,Max,1,Thing
+Date,month,Max,1,Thing
+Date,year,exactly,1,Thing
+Collection,date,only,DateWithMonth
+Collection,title,exactly 1,Thing
+Collection,numberOrVolume,Max 1,Thing
+Collection,date,exactly 1,Thing
+Collection,series,Max 1,Thing
+Collection,title,exactly 1,Thing
+Collection,publisher,Max 1,Thing
+Collection,author,Max 1,Thing
+Collection,title,Max 1,Thing
+Collection,date,Max 1,Thing
+Collection,edition,Max 1,Thing
+Collection,humanCreator,exactly 1,Thing
+Article,author,Max 1,Thing
+Article,title,Max 1,Thing
+Article,date,Max 1,Thing
+Article,isPartOf,exactly 1,Thing
+Article,title,exactly 1,Thing
+Article,pages,Max 1,Thing
+Article,title,exactly,1,Thing
+Article,date,only,DateWithMonth
+Article,author,exactly,1,Thing
+Article,date,exactly,1,Thing
+Article,volume,Max,1,Thing
+Article,inJournal,exactly,1,Thing
+Article,number,Max,1,Thing
+Published,author,Max 1,Thing
+Published,title,Max 1,Thing
+Published,date,Max 1,Thing
+Composite,author,Max 1,Thing
+Composite,title,Max 1,Thing
+Composite,date,Max 1,Thing
+Composite,date,only,DateWithMonth
+Composite,title,exactly,1,Thing
+Composite,numberOrVolume,Max,1,Thing
+Composite,date,exactly,1,Thing
+Composite,series,Max,1,Thing
+Composite,title,exactly,1,Thing
+Composite,publisher,Max,1,Thing
+Part,author,Max 1,Thing
+Part,title,Max 1,Thing
+Part,date,Max 1,Thing
+Part,isPartOf,exactly,1,Thing
+Part,title,exactly,1,Thing
+Part,pages,Max,1,Thing
+InProceedings,author,Max 1,Thing
+InProceedings,title,Max 1,Thing
+InProceedings,date,Max 1,Thing
+InProceedings,isPartOf,exactly 1,Thing
+InProceedings,title,exactly 1,Thing
+InProceedings,pages,Max 1,Thing
+InProceedings,inProceedings,exactly,1,Thing
+InProceedings,author,exactly,1,Thing
+PhdThesis,school,exactly 1,Thing
+PhdThesis,title,exactly 1,Thing
+PhdThesis,author,exactly 1,Thing
+PhdThesis,author,Max 1,Thing
+PhdThesis,title,Max 1,Thing
+PhdThesis,date,Max 1,Thing
+PhdThesis,date,only,DateWithMonth
+PhdThesis,date,exactly 1,Thing
+PersonList,rest,only,PersonList
+PersonList,rest,only,null
+PersonList,rest,exactly,1,Thing
+PersonList,first,only,Person
+PersonList,first,exactly,1,Thing
+Booklet,author,Max 1,Thing
+Booklet,title,Max 1,Thing
+Booklet,date,Max 1,Thing
+Booklet,title,exactly,1,Thing
+Unpublished,author,Max 1,Thing
+Unpublished,title,Max 1,Thing
+Unpublished,date,Max 1,Thing
+Unpublished,note,Min,1,Thing
+Unpublished,title,exactly,1,Thing
+Unpublished,author,exactly,1,Thing
+Monography,date,only,DateWithMonth
+Monography,title,exactly 1,Thing
+Monography,numberOrVolume,Max 1,Thing
+Monography,date,exactly 1,Thing
+Monography,series,Max 1,Thing
+Monography,title,exactly 1,Thing
+Monography,publisher,Max 1,Thing
+Monography,author,Max 1,Thing
+Monography,title,Max 1,Thing
+Monography,date,Max 1,Thing
+Monography,edition,Max 1,Thing
+Monography,humanCreator,exactly 1,Thing
+MotionPicture,author,Max 1,Thing
+MotionPicture,title,Max 1,Thing
+MotionPicture,date,Max 1,Thing
+Academic,author,Max 1,Thing
+Academic,title,Max 1,Thing
+Academic,date,Max 1,Thing
+Academic,school,exactly,1,Thing
+Academic,title,exactly,1,Thing
+Academic,author,exactly,1,Thing
+PageRange,endPage,exactly,1,Thing
+PageRange,startPage,exactly,1,Thing
+Informal,author,Max 1,Thing
+Informal,title,Max 1,Thing
+Informal,date,Max 1,Thing

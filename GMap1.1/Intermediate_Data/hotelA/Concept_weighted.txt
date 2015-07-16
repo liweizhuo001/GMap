@@ -1,0 +1,7 @@
+hotel room--hotel#0.25,room#0.75
+one room--one#0.25,room#0.75
+smoking preference--smoke#0.25,preference#0.75
+town house--town#0.25,house#0.75
+num beds--num#0.25,bed#0.75
+on floor--on#0.25,floor#0.75
+suite--suite#1.0

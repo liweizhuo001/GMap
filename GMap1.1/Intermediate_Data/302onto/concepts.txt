@@ -1,0 +1,15 @@
+Resource
+InProceedings
+MastersThesis
+TechReport
+Misc
+Book
+Person
+Project
+SoftCopy
+Publication
+InCollection
+Article
+Proceedings
+PhdThesis
+InBook

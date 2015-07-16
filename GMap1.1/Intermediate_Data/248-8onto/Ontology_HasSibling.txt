@@ -1,0 +1,11 @@
+Article--InProceedings,vccfsq,dcsqdcsqd
+InProceedings--Article,vccfsq,dcsqdcsqd
+vccfsq--Article,InProceedings,dcsqdcsqd
+dcsqdcsqd--Article,InProceedings,vccfsq
+zdazsx--sqdsopq,dqzdxdcsqj,dcsqdsq,zajdhqs,zeadza,qsdsnbsqd
+sqdsopq--zdazsx,dqzdxdcsqj,dcsqdsq,zajdhqs,zeadza,qsdsnbsqd
+dqzdxdcsqj--zdazsx,sqdsopq,dcsqdsq,zajdhqs,zeadza,qsdsnbsqd
+dcsqdsq--zdazsx,sqdsopq,dqzdxdcsqj,zajdhqs,zeadza,qsdsnbsqd
+zajdhqs--zdazsx,sqdsopq,dqzdxdcsqj,dcsqdsq,zeadza,qsdsnbsqd
+zeadza--zdazsx,sqdsopq,dqzdxdcsqj,dcsqdsq,zajdhqs,qsdsnbsqd
+qsdsnbsqd--zdazsx,sqdsopq,dqzdxdcsqj,dcsqdsq,zajdhqs,zeadza

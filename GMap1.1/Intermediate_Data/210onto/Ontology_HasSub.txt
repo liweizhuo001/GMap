@@ -1,0 +1,9 @@
+R¨¦f¨¦rence--ExtraitCompilation,Film,Informel,Actes,M¨¦moireDeDoctorat,Livret,M¨¦moireDeMast¨¨re,Compilation,ExtraitActes,Raport,Chapitre,Livrable,Divers,Polycopi¨¦,Manuel,Article,Partie,RaportTechnique,M¨¦moire,Livre,NonPubli¨¦,Monographie,ExtraitLivre
+Organization--?diteur,Universit¨¦,Institution
+Raport--Livrable,M¨¦moireDeDoctorat,RaportTechnique,M¨¦moire,M¨¦moireDeMast¨¨re
+Livre--Actes,Compilation,Monographie
+Partie--Chapitre,ExtraitCompilation,Article,ExtraitActes,ExtraitLivre
+Informel--Polycopi¨¦,Manuel,Livret,NonPubli¨¦
+M¨¦moire--M¨¦moireDeDoctorat,M¨¦moireDeMast¨¨re
+List--Personnes
+Institution--?diteur,Universit¨¦

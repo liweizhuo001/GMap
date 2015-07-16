@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://cmt</onto1>
+	<onto2>http://Conference</onto2>
+	<uri1>http://cmt</uri1>
+	<uri2>http://Conference</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#co-author"/>
+			<entity2 rdf:resource="http://Conference#contribution_co-author"/>
+			<measure rdf:datatype="xsd:float">0.8480404507606506</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#author"/>
+			<entity2 rdf:resource="http://Conference#regular_author"/>
+			<measure rdf:datatype="xsd:float">0.8398113592738382</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#conferencemember"/>
+			<entity2 rdf:resource="http://Conference#committee_member"/>
+			<measure rdf:datatype="xsd:float">0.8396675288502887</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#reviewer"/>
+			<entity2 rdf:resource="http://Conference#reviewer"/>
+			<measure rdf:datatype="xsd:float">0.835386944902534</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#person"/>
+			<entity2 rdf:resource="http://Conference#person"/>
+			<measure rdf:datatype="xsd:float">0.833873139403825</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#chairman"/>
+			<entity2 rdf:resource="http://Conference#chair"/>
+			<measure rdf:datatype="xsd:float">0.8143619305645646</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#paper"/>
+			<entity2 rdf:resource="http://Conference#paper"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#review"/>
+			<entity2 rdf:resource="http://Conference#review"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#conference"/>
+			<entity2 rdf:resource="http://Conference#conference"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#programcommittee"/>
+			<entity2 rdf:resource="http://Conference#program_committee"/>
+			<measure rdf:datatype="xsd:float">0.7</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#document"/>
+			<entity2 rdf:resource="http://Conference#conference_document"/>
+			<measure rdf:datatype="xsd:float">0.6800461256353628</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#paperabstract"/>
+			<entity2 rdf:resource="http://Conference#abstract"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#preference"/>
+			<entity2 rdf:resource="http://Conference#review_preference"/>
+			<measure rdf:datatype="xsd:float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#hasAuthor"/>
+			<entity2 rdf:resource="http://Conference#has_authors"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#email"/>
+			<entity2 rdf:resource="http://Conference#has_an_email"/>
+			<measure rdf:datatype="xsd:float">0.7538793416002514</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://cmt#name"/>
+			<entity2 rdf:resource="http://Conference#has_a_name"/>
+			<measure rdf:datatype="xsd:float">0.7000000999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+	<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://WeaponsA</onto1>
+	<onto2>http://WeaponsB</onto2>
+	<uri1>http://WeaponsA</uri1>
+	<uri2>http://WeaponsB</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#ballistic-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#ballistic-missile"/>
+			<measure rdf:datatype="xsd:float">0.8915905371873984</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#surface-to-surface-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#surface-to-surface-missile"/>
+			<measure rdf:datatype="xsd:float">0.8896656280715475</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#cruise-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#cruise-missile"/>
+			<measure rdf:datatype="xsd:float">0.8895480413137467</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#missile"/>
+			<entity2 rdf:resource="http://WeaponsB#missile"/>
+			<measure rdf:datatype="xsd:float">0.8848280216491449</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#modern-naval-ship"/>
+			<entity2 rdf:resource="http://WeaponsB#modern-naval-ship"/>
+			<measure rdf:datatype="xsd:float">0.8847052792666733</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#missile-craft"/>
+			<entity2 rdf:resource="http://WeaponsB#missile-craft"/>
+			<measure rdf:datatype="xsd:float">0.8782742273707664</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#projectile-weapon"/>
+			<entity2 rdf:resource="http://WeaponsB#projectile-weapon"/>
+			<measure rdf:datatype="xsd:float">0.8740423561471676</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#conventional-weapon"/>
+			<entity2 rdf:resource="http://WeaponsB#conventional-weapon"/>
+			<measure rdf:datatype="xsd:float">0.8740422335010049</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#surface-ship"/>
+			<entity2 rdf:resource="http://WeaponsB#surface-ship"/>
+			<measure rdf:datatype="xsd:float">0.8740414499180589</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#artillery"/>
+			<entity2 rdf:resource="http://WeaponsB#artillery"/>
+			<measure rdf:datatype="xsd:float">0.8714425422417511</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#armored-combat-vehicle"/>
+			<entity2 rdf:resource="http://WeaponsB#armored-combat-vehicle"/>
+			<measure rdf:datatype="xsd:float">0.8706810485107068</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#bomb"/>
+			<entity2 rdf:resource="http://WeaponsB#bomb"/>
+			<measure rdf:datatype="xsd:float">0.8674054106137028</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#saudi-naval-missile-craft"/>
+			<entity2 rdf:resource="http://WeaponsB#saudi-naval-missile-craft"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#badar-2000"/>
+			<entity2 rdf:resource="http://WeaponsB#badar-2000"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#scudb-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#scudb-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#mushak120-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#mushak120-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#al-hijarah-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#al-hijarah-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#al-hussein-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#al-hussein-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#silkworm-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#silkworm-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#nodong-1-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#nodong-1-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#m-9-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#m-9-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#arabil-100-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#arabil-100-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#mrbm"/>
+			<entity2 rdf:resource="http://WeaponsB#mrbm"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#icbm"/>
+			<entity2 rdf:resource="http://WeaponsB#icbm"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#scarab-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#scarab-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#nodong-2-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#nodong-2-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#scudc-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#scudc-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#css2-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#css2-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#saqr-2000"/>
+			<entity2 rdf:resource="http://WeaponsB#saqr-2000"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#tammouz1-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#tammouz1-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#css8-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#css8-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#oghab-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#oghab-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#al-fattah-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#al-fattah-missile"/>
+			<measure rdf:datatype="xsd:float">0.8343384738247842</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#ss-n-22-sunburn-lcm"/>
+			<entity2 rdf:resource="http://WeaponsB#ss-n-22-sunburn-lcm"/>
+			<measure rdf:datatype="xsd:float">0.833216211205625</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#torpedo-craft"/>
+			<entity2 rdf:resource="http://WeaponsB#torpedo-craft"/>
+			<measure rdf:datatype="xsd:float">0.833216211205625</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#mine-warfare-vessel"/>
+			<entity2 rdf:resource="http://WeaponsB#mine-warfare-vessel"/>
+			<measure rdf:datatype="xsd:float">0.833216211205625</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#rgm-84a-harpoon-slcm"/>
+			<entity2 rdf:resource="http://WeaponsB#rgm-84a-harpoon-slcm"/>
+			<measure rdf:datatype="xsd:float">0.833216211205625</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#as-11-kilter-alcm"/>
+			<entity2 rdf:resource="http://WeaponsB#as-11-kilter-alcm"/>
+			<measure rdf:datatype="xsd:float">0.833216211205625</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#as-9-kyle-alcm"/>
+			<entity2 rdf:resource="http://WeaponsB#as-9-kyle-alcm"/>
+			<measure rdf:datatype="xsd:float">0.833216211205625</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#hy-4-c-201-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#hy-4-c-201-missile"/>
+			<measure rdf:datatype="xsd:float">0.833216211205625</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#silkworm-missile-mod"/>
+			<entity2 rdf:resource="http://WeaponsB#silkworm-missile-mod"/>
+			<measure rdf:datatype="xsd:float">0.833216211205625</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#tornado"/>
+			<entity2 rdf:resource="http://WeaponsB#tornado"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#air-to-air-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#air-to-air-missile"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#anti-radar-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#anti-radar-missile"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#air-to-surface-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#air-to-surface-missile"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#surface-to-air-missile"/>
+			<entity2 rdf:resource="http://WeaponsB#surface-to-air-missile"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#molotov-cocktail"/>
+			<entity2 rdf:resource="http://WeaponsB#molotov-cocktail"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#tank-vehicle"/>
+			<entity2 rdf:resource="http://WeaponsB#tank-vehicle"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#aircraft-carrier"/>
+			<entity2 rdf:resource="http://WeaponsB#aircraft-carrier"/>
+			<measure rdf:datatype="xsd:float">0.8302548124732115</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#self-propelled-artillery"/>
+			<entity2 rdf:resource="http://WeaponsB#self-propelled-artillery"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#mortar"/>
+			<entity2 rdf:resource="http://WeaponsB#mortar"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#artillery-shell"/>
+			<entity2 rdf:resource="http://WeaponsB#artillery-shell"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#support-vessel"/>
+			<entity2 rdf:resource="http://WeaponsB#support-vessel"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#towed-artillery"/>
+			<entity2 rdf:resource="http://WeaponsB#towed-artillery"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#patrol-combatant"/>
+			<entity2 rdf:resource="http://WeaponsB#patrol-combatant"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#air-defense-gun"/>
+			<entity2 rdf:resource="http://WeaponsB#air-defense-gun"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#torpedo"/>
+			<entity2 rdf:resource="http://WeaponsB#torpedo"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#machine-gun"/>
+			<entity2 rdf:resource="http://WeaponsB#machine-gun"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#truck-bomb"/>
+			<entity2 rdf:resource="http://WeaponsB#truck-bomb"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#small-arms"/>
+			<entity2 rdf:resource="http://WeaponsB#small-arms"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#principal-surface-combatant"/>
+			<entity2 rdf:resource="http://WeaponsB#principal-surface-combatant"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#cruiser"/>
+			<entity2 rdf:resource="http://WeaponsB#cruiser"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#frigate"/>
+			<entity2 rdf:resource="http://WeaponsB#frigate"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#amphibious-vessel"/>
+			<entity2 rdf:resource="http://WeaponsB#amphibious-vessel"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#warplane"/>
+			<entity2 rdf:resource="http://WeaponsB#warplane"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#corvette"/>
+			<entity2 rdf:resource="http://WeaponsB#corvette"/>
+			<measure rdf:datatype="xsd:float">0.8228123409986846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#patrol-craft"/>
+			<entity2 rdf:resource="http://WeaponsB#patrol-watercraft"/>
+			<measure rdf:datatype="xsd:float">0.819222513372034</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#nuclear-weapon"/>
+			<entity2 rdf:resource="http://WeaponsB#nuclear-weapon"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#anti-ship-missile-radar"/>
+			<entity2 rdf:resource="http://WeaponsB#anti-ship-missile-radar"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#mine"/>
+			<entity2 rdf:resource="http://WeaponsB#mine"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#naval-countermine-weapon"/>
+			<entity2 rdf:resource="http://WeaponsB#naval-countermine-weapon"/>
+			<measure rdf:datatype="xsd:float">0.8062190094571811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://WeaponsA#weapon"/>
+			<entity2 rdf:resource="http://WeaponsB#weapon"/>
+			<measure rdf:datatype="xsd:float">0.8049999999999999</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+	</Alignment>
+</rdf:RDF>

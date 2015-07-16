@@ -1,0 +1,10 @@
+Institution--zadazxn,Publisher
+Organization--Institution
+Part--Article,vccfsq,InProceedings,dcsqdcsqd,Chapter
+zdazsx--xsqlknk,PhdThesis
+Book--Monograph,sqxsqkd,Proceedings
+Thing--sqdsq,PageRange,zqedzbx,List,Address,qsdsquj,Organization,Date,Person
+sqdsq--zdazsx,Misc,dqzdxdcsqj,qsdsnbsqd,Part,Book,MotionPicture
+List--dsqdbz
+dqzdxdcsqj--sdcsqhyz,Deliverable
+qsdsnbsqd--LectureNotes,Manual,Booklet,Unpublished

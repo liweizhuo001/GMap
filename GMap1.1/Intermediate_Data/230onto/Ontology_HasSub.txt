@@ -1,0 +1,7 @@
+Part--InCollection,InProceedings,InBook,Article,Chapter
+Academic--MastersThesis,PhdThesis
+Reference--Academic,MastersThesis,MotionPicture,Report,PhdThesis,InProceedings,InBook,Misc,TechReport,Informal,Article,Monograph,Deliverable,Proceedings,InCollection,Book,Part,Unpublished,LectureNotes,Manual,Chapter,Booklet,Collection
+Report--TechReport,Deliverable
+List--PersonList
+Informal--Unpublished,LectureNotes,Manual,Booklet
+Book--Proceedings,Monograph,Collection

@@ -1,0 +1,9 @@
+Computer--PC,Server
+NetworkNode--Computer,CentralHub
+WirelessDevice--WirelessBridge,WAP
+Software--ServerSoftware,Office,OS
+Thing--ConnectionType,PairOfNodes,Equipment,Software
+Cable--Coax,StraightThrough,CrossOver
+CentralHub--Router,Switch,Hub
+Equipment--Cable,NetworkNode,WirelessDevice
+ServerSoftware--Telnet,Other,Web,FTP,SSH

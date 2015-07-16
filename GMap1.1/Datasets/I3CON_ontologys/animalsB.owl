@@ -1,0 +1,158 @@
+<!DOCTYPE owl [
+   <!ENTITY animals  "http://www.atl.lmco.com/projects/ontology/ontologies/animals/animalsB.owl#"> 
+   <!ENTITY xsd      "http://www.w3.org/2001/10/XMLSchema#"> 
+   <!ENTITY owl      "http://www.w3.org/2002/07/owl#"> ]>
+
+<rdf:RDF  
+   xmlns:owl ="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf ="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:xsd ="&xsd;" 
+   xmlns     ="&animals;" 
+   xml:base  ="http://www.atl.lmco.com/projects/ontology/ontologies/animals/animalsB.owl" >
+<owl:Ontology rdf:about="http://www.atl.lmco.com/projects/ontology/ontologies/animals/animalsB.owl#">
+</owl:Ontology>
+
+<owl:Class rdf:ID="Animal">
+  <rdfs:label>Animal</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:ID="Male">
+  <rdfs:label>Male</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#Animal"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Female">
+  <rdfs:subClassOf rdf:resource="#Animal"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Hermaphrodite">
+  <rdfs:subClassOf rdf:resource="#Animal"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Man">
+  <rdfs:subClassOf rdf:resource="#Person"/>
+  <rdfs:subClassOf rdf:resource="#Male"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Woman">
+  <rdfs:subClassOf rdf:resource="#Person"/>
+  <rdfs:subClassOf rdf:resource="#Female"/>
+</owl:Class>
+
+<owl:ObjectProperty rdf:ID="hasAncestor">
+  <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+  <rdfs:domain rdf:resource="#Animal"/>
+  <rdfs:range rdf:resource="#Animal"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="hasParent">
+  <rdfs:subPropertyOf rdf:resource="#hasAncestor"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="hasFather">
+  <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+  <rdfs:subPropertyOf rdf:resource="#hasParent"/>
+  <rdfs:range rdf:resource="#Male"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="hasMother">
+  <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+  <rdfs:subPropertyOf rdf:resource="#hasParent"/>
+  <rdfs:range rdf:resource="#Female"/>
+</owl:ObjectProperty>
+
+<owl:InverseFunctionalProperty rdf:ID="biologicalMotherOf">
+  <rdfs:domain rdf:resource="#Woman"/>
+  <rdfs:range rdf:resource="#Person"/>
+</owl:InverseFunctionalProperty>
+
+<owl:ObjectProperty rdf:ID="hasFriend">
+  <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+  <rdfs:domain rdf:resource="#Person"/>
+  <rdfs:range rdf:resource="#Person"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:ID="shoesize">
+  <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+  <rdfs:range rdf:resource="&xsd;decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="age">
+  <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+  <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="shirtsize">
+  <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+  <rdfs:range rdf:resource="&xsd;decimal"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:ID="Person">
+  <rdfs:subClassOf rdf:resource="#Animal"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasParent"/>
+      <owl:allValuesFrom rdf:resource="#Person"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasFather"/>
+      <owl:cardinality>1</owl:cardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#shoesize"/>
+      <owl:minCardinality>1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasSpouse"/>
+      <owl:allValuesFrom rdf:resource="#Person"/>
+      <owl:maxCardinality>1</owl:maxCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:ID="BipedalThing"/>
+
+<owl:Class rdf:ID="BipedalPerson">
+  <owl:intersectionOf rdf:parseType="Collection">
+    <owl:Class rdf:about="#Person"/>
+    <owl:Class rdf:about="#BipedalThing"/>
+  </owl:intersectionOf>
+</owl:Class>
+
+<owl:ObjectProperty rdf:ID="hasSpouse">
+  <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Person"/>
+  <rdfs:range rdf:resource="#Person"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="hasWife">
+  <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+  <rdfs:subPropertyOf rdf:resource="#hasSpouse"/> 
+  <rdfs:domain rdf:resource="#Man"/>
+  <rdfs:range rdf:resource="#Woman"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="hasHusband">
+  <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+  <rdfs:subPropertyOf rdf:resource="#hasSpouse"/> 
+  <rdfs:domain rdf:resource="#Woman"/>
+  <rdfs:range rdf:resource="#Man"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="spouseOf">
+  <owl:inverseOf rdf:resource="#hasSpouse"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:ID="hasChild">
+  <owl:inverseOf rdf:resource="#hasParent"/>
+</owl:ObjectProperty>
+
+</rdf:RDF>
+

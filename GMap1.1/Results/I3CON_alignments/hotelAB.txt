@@ -1,0 +1,17 @@
+HotelRoom--Room
+OneRoom--SingleRoom
+Suite--Suite
+TownHouse--TownHouse
+NumBeds--NumBedAttribute
+SmokingPreference--SmokingAttribute
+OnFloor--FloorAttribute
+hasNumBeds--NumBeds
+hasOnFloor--OnFloor
+hasSmokingPreference--SmokingOrNon
+one--OneBed
+two--TwoBeds
+three--ThreeBeds
+NonSmoking--NonSmoking
+Smoking--Smoking
+Carpet--Carpet
+Hardwood--Hardwood

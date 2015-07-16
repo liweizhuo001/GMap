@@ -1,0 +1,11 @@
+Currency
+Name_of_sponsor
+City_of_conference
+Date
+Name
+Nation
+E-mail
+End_of_conference
+Price
+Start_of_conference
+Name_of_conference

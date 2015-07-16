@@ -1,0 +1,16 @@
+Report--ProjectReport,TechnicalReport
+Event--Workshop,Exhibition,Lecture,Conference,ProjectMeeting,Meeting
+Thesis--MasterThesis,PhDThesis
+FacultyMember--AssistantProfessor,FullProfessor,AssociateProfessor
+Meeting--ProjectMeeting
+Project--SoftwareProject,DevelopmentProject,ResearchProject
+DevelopmentProject--SoftwareProject
+Topic--ResearchTopic
+Graduate--PhDStudent
+AcademicStaff--AssistantProfessor,FacultyMember,FullProfessor,AssociateProfessor,Lecturer
+Product--SoftwareComponent
+Student--PhDStudent,Undergraduate,Graduate
+Employee--AdministrativeStaff,Manager,AcademicStaff,AssistantProfessor,FacultyMember,TechnicalStaff,FullProfessor,AssociateProfessor,Lecturer
+Person--AcademicStaff,PhDStudent,TechnicalStaff,Undergraduate,FullProfessor,Student,Graduate,AdministrativeStaff,Manager,Employee,AssistantProfessor,FacultyMember,AssociateProfessor,Lecturer
+Publication--Unpublished,Article,Proceedings,ProjectReport,InProceedings,Book,Report,MasterThesis,InCollection,Booklet,PhDThesis,Misc,InBook,Thesis,Manual,TechnicalReport
+Organization--Association,ResearchGroup,Department,Institute,Enterprise,University

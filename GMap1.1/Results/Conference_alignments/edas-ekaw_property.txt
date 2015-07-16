@@ -1,0 +1,4 @@
+isLocationOf--locationOf
+isReviewing--reviewerOfPaper
+isReviewedBy--hasReviewer
+hasLocation--heldIn

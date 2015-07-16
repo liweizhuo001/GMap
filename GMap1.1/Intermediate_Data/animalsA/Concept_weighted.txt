@@ -1,0 +1,9 @@
+two legged person--two#0.2222222222222222,leg#0.2222222222222222,person#0.5555555555555556
+animal--animal#1.0
+two legged thing--two#0.2222222222222222,leg#0.2222222222222222,thing#0.5555555555555556
+man--man#1.0
+person--person#1.0
+woman--woman#1.0
+male--male#1.0
+female--female#1.0
+human being--human#0.25,be#0.75

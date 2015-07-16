@@ -1,0 +1,27 @@
+straight through cable--straight#0.2222222222222222,through#0.2222222222222222,cable#0.5555555555555556
+ssh server--ssh#0.25,server#0.75
+routing computer--route#0.25,computer#0.75
+network node--network#0.25,node#0.75
+switch equipment--switch#0.25,equipment#0.75
+equipment--equipment#1.0
+hub--hub#1.0
+coax cable--coax#0.25,cable#0.75
+server--server#1.0
+computer--computer#1.0
+pc--pc#1.0
+telnet server--telnet#0.25,server#0.75
+router--router#1.0
+node pair--node#0.25,pair#0.75
+software--software#1.0
+cross over cable--cross#0.2222222222222222,over#0.2222222222222222,cable#0.5555555555555556
+hardware sniffer--hardware#0.25,sniffer#0.75
+hardware firewall--hardware#0.25,firewall#0.75
+other server--other#0.25,server#0.75
+switch--switch#1.0
+ftp server--ftp#0.25,server#0.75
+office software--office#0.25,software#0.75
+operating system--operate#0.25,system#0.75
+server software--server#0.25,software#0.75
+cable--cable#1.0
+security equipment--security#0.25,equipment#0.75
+web server--web#0.25,server#0.75
