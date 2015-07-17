@@ -1123,11 +1123,9 @@ public class New_Main_cmd {
 			out.addMapping2Output(parts[0],parts[1],parts[2]);
 		}
 		out.saveOutputFile();
-		
+		System.out.println("==========================================");
 		System.out.println("The result of  "+ontologyName1+" and "+ontologyName2+" £∫");
 		bfw_Result.append("The result of  "+ontologyName1+" and "+ontologyName2+" £∫"+"\n");
-		System.out.println();
-		System.out.println();
 		System.out.println("*************************************");
 		bfw_Result.append("*************************************"+"\n");
 		System.out.println("The concept pairs are£∫");
@@ -1135,7 +1133,7 @@ public class New_Main_cmd {
 		for(int i=0;i<classesMap.size();i++)
 		{
 			String parts[]=classesMap.get(i).split(",");
-			System.out.println(classesMap.get(i));
+			System.out.println(parts[0]+","+parts[1]+","+parts[2]);
 			bfw_Result.append(parts[0]+","+parts[1]+","+parts[2]+"\n");
 		}
 		System.out.println("The number of  concept pairs is£∫£∫"+classesMap.size());
@@ -1148,15 +1146,15 @@ public class New_Main_cmd {
 		for(int i=0;i<propertiesMap.size();i++)
 		{
 			String parts[]=propertiesMap.get(i).split(",");
-			System.out.println(propertiesMap.get(i));
+			System.out.println(parts[0]+","+parts[1]+","+parts[2]);
 			bfw_Result.append(parts[0]+","+parts[1]+","+parts[2]+"\n");
 		}
 		System.out.println("The number of  property pairs is£∫"+propertiesMap.size());
 		bfw_Result.append("The number of  property pairs is£∫"+propertiesMap.size()+"\n");
-
+		System.out.println("*************************************");
 	/*	ArrayList<String> classAlignments=changeToAlignments(classesMap);
 		ArrayList<String> propertyAlignments=changeToAlignments(propertiesMap);*/
-
+		
 		System.out.println(ontologyName1+" "+ontologyName2+" has been done!");
 		//bfw_Result.append("\n");
 		
@@ -1164,8 +1162,9 @@ public class New_Main_cmd {
 
 		/* }//2≤„—≠ª∑Conference°¢Benchmark
 		}*/
-		toc1=System.currentTimeMillis();
-		System.out.println("Time consumption£∫"+(toc1-tic1)/1000+"s");		
+		toc1=System.currentTimeMillis();	
+		System.out.println("Time consumption£∫"+(toc1-tic1)/1000+"s");	
+		System.out.println("==========================================");
 		//bfw_Result.append("The average of f1-measure£∫"+average_f_measure/5+"\n");
 		bfw_Result.append("Time consumption£∫"+(toc1-tic1)/1000+"s"+"\n");
 		bfw_Result.close();	
