@@ -2,11 +2,11 @@ Copyright 2015 by  Academy of Mathematics and Systems Science Chinese Academy of
 
 GMap1.0 is a tool for ontology matching, This is raw, unoptimized research code. 
 
-Time:7/16/2015  Author:Weizhuo Li   Mail:liweizhuo2014@gmail.com
+Time:7/16/2015  Author:Weizhuo Li   Mail: liweizhuo@amss.ac.cn
 
 
 Software: Java 1.6 or higher. 
-Hardware: 2GB RAM or more. If you want to run matching of the large ontology such as mouse and human, you need at least 20GB RAM. The CPU is not limited, but we still hope that the CPU in your computer is as efficient as possible, which can reduce a lot of time consumption.
+Hardware: 2GB RAM or more. If you want to run matching of the large ontology such as mouse and human, you need at least 15GB RAM. The CPU is not limited, but we still hope that the CPU in your computer is as efficient as possible, which can reduce a lot of time consumption.
 
 Usage:
 a)If you install Eclipse, you can import this project directly and run the New_Main.java. There are lots of ontology saved in DataSets and you can use them to test GMap.
@@ -24,11 +24,6 @@ In directory "result", there are two types results . The common form is shown by
 
 The our experiment results described in common form are saved in "Results" directory and the results in the standard format are stored in "Results_rdf" directory.
 
-
-
-
-
-
-
-
- 
+More details for Reading:
+[1] Li W  "Combining sum-product network and noisy-or model for ontology matching" available at:  http://ceur-ws.org/Vol-1545/om2015_TSpaper1.pdf
+[2] Li W, Sun Q.  "GMap: results for OAEI 2015" available at:  http://ceur-ws.org/Vol-1545/oaei15_paper6.pdf
